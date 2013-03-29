@@ -1,7 +1,6 @@
 import logging
 log = logging.getLogger(__name__)
 from modules.decorators import view, query, event_handler, memoize_query
-#from an_evt.models import StudentBookAccesses
 from django.contrib.auth.models import User
 from collections import Counter
 
