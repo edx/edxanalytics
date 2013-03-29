@@ -5,7 +5,7 @@ import logging
 
 log=logging.getLogger(__name__)
 
-#from an_evt.models import StudentBookAccesses
+#from djanalytics.models import StudentBookAccesses
 
 @view(name = 'page_count')
 def book_page_count_view(fs, db, user, params):

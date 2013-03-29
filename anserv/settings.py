@@ -78,7 +78,7 @@ DATABASES = {
     }
 }
 
-DATABASE_ROUTERS = ['djanalytics.an_evt.router.DatabaseRouter']
+DATABASE_ROUTERS = ['djanalytics.djanalytics.router.DatabaseRouter']
 
 CACHES = {
     'default': {
@@ -189,7 +189,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'djanalytics.an_evt',
+    'djanalytics.djanalytics',
     'dashboard',
     'modules',
     'mitxmako',

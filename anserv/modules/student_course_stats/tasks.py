@@ -57,9 +57,9 @@ def get_db_and_fs_cron(f):
     fs - A filesystem object
     db - A mongo database collection
     """
-    import djanalytics.an_evt.views
-    db = djanalytics.an_evt.views.get_database(f)
-    fs = djanalytics.an_evt.views.get_filesystem(f)
+    import djanalytics.djanalytics.views
+    db = djanalytics.djanalytics.views.get_database(f)
+    fs = djanalytics.djanalytics.views.get_filesystem(f)
     return fs,db
 
 @periodic_task(run_every=settings.TIME_BETWEEN_DATA_REGENERATION, name="tasks.regenerate_student_course_data")
