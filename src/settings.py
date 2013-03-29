@@ -1,4 +1,4 @@
-# Django settings for anserv project.
+# Django settings for src project.
 
 import os
 import sys
@@ -162,7 +162,7 @@ MIDDLEWARE_CLASSES = (
     'mitxmako.middleware.MakoMiddleware',
 )
 
-ROOT_URLCONF = 'anserv.urls'
+ROOT_URLCONF = 'src.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -170,7 +170,7 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
     BASE_DIR,
     str(os.path.abspath(REPO_PATH / 'templates/')),
-    str(os.path.abspath(REPO_PATH / 'anserv/templates/')),
+    str(os.path.abspath(REPO_PATH / 'src/templates/')),
 )
 
 #Append these internal paths in order to load celery tasks properly

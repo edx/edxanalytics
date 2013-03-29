@@ -25,7 +25,7 @@ urlpatterns = patterns('',
     url(r'^dashboard$', 'dashboard.views.dashboard'),
     url(r'^new_dashboard$', 'dashboard.views.new_dashboard'),
     url(r'^sns', 'sns.views.sns'),
-    # url(r'^anserv/', include('anserv.foo.urls')),
+    # url(r'^src/', include('src.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
