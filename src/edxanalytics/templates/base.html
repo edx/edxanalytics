@@ -12,10 +12,29 @@
     script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% comment %}
+
+    Momentarily removed pipeline. I really cannot make this work
+    reliably on my system as it is configured right now. I've spent 2
+    hours on this now, and I'm still running into version issues
+    between different libraries and weird behaviors with pip. 
+
+Right now, I was stuck on:
+  'compressed' is not a valid tag library: Template library compressed
+  not found, tried
+  django.templatetags.compressed,django.contrib.staticfiles.templatetags.compressed,pipeline.templatetags.compressed
+  Before that, I was stuck on smart_tags being imported
+  Before that, there was a weird behavior where pipeline would stop
+  working if I removed the temporary directory pip used to install it.
+  Etc. 
+
+
     {% load compressed %}
     {% compressed_js 'util' %}
     {% compressed_css 'bootstrap' %}
     {% compressed_css 'util_css' %}
+    {% endcomment %}
+
     {% block additional_js %}
     {% endblock %}
     {% block title %}
