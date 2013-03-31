@@ -1,5 +1,39 @@
 # Django settings for edxanalytics project.
 
+#### djanalytics-specific settings
+
+import datetime
+
+DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
+    'djcelery',
+    'south',
+    'djanalytics.core',
+    'djanalytics.modulefs',
+#    'modules',
+)
+
+# Types of parameters that queries and views can take. 
+# This is not properly used yet. 
+DJANALYTICS_PARAMETERS = ['user', 'filename']
+DJFS = { 'type' : 'osfs',
+         'directory_root' : '/tmp/djfsmodule',
+         'url_root' : 'file:///tmp/'
+       }
+
+
+TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
+
+INSTALLED_ANALYTICS_MODULES = () #'modules.testmodule',)
+
+#Initialize celery
+import djcelery
+djcelery.setup_loader()
+
+SNS_SUBSCRIPTIONS = []
+
+#### Remaining settings
+
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -10,13 +44,20 @@ ADMINS = (
 MANAGERS = ADMINS
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '',                      # Or path to database file if using sqlite3.
+    'default': { 
+        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': '../../localdb.sql',            # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+    }
+}
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'analytics-experiments'
     }
 }
 
@@ -122,7 +163,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-)
+) + DJ_REQUIRED_APPS
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
