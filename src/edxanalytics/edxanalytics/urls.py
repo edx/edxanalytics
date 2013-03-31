@@ -5,6 +5,17 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+    url('^', include('djanalytics.core.urls')),
+
+    url(r'^httpevent$', 'djeventstream.httphandler.views.http_view'),
+    url(r'^snsevent$', 'djeventstream.snshandler.views.sns_view'),
+
+    url('^tasks/', include('djcelery.urls')),
+
+    url(r'^$', 'dashboard.views.new_dashboard'),
+    url(r'^dashboard$', 'dashboard.views.dashboard'),
+    url(r'^new_dashboard$', 'dashboard.views.new_dashboard'),
+    url(r'^frontend/', include('frontend.urls')),
     # Examples:
     # url(r'^$', 'edxanalytics.views.home', name='home'),
     # url(r'^edxanalytics/', include('edxanalytics.foo.urls')),
