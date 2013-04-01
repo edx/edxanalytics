@@ -27,6 +27,10 @@ Most are documented with HACK/TODO, but global ones:
   directory.
 * Database routing is not there yet. We need to swap local/default to
   default/remote.
+* Parts of the system are using Django templates, and not
+  mitxtemplates.
+* Not everything from settings.py, urls.py is integrated
+* Most modules are not enabled
 
 Installing
 ----------
