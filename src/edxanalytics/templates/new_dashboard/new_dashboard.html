@@ -1,8 +1,12 @@
 <!-- TODO: Switch to mako templates. -->
 {% extends "base.html" %}
+{% load staticfiles %}
 {% block additional_js %}
+{% comment %}
     {% load compressed %}
     {% compressed_js 'new_dashboard' %}
+{% endcomment %}
+    <script   type="text/javascript" src="{% static "js/new_dashboard/load_analytics.js" %}" charset="utf-8"></script>
 {% endblock %}
 {% block content %}
 

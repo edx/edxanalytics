@@ -33,6 +33,10 @@ SNS_SUBSCRIPTIONS = []
 
 #### Remaining settings
 
+LOGIN_REDIRECT_URL = "/"
+
+#### Standard settings
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
