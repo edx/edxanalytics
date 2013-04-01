@@ -1,31 +1,30 @@
-import logging
-log = logging.getLogger(__name__)
-from modules.decorators import view, query, event_handler, memoize_query
-from django.contrib.auth.models import User
-from collections import Counter
-
-import json
-from django.conf import settings
-import logging
-from django.utils import timezone
-import datetime
-from modules import common, tasks
-import sys
-from django.contrib.auth.models import User
 import csv
-from pymongo import MongoClient
-connection = MongoClient()
-import django.template.loader
+import datetime
+import json
+import logging
+import os
+import re
+import sys
+from collections import Counter
 from dateutil import parser
 
-log=logging.getLogger(__name__)
-import re
-import os
+from pymongo import MongoClient
+
+import django.template.loader
+from django.conf import settings
+from django.contrib.auth.models import User
+from django.contrib.auth.models import User
 from django.http import HttpResponse
+from django.utils import timezone
 
 from courseware.models import StudentModule
-
 from mitxmako.shortcuts import render_to_response, render_to_string
+
+from modules import common, tasks
+from modules.decorators import view, query, event_handler, memoize_query
+
+connection = MongoClient()
+log=logging.getLogger(__name__)
 
 @query('course', 'total_user_count')
 def users_in_course_count_query(fs, db, course,params):
