@@ -1,5 +1,5 @@
 from modules.mixpanel.mixpanel import track_event_mixpanel, track_event_mixpanel_async
-from modules.decorators import view, query, event_handler
+from djanalytics.core.decorators import view, query, event_handler
 from modules.tasks import track_event_mixpanel_batch
 import re
 import logging

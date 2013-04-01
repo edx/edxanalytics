@@ -4,6 +4,10 @@
 
 import datetime
 import os.path
+import path
+import sys
+
+from pkg_resources import resource_filename
 
 DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
     'djcelery',
@@ -45,6 +49,38 @@ MAKO_TEMPLATES = {'main': 'templates'}
 DUMMY_MODE = False # Slight TODO: This send back fake data from queries for off-line development
 # DATABASE_ROUTERS = ['djanalytics.djanalytics.router.DatabaseRouter'] # TODO
 PROTECTED_DATA_ROOT = os.path.abspath("../../protected_data") # TODO: Use pkg_resources.resource_filename
+
+#### MITx settings
+
+IMPORT_MITX_MODULES = False
+if IMPORT_MITX_MODULES:
+    BASE_DIR = os.path.abspath(os.path.join(__file__, "..", "..", ".."))
+    ROOT_PATH = path.path(__file__).dirname()
+    REPO_PATH = ROOT_PATH.dirname()
+    ENV_ROOT = REPO_PATH.dirname()
+
+    MITX_PATH = os.path.abspath("../../mitx/")
+    DJANGOAPPS_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "djangoapps")
+    LMS_LIB_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "lib")
+    COMMON_PATH = "{0}/{1}/{2}".format(MITX_PATH, "common", "djangoapps")
+    MITX_LIB_PATHS = [MITX_PATH, DJANGOAPPS_PATH, LMS_LIB_PATH, COMMON_PATH]
+    sys.path += MITX_LIB_PATHS
+
+    IMPORT_GIT_MODULES = False
+    GIT_CLONE_URL = "git@github.com:MITx/{0}.git"
+    COURSE_FILE_PATH = os.path.abspath(os.path.join(ENV_ROOT, "xml_data"))
+    COURSE_CONFIG_PATH = os.path.abspath(os.path.join(REPO_PATH, "course_listings.json"))
+
+    #Needed for MITX imports to work
+    from mitx_settings import *
+
+    MITX_ROOT_URL = ''
+else:
+    # TODO: Use resource_filename
+    MITX_LIBRARY_PATH = os.path.abspath("mitx_libraries")
+    sys.path.append(MITX_LIBRARY_PATH)
+
+print "Path", sys.path
 
 #### Standard settings
 

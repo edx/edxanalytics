@@ -9,7 +9,7 @@ It can also contain global tasks.
 """
 
 from celery import task
-from decorators import memoize_query, query
+from djanalytics.core.decorators import memoize_query, query
 from mixpanel.mixpanel import EventTracker
 import logging
 from celery.task import periodic_task

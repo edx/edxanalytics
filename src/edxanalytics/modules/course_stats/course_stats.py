@@ -21,7 +21,7 @@ from courseware.models import StudentModule
 from mitxmako.shortcuts import render_to_response, render_to_string
 
 from modules import common, tasks
-from modules.decorators import view, query, event_handler, memoize_query
+from djanalytics.core.decorators import view, query, event_handler, memoize_query
 
 connection = MongoClient()
 log=logging.getLogger(__name__)

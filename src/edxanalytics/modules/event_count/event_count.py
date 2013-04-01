@@ -1,7 +1,7 @@
 import logging
 from django.conf import settings
 from mitxmako.shortcuts import render_to_response, render_to_string
-from modules.decorators import view, query, event_handler
+from djanalytics.core.decorators import view, query, event_handler
 
 log=logging.getLogger(__name__)
 

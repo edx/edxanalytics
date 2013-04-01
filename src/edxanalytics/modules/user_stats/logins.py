@@ -1,4 +1,4 @@
-from modules.decorators import view, query, event_handler, memoize_query
+from djanalytics.core.decorators import view, query, event_handler, memoize_query
 import datetime
 from django.contrib.auth.models import User
 

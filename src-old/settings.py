@@ -2,34 +2,6 @@
 
 INSTALLED_ANALYTICS_MODULES = ('course_stats', 'mixpanel', 'page_count', 'student_course_stats', 'user_stats')
 
-IMPORT_MITX_MODULES = False
-if IMPORT_MITX_MODULES:
-    BASE_DIR = os.path.abspath(os.path.join(__file__, "..", "..", ".."))
-    ROOT_PATH = path(__file__).dirname()
-    REPO_PATH = ROOT_PATH.dirname()
-    ENV_ROOT = REPO_PATH.dirname()
-
-    MITX_PATH = os.path.abspath("../../mitx/")
-    DJANGOAPPS_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "djangoapps")
-    LMS_LIB_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "lib")
-    COMMON_PATH = "{0}/{1}/{2}".format(MITX_PATH, "common", "djangoapps")
-    MITX_LIB_PATHS = [MITX_PATH, DJANGOAPPS_PATH, LMS_LIB_PATH, COMMON_PATH]
-    sys.path += MITX_LIB_PATHS
-
-    IMPORT_GIT_MODULES = False
-    GIT_CLONE_URL = "git@github.com:MITx/{0}.git"
-    COURSE_FILE_PATH = os.path.abspath(os.path.join(ENV_ROOT, "xml_data"))
-    COURSE_CONFIG_PATH = os.path.abspath(os.path.join(REPO_PATH, "course_listings.json"))
-
-    #Needed for MITX imports to work
-    from mitx_settings import *
-
-    MITX_ROOT_URL = ''
-else:
-    MITX_LIBRARY_DIR = "mitx_libraries"
-    MITX_LIBRARY_PATH = str(ROOT_PATH / MITX_LIBRARY_DIR)
-    sys.path.append(MITX_LIBRARY_PATH)
-
 LOG_READ_DIRECTORY = "../../analytics-logs/"
 LOG_POST_URL = "http://127.0.0.1:9022/event"
 
@@ -120,7 +92,6 @@ CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
 CELERY_TASK_RESULT_EXPIRES = 60 * 60 #1 hour
 
 STATIC_ROOT = os.path.abspath(REPO_PATH / "staticfiles")
-PROTECTED_DATA_ROOT = os.path.abspath(REPO_PATH / "protected_data")
 NGINX_PROTECTED_DATA_URL = "/protected_data/"
 
 # URL prefix for static files.

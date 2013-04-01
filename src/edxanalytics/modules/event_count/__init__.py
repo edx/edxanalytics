@@ -1,2 +1,2 @@
-analytic_name = "page_count"
-modules_to_import = ['book_count']
+analytic_name = "event_count"
+modules_to_import = ['event_count']
