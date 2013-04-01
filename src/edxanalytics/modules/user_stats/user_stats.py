@@ -1,20 +1,18 @@
-from modules.decorators import view, query, event_handler, memoize_query
-from django.contrib.auth.models import User
-
 import json
-from django.conf import settings
-import dummy_values
 import logging
-from django.utils import timezone
-from modules.common import query_results
-
-log=logging.getLogger(__name__)
 import re
 import sys
 
-from courseware.models import StudentModule
+from django.conf import settings
+from django.contrib.auth.models import User
+from django.utils import timezone
 
+from courseware.models import StudentModule
 from mitxmako.shortcuts import render_to_response, render_to_string
+from modules.common import query_results
+from modules.decorators import view, query, event_handler, memoize_query
+
+log=logging.getLogger(__name__)
 
 @view(name = 'user_count', category = 'global', args=[])
 @memoize_query(cache_time=1)
