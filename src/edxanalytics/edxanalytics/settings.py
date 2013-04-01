@@ -3,6 +3,7 @@
 #### djanalytics-specific settings
 
 import datetime
+import os.path
 
 DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
     'djcelery',
@@ -24,6 +25,11 @@ DJFS = { 'type' : 'osfs',
 TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
 INSTALLED_ANALYTICS_MODULES = () #'modules.testmodule',)
+INSTALLED_ANALYTICS_MODULES = ('modules.course_stats', 
+                               'modules.mixpanel', 
+                               'modules.event_count', 
+                               'modules.student_course_stats', 
+                               'modules.user_stats')
 
 #Initialize celery
 import djcelery
@@ -34,7 +40,11 @@ SNS_SUBSCRIPTIONS = []
 #### Remaining settings
 
 LOGIN_REDIRECT_URL = "/"
-MAKO_MODULE_DIR = '../../compiled_templates'
+MAKO_MODULE_DIR = '../../compiled_templates' # TODO: Use pkg_resources.resource_filename
+MAKO_TEMPLATES = {'main': 'templates'}
+DUMMY_MODE = False # Slight TODO: This send back fake data from queries for off-line development
+# DATABASE_ROUTERS = ['djanalytics.djanalytics.router.DatabaseRouter'] # TODO
+PROTECTED_DATA_ROOT = os.path.abspath("../../protected_data") # TODO: Use pkg_resources.resource_filename
 
 #### Standard settings
 
@@ -50,12 +60,20 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': { 
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '../../localdb.sql',            # Or path to database file if using sqlite3.
+        'NAME': '../../localdb.sql', # TODO: Use pkg_resources.resource_filename
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
-    }
+    }, 
+    # 'remote': { ## Small, local read/write DB for things like settings, cron tasks, etc. 
+    #     'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+    #     'NAME': '../../db/mitx.db', # TODO: Use pkg_resources.resource_filename
+    #     'USER': '',                      # Not used with sqlite3.
+    #     'PASSWORD': '',                  # Not used with sqlite3.
+    #     'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+    #     'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+    # }
 }
 
 CACHES = {
@@ -114,7 +132,7 @@ import os.path
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    os.path.abspath("../css_js_src"),
+    os.path.abspath("../css_js_src"), # TODO: Use pkg_resources.resource_filename
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -167,10 +185,6 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
-    # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
 ) + DJ_REQUIRED_APPS
 
 # A sample logging configuration. The only tangible logging
