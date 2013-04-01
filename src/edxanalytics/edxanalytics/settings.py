@@ -105,8 +105,11 @@ STATIC_ROOT = ''
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'
 
+import os.path
+
 # Additional locations of static files
 STATICFILES_DIRS = (
+    os.path.abspath("../css_js_src"),
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
