@@ -51,4 +51,20 @@ If you are using the aws settings (ie deploying):
 * pip install -r pre-requirements.txt
 
 
+Ignore
+=====
 
+Assorted notes; setting up a new machine with new edx/dj split. Below will turn into documentation
+
+adduser pmitros
+Create .ssh, and copy keys, set up sudoers
+
+apt-get install emacs23 git python-pip python-matplotlib python-scipy mongodb apache2-utils python-mysqldb subversion ipython 
+pip install django celery pymongo fs mako requests decorator South django-celery celery-with-redis
+
+Nominally: 
+pip install -e git+https://github.com/edx/djeventstream.git#egg=djeventstream
+
+In practice, setup.py install
+
+apt-get install nginx redis-server libmysqlclient-dev 
