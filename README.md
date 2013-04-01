@@ -7,7 +7,10 @@ repository. This repository contains:
 * The edX-specific modules
 * The dashboard/UX code. 
 
-Eventually, these will most likely be split out. 
+Eventually, these will most likely be split into seperate repos. 
+
+I am in the process of integrating this on top of djanalytics. This
+process is not quite finished. 
 
 Hacks
 -----
