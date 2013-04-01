@@ -34,6 +34,7 @@ SNS_SUBSCRIPTIONS = []
 #### Remaining settings
 
 LOGIN_REDIRECT_URL = "/"
+MAKO_MODULE_DIR = '../../compiled_templates'
 
 #### Standard settings
 

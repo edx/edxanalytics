@@ -9,6 +9,22 @@ repository. This repository contains:
 
 Eventually, these will most likely be split out. 
 
+Hacks
+-----
+
+Most are documented with HACK/TODO, but global ones:
+
+* Local libraries still here. MITx imports still here. Didn't have
+  time to deal with cleaning this up.
+
+* Removed pipeline. This isn't intended as an aggressive move. I
+  simply could not make it work reliably on my system, and I did it
+  out of expediency so I could work. We can discuss/readd.
+
+* mitxmako is in tree. This should be its own library. 
+
+* 
+
 Installing
 ----------
 
