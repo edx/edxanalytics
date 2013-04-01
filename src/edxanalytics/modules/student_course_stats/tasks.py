@@ -1,14 +1,37 @@
-from celery import task
-from modules.decorators import memoize_query, query
-from modules.mixpanel.mixpanel import EventTracker
-import logging
-from celery.task import periodic_task
-from modules import common
-from django.conf import settings
-import sys
+##
+## CSV export
+##
+## HACK/TODO
+##
+## * get_db_and_fs_cron should be killed, in favor of normal parameter
+##  passing
+## * @periodic_task should be replaced with @cron
+## * Clean up MITx dependencies
+## * Remove unnecessary imports
+##
+import csv
+import datetime
 import io
-from dateutil import parser
+import json
+import logging
 import os
+import re
+import sys
+import time
+from dateutil import parser
+
+from celery import current_task
+from celery import task
+from celery.task import periodic_task
+
+from django.conf import settings
+from django.contrib.auth.models import User
+from django.core.cache import cache
+from django.http import HttpResponse
+from django.utils.timezone import utc
+
+from modules import common
+from modules.decorators import memoize_query, query
 
 log=logging.getLogger(__name__)
 
@@ -25,16 +48,6 @@ if settings.IMPORT_MITX_MODULES:
 #If not, we will retain the studentmodule, which will give minimal functionality
 from courseware.models import StudentModule
 
-from django.contrib.auth.models import User
-import re
-import csv
-from django.http import HttpResponse
-import json
-from celery import current_task
-import datetime
-from django.utils.timezone import utc
-from django.core.cache import cache
-import time
 
 #Locks are set by long-running tasks to ensure that they are not duplicated.
 LOCK_EXPIRE = 24 * 60 * 60 # 1 day
@@ -50,7 +63,7 @@ class RequestDict(object):
         self.user = user
         self.path = None
 
-def get_db_and_fs_cron(f):
+def get_db_and_fs_cron(f): ### HACK
     """
     Gets the correct fs and db for a given input function
     f - a function signature
