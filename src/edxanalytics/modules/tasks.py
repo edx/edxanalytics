@@ -1,4 +1,9 @@
 """
+Vik: Do we still want this file? I don't know how mixpanel works. I'm
+wondering if this is completely dead/useless/bad code.
+
+foo/foo2/get_db_and_fs_cron are all either debug code or deprecated
+
 This module has examples periodic tasks (akin to cron) and normal tasks (delayed jobs).
 It can also contain global tasks.
 """

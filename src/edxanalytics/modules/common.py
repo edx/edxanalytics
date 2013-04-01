@@ -1,3 +1,9 @@
+## TODO: This belongs somewhere else. 
+##
+## * We need a way to construct a common library, especially to
+##   inspect events and provide higher-level operations
+## * We need a better way to internally call queries. 
+
 import logging
 log=logging.getLogger(__name__)
 
