@@ -1,20 +1,20 @@
-from modules.decorators import view, query, event_handler
+import logging
 from django.conf import settings
 from mitxmako.shortcuts import render_to_response, render_to_string
-import logging
+from modules.decorators import view, query, event_handler
 
 log=logging.getLogger(__name__)
 
 #from djanalytics.models import StudentBookAccesses
 
 @view(name = 'page_count')
-def book_page_count_view(fs, db, user, params):
+def event_count_view(fs, db, user, params):
     ''' Dummy test function. In the future, this should return some stats on 
     how many textbook pages the user saw '''
-    return "The user " + user + " saw "+str(book_page_count_query(fs, db, user, params))+" pages!"
+    return "The user " + user + " saw "+str(event_count_query(fs, db, user, params))+" pages!"
 
 @query('user', 'page_count')
-def book_page_count_query(fs, db, user, params):
+def event_count_query(fs, db, user, params):
     ''' Dummy test function. In the future, this should return some stats on 
     how many textbook pages the user saw '''
     if settings.DUMMY_MODE:
@@ -34,13 +34,13 @@ def book_page_count_query(fs, db, user, params):
     #return pages
 
 @view(name = 'page_count')
-def book_page_count_view_course(fs, db, user, course, params):
+def event_count_view_course(fs, db, user, course, params):
     ''' Dummy test function. In the future, this should return some stats on
     how many textbook pages the user saw '''
-    return "The user " + user + " saw "+str(book_page_count_query_course(fs, db, user, course, params))+" pages!"
+    return "The user " + user + " saw "+str(event_count_query_course(fs, db, user, course, params))+" pages!"
 
 @query(name='page_count')
-def book_page_count_query_course(fs, db, user, course, params):
+def event_count_query_course(fs, db, user, course, params):
     ''' Dummy test function. In the future, this should return some stats on
     how many textbook pages the user saw '''
     collection = db['page_count']
@@ -58,7 +58,7 @@ def book_page_count_query_course(fs, db, user, course, params):
 
 
 @event_handler()
-def book_page_count_event(fs, db, response):
+def event_count_event(fs, db, response):
     for resp in response:
         #NOTE: IF this is uncommented, mongo has INSANE cpu usage.  Do not uncomment without fixing indexes on Mongo
         #TODO: resolve issue above
