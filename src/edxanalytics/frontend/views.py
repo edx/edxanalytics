@@ -1,3 +1,7 @@
+## TODO/HACK: Unfinished registration functionality
+##
+## protected_data not yet wired up
+
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.http import HttpResponseRedirect, HttpResponse

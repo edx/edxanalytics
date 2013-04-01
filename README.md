@@ -1,5 +1,5 @@
 edxanalytics
-=====================
+============
 
 This is a prototype version of the user-side of an analytics framework
 for edX. Most documentation for the framework is in the djanalytics
@@ -16,14 +16,14 @@ Most are documented with HACK/TODO, but global ones:
 
 * Local libraries still here. MITx imports still here. Didn't have
   time to deal with cleaning this up.
-
 * Removed pipeline. This isn't intended as an aggressive move. I
   simply could not make it work reliably on my system, and I did it
   out of expediency so I could work. We can discuss/readd.
-
 * mitxmako is in tree. This should be its own library. 
-
-* 
+* Deployment stuff is still in-tree. Moved into an edxdeployment
+  directory.
+* Database routing is not there yet. We need to swap local/default to
+  default/remote.
 
 Installing
 ----------
