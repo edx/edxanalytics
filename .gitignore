@@ -49,3 +49,4 @@ protected_data/
 compiled_templates/
 celerybeat-schedule
 *~
+*.sql

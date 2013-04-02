@@ -226,31 +226,41 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 ) + DJ_REQUIRED_APPS
 
-# A sample logging configuration. The only tangible logging
-# performed by this configuration is to send an email to
-# the site admins on every HTTP 500 error when DEBUG=False.
-# See http://docs.djangoproject.com/en/dev/topics/logging for
-# more details on how to customize your logging configuration.
+
+syslog_format = ("[%(name)s][env:{logging_env}] %(levelname)s "
+                 "[{hostname}  %(process)d] [%(filename)s:%(lineno)d] "
+                 "- %(message)s").format(
+    logging_env="", hostname="")
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
-    'filters': {
-        'require_debug_false': {
-            '()': 'django.utils.log.RequireDebugFalse'
-        }
-    },
+    'formatters': {
+        'standard': {
+            'format': '%(asctime)s %(levelname)s %(process)d '
+                      '[%(name)s] %(filename)s:%(lineno)d - %(message)s',
+            },
+        'syslog_format': {'format': syslog_format},
+        'raw': {'format': '%(message)s'},
+        },
     'handlers': {
-        'mail_admins': {
-            'level': 'ERROR',
-            'filters': ['require_debug_false'],
-            'class': 'django.utils.log.AdminEmailHandler'
-        }
-    },
+        'console': {
+            'level': 'DEBUG' if DEBUG else 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'standard',
+            'stream': sys.stdout,
+            },
+        },
     'loggers': {
         'django.request': {
-            'handlers': ['mail_admins'],
+            'handlers': ['console'],
             'level': 'ERROR',
             'propagate': True,
+            },
+        '': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': False
         },
-    }
+        }
 }
