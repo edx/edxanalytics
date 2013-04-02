@@ -53,8 +53,8 @@ def get_db_and_fs_cron(f):
     fs - A filesystem object
     db - A mongo database collection
     """
-    import djanalytics.djanalytics.views
-    db = djanalytics.djanalytics.views.get_database(f)
-    fs = djanalytics.djanalytics.views.get_filesystem(f)
+    import djanalytics.core.helpers
+    db = djanalytics.core.helpers.get_database(f)
+    fs = djanalytics.core.helpers.get_filesystem(f)
     return fs,db
 

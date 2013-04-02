@@ -1,6 +1,9 @@
 ## This is a dummy router for now
 ##
 ## In the future, it will route read replica calls to the right place
+import logging
+
+log=logging.getLogger(__name__)
 
 class MITxRouter(object):
     """
@@ -8,14 +11,13 @@ class MITxRouter(object):
     auth application.
     """
     def db_for_read(self, model, **hints):
-        """
-        Attempts to read auth models go to auth_db.
-        """
-        #if model._meta.app_label == 'auth':
-        #    return 'auth_db'
-        print "db_for_read", model
-
-        return None
+        if model._meta.app_label in ['student','courseware', 'contenttypes']:
+            return 'remote'
+        elif model._meta.app_label in ['an_evt','modules', 'cronjobs', 'celery', 'sessions', 'auth', 'django_cache', 'south', 'sites']:
+            return 'default'
+        else:
+            log.error("We need to explicitly route: {0}".format(model._meta.app_label))
+            return 'error'
 
     def db_for_write(self, model, **hints):
         """
