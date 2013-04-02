@@ -26,7 +26,10 @@ Most are documented with HACK/TODO, but global ones:
 * Deployment stuff is still in-tree. Moved into an edxdeployment
   directory.
 * Database routing is not there yet. We need to swap local/default to
-  default/remote.
+  default/remote. IN PARTICULAR: Authentication is in the system
+  now. I do not understand the best way to handle this. We have
+  queries like User.objects.count() to the remote database for
+  analytics, and similar ones to the local one.
 * Parts of the system are using Django templates, and not
   mitxtemplates.
 * Not everything from settings.py, urls.py is integrated

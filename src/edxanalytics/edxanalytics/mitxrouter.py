@@ -13,6 +13,8 @@ class MITxRouter(object):
         """
         #if model._meta.app_label == 'auth':
         #    return 'auth_db'
+        print "db_for_read", model
+
         return None
 
     def db_for_write(self, model, **hints):
@@ -21,6 +23,7 @@ class MITxRouter(object):
         """
         #if model._meta.app_label == 'auth':
         #    return 'auth_db'
+        print "db_for_write", model
         return None
 
     def allow_relation(self, obj1, obj2, **hints):
@@ -30,6 +33,8 @@ class MITxRouter(object):
         #if obj1._meta.app_label == 'auth' or \
         #   obj2._meta.app_label == 'auth':
         #   return True
+        print "allow_relation", obj1, obj2
+
         return None
 
     def allow_syncdb(self, db, model):
@@ -37,6 +42,7 @@ class MITxRouter(object):
         Make sure the auth app only appears in the 'auth_db'
         database.
         """
+        print "allow_syncdb", db, model
         #if db == 'auth_db':
         #    return model._meta.app_label == 'auth'
         #elif model._meta.app_label == 'auth':
