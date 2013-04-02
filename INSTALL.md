@@ -48,7 +48,9 @@ If you are using the aws settings (ie deploying):
 * git clone git@github.com:MITx/mitx.git
 * cd MITX_DIR
 * sudo xargs -a apt-packages.txt apt-get install
+* If the above step does not work, remove npm and nodejs from apt-packages.txt
 * pip install -r pre-requirements.txt
+* pip install -r requirements.txt
 
 
 Ignore

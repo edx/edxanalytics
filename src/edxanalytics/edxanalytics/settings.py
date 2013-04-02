@@ -62,7 +62,7 @@ if IMPORT_MITX_MODULES:
     REPO_PATH = ROOT_PATH.dirname()
     ENV_ROOT = REPO_PATH.dirname()
 
-    MITX_PATH = os.path.abspath("../../mitx/")
+    MITX_PATH = os.path.abspath("../../../mitx/")
     DJANGOAPPS_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "djangoapps")
     LMS_LIB_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "lib")
     COMMON_PATH = "{0}/{1}/{2}".format(MITX_PATH, "common", "djangoapps")
