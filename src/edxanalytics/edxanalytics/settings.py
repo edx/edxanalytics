@@ -6,6 +6,7 @@ import datetime
 import os.path
 import path
 import sys
+import imp
 
 from pkg_resources import resource_filename
 
@@ -53,19 +54,19 @@ DUMMY_MODE = False # Slight TODO: This send back fake data from queries for off-
 # DATABASE_ROUTERS = ['djanalytics.djanalytics.router.DatabaseRouter'] # TODO
 PROTECTED_DATA_ROOT = os.path.abspath("../../protected_data") # TODO: Use pkg_resources.resource_filename
 
+BASE_DIR = os.path.abspath(os.path.join(__file__, "..", "..", ".."))
+ROOT_PATH = path.path(__file__).dirname()
+REPO_PATH = os.path.abspath("../../../")
+ENV_ROOT = os.path.abspath("../../../../")
 #### MITx settings
 
-IMPORT_MITX_MODULES = False
+IMPORT_MITX_MODULES = True
 if IMPORT_MITX_MODULES:
-    BASE_DIR = os.path.abspath(os.path.join(__file__, "..", "..", ".."))
-    ROOT_PATH = path.path(__file__).dirname()
-    REPO_PATH = ROOT_PATH.dirname()
-    ENV_ROOT = REPO_PATH.dirname()
-
     MITX_PATH = os.path.abspath("../../../mitx/")
     DJANGOAPPS_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "djangoapps")
     LMS_LIB_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "lib")
     COMMON_PATH = "{0}/{1}/{2}".format(MITX_PATH, "common", "djangoapps")
+    COMMON_LIB_PATH = "{0}/{1}/{2}/{3}".format(MITX_PATH, "common", "lib", "xmodule")
     MITX_LIB_PATHS = [MITX_PATH, DJANGOAPPS_PATH, LMS_LIB_PATH, COMMON_PATH]
     sys.path += MITX_LIB_PATHS
 
@@ -96,6 +97,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+print BASE_DIR
 DATABASES = {
     'default': { 
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
@@ -107,13 +109,15 @@ DATABASES = {
     }, 
     'remote': { ## Small, local read/write DB for things like settings, cron tasks, etc. 
          'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-         'NAME': '../../../db/mitx.db', # TODO: Use pkg_resources.resource_filename
+         'NAME': '{0}/db/mitx.db'.format(ENV_ROOT), # TODO: Use pkg_resources.resource_filename
          'USER': '',                      # Not used with sqlite3.
          'PASSWORD': '',                  # Not used with sqlite3.
          'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
          'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
      }
 }
+
+print DATABASES
 
 CACHES = {
     'default': {
@@ -264,3 +268,19 @@ LOGGING = {
         },
         }
 }
+
+#Celery settings
+BROKER_URL = 'redis://localhost:6379/0'
+BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+CELERY_TASK_RESULT_EXPIRES = 60 * 60 #1 hour
+MODULE_DIR = "modules"
+
+CELERY_IMPORTS = ()
+for analytics_module in INSTALLED_ANALYTICS_MODULES:
+    module_name = "{0}.{1}.{2}".format(MODULE_DIR,analytics_module,"tasks")
+    try:
+        imp.find_module(module_name)
+        CELERY_IMPORTS += (module_name,)
+    except:
+        pass

@@ -67,9 +67,8 @@ MITX_FEATURES = {
 }
 
 ############################# SET PATH INFORMATION #############################
-REPO_ROOT = path(__file__).abspath().dirname().dirname()  # /mitx/lms
-ENV_ROOT = REPO_ROOT.dirname()  # virtualenv dir /mitx is in
-COURSES_ROOT = ENV_ROOT / "data"
+ENV_ROOT = os.path.abspath(os.path.join(__file__, "..", "..", "..", "..", ".."))
+COURSES_ROOT = "{0}/{1}".format(ENV_ROOT,"data")
 
 DATA_DIR = COURSES_ROOT
 

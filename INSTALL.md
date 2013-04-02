@@ -1,5 +1,5 @@
 
-In order to install the minimal analytics-experiments repository:
+In order to install the minimal working analytics configuration:
 
 First, decide on your directories:
 * VIRTUALENV_DIR = directory where you create your python virtualenv.
