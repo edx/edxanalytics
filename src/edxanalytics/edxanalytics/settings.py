@@ -41,6 +41,9 @@ djcelery.setup_loader()
 
 SNS_SUBSCRIPTIONS = []
 
+import django.contrib.auth.decorators
+DJA_AUTH = { '.*' : django.contrib.auth.decorators.login_required } 
+
 #### Remaining settings
 
 LOGIN_REDIRECT_URL = "/"
@@ -80,7 +83,7 @@ else:
     MITX_LIBRARY_PATH = os.path.abspath("mitx_libraries")
     sys.path.append(MITX_LIBRARY_PATH)
 
-print "Path", sys.path
+DATABASE_ROUTERS = ['edxanalytics.mitxrouter.MITxRouter']
 
 #### Standard settings
 
@@ -102,14 +105,14 @@ DATABASES = {
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }, 
-    # 'remote': { ## Small, local read/write DB for things like settings, cron tasks, etc. 
-    #     'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-    #     'NAME': '../../db/mitx.db', # TODO: Use pkg_resources.resource_filename
-    #     'USER': '',                      # Not used with sqlite3.
-    #     'PASSWORD': '',                  # Not used with sqlite3.
-    #     'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
-    #     'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
-    # }
+    'remote': { ## Small, local read/write DB for things like settings, cron tasks, etc. 
+         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+         'NAME': '../../db/mitx.db', # TODO: Use pkg_resources.resource_filename
+         'USER': '',                      # Not used with sqlite3.
+         'PASSWORD': '',                  # Not used with sqlite3.
+         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+     }
 }
 
 CACHES = {
