@@ -107,7 +107,7 @@ DATABASES = {
     }, 
     'remote': { ## Small, local read/write DB for things like settings, cron tasks, etc. 
          'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-         'NAME': '../../db/mitx.db', # TODO: Use pkg_resources.resource_filename
+         'NAME': '../../../db/mitx.db', # TODO: Use pkg_resources.resource_filename
          'USER': '',                      # Not used with sqlite3.
          'PASSWORD': '',                  # Not used with sqlite3.
          'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
