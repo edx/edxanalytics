@@ -20,6 +20,10 @@ Then, start to install:
 * source VIRTUALENV_DIR/bin/activate
 * python setup.py install
 * cd BASE_DIR
+* git clone git@github.com:edx/djeventstream.git
+* cd djeventstream
+* python manage.py install
+* cd BASE_DIR
 * git clone git@github.com:MITx/edxanalytics.git
 * cd edxanalytics (this is the EDXANALYTICS_DIR)
 * sudo xargs -a apt-packages.txt apt-get install
