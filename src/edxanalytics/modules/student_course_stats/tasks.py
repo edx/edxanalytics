@@ -48,7 +48,6 @@ if settings.IMPORT_MITX_MODULES:
 #If not, we will retain the studentmodule, which will give minimal functionality
 from courseware.models import StudentModule
 
-
 #Locks are set by long-running tasks to ensure that they are not duplicated.
 LOCK_EXPIRE = 24 * 60 * 60 # 1 day
 
@@ -62,18 +61,6 @@ class RequestDict(object):
         self.GET = {}
         self.user = user
         self.path = None
-
-def get_db_and_fs_cron(f): ### HACK
-    """
-    Gets the correct fs and db for a given input function
-    f - a function signature
-    fs - A filesystem object
-    db - A mongo database collection
-    """
-    import djanalytics.core.helpers
-    db = djanalytics.core.helpers.get_database(f)
-    fs = djanalytics.core.helpers.get_filesystem(f)
-    return fs,db
 
 @periodic_task(run_every=settings.TIME_BETWEEN_DATA_REGENERATION, name="tasks.regenerate_student_course_data")
 def regenerate_student_course_data():
@@ -111,7 +98,7 @@ def get_student_course_stats(request, course):
     release_lock = lambda: cache.delete(lock_id)
     if acquire_lock():
         try:
-            fs, db = get_db_and_fs_cron(get_student_course_stats)
+            fs, db = common.get_db_and_fs_cron(get_student_course_stats)
             collection = db['student_course_stats']
             courseware_summaries, users_in_course_ids = get_student_course_stats_base(request,course, "grades")
             rows = []
@@ -129,7 +116,7 @@ def get_student_course_stats(request, course):
             write_to_collection(collection, rows, course)
         finally:
             release_lock()
-        return json.dumps({'result_data' : rows, 'result_file' : "{0}/{1}".format(settings.PROTECTED_DATA_URL, file_name)})
+        return json.dumps({'result_data' : rows, 'result_file' : file_name})
     return {}
 
 @task(name="tasks.get_student_problem_stats")
@@ -148,7 +135,7 @@ def get_student_problem_stats(request,course):
     release_lock = lambda: cache.delete(lock_id)
     if acquire_lock():
         try:
-            fs, db = get_db_and_fs_cron(get_student_course_stats)
+            fs, db = common.get_db_and_fs_cron(common.student_problem_stats_stub)
             collection = db['student_problem_stats']
             courseware_summaries, users_in_course_ids = get_student_course_stats_base(request,course, "grades")
             rows = []
@@ -167,7 +154,7 @@ def get_student_problem_stats(request,course):
             write_to_collection(collection, rows, course)
         finally:
             release_lock()
-        return json.dumps({'result_data' : rows, 'result_file' : "{0}/{1}".format(settings.PROTECTED_DATA_URL, file_name)})
+        return json.dumps({'result_data' : rows, 'result_file' : file_name})
     return {}
 
 def get_student_course_stats_base(request,course, type="grades"):
@@ -178,7 +165,7 @@ def get_student_course_stats_base(request,course, type="grades"):
     course - a string course id
     type - whether to get student weighted grades or unweighted grades.  If "grades" will get weighted
     """
-    fs, db = get_db_and_fs_cron(get_student_course_stats)
+    fs, db = common.get_db_and_fs_cron(common.student_course_stats_stub)
     course_obj = get_course_with_access(request.user, course, 'load', depth=None)
     users_in_course = StudentModule.objects.filter(course_id=course).values('student').distinct()
     users_in_course_ids = [u['student'] for u in users_in_course]

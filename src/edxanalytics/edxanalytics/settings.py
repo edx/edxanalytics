@@ -171,6 +171,10 @@ STATIC_ROOT = ''
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'
 
+#Protected data to show to users (ie course data csv files)
+NGINX_PROTECTED_DATA_URL = "protected_data/"
+PROTECTED_DATA_URL = 'data/'
+
 import os.path
 
 # Additional locations of static files
