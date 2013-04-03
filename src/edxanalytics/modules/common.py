@@ -25,3 +25,27 @@ def render_query_as_table(query_data):
         html_string+="<tr><td>{0}</td><td>{1}</td></tr>".format(query_data['course_id'][i],query_data['count'][i])
     html_string+="</table>"
     return html_string
+
+def get_db_and_fs_cron(f): ### HACK
+    """
+    Gets the correct fs and db for a given input function
+    f - a function signature
+    fs - A filesystem object
+    db - A mongo database collection
+    """
+    import djanalytics.core.helpers
+    db = djanalytics.core.helpers.get_database(f)
+    fs = djanalytics.core.helpers.get_filesystem(f)
+    return fs,db
+
+def student_course_stats_stub():
+    """
+    Stub function to get right db and fs for student course stats queries
+    """
+    pass
+
+def student_problem_stats_stub():
+    """
+    Stub function to get right db and fs for student course stats queries
+    """
+    pass

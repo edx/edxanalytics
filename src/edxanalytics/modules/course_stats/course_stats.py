@@ -99,6 +99,7 @@ def course_grades_view(fs, db, course, params):
     course - string course id
     """
     data_type="course_grades"
+    fs, db = common.get_db_and_fs_cron(common.student_course_stats_stub)
     return course_grades_view_base(fs, db, course, data_type,params)
 
 @view('course', 'student_problem_grades')
@@ -110,6 +111,7 @@ def problem_grades_view(fs, db, course, params):
     course - string course id
     """
     data_type="problem_grades"
+    fs, db = common.get_db_and_fs_cron(common.student_problem_stats_stub)
     return course_grades_view_base(fs, db, course, data_type,params)
 
 def course_grades_view_base(fs, db, course, data_type,params):
@@ -179,7 +181,7 @@ def course_grades_query_base(fs,db,course, params, data_type="course"):
         'problem' : ['student_problem_stats', 'student_problem_grades']
     }
     type_list = types[data_type]
-    collection = connection['modules_tasks'][type_list[0]]
+    collection = db[type_list[0]]
     course_name = re.sub("[/:]","_",course)
     json_data = list(collection.find({'course' : course}))
 
@@ -188,7 +190,7 @@ def course_grades_query_base(fs,db,course, params, data_type="course"):
     json_data = json_data[0]
 
     json_data = {k:json_data[k] for k in json_data if k in ["course", "updated", "results"]}
-    csv_file = "{0}/{1}_{2}.csv".format(settings.PROTECTED_DATA_URL,type_list[1],course_name)
+    csv_file = "{0}_{1}.csv".format(type_list[1],course_name)
     return {'csv' : csv_file, 'json' : json_data, 'success' : True}
 
 @query('course', 'student_grades')
