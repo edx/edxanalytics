@@ -22,6 +22,8 @@ from mitxmako.shortcuts import render_to_response, render_to_string
 
 from modules import common, tasks
 from djanalytics.core.decorators import view, query, event_handler, memoize_query
+import subprocess
+import re
 
 connection = MongoClient()
 log=logging.getLogger(__name__)
@@ -190,8 +192,10 @@ def course_grades_query_base(fs,db,course, params, data_type="course"):
     json_data = json_data[0]
 
     json_data = {k:json_data[k] for k in json_data if k in ["course", "updated", "results"]}
-    csv_file = "{0}_{1}.csv".format(type_list[1],course_name)
-    return {'csv' : csv_file, 'json' : json_data, 'success' : True}
+    file_name = "{0}_{1}.csv".format(type_list[1],course_name)
+    csv_file = "{0}/{1}".format(re.sub(settings.DJFS['directory_root'],'',fs.root_path),file_name)
+    csv_url = "{0}{1}".format(settings.PROTECTED_DATA_URL,csv_file)
+    return {'csv' : csv_url, 'json' : json_data, 'success' : True}
 
 @query('course', 'student_grades')
 def course_grades_query(fs,db,course, params):
