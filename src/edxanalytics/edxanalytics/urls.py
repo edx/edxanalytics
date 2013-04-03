@@ -36,8 +36,8 @@ if settings.DEBUG:
                                'document_root': settings.STATIC_ROOT,
                                'show_indexes' : True,
                                }),
-                           url(r'^data/(?P<path>.*)$', 'django.views.static.serve', {
-                               'document_root': settings.PROTECTED_DATA_ROOT,
+                           url(r'^{data}(?P<path>.*)$'.format(data=settings.PROTECTED_DATA_URL), 'django.views.static.serve', {
+                               'document_root': settings.DJFS['directory_root'],
                                'show_indexes' : True,
                                }),
                            )
