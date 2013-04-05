@@ -60,7 +60,9 @@ REPO_PATH = os.path.abspath("../../../")
 ENV_ROOT = os.path.abspath("../../../../")
 #### MITx settings
 
-IMPORT_MITX_MODULES = True
+# Can we please leave this as false, and override for local dev setups?
+# I would like the time to get up-and-running to be minimal. 
+IMPORT_MITX_MODULES = False
 if IMPORT_MITX_MODULES:
     MITX_PATH = os.path.abspath("../../../mitx/")
     DJANGOAPPS_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "djangoapps")
@@ -97,7 +99,6 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-print BASE_DIR
 DATABASES = {
     'default': { 
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
@@ -116,8 +117,6 @@ DATABASES = {
          'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
      }
 }
-
-print DATABASES
 
 CACHES = {
     'default': {
@@ -171,6 +170,7 @@ STATIC_ROOT = ''
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'
 
+# We should include this as part of DJFS. 
 #Protected data to show to users (ie course data csv files)
 NGINX_PROTECTED_DATA_URL = "protected_data/"
 PROTECTED_DATA_URL = 'data/'

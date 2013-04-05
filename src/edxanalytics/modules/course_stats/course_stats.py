@@ -101,7 +101,7 @@ def course_grades_view(fs, db, course, params):
     course - string course id
     """
     data_type="course_grades"
-    fs, db = common.get_db_and_fs_cron(common.student_course_stats_stub)
+    fs, db = common.get_db_and_fs_cron(common.student_course_stats_stub) # WTF? 
     return course_grades_view_base(fs, db, course, data_type,params)
 
 @view('course', 'student_problem_grades')
@@ -113,7 +113,7 @@ def problem_grades_view(fs, db, course, params):
     course - string course id
     """
     data_type="problem_grades"
-    fs, db = common.get_db_and_fs_cron(common.student_problem_stats_stub)
+    fs, db = common.get_db_and_fs_cron(common.student_problem_stats_stub) # WTF? 
     return course_grades_view_base(fs, db, course, data_type,params)
 
 def course_grades_view_base(fs, db, course, data_type,params):
