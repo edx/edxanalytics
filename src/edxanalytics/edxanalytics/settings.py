@@ -31,7 +31,7 @@ TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
 INSTALLED_ANALYTICS_MODULES = () #'modules.testmodule',)
 INSTALLED_ANALYTICS_MODULES = ('modules.course_stats', 
-                               'modules.mixpanel', 
+#                               'modules.mixpanel', 
                                'modules.event_count', 
                                'modules.student_course_stats', 
                                'modules.user_stats')
@@ -86,7 +86,7 @@ else:
     MITX_LIBRARY_PATH = os.path.abspath("mitx_libraries")
     sys.path.append(MITX_LIBRARY_PATH)
 
-DATABASE_ROUTERS = ['edxanalytics.mitxrouter.MITxRouter']
+# DATABASE_ROUTERS = ['edxanalytics.mitxrouter.MITxRouter']
 
 #### Standard settings
 
