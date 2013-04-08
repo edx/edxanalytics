@@ -33,6 +33,9 @@ Then, start to install:
 * Ensure that IMPORT_MITX_MODULES in edxanalytics/settings.py is False .
 * python manage.py syncdb --database=remote --settings=edxanalytics.settings --settings=settings (this may fail, but that is fine)
 * python manage.py syncdb --database=default --settings=edxanalytics.settings --settings=settings
+* python manage.py shell, and run: 
+from django.contrib.sites.models import Site
+Site.objects.create(name='localhost', domain='localhost')
 * mkdir EDXANALYTICS_DIR/staticfiles
 * python manage.py collectstatic --settings=settings --noinput -c --pythonpath=.
 
