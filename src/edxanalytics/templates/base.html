@@ -36,21 +36,22 @@ Right now, I was stuck on:
     {% compressed_css 'bootstrap' %}
     {% compressed_css 'util_css' %}
     {% endcomment %}
-    <script   type="text/javascript" src="{% static "js/jquery-1.9.1.js" %}" charset="utf-8"></script>
-    <script   type="text/javascript" src="{% static "js/json2.js" %}" charset="utf-8"></script>
-    <script   type="text/javascript" src="{% static "js/underscore.js" %}" charset="utf-8"></script>
-    <script   type="text/javascript" src="{% static "js/backbone.js" %}" charset="utf-8"></script>
-    <script   type="text/javascript" src="{% static "js/jquery.cookie.js" %}" charset="utf-8"></script>
-    <script   type="text/javascript" src="{% static "js/bootstrap.js" %}" charset="utf-8"></script>
-    <script   type="text/javascript" src="{% static "js/jquery-ui-1.10.2.custom.js" %}" charset="utf-8"></script>
-    <script   type="text/javascript" src="{% static "js/jquery.flot.patched-multi.js" %}" charset="utf-8"></script>
-    <script   type="text/javascript" src="{% static "js/jquery.flot.tooltip.js" %}" charset="utf-8"></script>
-    <script   type="text/javascript" src="{% static "js/jquery.flot.axislabels.js" %}" charset="utf-8"></script>
+    {% load static2 %}
+    <script   type="text/javascript" src="{% static2 "js/jquery-1.9.1.js" %}" charset="utf-8"></script>
+    <script   type="text/javascript" src="{% static2 "js/json2.js" %}" charset="utf-8"></script>
+    <script   type="text/javascript" src="{% static2 "js/underscore.js" %}" charset="utf-8"></script>
+    <script   type="text/javascript" src="{% static2 "js/backbone.js" %}" charset="utf-8"></script>
+    <script   type="text/javascript" src="{% static2 "js/jquery.cookie.js" %}" charset="utf-8"></script>
+    <script   type="text/javascript" src="{% static2 "js/bootstrap.js" %}" charset="utf-8"></script>
+    <script   type="text/javascript" src="{% static2 "js/jquery-ui-1.10.2.custom.js" %}" charset="utf-8"></script>
+    <script   type="text/javascript" src="{% static2 "js/jquery.flot.patched-multi.js" %}" charset="utf-8"></script>
+    <script   type="text/javascript" src="{% static2 "js/jquery.flot.tooltip.js" %}" charset="utf-8"></script>
+    <script   type="text/javascript" src="{% static2 "js/jquery.flot.axislabels.js" %}" charset="utf-8"></script>
 
-    <link href="{% static "css/bootstrap.css" %}" rel="stylesheet" type="text/css" />
-    <link href="{% static "css/bootstrap-responsive.css" %}" rel="stylesheet" type="text/css" />
-    <link href="{% static "css/bootstrap-extensions.css" %}" rel="stylesheet" type="text/css" />
-    <link href="{% static "css/jquery-ui-1.10.2.custom.css" %}" rel="stylesheet" type="text/css" />
+    <link href="{% static2 "css/bootstrap.css" %}" rel="stylesheet" type="text/css" />
+    <link href="{% static2 "css/bootstrap-responsive.css" %}" rel="stylesheet" type="text/css" />
+    <link href="{% static2 "css/bootstrap-extensions.css" %}" rel="stylesheet" type="text/css" />
+    <link href="{% static2 "css/jquery-ui-1.10.2.custom.css" %}" rel="stylesheet" type="text/css" />
 
     {% block additional_js %}
     {% endblock %}
