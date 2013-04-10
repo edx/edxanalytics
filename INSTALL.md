@@ -33,7 +33,7 @@ Then, start to install:
 * python manage.py syncdb --database=remote --settings=edxanalytics.settings --pythonpath=. (this may fail, but that is fine)
 * python manage.py syncdb --database=default --settings=edxanalytics.settings --pythonpath=.
 * mkdir EDXANALYTICS_DIR/staticfiles
-* python manage.py collectstatic --settings=edxanalytics.settings --noinput -c --pythonpath=.
+* python manage.py collectstatic --settings=edxanalytics.settings --noinput --pythonpath=.
 
 Then, run the server:
 * python manage.py runserver 127.0.0.1:9022 --settings=edxanalytics.settings --pythonpath=. --nostatic
