@@ -21,7 +21,7 @@ Then, start to install:
 * cd BASE_DIR
 * git clone git@github.com:edx/djeventstream.git
 * cd djeventstream
-* python manage.py install
+* python setup.py install
 * cd BASE_DIR
 * git clone git@github.com:MITx/edxanalytics.git
 * cd edxanalytics (this is the EDXANALYTICS_DIR)
