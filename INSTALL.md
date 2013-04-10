@@ -12,7 +12,7 @@ Then, start to install:
 * cd djanalytics (this is the DJANALYTICS_DIR)
 * sudo xargs -a apt-packages.txt apt-get install
 * sudo apt-get remove python-virtualenv python-pip
-* sudo easy_install pip virtualenv
+* sudo easy_install pip
 * pip install virtualenv
 * mkdir VIRTUALENV_DIR
 * virtualenv VIRTUALENV_DIR
