@@ -11,7 +11,7 @@ Then, start to install:
 * git clone git@github.com:MITx/djanalytics.git
 * cd djanalytics (this is the DJANALYTICS_DIR)
 * sudo xargs -a apt-packages.txt apt-get install
-* sudo aptitude remove python-virtualenv python-pip
+* sudo apt-get remove python-virtualenv python-pip
 * sudo easy_install pip virtualenv
 * pip install virtualenv
 * mkdir VIRTUALENV_DIR
