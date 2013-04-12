@@ -1,4 +1,3 @@
-
 In order to install the minimal working analytics configuration:
 
 First, decide on your directories:
@@ -12,8 +11,8 @@ Then, start to install:
 * git clone git@github.com:MITx/djanalytics.git
 * cd djanalytics (this is the DJANALYTICS_DIR)
 * sudo xargs -a apt-packages.txt apt-get install
-* sudo aptitude remove python-virtualenv python-pip
-* sudo easy_install pip virtualenv
+* sudo apt-get remove python-virtualenv python-pip
+* sudo easy_install pip
 * pip install virtualenv
 * mkdir VIRTUALENV_DIR
 * virtualenv VIRTUALENV_DIR
@@ -22,7 +21,7 @@ Then, start to install:
 * cd BASE_DIR
 * git clone git@github.com:edx/djeventstream.git
 * cd djeventstream
-* python manage.py install
+* python setup.py install
 * cd BASE_DIR
 * git clone git@github.com:MITx/edxanalytics.git
 * cd edxanalytics (this is the EDXANALYTICS_DIR)
@@ -31,13 +30,10 @@ Then, start to install:
 * mkdir BASE_DIR/db
 * cd EDXANALYTICS_DIR/src/edxanalytics
 * Ensure that IMPORT_MITX_MODULES in edxanalytics/settings.py is False .
-* python manage.py syncdb --database=remote --settings=edxanalytics.settings --settings=settings (this may fail, but that is fine)
-* python manage.py syncdb --database=default --settings=edxanalytics.settings --settings=settings
-* python manage.py shell, and run: 
-from django.contrib.sites.models import Site
-Site.objects.create(name='localhost', domain='localhost')
+* python manage.py syncdb --database=remote --settings=edxanalytics.settings --pythonpath=. (this may fail, but that is fine)
+* python manage.py syncdb --database=default --settings=edxanalytics.settings --pythonpath=.
 * mkdir EDXANALYTICS_DIR/staticfiles
-* python manage.py collectstatic --settings=settings --noinput -c --pythonpath=.
+* python manage.py collectstatic --settings=edxanalytics.settings --noinput --pythonpath=.
 
 Then, run the server:
 * python manage.py runserver 127.0.0.1:9022 --settings=edxanalytics.settings --pythonpath=. --nostatic
