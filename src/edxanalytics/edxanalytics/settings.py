@@ -34,7 +34,8 @@ INSTALLED_ANALYTICS_MODULES = ('modules.course_stats',
 #                               'modules.mixpanel', 
                                'modules.event_count', 
                                'modules.student_course_stats', 
-                               'modules.user_stats')
+                               'modules.user_stats', 
+                               'modules.edxcommon',)
 
 #Initialize celery
 import djcelery
