@@ -245,7 +245,7 @@
     function load_global_rcontent(node)
     {
         if (node == '_course_enrollment') {
-            jQuery.getJSON('/view/global/'+node, 
+            jQuery.getJSON('/view/'+node, 
                 function (data) {
                     course_enrollment_data = data;
                     $('#rcontent').html('<ul id="uni-nav" class="nav nav-tabs">');
@@ -330,12 +330,12 @@
 
                 });
         } else {
-            $('#rcontent').load("/view/global/"+node);
+            $('#rcontent').load("/view/"+node);
         }
     }
     function load_user_rcontent(node)
     {
-        $('#rcontent').load("/view/user/"+node+"?user="+$('#username_text').val());
+        $('#rcontent').load("/view/"+node+"?user="+$('#username_text').val());
     }
     function tidy_str(str)
     {

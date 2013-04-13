@@ -13,7 +13,7 @@
     <script>
         function scrape_courses()
         {
-            $.getJSON('/query/global/available_courses', function(data){
+            $.getJSON('/query/available_courses', function(data){
                 var i;
                 var course_dropdown_tag = "#dropdown_select_course";
                 $(course_dropdown_tag).empty();
@@ -62,7 +62,7 @@
                     analytic_name = target.attr('analytic_name')
                     var content_tag = '#rcontent';
                     $(content_tag).empty();
-                    query_url = '/view/course/' + analytic_name + '?course=' + course_name
+                    query_url = '/view/' + analytic_name + '?course=' + course_name
                     $.get(query_url, function(data){
                         $(content_tag).append(data)
                     }).fail(function() {
