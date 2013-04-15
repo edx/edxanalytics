@@ -1,6 +1,6 @@
-from modules.mixpanel.mixpanel import track_event_mixpanel, track_event_mixpanel_async
+from edxmodules.mixpanel.mixpanel import track_event_mixpanel, track_event_mixpanel_async
 from djanalytics.core.decorators import view, query, event_handler
-from modules.tasks import track_event_mixpanel_batch
+from edxmodules.tasks import track_event_mixpanel_batch
 import re
 import logging
 log=logging.getLogger(__name__)

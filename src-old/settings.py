@@ -26,12 +26,12 @@ TEMPLATE_DIRS = (
 )
 
 #Append these internal paths in order to load celery tasks properly
-MODULE_DIR = "modules"
+MODULE_DIR = "edxmodules"
 sys.path.append(str(ROOT_PATH / MODULE_DIR ))
 
 INSTALLED_APPS = (
     'dashboard',
-    'modules',
+    'edxmodules',
     'mitxmako',
     'frontend',
 )
