@@ -21,9 +21,6 @@ DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
 #    'modules',
 )
 
-if DEBUG: 
-    DJ_REQUIRED_APPS = DJ_REQUIRED_APPS + ('djanalytics.modules',)
-
 # Types of parameters that queries and views can take. 
 # This is not properly used yet. 
 DJANALYTICS_PARAMETERS = ['user', 'filename']
@@ -42,8 +39,16 @@ INSTALLED_ANALYTICS_MODULES = ('edxmodules.course_stats',
                                'edxmodules.student_course_stats', 
                                'edxmodules.user_stats', 
                                'edxmodules.edx_data',)
-if DEBUG: 
-    INSTALLED_ANALYTICS_MODULES = INSTALLED_ANALYTICS_MODULES + ('djanalytics.modules.testmodule',)
+
+# Adds test cases in debug mode. 
+# Commenting out for now. Test cases are CPU-intensive in prod, and 
+# I want to confirm that this doesn't effect the servers. 
+# Right now, it also does not find templates/static files correctly. 
+# This needs to be fixed .
+# I'd like to merge this, since the code is non-shippable. 
+#if DEBUG: 
+#    DJ_REQUIRED_APPS = DJ_REQUIRED_APPS + ('djanalytics.modules',)
+#    INSTALLED_ANALYTICS_MODULES = INSTALLED_ANALYTICS_MODULES + ('djanalytics.modules.testmodule',)
 
 #Initialize celery
 import djcelery
