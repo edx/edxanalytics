@@ -87,7 +87,7 @@ def new_course_enrollment_view(fs, db, params):
 
 @query('global', 'available_courses')
 def courses_available_query(fs, db, params):
-    collection = connection['edxmodules_tasks']['student_course_stats']
+    collection = connection['edxmodules_student_course_stats_tasks']['student_course_stats']
     course_data = collection.find({}, {'course' : 1})
     r = [c['course'] for c in course_data]
     return r
