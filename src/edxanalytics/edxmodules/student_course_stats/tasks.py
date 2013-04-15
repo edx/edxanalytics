@@ -175,7 +175,7 @@ def get_student_course_stats_base(request,course, type="grades"):
         try:
             user = users_in_course_ids[i]
             current_task.update_state(state='PROGRESS', meta={'current': i, 'total': len(users_in_course_ids)})
-            student = User.objects.using('default').prefetch_related("groups").get(id=int(user))
+            student = User.objects.using('remote').prefetch_related("groups").get(id=int(user))
 
             model_data_cache = None
 
