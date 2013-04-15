@@ -1,0 +1,3 @@
+#!/bin/csh
+
+django-admin.py $* --settings=edxanalytics.settings_localocw --pythonpath=.

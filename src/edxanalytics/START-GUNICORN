@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "using settings_localocw$*"
+
+nohup gunicorn_django -t 60 -w 3 --settings=edxanalytics.settings_localocw$* --pythonpath=. --pid=gunicorn.pid --debug --bind=localhost:9022 2>>LOG.gunicorn  >> LOG.gunicorn &

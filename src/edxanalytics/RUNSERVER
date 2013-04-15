@@ -1,1 +1,2 @@
-python manage.py runserver 127.0.0.1:9022 --settings=edxanalytics.settings_local --pythonpath=. --nostatic
+echo "using settings_local$*"
+python manage.py runserver 127.0.0.1:9022 --settings=edxanalytics.settings_local$* --pythonpath=. --nostatic
