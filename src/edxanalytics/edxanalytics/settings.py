@@ -34,7 +34,7 @@ TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
 INSTALLED_ANALYTICS_MODULES = ('edxmodules.course_stats', 
 #                               'edxmodules.mixpanel', 
-                               'djanalytics.modules.testmodule',
+#                               'djanalytics.modules.testmodule',
                                'edxmodules.event_count', 
                                'edxmodules.student_course_stats', 
                                'edxmodules.user_stats', 
