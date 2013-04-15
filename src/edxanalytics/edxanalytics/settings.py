@@ -17,11 +17,12 @@ DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
     'south',
     'djanalytics.core',
     'djanalytics.modulefs',
+    'edxmodules',
 #    'modules',
 )
 
 if DEBUG: 
-    DJ_REQUIRED_APPS = DJ_REQUIRED_APPS + ('djanalytics.edxmodules',)
+    DJ_REQUIRED_APPS = DJ_REQUIRED_APPS + ('djanalytics.modules',)
 
 # Types of parameters that queries and views can take. 
 # This is not properly used yet. 

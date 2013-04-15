@@ -58,13 +58,13 @@ def event_count_query_course(fs, db, user, course, params):
 
 
 @event_handler()
-def event_count_event(fs, db, response):
-    for resp in response:
+def event_count_event(fs, db, events):
+    for event in events:
         #NOTE: IF this is uncommented, mongo has INSANE cpu usage.  Do not uncomment without fixing indexes on Mongo
         #TODO: resolve issue above
         """
         collection = db['page_count']
-        user = resp["username"]
+        user = event["username"]
         sba = list(collection.find({'user':user}))
         if len(sba):
             collection.update({'user':user}, {'$inc':{'pages':1}}, True);
