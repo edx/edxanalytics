@@ -10,11 +10,14 @@ import imp
 
 from pkg_resources import resource_filename
 
+DEBUG = True
+
 DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
     'djcelery',
     'south',
     'djanalytics.core',
     'djanalytics.modulefs',
+    'edxmodules',
 #    'modules',
 )
 
@@ -29,13 +32,23 @@ DJFS = { 'type' : 'osfs',
 
 TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
-INSTALLED_ANALYTICS_MODULES = () #'modules.testmodule',)
-INSTALLED_ANALYTICS_MODULES = ('modules.course_stats', 
-#                               'modules.mixpanel', 
-                               'modules.event_count', 
-                               'modules.student_course_stats', 
-                               'modules.user_stats', 
-                               'modules.edxcommon',)
+INSTALLED_ANALYTICS_MODULES = ('edxmodules.course_stats', 
+#                               'edxmodules.mixpanel', 
+#                               'djanalytics.modules.testmodule',
+                               'edxmodules.event_count', 
+                               'edxmodules.student_course_stats', 
+                               'edxmodules.user_stats', 
+                               'edxmodules.edx_data',)
+
+# Adds test cases in debug mode. 
+# Commenting out for now. Test cases are CPU-intensive in prod, and 
+# I want to confirm that this doesn't effect the servers. 
+# Right now, it also does not find templates/static files correctly. 
+# This needs to be fixed .
+# I'd like to merge this, since the code is non-shippable. 
+#if DEBUG: 
+#    DJ_REQUIRED_APPS = DJ_REQUIRED_APPS + ('djanalytics.modules',)
+#    INSTALLED_ANALYTICS_MODULES = INSTALLED_ANALYTICS_MODULES + ('djanalytics.modules.testmodule',)
 
 #Initialize celery
 import djcelery
@@ -91,7 +104,6 @@ else:
 
 #### Standard settings
 
-DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -282,7 +294,7 @@ BROKER_URL = 'redis://localhost:6379/0'
 BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
 CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
 CELERY_TASK_RESULT_EXPIRES = 60 * 60 #1 hour
-MODULE_DIR = "modules"
+MODULE_DIR = "edxmodules"
 
 CELERY_IMPORTS = ()
 for analytics_module in INSTALLED_ANALYTICS_MODULES:

@@ -13,7 +13,7 @@ from djanalytics.core.decorators import memoize_query, query
 from mixpanel.mixpanel import EventTracker
 import logging
 from celery.task import periodic_task
-from modules import common
+from edxmodules import common
 import datetime
 
 log=logging.getLogger(__name__)

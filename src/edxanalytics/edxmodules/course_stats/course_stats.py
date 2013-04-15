@@ -20,7 +20,7 @@ from django.utils import timezone
 from courseware.models import StudentModule
 from mitxmako.shortcuts import render_to_response, render_to_string
 
-from modules import common, tasks
+from edxmodules import common, tasks
 from djanalytics.core.decorators import view, query, event_handler, memoize_query
 import subprocess
 import re
@@ -87,7 +87,7 @@ def new_course_enrollment_view(fs, db, params):
 
 @query('global', 'available_courses')
 def courses_available_query(fs, db, params):
-    collection = connection['modules_tasks']['student_course_stats']
+    collection = connection['edxmodules_tasks']['student_course_stats']
     course_data = collection.find({}, {'course' : 1})
     r = [c['course'] for c in course_data]
     return r

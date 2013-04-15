@@ -30,7 +30,7 @@ from django.core.cache import cache
 from django.http import HttpResponse
 from django.utils.timezone import utc
 
-from modules import common
+from edxmodules import common
 from djanalytics.core.decorators import memoize_query, query
 
 log=logging.getLogger(__name__)
