@@ -113,7 +113,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 DATABASES = {
-    'default': { 
+    'default': {  ## Small, local read/write DB for things like settings, cron tasks, etc. 
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': '../../localdb.sql', # TODO: Use pkg_resources.resource_filename
         'USER': '',                      # Not used with sqlite3.
@@ -121,7 +121,7 @@ DATABASES = {
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }, 
-    'remote': { ## Small, local read/write DB for things like settings, cron tasks, etc. 
+    'remote': {  ## main MITx db
          'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
          'NAME': '{0}/db/mitx.db'.format(ENV_ROOT), # TODO: Use pkg_resources.resource_filename
          'USER': '',                      # Not used with sqlite3.
