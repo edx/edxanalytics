@@ -64,28 +64,28 @@ def problems_tried_in_course_count_view(fs, db, course, params):
 def videos_watched_in_course_count_view(fs, db, course, params):
     return str(videos_watched_in_course_count_query(fs,db,course,params)) + "videos watched in the course."
 
-@query('global', 'users_per_course_count')
+@query(name='users_per_course_count')
 def users_per_course_count_query():
     query_string = "SELECT course_id, COUNT(DISTINCT user_id) AS count FROM student_courseenrollment GROUP BY course_id"
     return common.query_results(query_string)
 
-@view('global', 'users_per_course')
+@view(name='users_per_course')
 def users_per_course_count_view():
     query_data = users_per_course_count_query()
     return common.render_query_as_table(query_data)
 
-@query('global', 'new_students')
+@query(name='new_students')
 @memoize_query(cache_time=15*60)
 def new_course_enrollment_query(fs, db, params):
     r = common.query_results("SELECT course_id,COUNT(DISTINCT student_id) FROM `courseware_studentmodule` WHERE DATE(created) >= DATE(DATE_ADD(NOW(), INTERVAL -7 DAY)) GROUP BY course_id;")
     return r
 
-@view('global', 'new_students')
+@view(name='new_students')
 def new_course_enrollment_view(fs, db, params):
     r = new_course_enrollment_query(fs,db,params)
     return common.render_query_as_table(r)
 
-@query('global', 'available_courses')
+@query(name='available_courses')
 def courses_available_query(fs, db, params):
     collection = connection['edxmodules_tasks']['student_course_stats']
     course_data = collection.find({}, {'course' : 1})

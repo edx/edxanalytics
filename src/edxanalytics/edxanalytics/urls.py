@@ -13,9 +13,10 @@ urlpatterns = patterns('',
 
     url('^tasks/', include('djcelery.urls')),
 
-    url(r'^$', 'dashboard.views.new_dashboard'),
-    url(r'^dashboard$', 'dashboard.views.dashboard'),
-    url(r'^new_dashboard$', 'dashboard.views.new_dashboard'),
+    url(r'^$', 'dashboard.views.dashboard'),
+#    url(r'^$', 'dashboard.views.new_dashboard'),
+#    url(r'^dashboard$', 'dashboard.views.dashboard'),
+#    url(r'^new_dashboard$', 'dashboard.views.new_dashboard'),
     url(r'^frontend/', include('frontend.urls')),
     # Examples:
     # url(r'^$', 'edxanalytics.views.home', name='home'),
