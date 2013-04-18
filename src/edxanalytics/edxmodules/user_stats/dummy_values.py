@@ -3,7 +3,7 @@ from djanalytics.core.decorators import view, query, event_handler, memoize_quer
 # Dummy values for queries; useful for off-line development
 # Took real queries, then changed all numbers, and reshuffled. 
 
-@query('global', 'total_user_count')
+@query(name= 'total_user_count')
 def total_user_count_query():
     return 750000
 

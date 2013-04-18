@@ -14,12 +14,12 @@ from djanalytics.core.decorators import view, query, event_handler, memoize_quer
 
 log=logging.getLogger(__name__)
 
-@view(name = 'user_count', category = 'global', args=[])
+@view(name = 'user_count', args=[])
 @memoize_query(cache_time=1)
 def total_user_count_view():
     return "The system has "+str(total_user_count_query()) + " users total"
 
-@query('global', 'total_user_count')
+@query(name='total_user_count')
 def total_user_count_query():
     return User.objects.count()
 
@@ -61,7 +61,7 @@ def total_course_enrollment_query(fs, db, params):
     r = query_results("SELECT course_id,COUNT(DISTINCT user_id) AS students FROM student_courseenrollment GROUP BY course_id;")
     return r
 
-@query(name = 'active_students', category = 'global')
+@query(name = 'active_students')
 def active_course_enrollment_query(fs, db, params):
     r = query_results("SELECT course_id,COUNT(DISTINCT student_id) FROM `courseware_studentmodule` WHERE DATE(modified) >= DATE(DATE_ADD(NOW(), INTERVAL -7 DAY)) GROUP BY course_id;")
     return r
@@ -92,7 +92,7 @@ def active_user_plot(fs, db, params):
 #### IN PROGRESS
 
 
-@query('global', 'enrolled_user_count')
+@query(name='enrolled_user_count')
 def enrolled_user_count_query(fs, db, params):
     queries=[]
     queries.append("select count(distinct user_id) as unique_students from student_courseenrollment;")
@@ -105,11 +105,11 @@ def enrolled_user_count_query(fs, db, params):
 
     return results
 
-@query('global', 'per_course_user_count')
+@query(name='per_course_user_count')
 def per_course_user_count():
     queries.append("select count(user_id) as students, course_id from student_courseenrollment group by course_id order by students desc;")
 
-@query('global', 'course_enrollment_histogram')
+@query(name='course_enrollment_histogram')
 def course_enrollment_histogram():
     queries.append("select registrations, count(registrations) from (select count(user_id) as registrations from student_courseenrollment group by user_id) as registrations_per_user group by registrations;")
 

@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+<table>
+<tr>
+<select size=40 id="asid">
+% for item in analytics:
+   <option>${item}</option>
+% endfor
+</select>
+</tr>
+<tr>
+<iframe height=640 width=640 id=afrid>
+</iframe>
+</tr>
+</table>
+<script>
+$("#asid").change(function() {
+  $("#asid option:selected").each(function() {
+    $("#afrid").attr("src", "/view/selector_dash?analytic="+$(this).text())
+  });
+});
+</script>
+</body>
+</html>
+
