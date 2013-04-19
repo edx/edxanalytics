@@ -38,6 +38,7 @@ INSTALLED_ANALYTICS_MODULES = ('edxmodules.course_stats',
                                'edxmodules.event_count', 
                                'edxmodules.student_course_stats', 
                                'edxmodules.user_stats', 
+                               'edxmodules.dash',
                                'edxmodules.edx_data',)
 
 # Adds test cases in debug mode. 
