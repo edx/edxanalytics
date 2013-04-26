@@ -39,7 +39,8 @@ INSTALLED_ANALYTICS_MODULES = ('edxmodules.course_stats',
                                'edxmodules.student_course_stats', 
                                'edxmodules.user_stats', 
                                'edxmodules.dash',
-                               'edxmodules.edx_data',)
+                               'edxmodules.edx_data',
+                               'edxmodules.autocomplete',)
 
 # Adds test cases in debug mode. 
 # Commenting out for now. Test cases are CPU-intensive in prod, and 
@@ -58,7 +59,7 @@ djcelery.setup_loader()
 SNS_SUBSCRIPTIONS = []
 
 import django.contrib.auth.decorators
-DJA_AUTH = { '.*' : django.contrib.auth.decorators.login_required } 
+#DJA_AUTH = { '.*' : django.contrib.auth.decorators.login_required } 
 
 #### Remaining settings
 

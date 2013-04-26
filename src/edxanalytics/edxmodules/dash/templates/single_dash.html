@@ -24,10 +24,18 @@ $("#update").click(function(){
   $("#innermost").attr("src", "/view/${ analytic }?"+query)
 })
 $(function(){
+  // If there are no parameters, automatically load
   if(!$(".param_input").length) {
     $("#innermost").attr("src", "/view/${ analytic }")
   }
-});
+
+//  http://127.0.0.1:8000/query/autocomplete_available
+
+  // If there are parameters, set up autocomplete
+  $(".param_input").each(function(){
+    $("#"+this.id).autocomplete({source:["bob","joe"]});
+    });
+  });
 </script>
 </body>
 </html>
