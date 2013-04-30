@@ -13,7 +13,7 @@ class MITxRouter(object):
     def db_for_read(self, model, **hints):
         if model._meta.app_label in ['student','courseware', 'contenttypes']:
             return 'remote'
-        elif model._meta.app_label in ['an_evt','edxmodules', 'djmodules', 'cronjobs', 'celery', 'sessions', 'auth', 'django_cache', 'south', 'sites']:
+        elif model._meta.app_label in ['an_evt','edxmodules', 'prototypemodules', 'djmodules', 'cronjobs', 'celery', 'sessions', 'auth', 'django_cache', 'south', 'sites']:
             return 'default'
         else:
             log.error("We need to explicitly route: {0}".format(model._meta.app_label))

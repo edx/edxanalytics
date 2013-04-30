@@ -17,7 +17,7 @@ DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
     'south',
     'djanalytics.core',
     'djanalytics.modulefs',
-    'edxmodules',
+    'prototypemodules',
 #    'modules',
 )
 
@@ -32,15 +32,15 @@ DJFS = { 'type' : 'osfs',
 
 TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
-INSTALLED_ANALYTICS_MODULES = ('edxmodules.course_stats', 
-#                               'edxmodules.mixpanel', 
+INSTALLED_ANALYTICS_MODULES = ('prototypemodules.course_stats', 
+#                               'prototypemodules.mixpanel', 
 #                               'djanalytics.modules.testmodule',
-                               'edxmodules.event_count', 
-                               'edxmodules.student_course_stats', 
-                               'edxmodules.user_stats', 
+                               'prototypemodules.event_count', 
+                               'prototypemodules.student_course_stats', 
+                               'prototypemodules.user_stats', 
                                'edxmodules.dash',
-                               'edxmodules.edx_data',
-                               'edxmodules.autocomplete',)
+                               'prototypemodules.edx_data',
+                               'prototypemodules.autocomplete',)
 
 # Adds test cases in debug mode. 
 # Commenting out for now. Test cases are CPU-intensive in prod, and 
@@ -296,7 +296,7 @@ BROKER_URL = 'redis://localhost:6379/0'
 BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
 CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
 CELERY_TASK_RESULT_EXPIRES = 60 * 60 #1 hour
-MODULE_DIR = "edxmodules"
+MODULE_DIR = "prototypemodules"
 
 CELERY_IMPORTS = ()
 for analytics_module in INSTALLED_ANALYTICS_MODULES:
