@@ -18,7 +18,7 @@ DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
     'djanalytics.core',
     'djanalytics.modulefs',
     'prototypemodules',
-#    'modules',
+    'djanalytics.modules',
 )
 
 # Types of parameters that queries and views can take. 
@@ -34,7 +34,7 @@ TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
 INSTALLED_ANALYTICS_MODULES = ('prototypemodules.course_stats', 
 #                               'prototypemodules.mixpanel', 
-#                               'djanalytics.modules.testmodule',
+                               'djanalytics.modules.testmodule',
                                'prototypemodules.event_count', 
                                'prototypemodules.student_course_stats', 
                                'prototypemodules.user_stats', 
@@ -205,6 +205,7 @@ STATICFILES_DIRS = (
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'djanalytics.core.render.ModuleFileFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 

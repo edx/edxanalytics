@@ -49,5 +49,5 @@ else:
 
 ## TODO: Confirm these work with new settings.py, confirm they're
 ## helpful
-handler404 = 'error_templates.render_404'
-handler500 = 'error_templates.render_500'
+#handler404 = 'error_templates.render_404'
+#handler500 = 'error_templates.render_500'

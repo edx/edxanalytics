@@ -26,7 +26,7 @@ def render_to_string(template_name, dictionary, context=None, namespace='main'):
     # collapse context_instance to a single dictionary for mako
     context_dictionary = {}
     context_instance['settings'] = settings
-    context_instance['MITX_ROOT_URL'] = settings.MITX_ROOT_URL
+#    context_instance['MITX_ROOT_URL'] = settings.MITX_ROOT_URL
 
     # In various testing contexts, there might not be a current request context.
     if middleware.requestcontext is not None:
