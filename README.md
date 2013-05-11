@@ -9,8 +9,17 @@ repository. This repository contains:
 
 Eventually, these will most likely be split into seperate repos. 
 
-I am in the process of integrating this on top of djanalytics. This
-process is not quite finished. 
+The primary goal of this project was to generate use-cases for the
+development of djanalytics, as well as figure out how to integrate it
+into the main system. As a result, the code is, in many modules, in
+very bad shape, or does not work at all (e.g. when we ran into a
+use-case which djanalytics could not support).
+
+Our goal is to make a pass over this code, and: 
+ * Strip out bad code. 
+ * Fix code calling obsolete APIs. 
+At this point, this will form a first version of the edX psychometrics
+platform.
 
 Hacks
 -----
@@ -19,12 +28,8 @@ Most are documented with HACK/TODO, but global ones:
 
 * Local libraries still here. MITx imports still here. Didn't have
   time to deal with cleaning this up.
-* Removed pipeline. This isn't intended as an aggressive move. I
-  simply could not make it work reliably on my system, and I did it
-  out of expediency so I could work. We can discuss/readd.
 * mitxmako is in tree. This should be its own library. 
-* Deployment stuff is still in-tree. Moved into an edxdeployment
-  directory.
+* Deployment stuff is still in-tree. 
 * Database routing is not there yet. We need to swap local/default to
   default/remote. IN PARTICULAR: Authentication is in the system
   now. I do not understand the best way to handle this. We have
