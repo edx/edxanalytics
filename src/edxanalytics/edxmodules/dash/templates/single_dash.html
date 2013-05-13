@@ -33,9 +33,18 @@ $(function(){
 
   // If there are parameters, set up autocomplete
   $(".param_input").each(function(){
-    $("#"+this.id).autocomplete({source:["bob","joe"]});
+    var input_x = this.id;
+    console.log("Calling JSON");
+    $.getJSON("http://127.0.0.1:8000/query/user_autocomplete?autocomplete=f", 
+        function(data) { 
+           console.log("JSON came back");
+           $("#"+input_x).autocomplete({source:data}); 
+           console.log("Autocomplete for "+this.id+" set up with");
+           console.log(data);
+           //$("#"+this.id).autocomplete({source:["bob","joe"]});
+        } );
     });
-  });
+ });
 </script>
 </body>
 </html>

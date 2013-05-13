@@ -9,7 +9,6 @@ def selector_dash(view, analytic):
     '''
     from djanalytics.core.render import render
     f = view.__getattr__(analytic)
-    ## TODO: This should be kwargs
     params = inspect.getargspec(f).args 
     return render("single_dash.html", {'parameters' : params, 
                                        'analytic' : analytic})
@@ -19,5 +18,4 @@ def dash(view):
     ''' Show a list of analytics, wrapped in selector_dash '''
     from djanalytics.core.render import render
     analytics = view.__dir__()
-    print analytics
     return render("full_dash.html", {'analytics' : analytics})
