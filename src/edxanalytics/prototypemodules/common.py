@@ -34,7 +34,7 @@ def get_db_and_fs_cron(f): ### HACK
     db - A mongo database collection
     """
     import djanalytics.core.helpers
-    db = djanalytics.core.helpers.get_database(f)
+    db = djanalytics.core.helpers.get_mongo(f)
     fs = djanalytics.core.helpers.get_filesystem(f)
     return fs,db
 

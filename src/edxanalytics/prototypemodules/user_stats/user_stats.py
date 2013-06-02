@@ -24,8 +24,8 @@ def total_user_count_query():
     return User.objects.count()
 
 @view(name = 'course_enrollment')
-def total_course_enrollment(fs, db,params):
-    data = total_course_enrollment_query(fs, db, params)
+def total_course_enrollment(fs, mongodb,params):
+    data = total_course_enrollment_query(fs, mongodb, params)
     course_enrollment_unis = []
     course_enrollment_courses = { }
     course_enrollment_terms = { };
@@ -54,27 +54,27 @@ def total_course_enrollment(fs, db,params):
                     course_enrollment_terms_by_course[uni][course][term] = data['students'][i]
                   
     return render_to_response('user_stats_course_enrollment.html', { 'unis': course_enrollment_unis, 'courses': course_enrollment_courses, 'terms': course_enrollment_terms, 'courses_by_term': course_enrollment_courses_by_term, 'terms_by_course': course_enrollment_terms_by_course })
-    #return json.dumps(total_course_enrollment_query(fs, db, params), indent=2)
+    #return json.dumps(total_course_enrollment_query(fs, mongodb, params), indent=2)
 
 @query(name = 'course_enrollment')
-def total_course_enrollment_query(fs, db, params):
+def total_course_enrollment_query(fs, mongodb, params):
     r = query_results("SELECT course_id,COUNT(DISTINCT user_id) AS students FROM student_courseenrollment GROUP BY course_id;")
     return r
 
 @query(name = 'active_students')
-def active_course_enrollment_query(fs, db, params):
+def active_course_enrollment_query(fs, mongodb, params):
     r = query_results("SELECT course_id,COUNT(DISTINCT student_id) FROM `courseware_studentmodule` WHERE DATE(modified) >= DATE(DATE_ADD(NOW(), INTERVAL -7 DAY)) GROUP BY course_id;")
     return r
 
 @view(name = 'active_students')
-def active_course_enrollment_view(fs, db,params):
+def active_course_enrollment_view(fs, mongodb,params):
     ''' Student who were active in the course in the past week
     '''
     ''' UNTESTED '''
-    return json.dumps(active_course_enrollment_query(fs, db, params), indent=2)
+    return json.dumps(active_course_enrollment_query(fs, mongodb, params), indent=2)
 
 @view(name = 'active_plot')
-def active_user_plot(fs, db, params):
+def active_user_plot(fs, mongodb, params):
     return "Unimplemented"
     u=list(User.objects.all())
     ul = u[:200]
@@ -93,7 +93,7 @@ def active_user_plot(fs, db, params):
 
 
 @query(name='enrolled_user_count')
-def enrolled_user_count_query(fs, db, params):
+def enrolled_user_count_query(fs, mongodb, params):
     queries=[]
     queries.append("select count(distinct user_id) as unique_students from student_courseenrollment;")
     from django.db import connection

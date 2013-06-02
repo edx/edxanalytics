@@ -8,19 +8,19 @@ log=logging.getLogger(__name__)
 #from djanalytics.models import StudentBookAccesses
 
 @view(name = 'page_count')
-def event_count_view(fs, db, user, params):
+def event_count_view(fs, mongodb, user, params):
     ''' Dummy test function. In the future, this should return some stats on 
     how many textbook pages the user saw '''
-    return "The user " + user + " saw "+str(event_count_query(fs, db, user, params))+" pages!"
+    return "The user " + user + " saw "+str(event_count_query(fs, mongodb, user, params))+" pages!"
 
 @query('user', 'page_count')
-def event_count_query(fs, db, user, params):
+def event_count_query(fs, mongodb, user, params):
     ''' Dummy test function. In the future, this should return some stats on 
     how many textbook pages the user saw '''
     if settings.DUMMY_MODE:
         return sum(map(ord, user))
 
-    collection = db['page_count']
+    collection = mongodb['page_count']
     sba = list(collection.find({'user':user}))
     if len(sba) == 0:
         return 0
@@ -34,16 +34,16 @@ def event_count_query(fs, db, user, params):
     #return pages
 
 @view(name = 'page_count')
-def event_count_view_course(fs, db, user, course, params):
+def event_count_view_course(fs, mongodb, user, course, params):
     ''' Dummy test function. In the future, this should return some stats on
     how many textbook pages the user saw '''
-    return "The user " + user + " saw "+str(event_count_query_course(fs, db, user, course, params))+" pages!"
+    return "The user " + user + " saw "+str(event_count_query_course(fs, mongodb, user, course, params))+" pages!"
 
 @query(name='page_count')
-def event_count_query_course(fs, db, user, course, params):
+def event_count_query_course(fs, mongodb, user, course, params):
     ''' Dummy test function. In the future, this should return some stats on
     how many textbook pages the user saw '''
-    collection = db['page_count']
+    collection = mongodb['page_count']
     sba = list(collection.find({'user':user}))
     if len(sba) == 0:
         return 0
@@ -58,12 +58,12 @@ def event_count_query_course(fs, db, user, course, params):
 
 
 @event_handler()
-def event_count_event(fs, db, events):
+def event_count_event(fs, mongodb, events):
     for event in events:
         #NOTE: IF this is uncommented, mongo has INSANE cpu usage.  Do not uncomment without fixing indexes on Mongo
         #TODO: resolve issue above
         """
-        collection = db['page_count']
+        collection = mongodb['page_count']
         user = event["username"]
         sba = list(collection.find({'user':user}))
         if len(sba):

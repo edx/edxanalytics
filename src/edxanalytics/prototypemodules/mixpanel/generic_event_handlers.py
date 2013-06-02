@@ -53,7 +53,7 @@ def extract_course_and_org(event_data):
     return org,course,name
 
 @event_handler()
-def single_page_track_event(fs, db, response):
+def single_page_track_event(fs, mongodb, response):
     mixpanel_data = []
     for resp in response:
         try:
@@ -76,7 +76,7 @@ def single_page_track_event(fs, db, response):
     track_event_mixpanel_batch.delay(mixpanel_data)
 
 @event_handler()
-def course_track_event(fs,db,response):
+def course_track_event(fs,mongodb,response):
     mixpanel_data =[]
     for resp in response:
         try:

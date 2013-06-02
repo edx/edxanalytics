@@ -29,40 +29,40 @@ connection = MongoClient()
 log=logging.getLogger(__name__)
 
 @query('course', 'total_user_count')
-def users_in_course_count_query(fs, db, course,params):
-    return users_in_course_query(fs,db,course,params).count()
+def users_in_course_count_query(fs, mongodb, course,params):
+    return users_in_course_query(fs,mongodb,course,params).count()
 
 @query('course', 'all_users')
-def users_in_course_query(fs, db, course,params):
+def users_in_course_query(fs, mongodb, course,params):
     return StudentModule.objects.filter(course_id=course).values('student').distinct()
 
 @query('course', 'modules_accessed_count')
-def modules_accessed_in_course_count_query(fs, db, course, params):
+def modules_accessed_in_course_count_query(fs, mongodb, course, params):
     return StudentModule.objects.filter(course_id=course).count()
 
 @query('course', 'problems_tried_count')
-def problems_tried_in_course_count_query(fs, db, course, params):
+def problems_tried_in_course_count_query(fs, mongodb, course, params):
     return StudentModule.objects.filter(course_id=course,module_type="problem").count()
 
 @query('course', 'video_watch_count')
-def videos_watched_in_course_count_query(fs, db, course, params):
+def videos_watched_in_course_count_query(fs, mongodb, course, params):
     return StudentModule.objects.filter(course_id=course,module_type="video").count()
 
 @view('course', 'total_user_count')
-def users_in_course_count_view(fs, db, course, params):
-    return "The system has "+str(users_in_course_count_query(fs,db,course,params)) + " users total"
+def users_in_course_count_view(fs, mongodb, course, params):
+    return "The system has "+str(users_in_course_count_query(fs,mongodb,course,params)) + " users total"
 
 @view('course', 'modules_accessed_count')
-def modules_accessed_in_course_count_view(fs, db, course, params):
-    return str(modules_accessed_in_course_count_query(fs,db,course,params)) + " modules accessed in the course."
+def modules_accessed_in_course_count_view(fs, mongodb, course, params):
+    return str(modules_accessed_in_course_count_query(fs,mongodb,course,params)) + " modules accessed in the course."
 
 @view('course', 'problems_tried_count')
-def problems_tried_in_course_count_view(fs, db, course, params):
-    return str(problems_tried_in_course_count_query(fs,db,course,params)) + " problems tried in the course."
+def problems_tried_in_course_count_view(fs, mongodb, course, params):
+    return str(problems_tried_in_course_count_query(fs,mongodb,course,params)) + " problems tried in the course."
 
 @view('course', 'video_watch_count')
-def videos_watched_in_course_count_view(fs, db, course, params):
-    return str(videos_watched_in_course_count_query(fs,db,course,params)) + "videos watched in the course."
+def videos_watched_in_course_count_view(fs, mongodb, course, params):
+    return str(videos_watched_in_course_count_query(fs,mongodb,course,params)) + "videos watched in the course."
 
 @query(name='users_per_course_count')
 def users_per_course_count_query():
@@ -76,60 +76,60 @@ def users_per_course_count_view():
 
 @query(name='new_students')
 @memoize_query(cache_time=15*60)
-def new_course_enrollment_query(fs, db, params):
+def new_course_enrollment_query(fs, mongodb, params):
     r = common.query_results("SELECT course_id,COUNT(DISTINCT student_id) FROM `courseware_studentmodule` WHERE DATE(created) >= DATE(DATE_ADD(NOW(), INTERVAL -7 DAY)) GROUP BY course_id;")
     return r
 
 @view(name='new_students')
-def new_course_enrollment_view(fs, db, params):
-    r = new_course_enrollment_query(fs,db,params)
+def new_course_enrollment_view(fs, mongodb, params):
+    r = new_course_enrollment_query(fs,mongodb,params)
     return common.render_query_as_table(r)
 
 @query(name='available_courses')
-def courses_available_query(fs, db, params):
+def courses_available_query(fs, mongodb, params):
     collection = connection['prototypemodules_student_course_stats_tasks']['student_course_stats']
     course_data = collection.find({}, {'course' : 1})
     r = [c['course'] for c in course_data]
     return r
 
 @view('course', 'student_grades')
-def course_grades_view(fs, db, course, params):
+def course_grades_view(fs, mongodb, course, params):
     """
     View student course-level grades
     fs - filesystem
-    db - mongo collection
+    mongodb - mongo collection
     course - string course id
     """
     data_type="course_grades"
-    fs, db = common.get_db_and_fs_cron(common.student_course_stats_stub) # WTF? 
-    return course_grades_view_base(fs, db, course, data_type,params)
+    fs, mongodb = common.get_db_and_fs_cron(common.student_course_stats_stub) # WTF? 
+    return course_grades_view_base(fs, mongodb, course, data_type,params)
 
 @view('course', 'student_problem_grades')
-def problem_grades_view(fs, db, course, params):
+def problem_grades_view(fs, mongodb, course, params):
     """
     View student exercise-level grades
     fs - filesystem
-    db - mongo collection
+    mongodb - mongo collection
     course - string course id
     """
     data_type="problem_grades"
-    fs, db = common.get_db_and_fs_cron(common.student_problem_stats_stub) # WTF? 
-    return course_grades_view_base(fs, db, course, data_type,params)
+    fs, mongodb = common.get_db_and_fs_cron(common.student_problem_stats_stub) # WTF? 
+    return course_grades_view_base(fs, mongodb, course, data_type,params)
 
 def course_grades_view_base(fs, db, course, data_type,params):
     """
     Base logic to generate charts for course grade views.
     fs - filesystem
-    db - mongo collection
+    mongodb - mongo collection
     course - string course id
     data_type - either "course_grades" which returns weighted scores, or "problem_grades" which returns unweighted.
     """
     y_label = "Count"
     if data_type=="course_grades":
-        query_data = course_grades_query(fs,db,course, params)
+        query_data = course_grades_query(fs,mongodb,course, params)
         x_label = "Weighted Percentage"
     else:
-        query_data = problem_grades_query(fs,db,course, params)
+        query_data = problem_grades_query(fs,mongodb,course, params)
         x_label = "Unweighted Percentage"
     json_data = query_data['json']
     updated = json_data['updated']
@@ -170,11 +170,11 @@ def course_grades_view_base(fs, db, course, data_type,params):
     full_view = django.template.loader.render_to_string("grade_distribution/grade_distribution_container.html",full_context)
     return HttpResponse(full_view)
 
-def course_grades_query_base(fs,db,course, params, data_type="course"):
+def course_grades_query_base(fs,mongodb,course, params, data_type="course"):
     """
     Base logic to query all student grades for a given course.  Returns a dictionary.
     fs- file system
-    db- mongo collection
+    mongodb- mongo collection
     course - string course id
     data_type - either "course" or "problem".  "course" will return weighted grades, "problem" unweighted.
     """
@@ -183,12 +183,12 @@ def course_grades_query_base(fs,db,course, params, data_type="course"):
         'problem' : ['student_problem_stats', 'student_problem_grades']
     }
     type_list = types[data_type]
-    collection = db[type_list[0]]
+    collection = mongodb[type_list[0]]
     course_name = re.sub("[/:]","_",course)
     json_data = list(collection.find({'course' : course}))
 
     if len(json_data)<1:
-        return {'success' : False, 'message' : "Cannot find the course in the list or data not available." , 'courses' : courses_available_query(fs,db,params)}
+        return {'success' : False, 'message' : "Cannot find the course in the list or data not available." , 'courses' : courses_available_query(fs,mongodb,params)}
     json_data = json_data[0]
 
     json_data = {k:json_data[k] for k in json_data if k in ["course", "updated", "results"]}
@@ -198,22 +198,22 @@ def course_grades_query_base(fs,db,course, params, data_type="course"):
     return {'csv' : csv_url, 'json' : json_data, 'success' : True}
 
 @query('course', 'student_grades')
-def course_grades_query(fs,db,course, params):
+def course_grades_query(fs,mongodb,course, params):
     """
     Query all student weighted grades for a given course
     fs- file system
-    db- mongo collection
+    mongodb- mongo collection
     course - string course id
     """
-    return course_grades_query_base(fs,db,course,params,data_type="course")
+    return course_grades_query_base(fs,mongodb,course,params,data_type="course")
 
 @query('course', 'student_problem_grades')
-def problem_grades_query(fs,db,course, params):
+def problem_grades_query(fs,mongodb,course, params):
     """
     Query all student unweighted grades for a given course
     fs- file system
-    db- mongo collection
+    mongodb- mongo collection
     course - string course id
     """
-    return course_grades_query_base(fs,db,course,params,data_type="problem")
+    return course_grades_query_base(fs,mongodb,course,params,data_type="problem")
 

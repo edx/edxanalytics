@@ -34,7 +34,7 @@ def foo():
     """
     An example of a periodic task.  Uncomment the periodic_task decorator to run this every 10 seconds.
     """
-    fs,db = get_db_and_fs_cron(foo)
+    fs,mongodb = get_db_and_fs_cron(foo)
     print "Test"
 
 @memoize_query
@@ -43,7 +43,7 @@ def foo2():
     """
     An example of a periodic task.  Uncomment the periodic_task decorator to run this every 10 seconds.
     """
-    fs,db = get_db_and_fs_cron(foo2)
+    fs,mongodb = get_db_and_fs_cron(foo2)
     print "Another Test"
 
 def get_db_and_fs_cron(f):
@@ -51,10 +51,10 @@ def get_db_and_fs_cron(f):
     Gets the correct fs and db for a given input function
     f - a function signature
     fs - A filesystem object
-    db - A mongo database collection
+    mongodb - A mongo database collection
     """
     import djanalytics.core.helpers
-    db = djanalytics.core.helpers.get_database(f)
+    mongodb = djanalytics.core.helpers.get_mongo(f)
     fs = djanalytics.core.helpers.get_filesystem(f)
-    return fs,db
+    return fs,mongodb
 

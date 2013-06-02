@@ -8,7 +8,7 @@ def total_user_count_query():
     return 750000
 
 @query(name = 'course_enrollment')
-def total_course_enrollment_query(fs, db, params):
+def total_course_enrollment_query(fs, mongodb, params):
     return {'course_id': (u'BerkeleyX/CS169.1x/2012_Fall',
                           u'BerkeleyX/CS169.1x/2013_Spring',
                           u'BerkeleyX/CS169.2x/2012_Fall',
@@ -75,7 +75,7 @@ def total_course_enrollment_query(fs, db, params):
 # Note: This query takes a few minutes
 @query(name = 'active_students', category = 'global')
 @memoize_query(cache_time=15*60)
-def active_course_enrollment_query(fs, db, params):
+def active_course_enrollment_query(fs, mongodb, params):
     import time
     time.sleep(15)
     return {'COUNT(DISTINCT student_id)': (121L,
