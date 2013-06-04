@@ -21,7 +21,7 @@ from courseware.models import StudentModule
 from mitxmako.shortcuts import render_to_response, render_to_string
 
 from prototypemodules import common, tasks
-from djanalytics.core.decorators import view, query, event_handler, memoize_query
+from edinsights.core.decorators import view, query, event_handler, memoize_query
 import subprocess
 import re
 

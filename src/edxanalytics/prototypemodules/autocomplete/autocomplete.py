@@ -1,4 +1,4 @@
-from djanalytics.core.decorators import query
+from edinsights.core.decorators import query
 
 @query()
 def autocomplete_available():

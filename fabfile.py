@@ -25,7 +25,7 @@ def deploy():
     #Edit if you are using this for deployment
     ea_dir = '/opt/wwc/edxanalytics'
     ea_src_dir = ea_dir + "/src/edxanalytics"
-    dja_dir = '/opt/wwc/djanalytics'
+    dja_dir = '/opt/wwc/edinsights'
     dje_dir = '/opt/wwc/djeventstream'
     mitx_code_dir = '/opt/wwc/mitx'
     up_one_level_dir = '/opt/wwc'
@@ -70,7 +70,7 @@ def deploy():
             with cd(up_one_level_dir):
                 #TODO: Insert repo name here
                 run('git clone git@github.com:edx/djeventstream.git')
-                run('git clone git@github.com:MITx/djanalytics.git')
+                run('git clone git@github.com:MITx/edinsights.git')
                 run('git clone git@github.com:MITx/edxanalytics.git')
 
         #Check for the existence of the mitx repo

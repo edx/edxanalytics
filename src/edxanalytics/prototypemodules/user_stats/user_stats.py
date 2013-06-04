@@ -10,7 +10,7 @@ from django.utils import timezone
 from courseware.models import StudentModule
 from mitxmako.shortcuts import render_to_response, render_to_string
 from prototypemodules.common import query_results
-from djanalytics.core.decorators import view, query, event_handler, memoize_query
+from edinsights.core.decorators import view, query, event_handler, memoize_query
 
 log=logging.getLogger(__name__)
 

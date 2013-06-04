@@ -1,11 +1,11 @@
 import logging
 from django.conf import settings
 from mitxmako.shortcuts import render_to_response, render_to_string
-from djanalytics.core.decorators import view, query, event_handler
+from edinsights.core.decorators import view, query, event_handler
 
 log=logging.getLogger(__name__)
 
-#from djanalytics.models import StudentBookAccesses
+#from edinsights.models import StudentBookAccesses
 
 @view(name = 'page_count')
 def event_count_view(fs, mongodb, user, params):

@@ -2,7 +2,7 @@ edxanalytics
 ============
 
 This is a prototype version of the user-side of an analytics framework
-for edX. Most documentation for the framework is in the djanalytics
+for edX. Most documentation for the framework is in the edinsights
 repository. This repository contains:
 * The edX-specific modules
 * The dashboard/UX code. 
@@ -10,10 +10,10 @@ repository. This repository contains:
 Eventually, these will most likely be split into seperate repos. 
 
 The primary goal of this project was to generate use-cases for the
-development of djanalytics, as well as figure out how to integrate it
+development of edinsights, as well as figure out how to integrate it
 into the main system. As a result, the code is, in many modules, in
 very bad shape, or does not work at all (e.g. when we ran into a
-use-case which djanalytics could not support).
+use-case which edinsights could not support).
 
 Our goal is to make a pass over this code, and: 
  * Strip out bad code. 

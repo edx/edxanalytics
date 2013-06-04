@@ -1,6 +1,6 @@
 # Django settings for edxanalytics project.
 
-#### djanalytics-specific settings
+#### edinsights-specific settings
 
 import datetime
 import os.path
@@ -15,10 +15,10 @@ DEBUG = True
 DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
     'djcelery',
     'south',
-    'djanalytics.core',
-    'djanalytics.modulefs',
+    'edinsights.core',
+    'edinsights.modulefs',
     'prototypemodules',
-    'djanalytics.modules',
+    'edinsights.modules',
 )
 
 # Types of parameters that queries and views can take. 
@@ -34,7 +34,7 @@ TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
 INSTALLED_ANALYTICS_MODULES = ('prototypemodules.course_stats', 
 #                               'prototypemodules.mixpanel', 
-                               'djanalytics.modules.testmodule',
+                               'edinsights.modules.testmodule',
                                'prototypemodules.event_count', 
                                'prototypemodules.student_course_stats', 
                                'prototypemodules.user_stats', 
@@ -49,8 +49,8 @@ INSTALLED_ANALYTICS_MODULES = ('prototypemodules.course_stats',
 # This needs to be fixed .
 # I'd like to merge this, since the code is non-shippable. 
 #if DEBUG: 
-#    DJ_REQUIRED_APPS = DJ_REQUIRED_APPS + ('djanalytics.modules',)
-#    INSTALLED_ANALYTICS_MODULES = INSTALLED_ANALYTICS_MODULES + ('djanalytics.modules.testmodule',)
+#    DJ_REQUIRED_APPS = DJ_REQUIRED_APPS + ('edinsights.modules',)
+#    INSTALLED_ANALYTICS_MODULES = INSTALLED_ANALYTICS_MODULES + ('edinsights.modules.testmodule',)
 
 #Initialize celery
 import djcelery
@@ -67,7 +67,7 @@ LOGIN_REDIRECT_URL = "/"
 MAKO_MODULE_DIR = '../../compiled_templates' # TODO: Use pkg_resources.resource_filename
 MAKO_TEMPLATES = {'main': 'templates'}
 DUMMY_MODE = False # Slight TODO: This send back fake data from queries for off-line development
-# DATABASE_ROUTERS = ['djanalytics.djanalytics.router.DatabaseRouter'] # TODO
+# DATABASE_ROUTERS = ['edinsights.edinsights.router.DatabaseRouter'] # TODO
 PROTECTED_DATA_ROOT = os.path.abspath("../../protected_data") # TODO: Use pkg_resources.resource_filename
 
 BASE_DIR = os.path.abspath(os.path.join(__file__, "..", "..", ".."))
@@ -205,7 +205,7 @@ STATICFILES_DIRS = (
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    'djanalytics.core.render.ModuleFileFinder',
+    'edinsights.core.render.ModuleFileFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 

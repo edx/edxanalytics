@@ -3,7 +3,7 @@
 ### so this module should not be included in settings.py without
 ### further testing.
 
-from djanalytics.core.decorators import event_property
+from edinsights.core.decorators import event_property
 
 @event_property(name="agent")
 def agent(event):

@@ -1,4 +1,4 @@
-from djanalytics.core.decorators import query, event_handler
+from edinsights.core.decorators import query, event_handler
 
 @query()
 def user_autocomplete(user):

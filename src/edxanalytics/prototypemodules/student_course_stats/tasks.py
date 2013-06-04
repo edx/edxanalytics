@@ -31,7 +31,7 @@ from django.http import HttpResponse
 from django.utils.timezone import utc
 
 from prototypemodules import common
-from djanalytics.core.decorators import memoize_query, query
+from edinsights.core.decorators import memoize_query, query
 
 log=logging.getLogger(__name__)
 

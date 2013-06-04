@@ -6,7 +6,7 @@ from django.conf import settings
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    url('^', include('djanalytics.core.urls')),
+    url('^', include('edinsights.core.urls')),
 
     url(r'^httpevent$', 'djeventstream.httphandler.views.http_view'),
     url(r'^snsevent$', 'djeventstream.snshandler.views.sns_view'),

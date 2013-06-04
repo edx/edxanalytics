@@ -3,13 +3,13 @@ In order to install the minimal working analytics configuration:
 First, decide on your directories:
 * VIRTUALENV_DIR = directory where you create your python virtualenv.
 * BASE_DIR = directory you start in before cloning the analytics repo. (so something like /home/bob)
-* DJANALYTICS_DIR = directory where the djanalytics repo is cloned. (so something like /home/bob/djanalytics/)
+* DJANALYTICS_DIR = directory where the edinsights repo is cloned. (so something like /home/bob/edinsights/)
 * EDXANALYTICS_DIR = directory where the edxanalytics repo is cloned (so something like /home/bob/edxanalytics/)
 
 Then, start to install:
 * cd BASE_DIR
-* git clone git@github.com:MITx/djanalytics.git
-* cd djanalytics (this is the DJANALYTICS_DIR)
+* git clone git@github.com:MITx/edinsights.git
+* cd edinsights (this is the DJANALYTICS_DIR)
 * sudo xargs -a apt-packages.txt apt-get install
 * sudo apt-get remove python-virtualenv python-pip
 * sudo easy_install pip

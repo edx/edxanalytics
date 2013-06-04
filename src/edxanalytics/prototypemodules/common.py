@@ -33,9 +33,9 @@ def get_db_and_fs_cron(f): ### HACK
     fs - A filesystem object
     db - A mongo database collection
     """
-    import djanalytics.core.helpers
-    db = djanalytics.core.helpers.get_mongo(f)
-    fs = djanalytics.core.helpers.get_filesystem(f)
+    import edinsights.core.helpers
+    db = edinsights.core.helpers.get_mongo(f)
+    fs = edinsights.core.helpers.get_filesystem(f)
     return fs,db
 
 def student_course_stats_stub():

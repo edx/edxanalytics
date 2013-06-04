@@ -9,7 +9,7 @@ It can also contain global tasks.
 """
 
 from celery import task
-from djanalytics.core.decorators import memoize_query, query
+from edinsights.core.decorators import memoize_query, query
 from mixpanel.mixpanel import EventTracker
 import logging
 from celery.task import periodic_task
@@ -53,8 +53,8 @@ def get_db_and_fs_cron(f):
     fs - A filesystem object
     mongodb - A mongo database collection
     """
-    import djanalytics.core.helpers
-    mongodb = djanalytics.core.helpers.get_mongo(f)
-    fs = djanalytics.core.helpers.get_filesystem(f)
+    import edinsights.core.helpers
+    mongodb = edinsights.core.helpers.get_mongo(f)
+    fs = edinsights.core.helpers.get_filesystem(f)
     return fs,mongodb
 
