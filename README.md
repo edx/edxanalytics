@@ -1,8 +1,9 @@
 edxanalytics
 ============
 
-Before looking at this repo, look over and read the README for
-edinsights. Come back here when you're done. 
+Before looking at this repo, look over and read [the README for
+edinsights](https://github.com/edx/ed-insights#readme). Come back here
+when you're done. 
 
 Okay. Got it? 
 
@@ -76,3 +77,35 @@ improve the courses.
 5. Students. 
 6. Board of directors, reporters, etc. 
 7. System administrators. 
+
+
+Other edX Code
+--------------
+
+See [code.edx.org](http://code.edx.org/) for other parts of the edX code base.
+
+License
+-------
+
+The code in this repository is licensed under version 3 of the AGPL unless
+otherwise noted.
+
+Please see ``LICENSE.txt`` for details.
+
+How to Contribute
+-----------------
+
+Contributions are very welcome. The easiest way is to fork this repo, and then
+make a pull request from your fork. The first time you make a pull request, you
+may be asked to sign a Contributor Agreement.
+
+Reporting Security Issues
+-------------------------
+
+Please do not report security issues in public. Please email security@edx.org
+
+Mailing List and IRC Channel
+----------------------------
+
+You can discuss this code on the [edx-code Google Group](https://groups.google.com/forum/#!forum/edx-code) or in the
+`edx-code` IRC channel on Freenode.
