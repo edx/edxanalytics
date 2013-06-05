@@ -1,19 +1,36 @@
 edxanalytics
 ============
 
-This is a prototype version of the user-side of an analytics framework
-for edX. Most documentation for the framework is in the edinsights
-repository. This repository contains:
-* The edX-specific modules
-* The dashboard/UX code. 
+Before looking at this repo, look over and read the README for
+edinsights. Come back here when you're done. 
 
-Eventually, these will most likely be split into seperate repos. 
+Okay. Got it? 
 
-The primary goal of this project was to generate use-cases for the
-development of edinsights, as well as figure out how to integrate it
-into the main system. As a result, the code is, in many modules, in
-very bad shape, or does not work at all (e.g. when we ran into a
-use-case which edinsights could not support).
+Now, where does edxanalytics fit into the picture. To develop
+edinsights, we needed use cases. edxanalytics was where we built
+analytics modules as use cases in the development of edinsights. We're
+in the process of picking through those and cleaning them up. Once
+we're done with that process, this will form the new analytics
+framework for edX. Eventually, this will most likely be split into
+seperate repos in the process (in much the same way as edinsights and
+edxanalytics both came out of analytics-experiments).
+
+Since the primary goal of this project was to generate use-cases for
+the development of edinsights, as well as figure out how to integrate
+it into the main system. As a result, the code is, in many modules, in
+very bad shape, or does not work at all (the API evolved). But don't
+leave yet! The system is modular, and there are a couple of really
+useful things in here.
+
+The really useful one is the dashboard module. It's crude. It's
+ugly. It's also really helpful if you're trying to develop new
+analytics modules.
+
+The kind of useful one are the modules to get data out of edx-platform
+(look at the matching branch -- analytics-server -- in the
+edx-platform) repo. These aren't anywhere close to done, but they give
+insight into how to plug the analytics platform into multiple services
+and systems and aggregate the results.
 
 Our goal is to make a pass over this code, and: 
  * Strip out bad code. 
@@ -58,4 +75,4 @@ improve the courses.
 4. Product. 
 5. Students. 
 6. Board of directors, reporters, etc. 
-
+7. System administrators. 
