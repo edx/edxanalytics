@@ -32,12 +32,12 @@ DJOBJECT_CONFIG = [{}, {'baseurl' : 'http://127.0.0.1:9012/'}]
 
 TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
-INSTALLED_ANALYTICS_MODULES = ('prototypemodules.course_stats', 
+INSTALLED_ANALYTICS_MODULES = (#'prototypemodules.course_stats', 
 #                               'prototypemodules.mixpanel', 
                                'edinsights.modules.testmodule',
                                'prototypemodules.event_count', 
-                               'prototypemodules.student_course_stats', 
-                               'prototypemodules.user_stats', 
+                               #'prototypemodules.student_course_stats', 
+                               #'prototypemodules.user_stats', 
                                'edxmodules.dash',
                                'prototypemodules.edx_data',
                                'prototypemodules.autocomplete',)
@@ -74,35 +74,33 @@ BASE_DIR = os.path.abspath(os.path.join(__file__, "..", "..", ".."))
 ROOT_PATH = path.path(__file__).dirname()
 REPO_PATH = os.path.abspath("../../../")
 ENV_ROOT = os.path.abspath("../../../../")
-#### MITx settings
+#### edX settings
 
 # Can we please leave this as false, and override for local dev setups?
 # I would like the time to get up-and-running to be minimal. 
-IMPORT_MITX_MODULES = False
-if IMPORT_MITX_MODULES:
-    MITX_PATH = os.path.abspath("../../../mitx/")
-    DJANGOAPPS_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "djangoapps")
-    LMS_LIB_PATH = "{0}/{1}/{2}".format(MITX_PATH, "lms", "lib")
-    COMMON_PATH = "{0}/{1}/{2}".format(MITX_PATH, "common", "djangoapps")
-    COMMON_LIB_PATH = "{0}/{1}/{2}/{3}".format(MITX_PATH, "common", "lib", "xmodule")
-    MITX_LIB_PATHS = [MITX_PATH, DJANGOAPPS_PATH, LMS_LIB_PATH, COMMON_PATH]
-    sys.path += MITX_LIB_PATHS
+IMPORT_EDX_PLATFORM_MODULES = False
+if IMPORT_EDX_PLATFORM_MODULES:
+    EDX_PLATFORM_PATH = os.path.abspath("../../../edx/")
+    DJANGOAPPS_PATH = "{0}/{1}/{2}".format(EDX_PLATFORM_PATH, "lms", "djangoapps")
+    LMS_LIB_PATH = "{0}/{1}/{2}".format(EDX_PLATFORM_PATH, "lms", "lib")
+    COMMON_PATH = "{0}/{1}/{2}".format(EDX_PLATFORM_PATH, "common", "djangoapps")
+    COMMON_LIB_PATH = "{0}/{1}/{2}/{3}".format(EDX_PLATFORM_PATH, "common", "lib", "xmodule")
+    EDX_PLATFORM_LIB_PATHS = [EDX_PLATFORM_PATH, DJANGOAPPS_PATH, LMS_LIB_PATH, COMMON_PATH]
+    sys.path += EDX_PLATFORM_LIB_PATHS
 
     IMPORT_GIT_MODULES = False
     GIT_CLONE_URL = "git@github.com:MITx/{0}.git"
     COURSE_FILE_PATH = os.path.abspath(os.path.join(ENV_ROOT, "xml_data"))
     COURSE_CONFIG_PATH = os.path.abspath(os.path.join(REPO_PATH, "course_listings.json"))
 
-    #Needed for MITX imports to work
-    from mitx_settings import *
+    #Needed for EDX imports to work
+    from edx_settings import *
 
-    MITX_ROOT_URL = ''
+    EDX_PLATFORM_ROOT_URL = ''
 else:
     # TODO: Use resource_filename
-    MITX_LIBRARY_PATH = os.path.abspath("mitx_libraries")
-    sys.path.append(MITX_LIBRARY_PATH)
-
-# DATABASE_ROUTERS = ['edxanalytics.mitxrouter.MITxRouter']
+    EDX_PLATFORM_LIBRARY_PATH = os.path.abspath("edx_libraries")
+    sys.path.append(EDX_PLATFORM_LIBRARY_PATH)
 
 #### Standard settings
 
@@ -123,7 +121,7 @@ DATABASES = {
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }, 
-    'remote': {  ## main MITx db
+    'remote': {  ## main edX db
          'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
          'NAME': '{0}/db/mitx.db'.format(ENV_ROOT), # TODO: Use pkg_resources.resource_filename
          'USER': '',                      # Not used with sqlite3.

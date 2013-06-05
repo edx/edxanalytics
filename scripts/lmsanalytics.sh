@@ -4,7 +4,7 @@
 
 source ../python/bin/activate
 source ../ruby/scripts/rvm
-cd ../mitx
+cd ../edx-platform
 pwd
 while [ 1 == 1 ] ; do 
   django-admin.py runserver --settings=lms.envs.analyticsserver --pythonpath=. 127.0.0.1:9012

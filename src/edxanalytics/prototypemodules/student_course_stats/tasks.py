@@ -40,7 +40,7 @@ def import_custom_module(name):
     return imp.load_module(name, f, pathname, desc)
 
 #If we are importing the MITx modules, then full functionality will be enabled here.
-if settings.IMPORT_MITX_MODULES:
+if settings.IMPORT_EDX_PLATFORM_MODULES:
     from courseware import grades
     from courseware.courses import get_course_with_access
     from courseware.model_data import ModelDataCache, LmsKeyValueStore
@@ -69,8 +69,8 @@ def regenerate_student_course_data():
     This function is a periodic task (cron job) that runs at a specified interval,
     pulls a list of courses, and for each course sends messages to the appropriate tasks.
     """
-    if not settings.IMPORT_MITX_MODULES:
-        log.error("Cannot import mitx modules and thus cannot regenerate student course data.")
+    if not settings.IMPORT_EDX_PLATFORM_MODULES:
+        log.error("Cannot import edx_platform modules and thus cannot regenerate student course data.")
         return
     log.info("Regenerating course data.")
     user = User.objects.all()[0]

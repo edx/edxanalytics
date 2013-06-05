@@ -1,4 +1,4 @@
-from mitx_settings import *
+from edx_platform_settings import *
 import json
 
 with open(ENV_ROOT / "kpi-mitx-auth.json") as auth_file:

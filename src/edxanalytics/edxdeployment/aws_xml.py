@@ -1,5 +1,5 @@
 from settings_xml import *
-from mitx_aws_xml import *
+from edx_platform_aws_xml import *
 import json
 
 with open(ENV_ROOT / "env.json") as env_file:
