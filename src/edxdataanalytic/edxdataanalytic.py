@@ -1,4 +1,4 @@
-from djanalytics.core.decorators import query, event_handler, view, event_property
+from edinsights.core.decorators import query, event_handler, view, event_property
 from django.contrib.auth.models import User
 
 @view()
