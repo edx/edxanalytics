@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<style>
+    body {
+        font-family: sans-serif;
+        margin: 3em;
+    }
+    #ytplayer {
+        padding: 1em 3em;
+    }
+    .stat {
+        font-weight: bold;
+        padding-left: 1em;
+    }
+    #vis-options {
+        margin: 1em 0;
+    }
+    #vis-options a {
+        margin: 0.5em;
+        padding: 0.3em;
+        text-decoration: none;
+    }
+    #vis-options a.active {
+        background-color: #bbbbbb;
+    }
+    #vis-options #binsize-options {
+        margin: 0.8em;
+    }
+    .chart {
+        padding: 0.5em 3em 2em 3em;
+        /*padding: 0 3em 2em 3em;*/
+    }
+    .chart rect{
+        fill: teal;
+        cursor: pointer;
+    }
+    .chart text{
+        font-size: 0.8em;
+        /*fill: white;*/
+        cursor: pointer;
+    }
+    .chart .axis path,
+    .chart .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+    }
+    .chart .axis text {
+        fill: black;
+    }
+
+    .chart .playbar {
+        stroke: #CD332D; /* YouTube red */
+        stroke-width: 0.1em;
+    }
+
+    .tooltip{
+        font-size: 0.8em;
+        background-color: #fff8dc;
+        padding: 0.3em 0.5em;
+    }    
+</style>
+
+<script>
+var data;
+var chart;
+var player;
+
+var options = {};
+var binSizeOptions = [1,2,5,10,20,30,60];
+var defaultBinSize = 5;
+var binSize = 0;
+var duration = 0;
+var visWidth = 540;
+var visHeight = 180;
+
+
+/* Helper Functions */
+
+/* Return the size of an object, because .length doesn't work for objects */
+function getObjectSize(obj){
+    var size = 0;
+    var key;
+    for (key in obj){
+        if (obj.hasOwnProperty(key))
+            size++;
+    }
+    return size;
+}
+
+
+/* Return a human-readable format for the number of seconds */
+function formatSeconds(sec){
+    var s = Math.round(sec%60);
+    return "" + Math.floor(sec/60) + ":" + (s<=9 ? '0' + s : s);
+}
+
+
+function dateToYMD(date) {
+    var d = date.getDate();
+    var m = date.getMonth() + 1;
+    var y = date.getFullYear();
+    return '' + y + '-' + (m<=9 ? '0' + m : m) + '-' + (d <= 9 ? '0' + d : d);
+}
+
+
+// compute the number of valid view counts, given an array of beginning timestamps of segments
+// threshold: time interval to be counted as a separate view count between segments (in seconds)
+function getValidCount(starting_times, threshold){
+    var count = 0;
+    for (user in starting_times){
+        for (index in starting_times[user]){
+            var cur_time = starting_times[user][index];
+            // if anything exists, count as 1 
+            if (index == 0)
+                count += 1;
+            // now count only after the threshold interval has passed.
+            else if (cur_time - starting_times[user][index - 1] > threshold)
+                count += 1;
+        }        
+    }
+    return count;
+}
+
+/*
+Put data into bins based on the mode.
+modes: playcount, play_unique, skip, replay
+    playcount: play count for this segment
+    play: unique number of students who played this segment
+    skip: unique number of students who skipped this segment
+    replay: unique number of students who played this segment more than once
+
+For a given list of segments, count the number of occurrences for the given type for each time bin
+binSize: How granular do we want our bin be? Determines the frequency of the counting. (in sec)
+duration: Video duration (in sec)
+*/
+function processData(data, mode, binSize, duration){
+    var numBins = parseInt(Math.ceil(duration / binSize));
+    // console.log(numBins);
+    var bins = new Array(numBins);
+    var result = new Array(numBins);
+    // four counters
+    var playcount_users = 0;
+    var play_users = {};
+    var replay_users = {};
+    var skip_users = {};
+
+    for (var i=0; i<numBins; i++){
+        bins[i] = 0;
+        result[i] = 0;
+        for (user in data){
+            // console.log(user, data[user], data[user]["segments"])
+            var cur_user_play_count = 0;
+            for (index in data[user]["segments"]){
+                var segment = data[user]["segments"][index];
+                // console.log(segment, segment["time_end"], segment["time_start"]);
+                // checking time overlap between a segment and a bin
+                // TODO: move to a separate function to make it easy to test different counting functions
+                if (i*binSize <= segment["time_end"] && segment["time_start"] <= (i+1)*binSize)
+                    cur_user_play_count += 1;
+            }
+            // this user watched this segment multiple times
+            if (mode == "playcount")
+                result[i] += cur_user_play_count;
+            else if (mode == "play" && cur_user_play_count > 0)
+                result[i] += 1;
+            else if (mode == "replay" && cur_user_play_count > 1)
+                result[i] += 1;
+            else if (mode == "skip" && cur_user_play_count == 0)
+                result[i] += 1;
+            playcount_users += cur_user_play_count;
+            if (cur_user_play_count > 0)
+                play_users[user] = play_users[user]+1 || 1;
+            if (cur_user_play_count > 1)
+                replay_users[user] = replay_users[user]+1 || 1;
+            if (cur_user_play_count == 0)
+                skip_users[user] = skip_users[user]+1 || 1;
+        }
+    }
+
+    var num_users = getObjectSize(data);    
+    // console.log(bins, result);
+    //$(".playcount-count").text(playcount_users);
+    $(".play-count").text(getObjectSize(play_users));
+    $(".replay-count").text(getObjectSize(replay_users) + 
+        " (" + (getObjectSize(replay_users)*100/num_users).toFixed(1) + "%)");
+    $(".skip-count").text(getObjectSize(skip_users) + 
+        " (" + (getObjectSize(skip_users)*100/num_users).toFixed(1) + "%)");
+
+    // compute average watching time per student
+    // var play_rates = {};
+    var watching_time = {};
+    var starting_times = {};
+    var sum_watching_time = 0;
+    for (user in data){
+        watching_time[user] = 0;
+        for (index in data[user]["segments"]){
+            var segment = data[user]["segments"][index];
+            // get play rate
+            // var play_rate = data[user]["segments"]
+            // play_rates[]
+            // get watching time
+            var segment_length = segment["time_end"] - segment["time_start"];
+            watching_time[user] += segment_length;
+            sum_watching_time += segment_length;
+
+            // get starting times
+            if (typeof starting_times[user] === "undefined")
+                starting_times[user] = [];
+            
+            var a = segment["date_start"].split(/[^0-9]/);
+            var parsedDate = new Date(a[0],a[1]-1,a[2],a[3],a[4],a[5]);         
+            starting_times[user].push(Date.parse(parsedDate));
+        }
+        // console.log(starting_times[user]);
+    }
+    // console.log(sum_watching_time, num_users, sum_watching_time / num_users);
+    var valid_count = getValidCount(starting_times, 24*60*60*1000);
+    $(".playcount-count").text(valid_count);
+    $(".playcount-student").text((valid_count / num_users).toFixed(2));
+    $(".watching-time").text(formatSeconds(sum_watching_time / num_users));
+    $(".video-length").text(formatSeconds(duration));
+
+    return result;
+}
+
+
+
+
+function processTimeData(data){
+    // TODO: dynamically set start and end dates
+    var startDate = new Date("2013-03-01");
+    var endDate = new Date("2013-06-30");
+    var numBins =  Math.floor((Date.parse(endDate) - Date.parse(startDate)) / (24*60*60*1000));
+    var result = {};    
+    for (var i=0; i<numBins; i++){
+        var curDate = new Date(startDate);
+        curDate.setDate(startDate.getDate()+i);
+        var nextDate = new Date(curDate);
+        nextDate.setDate(curDate.getDate()+1);
+        for (user in data){
+            for (index in data[user]["segments"]){
+                var segment = data[user]["segments"][index];
+                // Cannot use Date.parse() due to browser compatibility
+                var a = segment["date_start"].split(/[^0-9]/);
+                var parsedDate = new Date(a[0],a[1]-1,a[2],a[3],a[4],a[5]);
+                // console.log(Date.parse(segment["date_start"]));
+                //console.log(segment["date_start"], Date.parse(segment["date_start"]) >= curDate)
+                if (parsedDate >= curDate && parsedDate <= nextDate)
+                    result[dateToYMD(curDate)] = result[dateToYMD(curDate)]+1 || 1;
+            }
+        }
+    }    
+    // console.log(result);
+    return result;
+}
+
+
+function rectClickHandler(d, i){
+    console.log($(this), d, i * binSize);
+    player.seekTo(i * binSize);
+}
+
+
+function moveLine(currentTime){
+    var chart = d3.selectAll("svg.play-chart");
+    if (chart.length == 0)
+        return;
+    var curPosition = chart.attr("width") * currentTime / duration;
+    chart.selectAll(".playbar")
+        .transition()
+        .duration(0)
+        .attr("x1", curPosition)
+        .attr("x2", curPosition);
+}
+
+// function dragLine(){
+//     console.log("dragged");
+//     return d3.behavior.drag()
+//         .on("drag", function(d,i){
+//             d.x += d3.event.dx;
+//             d.y += d3.event.dy;
+//             d3.select(this).attr("transform", function(d,i){
+//                 return "translate(" + [ d.x, d.y ] + ")";
+//             });
+//         });
+// }
+
+function drawPlayVis(dataset, duration, w, h){
+    d3.selectAll("svg.play-chart").remove();
+    var xScale = d3.scale.linear().domain([0, duration]).range([0, w]);
+    var yScale = d3.scale.linear().domain([0, d3.max(dataset)]).range([h, 0]);
+
+    var barPadding = 1;
+    var chart = d3.select("#play-vis").append("svg")
+                .attr("class", "chart play-chart")
+                .attr("width", w)
+                .attr("height", h);
+            // .append("g")
+            //     .attr("transform", "translate(0,30)");
+
+    // Show tooltips on mouseover
+    var tooltip = d3.select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden")
+        .text("Tooltip");
+
+    // Add histogram
+    chart.selectAll("rect")
+        .data(dataset)
+        .enter().append("rect")
+        .attr("x", function(d, i){ return i * (w / dataset.length); })
+        .attr("y", yScale)
+        .attr("width", w / dataset.length - barPadding)
+        .attr("height", function(d){ return h - yScale(d); })
+        .on("click", rectClickHandler)
+        .on("mouseover", function(d){
+            return tooltip.text(d).style("visibility", "visible");
+        })
+        .on("mousemove", function(d){
+            return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
+        })
+        .on("mouseout", function(d){
+            return tooltip.style("visibility", "hidden");
+        });
+
+    // Add playbar
+    chart.append("line")
+        .attr("class", "playbar")
+        .attr("x1", 0)
+        .attr("x2", 0)
+        .attr("y1", 0)
+        .attr("y2", h);
+        // .call(dragLine);
+    
+    // chart.selectAll("text")
+    //     .data(dataset)
+    // .enter().append("text")
+    //     .text(function(d){ return Math.floor(d); })
+    //     .attr("x", function(d, i){ return i * (w / dataset.length)+3; })
+    //     .attr("y", function(d){ return h - (d*amplifier) - 5; });
+
+    // Add axes
+    var padding = 0;
+    var xAxis = d3.svg.axis()
+        .scale(xScale)
+        .orient("bottom")
+        .ticks(5)
+        .tickFormat(formatSeconds);
+    var yAxis = d3.svg.axis()
+        .scale(yScale)
+        .orient("left")
+        .ticks(3);
+    chart.append("g")
+        .attr("class", "axis x-axis")
+        .attr("transform", "translate(0," + (h - padding) + ")")
+        .call(xAxis);
+    chart.append("g")
+        .attr("class", "axis y-axis")
+        //.attr("transform", "translate(" + padding + ",0)")
+        .call(yAxis);        
+    return chart;
+}
+
+
+
+function drawTimeVis(dataset, duration, w, h){
+    d3.selectAll("svg.time-chart").remove();
+    var xScale = d3.scale.ordinal().domain(d3.keys(dataset)).rangePoints([0, w]);
+    var yScale = d3.scale.linear().domain([ 0, d3.max(d3.values(dataset)) ]).range([h, 0]);
+
+    var barPadding = 1;
+    var chart = d3.select("#time-vis").append("svg")
+                .attr("class", "chart time-chart")
+                .attr("width", w)
+                .attr("height", h);
+            // .append("g")
+            //     .attr("transform", "translate(0,30)");
+
+    // Show tooltips on mouseover
+    var tooltip = d3.select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden")
+        .text("Tooltip");
+
+    // Add histogram
+    chart.selectAll("rect")
+        .data(d3.entries(dataset))
+        .enter().append("rect")
+        .attr("x", function(d, i){ return i * (w / getObjectSize(dataset)); })
+        .attr("y", function(d){ return yScale(d.value); })
+        .attr("width", w / getObjectSize(dataset) - barPadding)
+        .attr("height", function(d){ return h - yScale(d.value); })
+        // .on("click", rectClickHandler)
+        .on("mouseover", function(d){
+            return tooltip.text(d.value).style("visibility", "visible");
+        })
+        .on("mousemove", function(d){
+            return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
+        })
+        .on("mouseout", function(d){
+            return tooltip.style("visibility", "hidden");
+        });
+
+    // Add axes
+    var padding = 0;
+    var xAxis = d3.svg.axis()
+        .scale(xScale)
+        .orient("bottom")
+        .tickValues(xScale.domain().filter(function(d,i){
+            // only showing the first day of each month
+            return d.substr(-2) == "01";
+        }));
+    var yAxis = d3.svg.axis()
+        .scale(yScale)
+        .orient("left")
+        .ticks(3);
+    chart.append("g")
+        .attr("class", "axis x-axis")
+        .attr("transform", "translate(0," + (h - padding) + ")")
+        .call(xAxis);
+    chart.append("g")
+        .attr("class", "axis y-axis")
+        //.attr("transform", "translate(" + padding + ",0)")
+        .call(yAxis);      
+
+    return chart;
+}
+
+
+// This function creates an <iframe> (and YouTube player)
+// after the API code downloads.
+
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('ytplayer', {
+    height: '330',
+    width: '540',
+    videoId: '${ video_id }',
+    events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    }
+  });
+}
+
+// The API will call this function when the video player is ready.
+function onPlayerReady(event) {
+    event.target.playVideo();
+    setInterval(updatePlayerInfo, 600);
+}
+
+// Update the current playbar in the vis
+function updatePlayerInfo(){
+    // Conditions: player should have been initialized, player should be playing, and duration should be available
+    if (player && YT.PlayerState.PLAYING && duration > 0){
+        moveLine(player.getCurrentTime());
+    }
+}
+
+// The API calls this function when the player's state changes.
+// The function indicates that when playing a video (state=1),
+// the player should play for six seconds and then stop.
+function onPlayerStateChange(event) {
+  if (event.data == YT.PlayerState.PLAYING) {
+    // Accurate information available only once the player starts playing
+    if (duration == 0){
+        duration = player.getDuration();
+        init();
+    }
+  }
+}
+
+
+function bindEvents(){
+    $("#vis-options a").click(function(){
+        console.log($(this).text(), "clicked");
+        $("#vis-options a").removeClass("active");
+        $(this).addClass("active");
+        var mode = $(this).data("mode");
+        var processedData = processData(data, mode, binSize, duration);
+        // console.log(processed_data)
+        // $("svg").remove();
+        drawPlayVis(processedData, duration, visWidth, visHeight);
+
+        processedData = processTimeData(data);
+        drawTimeVis(processedData, 121, visWidth, visHeight);
+        // redrawVis(chart, processedData, duration, visWidth, visHeight);
+        return false;
+    });    
+
+    $("#binsize-options select").on("change", function(){
+        binSize = $(this).val();
+        console.log("binsize changed to", binSize);
+        // $("svg").remove();
+        // var dummyData = initData(binSize, duration);
+        // chart = drawPlayVis(dummyData, duration, visWidth, visHeight);
+
+        $("#vis-options a.active").trigger("click");
+    });
+}
+
+
+function generateBinSizeOptions(){
+    var $select = $("<select/>");
+    for (i in binSizeOptions){
+        // console.log("adding", binSizeOptions[i]);
+        $("<option/>").attr("value", binSizeOptions[i]).text(binSizeOptions[i] + " sec").appendTo($select);
+    }
+    $select.appendTo($("#binsize-options"));
+}
+
+
+function init(){
+    data = ${data|n};
+    generateBinSizeOptions();
+    bindEvents();
+    
+    // by default, select the default binsize value
+    $("#binsize-options select").val(defaultBinSize).change();
+    // by default, click the first item
+    $("#vis-options a").first().trigger("click");
+}
+
+
+$(document).ready(function(){
+    // Load the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+});
+
+</script>
+</head>
+<body>
+    <section id="stats">
+        <h2>Basic Stats</h2>
+        <table>
+            <tr><td class="playcount-stat">Total Play Count: </td><td><span class="stat playcount-count"></span></td></tr>
+            <tr><td class="play-stat">No. Students Played: </td><td><span class="stat play-count"></span></td></tr>
+            <tr><td class="replay-stat">No. Students Replayed: </td><td><span class="stat replay-count"></span></td></tr>
+            <tr><td class="skip-stat">No. Students Skipped: </td><td><span class="stat skip-count"></span></td></tr>
+            <tr><td class="playcount-student-stat">Play Count per Student: </td><td><span class="stat playcount-student"></span></td></tr>
+            <tr><td class="watching-time-stat">Watching Time per Student: </td><td><span class="stat watching-time"></span></td></tr>
+            <tr><td class="video-length-stat">Video Length: </td><td><span class="stat video-length"></span></td></tr>
+        </table>
+    </section>
+    <div id="ytplayer"></div>
+    <section id="play-vis">
+        <h2>Video Heatmap</h2>
+        <div id="vis-options">
+            <a class="" href="#" data-mode="playcount">Play Count</a>
+            <a class="" href="#" data-mode="play">No. Students Played</a>
+            <a class="" href="#" data-mode="replay">No. Students Replayed</a>
+            <a class="" href="#" data-mode="skip">No. Students Skipped</a>
+            <div id="binsize-options">Bin Size: </div>
+        </div>
+    </section>
+    <section id="time-vis">
+        <h2>Play Count Over Time</h2>
+    </section>
+   <!--  <iframe id="ytplayer" type="text/html" width="640" height="390"
+    src="https://www.youtube.com/embed/${ video_id }?enablejsapi=1" frameborder="0" allowfullscreen/>
+ -->
+
+</body>
+</html>

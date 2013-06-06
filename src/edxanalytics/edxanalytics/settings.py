@@ -39,6 +39,8 @@ INSTALLED_ANALYTICS_MODULES = (#'prototypemodules.course_stats',
                                #'prototypemodules.student_course_stats', 
                                #'prototypemodules.user_stats', 
                                'edxmodules.dash',
+                               # 'video_heatmap.video_heatmap',
+                               'edxmodules.video_heatmap',
                                'prototypemodules.edx_data',
                                'prototypemodules.autocomplete',)
 
@@ -123,7 +125,8 @@ DATABASES = {
     }, 
     'remote': {  ## main edX db
          'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-         'NAME': '{0}/db/mitx.db'.format(ENV_ROOT), # TODO: Use pkg_resources.resource_filename
+         #'NAME': '{0}/db/mitx.db'.format(ENV_ROOT), # TODO: Use pkg_resources.resource_filename
+         'NAME': '../../../db/mitx.db'.format(ENV_ROOT), # TODO: Use pkg_resources.resource_filename
          'USER': '',                      # Not used with sqlite3.
          'PASSWORD': '',                  # Not used with sqlite3.
          'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.

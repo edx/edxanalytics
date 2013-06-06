@@ -39,7 +39,7 @@ Then, start to install:
 * pip install -r requirements.txt
 * mkdir BASE_DIR/db
 * cd EDXANALYTICS_DIR/src/edxanalytics
-* Ensure that IMPORT_MITX_MODULES in edxanalytics/settings.py is False .
+* Ensure that IMPORT_EDX_MODULES in edxanalytics/settings.py is False .
 * python manage.py syncdb --database=remote --settings=edxanalytics.settings --pythonpath=. (this may fail, but that is fine)
 * python manage.py syncdb --database=default --settings=edxanalytics.settings --pythonpath=.
 * mkdir EDXANALYTICS_DIR/staticfiles
