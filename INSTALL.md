@@ -8,7 +8,8 @@ aware:
 
 
 
-In order to install the minimal working analytics configuration:
+Installing the minimal working analytics configuration
+=====
 
 First, decide on your directories:
 * VIRTUALENV_DIR = directory where you create your python virtualenv.
@@ -82,23 +83,26 @@ From the shell, run the following:
 
     from django.contrib.auth.models import User
     user = User.objects.create_user("test","test@test.com","test")
+    
+Now you should be able to log in, and start using the edxanalytics modules.
 
-If you are using the aws settings (ie deploying):
+If you are using the aws settings (i.e., deploying):
+=====
 
 * MITX_DIR = directory where you clone MITX
 
-  * cd EDXANALYTICS_DIR/src/edxanalytics
-  * source VIRTUALENV_DIR/bin/activate
-  * python manage.py createcachetable django_cache --database=default --settings=edxanalytics.settings --pythonpath=.
-  * cd BASE_DIR
-  * git clone git@github.com:MITx/mitx.git
-  * cd MITX_DIR
-  * sudo xargs -a apt-packages.txt apt-get install
-  * If the above step does not work, remove npm and nodejs from apt-packages.txt
-  * pip install -r pre-requirements.txt
-  * pip install -r requirements.txt
-  * pip install webob
-  * pip install -r local-requirements.txt
+    cd EDXANALYTICS_DIR/src/edxanalytics
+    source VIRTUALENV_DIR/bin/activate
+    python manage.py createcachetable django_cache --database=default --settings=edxanalytics.settings --pythonpath=.
+    cd BASE_DIR
+    git clone git@github.com:MITx/mitx.git
+    cd MITX_DIR
+    sudo xargs -a apt-packages.txt apt-get install
+    If the above step does not work, remove npm and nodejs from apt-packages.txt
+    pip install -r pre-requirements.txt
+    pip install -r requirements.txt
+    pip install webob
+    pip install -r local-requirements.txt
 
 
 Ignore
