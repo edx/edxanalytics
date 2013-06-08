@@ -9,7 +9,7 @@ aware:
 
 
 Installing the minimal working analytics configuration
-=====
+-----
 
 First, decide on your directories:
 * VIRTUALENV_DIR = directory where you create your python virtualenv.
@@ -87,7 +87,7 @@ From the shell, run the following:
 Now you should be able to log in, and start using the edxanalytics modules.
 
 If you are using the aws settings (i.e., deploying):
-=====
+-----
 
 * MITX_DIR = directory where you clone MITX
 
@@ -106,7 +106,7 @@ If you are using the aws settings (i.e., deploying):
 
 
 Ignore
-=====
+-----
 
 Assorted notes; setting up a new machine with new edx/dj split. Below will turn into documentation
 
