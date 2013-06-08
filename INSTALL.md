@@ -91,6 +91,7 @@ If you are using the aws settings (i.e., deploying):
 
 * MITX_DIR = directory where you clone MITX
 
+Follow the steps below:
 
     cd EDXANALYTICS_DIR/src/edxanalytics
     source VIRTUALENV_DIR/bin/activate
