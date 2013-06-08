@@ -91,6 +91,7 @@ If you are using the aws settings (i.e., deploying):
 
 * MITX_DIR = directory where you clone MITX
 
+
     cd EDXANALYTICS_DIR/src/edxanalytics
     source VIRTUALENV_DIR/bin/activate
     python manage.py createcachetable django_cache --database=default --settings=edxanalytics.settings --pythonpath=.
