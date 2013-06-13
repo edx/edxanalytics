@@ -23,8 +23,11 @@
         padding: 0.3em;
         text-decoration: none;
     }
+    #vis-options a {
+        color: #2A2E40;
+    }    
     #vis-options a.active {
-        background-color: #bbbbbb;
+        background-color: #96A5E6;
     }
     #vis-options #binsize-options {
         margin: 0.8em;
@@ -142,8 +145,8 @@ function processData(data, mode, binSize, duration){
     // console.log(numBins);
     var bins = new Array(numBins);
     var result = new Array(numBins);
-    // four counters
-    var playcount_users = 0;
+    // counters
+    // var playcount_users = 0;
     var play_users = {};
     var replay_users = {};
     var skip_users = {};
@@ -171,7 +174,7 @@ function processData(data, mode, binSize, duration){
                 result[i] += 1;
             else if (mode == "skip" && cur_user_play_count == 0)
                 result[i] += 1;
-            playcount_users += cur_user_play_count;
+            // playcount_users += cur_user_play_count;
             if (cur_user_play_count > 0)
                 play_users[user] = play_users[user]+1 || 1;
             if (cur_user_play_count > 1)
@@ -181,14 +184,12 @@ function processData(data, mode, binSize, duration){
         }
     }
 
-    var num_users = getObjectSize(data);    
-    // console.log(bins, result);
-    //$(".playcount-count").text(playcount_users);
-    $(".play-count").text(getObjectSize(play_users));
-    $(".replay-count").text(getObjectSize(replay_users) + 
-        " (" + (getObjectSize(replay_users)*100/num_users).toFixed(1) + "%)");
-    $(".skip-count").text(getObjectSize(skip_users) + 
-        " (" + (getObjectSize(skip_users)*100/num_users).toFixed(1) + "%)");
+    // Now check how many students completed watching: there play count should be in all bins
+    var complete_users_count = 0;
+    for (user in play_users){
+        if (play_users[user] == numBins)
+            complete_users_count += 1;
+    }
 
     // compute average watching time per student
     // var play_rates = {};
@@ -218,7 +219,22 @@ function processData(data, mode, binSize, duration){
         // console.log(starting_times[user]);
     }
     // console.log(sum_watching_time, num_users, sum_watching_time / num_users);
+
     var valid_count = getValidCount(starting_times, 24*60*60*1000);
+
+    // Display stats
+    var num_users = getObjectSize(data);    
+    // console.log(bins, result);
+    //$(".playcount-count").text(playcount_users);
+    $(".play-count").text(getObjectSize(play_users) +
+        " (x% of total enrolled)");
+    $(".complete-count").text(complete_users_count +
+        " (" + (complete_users_count*100/num_users).toFixed(1) + "% of all viewers)");
+    $(".replay-count").text(getObjectSize(replay_users) + 
+        " (" + (getObjectSize(replay_users)*100/num_users).toFixed(1) + "% of all viewers)");
+    $(".skip-count").text(getObjectSize(skip_users) + 
+        " (" + (getObjectSize(skip_users)*100/num_users).toFixed(1) + "% of all viewers)");
+
     $(".playcount-count").text(valid_count);
     $(".playcount-student").text((valid_count / num_users).toFixed(2));
     $(".watching-time").text(formatSeconds(sum_watching_time / num_users));
@@ -486,7 +502,9 @@ function bindEvents(){
         $("#vis-options a").removeClass("active");
         $(this).addClass("active");
         var mode = $(this).data("mode");
-        var processedData = processData(data, mode, binSize, duration);
+        // var processedData = processData(data, mode, binSize, duration);
+        // console.log(data);
+        var processedData = data[mode];
         // console.log(processed_data)
         // $("svg").remove();
         drawPlayVis(processedData, duration, visWidth, visHeight);
@@ -496,7 +514,7 @@ function bindEvents(){
         // redrawVis(chart, processedData, duration, visWidth, visHeight);
         return false;
     });    
-
+/*
     $("#binsize-options select").on("change", function(){
         binSize = $(this).val();
         console.log("binsize changed to", binSize);
@@ -506,26 +524,50 @@ function bindEvents(){
 
         $("#vis-options a.active").trigger("click");
     });
+*/
 }
 
 
-function generateBinSizeOptions(){
-    var $select = $("<select/>");
-    for (i in binSizeOptions){
-        // console.log("adding", binSizeOptions[i]);
-        $("<option/>").attr("value", binSizeOptions[i]).text(binSizeOptions[i] + " sec").appendTo($select);
-    }
-    $select.appendTo($("#binsize-options"));
-}
+// function generateBinSizeOptions(){
+//     var $select = $("<select/>");
+//     for (i in binSizeOptions){
+//         // console.log("adding", binSizeOptions[i]);
+//         $("<option/>").attr("value", binSizeOptions[i]).text(binSizeOptions[i] + " sec").appendTo($select);
+//     }
+//     $select.appendTo($("#binsize-options"));
+// }
 
+
+function displayStats(){
+    // var valid_count = getValidCount(starting_times, 24*60*60*1000);
+
+    // Display stats
+    // var num_users = getObjectSize(data);    
+    var num_users = data["unique_student_count"];
+    // console.log(bins, result);
+    //$(".playcount-count").text(playcount_users);
+    $(".play-count").text(num_users +
+        " (x% of total enrolled)");
+    $(".complete-count").text(data["completion_count"] +
+        " (" + (data["completion_count"]*100/num_users).toFixed(1) + "% of all viewers)");
+    // $(".replay-count").text(getObjectSize(replay_users) + 
+    //     " (" + (getObjectSize(replay_users)*100/num_users).toFixed(1) + "% of all viewers)");
+    // $(".skip-count").text(getObjectSize(skip_users) + 
+    //     " (" + (getObjectSize(skip_users)*100/num_users).toFixed(1) + "% of all viewers)");
+
+    // $(".playcount-count").text(valid_count);
+    // $(".playcount-student").text((valid_count / num_users).toFixed(2));
+    $(".watching-time").text(formatSeconds(data["total_watching_time"] / num_users));
+    $(".video-length").text(formatSeconds(duration));    
+}
 
 function init(){
     data = ${data|n};
-    generateBinSizeOptions();
+    // generateBinSizeOptions();
     bindEvents();
-    
+    displayStats();    
     // by default, select the default binsize value
-    $("#binsize-options select").val(defaultBinSize).change();
+    // $("#binsize-options select").val(defaultBinSize).change();
     // by default, click the first item
     $("#vis-options a").first().trigger("click");
 }
@@ -544,14 +586,16 @@ $(document).ready(function(){
 </head>
 <body>
     <section id="stats">
-        <h2>Basic Stats</h2>
+        <h2>Video Analytics Summary</h2>
         <table>
-            <tr><td class="playcount-stat">Total Play Count: </td><td><span class="stat playcount-count"></span></td></tr>
-            <tr><td class="play-stat">No. Students Played: </td><td><span class="stat play-count"></span></td></tr>
-            <tr><td class="replay-stat">No. Students Replayed: </td><td><span class="stat replay-count"></span></td></tr>
-            <tr><td class="skip-stat">No. Students Skipped: </td><td><span class="stat skip-count"></span></td></tr>
-            <tr><td class="playcount-student-stat">Play Count per Student: </td><td><span class="stat playcount-student"></span></td></tr>
-            <tr><td class="watching-time-stat">Watching Time per Student: </td><td><span class="stat watching-time"></span></td></tr>
+            <tr><td class="playcount-stat">Views: </td><td><span class="stat playcount-count"></span></td></tr>
+            <tr><td class="play-stat">Unique Students Viewed: </td><td><span class="stat play-count"></span></td></tr>
+            <tr><td class="complete-stat">Unique Students Completed: </td><td><span class="stat complete-count"></span></td></tr>            
+            <tr><td class="replay-stat">Unique Students Replayed: </td><td><span class="stat replay-count"></span></td></tr>
+            <tr><td class="skip-stat">Unique Students Skipped: </td><td><span class="stat skip-count"></span></td></tr>
+            <tr><td>&nbsp;</td></tr>
+            <tr><td class="playcount-student-stat">Views per Student: </td><td><span class="stat playcount-student"></span></td></tr>
+            <tr><td class="watching-time-stat">Average View Duration: </td><td><span class="stat watching-time"></span></td></tr>
             <tr><td class="video-length-stat">Video Length: </td><td><span class="stat video-length"></span></td></tr>
         </table>
     </section>
@@ -559,15 +603,17 @@ $(document).ready(function(){
     <section id="play-vis">
         <h2>Video Heatmap</h2>
         <div id="vis-options">
-            <a class="" href="#" data-mode="playcount">Play Count</a>
-            <a class="" href="#" data-mode="play">No. Students Played</a>
-            <a class="" href="#" data-mode="replay">No. Students Replayed</a>
-            <a class="" href="#" data-mode="skip">No. Students Skipped</a>
-            <div id="binsize-options">Bin Size: </div>
+            <a class="" href="#" data-mode="raw_counts">Views</a>
+            <a class="" href="#" data-mode="unique_counts">Unique Viewers</a>
+            <a class="" href="#" data-mode="replay_counts">Replaying</a>
+            <a class="" href="#" data-mode="skip_counts">Skipping</a>
+            <a class="" href="#" data-mode="play_counts">Play Events</a>
+            <a class="" href="#" data-mode="pause_counts">Pause Events</a>
+            <!-- <div id="binsize-options">Bin Size: </div> -->
         </div>
     </section>
     <section id="time-vis">
-        <h2>Play Count Over Time</h2>
+        <h2>Views Over Time</h2>
     </section>
    <!--  <iframe id="ytplayer" type="text/html" width="640" height="390"
     src="https://www.youtube.com/embed/${ video_id }?enablejsapi=1" frameborder="0" allowfullscreen/>

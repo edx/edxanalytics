@@ -12,7 +12,8 @@ from pkg_resources import resource_filename
 
 DEBUG = True
 
-DJ_REQUIRED_APPS = ( 'djeventstream.httphandler',
+DJ_REQUIRED_APPS = (
+    'djeventstream.httphandler',
     'djcelery',
     'south',
     'edinsights.core',
@@ -28,7 +29,7 @@ DJFS = { 'type' : 'osfs',
          'directory_root' : '/tmp/djfsmodule',
          'url_root' : 'file:///tmp/'
        }
-DJOBJECT_CONFIG = [{}, {'baseurl' : 'http://127.0.0.1:9012/'}]
+DJOBJECT_CONFIG = [{}, {'baseurl' : 'http://127.0.0.1:9012/edinsights_service/'}]
 
 TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
@@ -39,8 +40,7 @@ INSTALLED_ANALYTICS_MODULES = (#'prototypemodules.course_stats',
                                #'prototypemodules.student_course_stats', 
                                #'prototypemodules.user_stats', 
                                'edxmodules.dash',
-                               # 'video_heatmap.video_heatmap',
-                               'edxmodules.video_heatmap',
+                               'edxmodules.video_analytics',
                                'prototypemodules.edx_data',
                                'prototypemodules.autocomplete',)
 
@@ -68,7 +68,7 @@ import django.contrib.auth.decorators
 LOGIN_REDIRECT_URL = "/"
 MAKO_MODULE_DIR = '../../compiled_templates' # TODO: Use pkg_resources.resource_filename
 MAKO_TEMPLATES = {'main': 'templates'}
-DUMMY_MODE = False # Slight TODO: This send back fake data from queries for off-line development
+DUMMY_MODE = True # Slight TODO: This send back fake data from queries for off-line development
 # DATABASE_ROUTERS = ['edinsights.edinsights.router.DatabaseRouter'] # TODO
 PROTECTED_DATA_ROOT = os.path.abspath("../../protected_data") # TODO: Use pkg_resources.resource_filename
 

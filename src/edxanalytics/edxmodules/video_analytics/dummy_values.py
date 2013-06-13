@@ -6,7 +6,7 @@ import random
 import string
 import time
 import datetime
-from edinsights.core.decorators import view, query, event_handler, memoize_query
+# from edinsights.core.decorators import view, query, event_handler, memoize_query
 
 
 def random_date(start, end):
@@ -29,7 +29,7 @@ def generate_random_data(size):
 
     # create random names
     names = []
-    for j in range(0, 2000):
+    for j in range(0, 1500):
         names.append(''.join(random.choice(string.ascii_lowercase) for x in range(6)))
 
     # TODO: hard-coded
@@ -48,17 +48,28 @@ def generate_random_data(size):
         agent = u'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4'
         event = {}
         event["id"] = "i4x-MITx-6_002x-video-S1V1_Motivation_for_6_002x"
-        event["code"] = "4rpg8Bq6hb4"
+        event["code"] = "2deIoNhqDsg"
         #event["currentTime"] = int(random.random() * duration)
-        event["currentTime"] = int(random.betavariate(1, 3) * duration)
+        event["currentTime"] = int(random.betavariate(0.1, 10) * duration)
         event["speed"] = random.choice(["0.75", "1.0", "1.25", "1.5"])
         event_string = unicode(event)
         host = u'1.0.0.127.in-addr.arpa'
         time_field = dtcreated
-        id_field = uuid.uuid4().int
+        id_field = 0
         page = u'http://localhost:8000/courses/MITx/6.002x/2013_Spring/courseware/Week_1/Administrivia_and_Circuit_Elements/' #show this link somewhere in the page
 
-        entry = (username, dtcreated, event_source, event_type, ip_addr, agent, event_string, host, time_field, id_field, page)
+        # entry = (username, dtcreated, event_source, event_type, ip_addr, agent, event_string, host, time_field, id_field, page)
+        entry = {'username': username, 
+            'dtcreated': dtcreated, 
+            'event_source': event_source, 
+            'event_type': event_type, 
+            'ip': ip_addr, 
+            'agent': agent, 
+            'event': event_string, 
+            'host': host, 
+            'time': time_field, 
+            'id': id_field, 
+            'page': page}
         result.append(entry)
 
         # now add a paired tuple
@@ -70,11 +81,22 @@ def generate_random_data(size):
         new_duration = int(random.random() * (duration - event["currentTime"]))
         new_event["currentTime"] = event["currentTime"] + new_duration
         new_event_string = unicode(new_event)
-        id_field += 1
+        id_field = 0 # uuid.uuid4().int
         new_dt = dt_org + datetime.timedelta(0, new_duration)
         new_time = unicode(new_dt.strftime("%Y-%m-%d %H:%M:%S.%f"))
         # print username, event_type, time_field, new_time, event["currentTime"], new_event["currentTime"]
-        entry = (username, new_time, event_source, event_type, ip_addr, agent, new_event_string, host, new_time, id_field, page)
+        #entry = (username, new_time, event_source, event_type, ip_addr, agent, new_event_string, host, new_time, id_field, page)
+        entry = {'username': username, 
+            'dtcreated': new_time, 
+            'event_source': event_source, 
+            'event_type': event_type, 
+            'ip': ip_addr, 
+            'agent': agent, 
+            'event': new_event_string, 
+            'host': host, 
+            'time': new_time, 
+            'id': id_field, 
+            'page': page}
         result.append(entry)
     return result
 

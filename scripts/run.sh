@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../src/edxanalytics
+cd /Users/juhokim/edx_all/edxanalytics/src/edxanalytics
 python manage.py runserver 127.0.0.1:9999 &
 sleep 1
 

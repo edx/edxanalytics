@@ -3,7 +3,8 @@ import sys
 
 logging.handlers.HTTPHandler('','',method='GET')
 logger = logging.getLogger('simple_example') 
-http_handler = logging.handlers.HTTPHandler('127.0.0.1:9022', '/event', method='GET') 
+# http_handler = logging.handlers.HTTPHandler('127.0.0.1:9022', '/event', method='GET') 
+http_handler = logging.handlers.HTTPHandler('127.0.0.1:9999', '/httpevent', method='GET') 
 logger.addHandler(http_handler)
 #logger.setLevel(logging.DEBUG) 
 
