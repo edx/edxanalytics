@@ -3,17 +3,17 @@
     Process raw database tracking entries related to the video player,
     and construct watching segments based on the entries.
 """
-import ast
-from datetime import time, datetime, timedelta
+from datetime import datetime, timedelta
 import math
 from collections import Counter
+from edxmodules.video_analytics.common import get_prop, CONF
 
 
 def compute_view_count(start_times, threshold):
     """
     Compute the number of valid view counts,
     given an array of beginning timestamps of segments.
-    threshold: time interval to be counted as 
+    threshold: time interval to be counted as
         a separate view count between segments (in seconds)
     """
     count = 0
@@ -43,10 +43,8 @@ def process_segments(log_entries):
     """
     data = {}
     for entry in log_entries:
-        # HACK: customized for the test data format
-        username = entry["username"]
-        event = ast.literal_eval(entry["event"])
-        video_id = event["code"]
+        username = get_prop(entry, "USERNAME")
+        video_id = get_prop(entry, "VIDEO_ID")
         if video_id not in data:
             data[video_id] = {}
         if username not in data[video_id]:
@@ -75,24 +73,6 @@ def construct_segments(log_entries):
         time_end: when does this segment end? (in sec)
         date_start: when did this watching start? (timestamp)
         date_end: when did this watching end? (timestamp)
-
-    For rapid HACK for now, assume the edX trackinglog schema...
-    "track_trackinglog"
-        ("username" varchar(32) NOT NULL,
-        "dtcreated" datetime NOT NULL,
-        "event_source" varchar(32) NOT NULL,
-        "event_type" varchar(512) NOT NULL,
-        "ip" varchar(32) NOT NULL,
-        "agent" varchar(256) NOT NULL,
-        "event" text NOT NULL,
-            {"id":"i4x-MITx-6_002x-video-S1V1_Motivation_for_6_002x",
-            "code":"4rpg8Bq6hb4",
-            "currentTime":0,
-            "speed":"1.0"}
-        "host" varchar(64) NOT NULL DEFAULT '',
-        "time" datetime NOT NULL,
-        "id" integer PRIMARY KEY,
-        "page" varchar(512) NULL);
     """
     # TODO: do not assume that entries are time-ordered.
     # make sure it's sorted by time
@@ -102,34 +82,31 @@ def construct_segments(log_entries):
     for i in range(1, len(log_entries)):
         entry1 = log_entries[i-1]
         entry2 = log_entries[i]
-        e1_event = ast.literal_eval(entry1["event"])
-        e2_event = ast.literal_eval(entry2["event"])
-        e1_time = datetime.strptime(entry1["time"], "%Y-%m-%d %H:%M:%S.%f")
-        e2_time = datetime.strptime(entry2["time"], "%Y-%m-%d %H:%M:%S.%f")
+        e1_time = datetime.strptime(get_prop(entry1, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
+        e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
         segment = {}
-        if entry1["event_type"] != "play_video":
+        if get_prop(entry1, "TYPE_EVENT") != CONF["EVT_VIDEO_PLAY"]:
             continue
         # case 1. play-pause: watch for a while and pause
-        if entry2["event_type"] == "pause_video":
+        if get_prop(entry2, "TYPE_EVENT") == CONF["EVT_VIDEO_PAUSE"]:
             # 1) compute time elapsed between play and pause
             # 2) subtract from the final position to get the starting position
             # 3) avoid negative time with max(x, 0)
             # time_diff = time.mktime(e2_time) - time.mktime(e1_time)
             time_diff = e2_time - e1_time
             time_diff_secs = time_diff.days * 60 * 60 * 24 + time_diff.seconds
-            elapsed_time = float(e2_event["currentTime"]) - time_diff_secs
+            elapsed_time = float(get_prop(entry2, "VIDEO_TIME")) - time_diff_secs
             segment["time_start"] = max(elapsed_time, 0)
-            segment["time_end"] = float(e2_event["currentTime"])
+            segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
         # case 2. play-play: watch for a while, access another part of the clip
         elif entry2["event_type"] == "play_video":
-            segment["time_start"] = float(e1_event["currentTime"])
-            segment["time_end"] = float(e2_event["currentTime"])
+            segment["time_start"] = float(get_prop(entry1, "VIDEO_TIME"))
+            segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
 
-        segment["date_start"] = entry1["time"]  # UDT to avoid time differences
-        segment["date_end"] = entry2["time"]
-        segment["speed"] = e1_event["speed"]
+        segment["date_start"] = get_prop(entry1, "TIMESTAMP")
+        segment["date_end"] = get_prop(entry2, "TIMESTAMP")
+        segment["speed"] = get_prop(entry1, "VIDEO_SPEED")
         segments.append(segment)
-        # print segment
     return segments
 
 
@@ -160,7 +137,6 @@ def fill_in_zero(daily_view_counts):
     If not, fill in zero.
     Also, return a sorted dictionary.
     """
-
     sorted_dates = sorted(daily_view_counts.keys())
     # check for index range error
     date_range = get_date_range(sorted_dates[0], sorted_dates[-1])
@@ -194,8 +170,7 @@ def process_heatmaps(mongodb, segments, video_id, duration):
     play_counts = [0] * duration
     replay_counts = [0] * duration
     skip_counts = [0] * duration
-    # raw_counts = {}
-    # raw_counts = Counter()
+
     # to compute how many students completely watched a clip.
     completion_count = 0
     completion_counts = Counter()
@@ -206,11 +181,6 @@ def process_heatmaps(mongodb, segments, video_id, duration):
         for user_id in segments:
             cur_user_play_count = 0
             for segment in segments[user_id]:
-                # print segments[user_id], len(segments[user_id])
-                # segment = segments[user_id][index]
-                # print segment
-                # start_index = int(math.floor(segment["time_start"]))
-                # end_index = int(math.floor(segment["time_end"]))
                 if current_time <= segment["time_end"] and segment["time_start"] <= (current_time + 1):
                     cur_user_play_count += 1
                 # detecting play clicks
@@ -246,7 +216,6 @@ def process_heatmaps(mongodb, segments, video_id, duration):
     playrate_counts = {}
     for user_id in segments:
         for segment in segments[user_id]:
-            # segment = segments[user_id][index]
             watching_time = segment["time_end"] - segment["time_start"]
             total_watching_time += watching_time
             if user_id not in start_times:

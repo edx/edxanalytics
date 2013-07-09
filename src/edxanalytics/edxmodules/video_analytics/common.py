@@ -11,6 +11,25 @@ To add a new target, simply copy an existing block, paste, and modify.
 """
 import ast
 
+"""
+The edX trackinglog schema...
+"track_trackinglog"
+    ("username" varchar(32) NOT NULL,
+    "dtcreated" datetime NOT NULL,
+    "event_source" varchar(32) NOT NULL,
+    "event_type" varchar(512) NOT NULL,
+    "ip" varchar(32) NOT NULL,
+    "agent" varchar(256) NOT NULL,
+    "event" text NOT NULL,
+        {"id":"i4x-MITx-6_002x-video-S1V1_Motivation_for_6_002x",
+        "code":"4rpg8Bq6hb4",
+        "currentTime":0,
+        "speed":"1.0"}
+    "host" varchar(64) NOT NULL DEFAULT '',
+    "time" datetime NOT NULL,
+    "id" integer PRIMARY KEY,
+    "page" varchar(512) NULL);
+"""
 EDX_CONF = {
     ### properties ###
     # Does the video autoplay?
@@ -21,6 +40,8 @@ EDX_CONF = {
     'TIMESTAMP': 'time',
     # Where is the event type information stored?
     'TYPE_EVENT': 'event_type',
+    # Where is the username stored?
+    'USERNAME': 'username',
     # Where is the video ID stored?
     'VIDEO_ID': ['event', ['code']],
     # Where is the video name stored?

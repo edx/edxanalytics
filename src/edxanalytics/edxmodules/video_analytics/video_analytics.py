@@ -109,19 +109,14 @@ def record_segments(mongodb):
             # remove all existing (video, username) entries
             # collection2.remove({"video_id": video_id, "user_id": username})
             for segment in data[video_id][username]["segments"]:
-                # print data[video_id][username][segment]
-                # result = {}
                 result = segment
                 result["video_id"] = video_id
                 result["user_id"] = username
-                # print result
                 collection_seg.insert(result)
                 results[video_id][username] = segment
-                # results.append(result)
     # Mark all as processed
     entries.rewind()
     for entry in entries:
-        # print "HELLO", entry, entry.keys(), entry["_id"]
         collection.update({"_id": entry["_id"]}, {"$set": {"processed": 1}})
     # Make sure the collection is indexed.
     from pymongo import ASCENDING
@@ -152,18 +147,12 @@ def record_heatmaps(mongodb):
     duration = 171
     results = defaultdict(dict)
     for segment in segments:
-        # print results[segment["video_id"]]
         if not segment["user_id"] in results[segment["video_id"]]:
             results[segment["video_id"]][segment["user_id"]] = []
         results[segment["video_id"]][segment["user_id"]].append(segment)
-    # print "PRINT", results
     for video_id in results:
         process_heatmaps(mongodb, results[video_id], video_id, duration)
 
-        # process_heatmaps(mongodb, segments[video_id], video_id, duration)
-    # for segment in segments:
-    #     # print segment
-    #     process_heatmaps(mongodb, segment)
     # Make sure the collection is indexed.
     from pymongo import ASCENDING
     collection.ensure_index([("video_id", ASCENDING)])
@@ -224,7 +213,7 @@ def process_data(mongodb):
 @query(name="test")
 def test(mongodb):
     """
-    Test property grabbing
+    Test property retrieval
     """
     collection = mongodb['video_events']
     # For incremental updates, retrieve only the events not processed yet.

@@ -9,8 +9,6 @@ import json
 import sys
 import logging
 from logging.handlers import HTTPHandler
-# from django.conf import settings
-# from logging.handlers import HTTPHandler
 
 
 def main(argv):
@@ -20,17 +18,16 @@ def main(argv):
     """
     logger = logging.getLogger('video_analytics')
     # http_handler = HTTPHandler('', '', method='GET')
+    # logging.handlers.HTTPHandler(http_handler)
     http_handler = HTTPHandler('127.0.0.1:9999', '/httpevent', method='GET')
-    # http_handler = logging.handlers.HTTPHandler('127.0.0.1:9022', '/event', method='GET')
 
     logger.addHandler(http_handler)
     #logger.setLevel(logging.DEBUG)
 
-    from dummy_values import generate_random_data
+    from edxmodules.video_analytics.dummy_values import generate_random_data
     results = generate_random_data(int(argv[1]))
     # test = ["actor=bob", "action=submitanswer", "object=problem5"]
     # objects = [o.split("=") for o in test]
-    # print dict(objects)
     # logger.error(json.dumps(dict(objects)))
     for entry in results:
         logger.critical(json.dumps(entry))
