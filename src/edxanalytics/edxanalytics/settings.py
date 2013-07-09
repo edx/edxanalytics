@@ -22,7 +22,7 @@ DJ_REQUIRED_APPS = (
     'edinsights.modules',
 )
 
-# Types of parameters that queries and views can take. 
+# Types of parameters that queries and views can take.
 # This is not properly used yet. 
 DJANALYTICS_PARAMETERS = ['user', 'filename']
 DJFS = { 'type' : 'osfs',
@@ -41,8 +41,8 @@ INSTALLED_ANALYTICS_MODULES = (#'prototypemodules.course_stats',
                                #'prototypemodules.user_stats', 
                                'edxmodules.dash',
                                'edxmodules.video_analytics',
-                               'prototypemodules.edx_data',
-                               'prototypemodules.autocomplete',)
+                               'prototypemodules.edx_data',)
+                               # 'prototypemodules.autocomplete',)
 
 # Adds test cases in debug mode. 
 # Commenting out for now. Test cases are CPU-intensive in prod, and 

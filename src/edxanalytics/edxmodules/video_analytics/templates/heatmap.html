@@ -45,6 +45,11 @@
         /*fill: white;*/
         cursor: pointer;
     }
+    .chart path{
+        stroke: steelblue;
+        stroke-width: 2;
+        fill: none;
+    }
     .chart .axis path,
     .chart .axis line {
         fill: none;
@@ -65,6 +70,23 @@
         background-color: #fff8dc;
         padding: 0.3em 0.5em;
     }    
+
+    #speed-table .speed, #speed-table .views {
+        text-align: left;
+        width: 100px;
+    }
+
+    #speed-table .percent-views {
+        text-align: left;
+        width: 300px;
+    }
+    
+    .speed-bar{
+        display: inline-block;
+        height: 0.8em;
+        background-color: steelblue;
+        margin-right: 1em;
+    }
 </style>
 
 <script>
@@ -73,9 +95,9 @@ var chart;
 var player;
 
 var options = {};
-var binSizeOptions = [1,2,5,10,20,30,60];
-var defaultBinSize = 5;
-var binSize = 0;
+// var binSizeOptions = [1,2,5,10,20,30,60];
+// var defaultBinSize = 5;
+// var binSize = 0;
 var duration = 0;
 var visWidth = 540;
 var visHeight = 180;
@@ -101,183 +123,11 @@ function formatSeconds(sec){
     return "" + Math.floor(sec/60) + ":" + (s<=9 ? '0' + s : s);
 }
 
-
-function dateToYMD(date) {
-    var d = date.getDate();
-    var m = date.getMonth() + 1;
-    var y = date.getFullYear();
-    return '' + y + '-' + (m<=9 ? '0' + m : m) + '-' + (d <= 9 ? '0' + d : d);
-}
-
-
-// compute the number of valid view counts, given an array of beginning timestamps of segments
-// threshold: time interval to be counted as a separate view count between segments (in seconds)
-function getValidCount(starting_times, threshold){
-    var count = 0;
-    for (user in starting_times){
-        for (index in starting_times[user]){
-            var cur_time = starting_times[user][index];
-            // if anything exists, count as 1 
-            if (index == 0)
-                count += 1;
-            // now count only after the threshold interval has passed.
-            else if (cur_time - starting_times[user][index - 1] > threshold)
-                count += 1;
-        }        
-    }
-    return count;
-}
-
-/*
-Put data into bins based on the mode.
-modes: playcount, play_unique, skip, replay
-    playcount: play count for this segment
-    play: unique number of students who played this segment
-    skip: unique number of students who skipped this segment
-    replay: unique number of students who played this segment more than once
-
-For a given list of segments, count the number of occurrences for the given type for each time bin
-binSize: How granular do we want our bin be? Determines the frequency of the counting. (in sec)
-duration: Video duration (in sec)
-*/
-function processData(data, mode, binSize, duration){
-    var numBins = parseInt(Math.ceil(duration / binSize));
-    // console.log(numBins);
-    var bins = new Array(numBins);
-    var result = new Array(numBins);
-    // counters
-    // var playcount_users = 0;
-    var play_users = {};
-    var replay_users = {};
-    var skip_users = {};
-
-    for (var i=0; i<numBins; i++){
-        bins[i] = 0;
-        result[i] = 0;
-        for (user in data){
-            // console.log(user, data[user], data[user]["segments"])
-            var cur_user_play_count = 0;
-            for (index in data[user]["segments"]){
-                var segment = data[user]["segments"][index];
-                // console.log(segment, segment["time_end"], segment["time_start"]);
-                // checking time overlap between a segment and a bin
-                // TODO: move to a separate function to make it easy to test different counting functions
-                if (i*binSize <= segment["time_end"] && segment["time_start"] <= (i+1)*binSize)
-                    cur_user_play_count += 1;
-            }
-            // this user watched this segment multiple times
-            if (mode == "playcount")
-                result[i] += cur_user_play_count;
-            else if (mode == "play" && cur_user_play_count > 0)
-                result[i] += 1;
-            else if (mode == "replay" && cur_user_play_count > 1)
-                result[i] += 1;
-            else if (mode == "skip" && cur_user_play_count == 0)
-                result[i] += 1;
-            // playcount_users += cur_user_play_count;
-            if (cur_user_play_count > 0)
-                play_users[user] = play_users[user]+1 || 1;
-            if (cur_user_play_count > 1)
-                replay_users[user] = replay_users[user]+1 || 1;
-            if (cur_user_play_count == 0)
-                skip_users[user] = skip_users[user]+1 || 1;
-        }
-    }
-
-    // Now check how many students completed watching: there play count should be in all bins
-    var complete_users_count = 0;
-    for (user in play_users){
-        if (play_users[user] == numBins)
-            complete_users_count += 1;
-    }
-
-    // compute average watching time per student
-    // var play_rates = {};
-    var watching_time = {};
-    var starting_times = {};
-    var sum_watching_time = 0;
-    for (user in data){
-        watching_time[user] = 0;
-        for (index in data[user]["segments"]){
-            var segment = data[user]["segments"][index];
-            // get play rate
-            // var play_rate = data[user]["segments"]
-            // play_rates[]
-            // get watching time
-            var segment_length = segment["time_end"] - segment["time_start"];
-            watching_time[user] += segment_length;
-            sum_watching_time += segment_length;
-
-            // get starting times
-            if (typeof starting_times[user] === "undefined")
-                starting_times[user] = [];
-            
-            var a = segment["date_start"].split(/[^0-9]/);
-            var parsedDate = new Date(a[0],a[1]-1,a[2],a[3],a[4],a[5]);         
-            starting_times[user].push(Date.parse(parsedDate));
-        }
-        // console.log(starting_times[user]);
-    }
-    // console.log(sum_watching_time, num_users, sum_watching_time / num_users);
-
-    var valid_count = getValidCount(starting_times, 24*60*60*1000);
-
-    // Display stats
-    var num_users = getObjectSize(data);    
-    // console.log(bins, result);
-    //$(".playcount-count").text(playcount_users);
-    $(".play-count").text(getObjectSize(play_users) +
-        " (x% of total enrolled)");
-    $(".complete-count").text(complete_users_count +
-        " (" + (complete_users_count*100/num_users).toFixed(1) + "% of all viewers)");
-    $(".replay-count").text(getObjectSize(replay_users) + 
-        " (" + (getObjectSize(replay_users)*100/num_users).toFixed(1) + "% of all viewers)");
-    $(".skip-count").text(getObjectSize(skip_users) + 
-        " (" + (getObjectSize(skip_users)*100/num_users).toFixed(1) + "% of all viewers)");
-
-    $(".playcount-count").text(valid_count);
-    $(".playcount-student").text((valid_count / num_users).toFixed(2));
-    $(".watching-time").text(formatSeconds(sum_watching_time / num_users));
-    $(".video-length").text(formatSeconds(duration));
-
-    return result;
-}
-
-
-
-
-function processTimeData(data){
-    // TODO: dynamically set start and end dates
-    var startDate = new Date("2013-03-01");
-    var endDate = new Date("2013-06-30");
-    var numBins =  Math.floor((Date.parse(endDate) - Date.parse(startDate)) / (24*60*60*1000));
-    var result = {};    
-    for (var i=0; i<numBins; i++){
-        var curDate = new Date(startDate);
-        curDate.setDate(startDate.getDate()+i);
-        var nextDate = new Date(curDate);
-        nextDate.setDate(curDate.getDate()+1);
-        for (user in data){
-            for (index in data[user]["segments"]){
-                var segment = data[user]["segments"][index];
-                // Cannot use Date.parse() due to browser compatibility
-                var a = segment["date_start"].split(/[^0-9]/);
-                var parsedDate = new Date(a[0],a[1]-1,a[2],a[3],a[4],a[5]);
-                // console.log(Date.parse(segment["date_start"]));
-                //console.log(segment["date_start"], Date.parse(segment["date_start"]) >= curDate)
-                if (parsedDate >= curDate && parsedDate <= nextDate)
-                    result[dateToYMD(curDate)] = result[dateToYMD(curDate)]+1 || 1;
-            }
-        }
-    }    
-    // console.log(result);
-    return result;
-}
-
-
+/* Move the player to the selected region to sync with the vis */
 function rectClickHandler(d, i){
-    console.log($(this), d, i * binSize);
-    player.seekTo(i * binSize);
+    console.log($(this), d, i);
+    // player.seekTo(i * binSize);
+    player.seekTo(i);
 }
 
 
@@ -310,7 +160,11 @@ function drawPlayVis(dataset, duration, w, h){
     var xScale = d3.scale.linear().domain([0, duration]).range([0, w]);
     var yScale = d3.scale.linear().domain([0, d3.max(dataset)]).range([h, 0]);
 
-    var barPadding = 1;
+    // margin = 20,
+    // y = d3.scale.linear().domain([0, d3.max(data)]).range([0 + margin, h - margin]),
+    // x = d3.scale.linear().domain([0, data.length]).range([0 + margin, w - margin])
+
+    var barPadding = 0;
     var chart = d3.select("#play-vis").append("svg")
                 .attr("class", "chart play-chart")
                 .attr("width", w)
@@ -327,7 +181,30 @@ function drawPlayVis(dataset, duration, w, h){
         .style("visibility", "hidden")
         .text("Tooltip");
 
-    // Add histogram
+    var line = d3.svg.line()
+        .x(function(d, i){ return xScale(i); })
+        .y(function(d){ return yScale(d); }); 
+
+    // chart.selectAll("path")
+    //     .data(dataset)
+    //     .enter().append("path")    
+    //     .attr("d", line(dataset));
+
+    // chart.append("svg:path")
+    //     .data(dataset)
+    //     .attr("d", line(dataset))
+    //     .on("click", rectClickHandler);
+        // .on("mouseover", function(d, i){
+        //     console.log(this, d, i);
+        //     return tooltip.text("at " + formatSeconds(d.key) + " count: " + d.value).style("visibility", "visible");
+        // })
+        // .on("mousemove", function(d){
+        //     return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
+        // })
+        // .on("mouseout", function(d){
+        //     return tooltip.style("visibility", "hidden");
+        // });   
+    // // Add histogram
     chart.selectAll("rect")
         .data(dataset)
         .enter().append("rect")
@@ -336,8 +213,8 @@ function drawPlayVis(dataset, duration, w, h){
         .attr("width", w / dataset.length - barPadding)
         .attr("height", function(d){ return h - yScale(d); })
         .on("click", rectClickHandler)
-        .on("mouseover", function(d){
-            return tooltip.text(d).style("visibility", "visible");
+        .on("mouseover", function(d, i){
+            return tooltip.text("at " + formatSeconds(i) + " count: " + d).style("visibility", "visible");
         })
         .on("mousemove", function(d){
             return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
@@ -386,10 +263,15 @@ function drawPlayVis(dataset, duration, w, h){
 
 
 
-function drawTimeVis(dataset, duration, w, h){
+function drawTimeVis(dataset, w, h){
+    // Data format: array of [date, count] entries
+    // e.g., dataset[0] ==> "2013-03-01": 34
+
+    keys = dataset.map(function(d) { return d[0] });
+    values = dataset.map(function(d) { return d[1] });
     d3.selectAll("svg.time-chart").remove();
-    var xScale = d3.scale.ordinal().domain(d3.keys(dataset)).rangePoints([0, w]);
-    var yScale = d3.scale.linear().domain([ 0, d3.max(d3.values(dataset)) ]).range([h, 0]);
+    var xScale = d3.scale.ordinal().domain(keys).rangePoints([0, w]);
+    var yScale = d3.scale.linear().domain([ 0, d3.max(values) ]).range([h, 0]);
 
     var barPadding = 1;
     var chart = d3.select("#time-vis").append("svg")
@@ -408,17 +290,44 @@ function drawTimeVis(dataset, duration, w, h){
         .style("visibility", "hidden")
         .text("Tooltip");
 
+    var line = d3.svg.line()
+        .x(function(d, i){ return xScale(i); })
+        .y(function(d){ return yScale(d[1]); });
+        // .on("mouseover", function(d){
+        //     return tooltip.text(d.value[0] + ": " + d.value[1] + " views").style("visibility", "visible");
+        // })
+        // .on("mousemove", function(d){
+        //     return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
+        // })
+        // .on("mouseout", function(d){
+        //     return tooltip.style("visibility", "hidden");
+        // });
+
+    // chart.selectAll("path")
+    //     .data(d3.entries(dataset))
+    //     .enter().append("path")    
+    //     .attr("d", line(dataset))
+        // .on("mouseover", function(d){
+        //     console.log(d);
+        //     return tooltip.text(d.value[0] + ": " + d.value[1] + " views").style("visibility", "visible");
+        // })
+        // .on("mousemove", function(d){
+        //     return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
+        // })
+        // .on("mouseout", function(d){
+        //     return tooltip.style("visibility", "hidden");
+        // });
     // Add histogram
     chart.selectAll("rect")
         .data(d3.entries(dataset))
         .enter().append("rect")
-        .attr("x", function(d, i){ return i * (w / getObjectSize(dataset)); })
-        .attr("y", function(d){ return yScale(d.value); })
-        .attr("width", w / getObjectSize(dataset) - barPadding)
-        .attr("height", function(d){ return h - yScale(d.value); })
+        .attr("x", function(d, i){ return i * (w / keys.length); })
+        .attr("y", function(d){ return yScale(d.value[1]); })
+        .attr("width", w / keys.length - barPadding)
+        .attr("height", function(d){ return h - yScale(d.value[1]); })
         // .on("click", rectClickHandler)
         .on("mouseover", function(d){
-            return tooltip.text(d.value).style("visibility", "visible");
+            return tooltip.text(d.value[0] + ": " + d.value[1] + " views").style("visibility", "visible");
         })
         .on("mousemove", function(d){
             return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
@@ -509,8 +418,9 @@ function bindEvents(){
         // $("svg").remove();
         drawPlayVis(processedData, duration, visWidth, visHeight);
 
-        processedData = processTimeData(data);
-        drawTimeVis(processedData, 121, visWidth, visHeight);
+        // processedData = processTimeData(data);
+        processedData = data["daily_view_counts"];
+        drawTimeVis(processedData, visWidth, visHeight);
         // redrawVis(chart, processedData, duration, visWidth, visHeight);
         return false;
     });    
@@ -540,12 +450,8 @@ function bindEvents(){
 
 function displayStats(){
     // var valid_count = getValidCount(starting_times, 24*60*60*1000);
-
     // Display stats
-    // var num_users = getObjectSize(data);    
     var num_users = data["unique_student_count"];
-    // console.log(bins, result);
-    //$(".playcount-count").text(playcount_users);
     $(".play-count").text(num_users +
         " (x% of total enrolled)");
     $(".complete-count").text(data["completion_count"] +
@@ -555,10 +461,30 @@ function displayStats(){
     // $(".skip-count").text(getObjectSize(skip_users) + 
     //     " (" + (getObjectSize(skip_users)*100/num_users).toFixed(1) + "% of all viewers)");
 
-    // $(".playcount-count").text(valid_count);
-    // $(".playcount-student").text((valid_count / num_users).toFixed(2));
+    $(".playcount-count").text(data["view_count"]);
+    $(".playcount-student").text((data["view_count"] / num_users).toFixed(2));
     $(".watching-time").text(formatSeconds(data["total_watching_time"] / num_users));
     $(".video-length").text(formatSeconds(duration));    
+
+    var total_playrate_counts = 0;
+    var sorted_playrate_counts = [];
+    for (var rate in data["playrate_counts"]){
+        total_playrate_counts += data["playrate_counts"][rate];
+        // replace _ with . in the speed display because Mongo doesn't allow . in the key
+        sorted_playrate_counts.push([rate.replace("_", ".") + "x", data["playrate_counts"][rate]]);
+    }
+    sorted_playrate_counts.sort(function(a, b){ 
+        return b[1] - a[1]; 
+    });
+    $.each(sorted_playrate_counts, function(){
+        var $row = $("<tr/>");
+        $("<td/>").text(this[0]).appendTo($row);
+        $("<td/>").text(this[1]).appendTo($row);
+        var percentage = (100.0 * this[1] / total_playrate_counts).toFixed(2);
+        var $bar = $("<span/>").addClass("speed-bar").width(percentage + "%");
+        $("<td/>").append($bar).append(percentage + "%").appendTo($row);
+        $row.appendTo($("#speed-table"));
+    });
 }
 
 function init(){
@@ -591,8 +517,8 @@ $(document).ready(function(){
             <tr><td class="playcount-stat">Views: </td><td><span class="stat playcount-count"></span></td></tr>
             <tr><td class="play-stat">Unique Students Viewed: </td><td><span class="stat play-count"></span></td></tr>
             <tr><td class="complete-stat">Unique Students Completed: </td><td><span class="stat complete-count"></span></td></tr>            
-            <tr><td class="replay-stat">Unique Students Replayed: </td><td><span class="stat replay-count"></span></td></tr>
-            <tr><td class="skip-stat">Unique Students Skipped: </td><td><span class="stat skip-count"></span></td></tr>
+<!--             <tr><td class="replay-stat">Unique Students Replayed: </td><td><span class="stat replay-count"></span></td></tr>
+            <tr><td class="skip-stat">Unique Students Skipped: </td><td><span class="stat skip-count"></span></td></tr> -->
             <tr><td>&nbsp;</td></tr>
             <tr><td class="playcount-student-stat">Views per Student: </td><td><span class="stat playcount-student"></span></td></tr>
             <tr><td class="watching-time-stat">Average View Duration: </td><td><span class="stat watching-time"></span></td></tr>
@@ -614,6 +540,16 @@ $(document).ready(function(){
     </section>
     <section id="time-vis">
         <h2>Views Over Time</h2>
+    </section>
+    <section id="speed">
+        <h2>Play Speed</h2>
+        <table id="speed-table">
+            <tr>
+                <th class="speed">Speed</th>
+                <th class="views">Views</th>
+                <th class="percent-views">% Views</th>
+            </tr>
+        </table>
     </section>
    <!--  <iframe id="ytplayer" type="text/html" width="640" height="390"
     src="https://www.youtube.com/embed/${ video_id }?enablejsapi=1" frameborder="0" allowfullscreen/>
