@@ -24,7 +24,7 @@ def main(argv):
     logger.addHandler(http_handler)
     #logger.setLevel(logging.DEBUG)
 
-    from edxmodules.video_analytics.dummy_values import generate_random_data
+    from dummy_values import generate_random_data
     results = generate_random_data(int(argv[1]))
     # test = ["actor=bob", "action=submitanswer", "object=problem5"]
     # objects = [o.split("=") for o in test]

@@ -30,8 +30,9 @@ Typical Workflow
  - run `send_event.py`
 - Step 4. process the collected tracking events
  - open `[edxanalytics]/process_data` in the web browser
-- Step 5. access analytics dashboard
- - open `[edxanalytics]/view/video_single?vid=[youtube video ID]` in the web browser
+- Step 5. access the analytics dashboard
+ - open `[edxanalytics]/view/video_list` in the web browser for the dashboard
+ - open `[edxanalytics]/view/video_single?vid=[youtube video ID]` in the web browser for a single video
 
 
 Files
@@ -42,7 +43,8 @@ Files
 - `dummy_values`: creates dummy data used for testing
 - `video_analytics`: main module 
 - `video_logic`: feature detection and extraction logic
-- `heatmap.html`: front-end visualization
+- `single-view.html`: front-end visualization for a single video view
+- `list-view.html`: front-end visualization for an aggreagate view
 
 
 Limitations

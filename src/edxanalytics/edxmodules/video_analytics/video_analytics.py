@@ -26,51 +26,31 @@ def video_single_view(mongodb, vid):
     Example: http://localhost:9999/view/video_single?vid=2deIoNhqDsg
     """
     data = video_single_query(mongodb, vid)
-    # video_id = u'2deIoNhqDsg'
+    videos = video_info_query(mongodb)
     from djanalytics.core.render import render
-    return render("heatmap.html", {
-        'video_id': vid, 'data': data
+    return render("single-view.html", {
+        'video_id': vid, 'data': data, 'videos': videos
     })
 
 
-# @view(name="video_lecture")
-# def video_lecture_view(mongodb):  # def video_heatmap(view)
-#     ''' Visualize students' interaction with video content
-#         for all videos in a lecture
-#     '''
-#     # bin_size = 5
-#     # duration = 171
-#     video_id = "2deIoNhqDsg"
-#     log_entries = video_interaction_query()
-#     data = process_data(log_entries)
-#     #bins = run_counting(segments, bin_size, duration)
-#     from djanalytics.core.render import render
-#     return render("heatmap.html", {
-#         'video_id': video_id, 'data': json.dumps(data)
-#     })
-
-
-# @view(name="video_course")
-# def video_course_view(mongodb):  # def video_heatmap(view)
-#     ''' Visualize students' interaction with video content
-#         over the entire course.
-#     '''
-#     # bin_size = 5
-#     # duration = 171
-#     video_id = "2deIoNhqDsg"
-#     log_entries = video_interaction_query()
-#     data = process_data(log_entries)
-#     #bins = run_counting(segments, bin_size, duration)
-#     from djanalytics.core.render import render
-#     return render("heatmap.html", {
-#         'video_id': video_id, 'data': json.dumps(data)
-#     })
+@view(name="video_list")
+def video_list_view(mongodb):
+    """
+    Visualize students' interaction with video content
+    for all videos in the events database
+    """
+    data = video_list_query(mongodb)
+    videos = video_info_query(mongodb)
+    from djanalytics.core.render import render
+    return render("list-view.html", {
+        'data': data, 'videos': videos
+    })
 
 
 @query(name="video_single")
 def video_single_query(mongodb, vid):
     """
-    Return heatmap information from the database.
+    Return heatmap information from the database for a single video.
     Example: http://localhost:9999/query/video_single?vid=2deIoNhqDsg
     """
     start_time = time.time()
@@ -80,6 +60,42 @@ def video_single_query(mongodb, vid):
 
     if len(entries):
         result = json.dumps(entries[0], default=json_util.default)
+    else:
+        result = ""
+    print sys._getframe().f_code.co_name, "COMPLETED", (time.time() - start_time), "seconds"
+    return result
+
+
+@query(name="video_list")
+def video_list_query(mongodb):
+    """
+    Return heatmap information from the database for all videos.
+    """
+    start_time = time.time()
+
+    collection = mongodb['video_heatmaps']
+    entries = list(collection.find())
+
+    if len(entries):
+        result = json.dumps(entries, default=json_util.default)
+    else:
+        result = ""
+    print sys._getframe().f_code.co_name, "COMPLETED", (time.time() - start_time), "seconds"
+    return result
+
+
+@query(name="video_info")
+def video_info_query(mongodb):
+    """
+    Get a list of all videos in the database
+    """
+    start_time = time.time()
+
+    collection = mongodb['videos']
+    entries = list(collection.find())
+
+    if len(entries):
+        result = json.dumps(entries, default=json_util.default)
     else:
         result = ""
     print sys._getframe().f_code.co_name, "COMPLETED", (time.time() - start_time), "seconds"
@@ -96,7 +112,7 @@ def record_segments(mongodb):
     # For incremental updates, retrieve only the events not processed yet.
     entries = collection.find({"processed": 0})
     print entries.count(), "new events found"
-    data = process_segments(list(entries))
+    data = process_segments(mongodb, list(entries))
     collection_seg = mongodb['video_segments']
     # collection.remove()
     results = {}
@@ -109,6 +125,7 @@ def record_segments(mongodb):
             # remove all existing (video, username) entries
             # collection2.remove({"video_id": video_id, "user_id": username})
             for segment in data[video_id][username]["segments"]:
+                print "VIDEOIDIDIDID", video_id
                 result = segment
                 result["video_id"] = video_id
                 result["user_id"] = username

@@ -9,6 +9,23 @@ import datetime
 # from edinsights.core.decorators import view, query, event_handler, memoize_query
 
 
+videos = [
+    {"id": "S1V10_Demo_-_Taking_Abstraction_Too_Far", "code": "AEwvgztBf44"},
+    {"id": "S1V11_Lumped_Element_Abstraction", "code": "KsDpWC2M-i0"},
+    {"id": "S1V12_Lumped_Element_Abstraction", "code": "8fhUjsUUJYU"},
+    {"id": "S1V13_KVL_KCL", "code": "SaieZYN_WR0"},
+    {"id": "S1V14_Summary", "code": "BGU1poJDgOY"},
+    {"id": "S1V1_Motivation_for_6.002x", "code": "4rpg8Bq6hb4"},
+    {"id": "S1V2_Administrivia", "code": "2deIoNhqDsg"},
+    {"id": "S1V3_System_Usage", "code": "ZKqRETRbYbI"},
+    {"id": "S1V4_Course_Overview", "code": "AnTf6vS5aO8"},
+    {"id": "S1V6_Lumped_element_abstraction", "code": "hIea8V5vXh8"},
+    {"id": "S1V7_Lumped_element_abstraction", "code": "xnoAyQeGZis"},
+    {"id": "S1V8_Lumped_element_abstraction", "code": "CO1GaQ_aABk"},
+    {"id": "S1V9_Demo_Setup_-_Lumped_Elements", "code": "pFOrD8k9_p4"}
+]
+
+
 def random_date(start, end):
     """
     This function returns a random datetime between two datetime
@@ -39,6 +56,7 @@ def generate_random_data(size):
     date2 = datetime.datetime(2013, 6, 30, 0, 0, 0, 0)
 
     for i in range(0, size):
+        v_index = random.randrange(len(videos))
         username = random.choice(names)
         dt_org = random_date(date1, date2)
         dtcreated = unicode(dt_org.strftime("%Y-%m-%d %H:%M:%S.%f"))
@@ -47,8 +65,8 @@ def generate_random_data(size):
         ip_addr = u'127.0.0.1'
         agent = u'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4'
         event = {}
-        event["id"] = "i4x-MITx-6_002x-video-S1V1_Motivation_for_6_002x"
-        event["code"] = "2deIoNhqDsg"
+        event["id"] = videos[v_index]["id"]
+        event["code"] = videos[v_index]["code"]
         #event["currentTime"] = int(random.random() * duration)
         event["currentTime"] = int(random.betavariate(0.1, 10) * duration)
         event["speed"] = random.choice(["0.75", "1.0", "1.25", "1.5"])

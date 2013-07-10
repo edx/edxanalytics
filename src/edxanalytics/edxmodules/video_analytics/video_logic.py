@@ -34,17 +34,31 @@ def compute_view_count(start_times, threshold):
     return count
 
 
-def process_segments(log_entries):
+def process_segments(mongodb, log_entries):
     """
     For a list of log entries, parse them into a format that makes it easy to construct segments.
     Indexed by username, each entry in the resulting data structure includes the following:
     - segments: all segments for this user
     - entries: all raw log entries
     """
+    collection = mongodb['videos']
+    current_videos = list(collection.find({}, {"video_id": 1}).distinct("video_id"))
+    videos = []
+    for video in current_videos:
+        videos.append(video)
     data = {}
     for entry in log_entries:
         username = get_prop(entry, "USERNAME")
         video_id = get_prop(entry, "VIDEO_ID")
+        # if this video is not in the video database, add it
+        if video_id not in videos:
+            db_entry = {}
+            db_entry["video_id"] = video_id
+            db_entry["video_name"] = get_prop(entry, "VIDEO_NAME")
+            db_entry["hosted_on_youtube"] = get_prop(entry, "HOSTED_ON_YOUTUBE")
+            collection.insert(db_entry)
+            videos.append(video_id)
+
         if video_id not in data:
             data[video_id] = {}
         if username not in data[video_id]:
@@ -58,7 +72,9 @@ def process_segments(log_entries):
         for username in data[video_id]:
             data[video_id][username]["segments"] = \
                 construct_segments(data[video_id][username]["entries"])
+            print video_id, username, len(data[video_id][username]["segments"]), len(data[video_id][username]["entries"])
             del data[video_id][username]["entries"]
+
 
     return data
 
@@ -85,10 +101,11 @@ def construct_segments(log_entries):
         e1_time = datetime.strptime(get_prop(entry1, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
         e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
         segment = {}
-        if get_prop(entry1, "TYPE_EVENT") != CONF["EVT_VIDEO_PLAY"]:
+        print get_prop(entry1, "TYPE_EVENT"), get_prop(entry2, "TYPE_EVENT"), CONF["EVT_VIDEO_PAUSE"]
+        if get_prop(entry1, "TYPE_EVENT") not in CONF["EVT_VIDEO_PLAY"]:
             continue
         # case 1. play-pause: watch for a while and pause
-        if get_prop(entry2, "TYPE_EVENT") == CONF["EVT_VIDEO_PAUSE"]:
+        if get_prop(entry2, "TYPE_EVENT") in CONF["EVT_VIDEO_PAUSE"]:
             # 1) compute time elapsed between play and pause
             # 2) subtract from the final position to get the starting position
             # 3) avoid negative time with max(x, 0)
@@ -99,13 +116,14 @@ def construct_segments(log_entries):
             segment["time_start"] = max(elapsed_time, 0)
             segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
         # case 2. play-play: watch for a while, access another part of the clip
-        elif entry2["event_type"] == "play_video":
+        elif get_prop(entry2, "TYPE_EVENT") in CONF["EVT_VIDEO_PLAY"]:
             segment["time_start"] = float(get_prop(entry1, "VIDEO_TIME"))
             segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
 
         segment["date_start"] = get_prop(entry1, "TIMESTAMP")
         segment["date_end"] = get_prop(entry2, "TIMESTAMP")
         segment["speed"] = get_prop(entry1, "VIDEO_SPEED")
+        print segment
         segments.append(segment)
     return segments
 

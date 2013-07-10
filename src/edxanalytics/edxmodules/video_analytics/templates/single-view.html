@@ -1,33 +1,140 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <style>
     body {
-        font-family: sans-serif;
-        margin: 3em;
+        font-family: 'Open Sans', sans-serif;
+        /*margin: 3em;*/
+        width: 900px;
     }
+
+    .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+
+    .clearfix {
+        display: inline-block;
+    }
+
+    html[xmlns] .clearfix {
+        display: block;
+    }
+
+    * html .clearfix {
+        height: 1%;
+    }
+    table {
+        border-spacing: 0;
+    }
+    th, td {
+        padding: 0.2em 1em;
+    }
+    tr:nth-child(odd) { 
+        background-color:#eee; 
+    }
+    tr:nth-child(even) { 
+        background-color:#fff; 
+    }
+    section {
+        display: none;
+        margin: 1em;
+    }
+
+
+/*    header {
+        width: 100%;
+        height: 50px;
+        display: block;
+    }
+
+    .title {
+        float:left;
+    }*/
+    #tabs .nav {
+        float:right;
+        /*margin-top: 0.6em;*/
+    }
+    #tabs .nav a {
+        margin: 0;
+    }
+/*    #tabs .nav ul li {
+        list-style:none;
+        float:left;
+        margin: 0 0.5em;
+    }
+    #tabs .nav ul li a {
+        color: #222;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #tabs .nav ul li a:hover {
+        color: steelblue;
+    }*/
+
     #ytplayer {
         padding: 1em 3em;
     }
+    .stat-box {
+        float: left;
+        background-color: #eee;
+        margin: 0 0.2em;
+        padding: 0.5em;
+        width: 9em;
+        height: 5em;
+        text-align: center;
+    }
     .stat {
+        font-size: 1.4em;
         font-weight: bold;
-        padding-left: 1em;
+        height: 2em;
+        color: steelblue;
+    }
+    .substat {
+        font-size: 0.8em;
+        height: 1em;
+    }  
+    .desc {
+        font-size: 0.8em;
+    }  
+    #tabs, #vis-options {
+        /*background-color: #d6d6d6;*/
+        background-color: #eee;
+    }
+    #tabs div, #vis-options div {
+        float: left;
+    }
+    #tabs {
+        padding: 0.7em;
+        font-weight: bold;
+        width: 100%;
     }
     #vis-options {
-        margin: 1em 0;
+        padding: 0.5em;
     }
-    #vis-options a {
+    #tabs a:hover{
+        color: steelblue;
+    }
+    #tabs a, #vis-options a {
         margin: 0.5em;
-        padding: 0.3em;
+        padding: 0.3em 1em;
         text-decoration: none;
     }
-    #vis-options a {
+    #tabs a, #vis-options a {
         color: #2A2E40;
     }    
-    #vis-options a.active {
-        background-color: #96A5E6;
+    #tabs a.active, #vis-options a.active {
+        /*background-color: #96A5E6;*/
+        /*background-color: #6DBCDB;*/
+        background-color: rgba(0, 0, 0, 0.4);
+        color: #fff;
     }
     #vis-options #binsize-options {
         margin: 0.8em;
@@ -91,6 +198,7 @@
 
 <script>
 var data;
+var videos;
 var chart;
 var player;
 
@@ -364,7 +472,6 @@ function drawTimeVis(dataset, w, h){
 
 // This function creates an <iframe> (and YouTube player)
 // after the API code downloads.
-
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('ytplayer', {
     height: '330',
@@ -383,6 +490,7 @@ function onPlayerReady(event) {
     setInterval(updatePlayerInfo, 600);
 }
 
+
 // Update the current playbar in the vis
 function updatePlayerInfo(){
     // Conditions: player should have been initialized, player should be playing, and duration should be available
@@ -391,26 +499,48 @@ function updatePlayerInfo(){
     }
 }
 
-// The API calls this function when the player's state changes.
-// The function indicates that when playing a video (state=1),
-// the player should play for six seconds and then stop.
+
+/*
+    The API calls this function when the player's state changes.
+    The function indicates that when playing a video (state=1),
+    the player should play for six seconds and then stop.
+*/
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.PLAYING) {
     // Accurate information available only once the player starts playing
     if (duration == 0){
         duration = player.getDuration();
+        event.target.stopVideo();
         init();
     }
   }
 }
 
 
+/* Add event handlers for tab menu and visualization options */
 function bindEvents(){
+    $("#tabs .tab-item").click(function(){
+        if ($(this).hasClass("active"))
+            return;
+        $(".tab-item").removeClass("active");
+        $(this).addClass("active");
+        $("section").hide();
+        if ($(this).attr("data-mode") == "summary"){
+            $("#stats").show();
+            $("#speed").show();
+        } else if ($(this).attr("data-mode") == "heatmap"){
+            $("#play-vis").show();
+        } else if ($(this).attr("data-mode") == "views"){
+            $("#time-vis").show();
+        }
+        return false;
+    });
+
     $("#vis-options a").click(function(){
         console.log($(this).text(), "clicked");
         $("#vis-options a").removeClass("active");
         $(this).addClass("active");
-        var mode = $(this).data("mode");
+        var mode = $(this).attr("data-mode");
         // var processedData = processData(data, mode, binSize, duration);
         // console.log(data);
         var processedData = data[mode];
@@ -424,48 +554,27 @@ function bindEvents(){
         // redrawVis(chart, processedData, duration, visWidth, visHeight);
         return false;
     });    
-/*
-    $("#binsize-options select").on("change", function(){
-        binSize = $(this).val();
-        console.log("binsize changed to", binSize);
-        // $("svg").remove();
-        // var dummyData = initData(binSize, duration);
-        // chart = drawPlayVis(dummyData, duration, visWidth, visHeight);
-
-        $("#vis-options a.active").trigger("click");
-    });
-*/
 }
 
-
-// function generateBinSizeOptions(){
-//     var $select = $("<select/>");
-//     for (i in binSizeOptions){
-//         // console.log("adding", binSizeOptions[i]);
-//         $("<option/>").attr("value", binSizeOptions[i]).text(binSizeOptions[i] + " sec").appendTo($select);
-//     }
-//     $select.appendTo($("#binsize-options"));
-// }
-
-
+/* Display summary stats */
 function displayStats(){
-    // var valid_count = getValidCount(starting_times, 24*60*60*1000);
-    // Display stats
+    $(".views .stat").text(data["view_count"]);
     var num_users = data["unique_student_count"];
-    $(".play-count").text(num_users +
-        " (x% of total enrolled)");
-    $(".complete-count").text(data["completion_count"] +
-        " (" + (data["completion_count"]*100/num_users).toFixed(1) + "% of all viewers)");
+    $(".unique-views .stat").text(num_users);
+    $(".unique-views .substat").text("x% of total enrolled");
+    $(".complete-count .stat").text(data["completion_count"]);
+    $(".complete-count .substat").text("completion rate: " + (data["completion_count"]*100/num_users).toFixed(1) + "%");
     // $(".replay-count").text(getObjectSize(replay_users) + 
     //     " (" + (getObjectSize(replay_users)*100/num_users).toFixed(1) + "% of all viewers)");
     // $(".skip-count").text(getObjectSize(skip_users) + 
     //     " (" + (getObjectSize(skip_users)*100/num_users).toFixed(1) + "% of all viewers)");
+    $(".views-per-student .stat").text((data["view_count"] / num_users).toFixed(2));
+    $(".watching-time .stat").text(formatSeconds(data["total_watching_time"] / num_users));
+    $(".watching-time .substat").text("video length: " + formatSeconds(duration));    
+}
 
-    $(".playcount-count").text(data["view_count"]);
-    $(".playcount-student").text((data["view_count"] / num_users).toFixed(2));
-    $(".watching-time").text(formatSeconds(data["total_watching_time"] / num_users));
-    $(".video-length").text(formatSeconds(duration));    
 
+function displayPlayRates(){
     var total_playrate_counts = 0;
     var sorted_playrate_counts = [];
     for (var rate in data["playrate_counts"]){
@@ -484,17 +593,34 @@ function displayStats(){
         var $bar = $("<span/>").addClass("speed-bar").width(percentage + "%");
         $("<td/>").append($bar).append(percentage + "%").appendTo($row);
         $row.appendTo($("#speed-table"));
-    });
+    });    
+}
+
+/* display video title */
+function displayTitle(){
+    var video_id = '${ video_id }';
+    console.log(video_id);
+    for (index in videos){
+        if (video_id == videos[index]["video_id"])
+            $(".video-title").text(videos[index]["video_name"]);
+    }
+}
+
+
+function displayNav(){
+    $(".nav .list")
 }
 
 function init(){
     data = ${data|n};
-    // generateBinSizeOptions();
+    videos = ${videos|n};
     bindEvents();
-    displayStats();    
-    // by default, select the default binsize value
-    // $("#binsize-options select").val(defaultBinSize).change();
+    displayTitle();
+    displayNav();
+    displayStats();
+    displayPlayRates();    
     // by default, click the first item
+    $("#tabs a").first().trigger("click");
     $("#vis-options a").first().trigger("click");
 }
 
@@ -511,38 +637,56 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
+<div class="container">
+    <header>
+    <h2 class="title">
+        Video Analytics for <span class="video-title"></span>
+    </h2>
+    </header>
+    <div id="tabs" class="clearfix">
+        <div><a class="tab-item" href="#" data-mode="summary">Summary</a></div>
+        <div><a class="tab-item" href="#" data-mode="heatmap">Heatmap</a></div>
+        <div><a class="tab-item" href="#" data-mode="views">Views over time</a></div>
+        <div class="nav">
+            <div class="prev"><a href="#">&lt; Prev</a></div>
+            <div class="list"><a href="video_list">Dashboard</a></div>
+            <div class="next"><a href="#">Next &gt; </a></div>
+        </div>        
+    </div>
+
     <section id="stats">
-        <h2>Video Analytics Summary</h2>
-        <table>
-            <tr><td class="playcount-stat">Views: </td><td><span class="stat playcount-count"></span></td></tr>
-            <tr><td class="play-stat">Unique Students Viewed: </td><td><span class="stat play-count"></span></td></tr>
-            <tr><td class="complete-stat">Unique Students Completed: </td><td><span class="stat complete-count"></span></td></tr>            
-<!--             <tr><td class="replay-stat">Unique Students Replayed: </td><td><span class="stat replay-count"></span></td></tr>
-            <tr><td class="skip-stat">Unique Students Skipped: </td><td><span class="stat skip-count"></span></td></tr> -->
-            <tr><td>&nbsp;</td></tr>
-            <tr><td class="playcount-student-stat">Views per Student: </td><td><span class="stat playcount-student"></span></td></tr>
-            <tr><td class="watching-time-stat">Average View Duration: </td><td><span class="stat watching-time"></span></td></tr>
-            <tr><td class="video-length-stat">Video Length: </td><td><span class="stat video-length"></span></td></tr>
-        </table>
-    </section>
-    <div id="ytplayer"></div>
-    <section id="play-vis">
-        <h2>Video Heatmap</h2>
-        <div id="vis-options">
-            <a class="" href="#" data-mode="raw_counts">Views</a>
-            <a class="" href="#" data-mode="unique_counts">Unique Viewers</a>
-            <a class="" href="#" data-mode="replay_counts">Replaying</a>
-            <a class="" href="#" data-mode="skip_counts">Skipping</a>
-            <a class="" href="#" data-mode="play_counts">Play Events</a>
-            <a class="" href="#" data-mode="pause_counts">Pause Events</a>
-            <!-- <div id="binsize-options">Bin Size: </div> -->
+        <h3>Summary</h3>
+        <div class="clearfix">
+        <div class="stat-box views">
+            <div class="stat"></div>
+            <div class="desc">views</div>
+            <div class="substat"></div>
+        </div>
+        <div class="stat-box unique-views">
+            <div class="stat"></div>
+            <div class="desc">students started</div>
+            <div class="substat"></div>
+        </div>
+        <div class="stat-box complete-count">
+            <div class="stat"></div>
+            <div class="desc">students completed</div>
+            <div class="substat"></div>
+        </div>            
+        <div class="stat-box views-per-student">
+            <div class="stat"></div>
+            <div class="desc">views per student</div>
+            <div class="substat"></div>
+        </div>
+        <div class="stat-box watching-time">
+            <div class="stat"></div>
+            <div class="desc">average view length</div>
+            <div class="substat"></div>
+        </div>
         </div>
     </section>
-    <section id="time-vis">
-        <h2>Views Over Time</h2>
-    </section>
+
     <section id="speed">
-        <h2>Play Speed</h2>
+        <h3>Play Speed</h3>
         <table id="speed-table">
             <tr>
                 <th class="speed">Speed</th>
@@ -550,10 +694,26 @@ $(document).ready(function(){
                 <th class="percent-views">% Views</th>
             </tr>
         </table>
+    </section>    
+
+    <section id="play-vis">
+        <h3>Video Heatmap</h3>
+        <div id="ytplayer"></div>        
+        <div id="vis-options" class="clearfix">
+            <div><a class="" href="#" data-mode="raw_counts">views</a></div>
+            <div><a class="" href="#" data-mode="unique_counts">unique viewers</a></div>
+            <div><a class="" href="#" data-mode="replay_counts">replay</a></div>
+            <div><a class="" href="#" data-mode="skip_counts">skip</a></div>
+            <div><a class="" href="#" data-mode="play_counts">play</a></div>
+            <div><a class="" href="#" data-mode="pause_counts">pause</a></div>
+            <!-- <div id="binsize-options">Bin Size: </div> -->
+        </div>
     </section>
-   <!--  <iframe id="ytplayer" type="text/html" width="640" height="390"
-    src="https://www.youtube.com/embed/${ video_id }?enablejsapi=1" frameborder="0" allowfullscreen/>
- -->
+
+    <section id="time-vis">
+        <h3>Views Over Time</h3>
+    </section>
+</div>
 
 </body>
 </html>

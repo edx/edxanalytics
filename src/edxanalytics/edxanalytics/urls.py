@@ -32,7 +32,7 @@ urlpatterns = patterns('',
 ## TODO: Code review of below patterns and protected_data
 if settings.DEBUG:
     #urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT, show_indexes=True)
-    urlpatterns+= patterns('',
+    urlpatterns += patterns('',
                            url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {
                                'document_root': settings.STATIC_ROOT,
                                'show_indexes' : True,
@@ -43,7 +43,7 @@ if settings.DEBUG:
                                }),
                            )
 else:
-    urlpatterns+= patterns('frontend.views',
+    urlpatterns += patterns('frontend.views',
                            url(r'^data/(?P<path>.*)$', 'protected_data')
     )
 
