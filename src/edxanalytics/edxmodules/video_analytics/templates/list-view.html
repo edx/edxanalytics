@@ -405,12 +405,44 @@ function displayVideos(){
     }); 
 }
 
+
+/* Process the aggregate data for views over time vis */
+function visualize(){
+    // TODO: currently very inefficient way of merging multiple arrays with 
+    // potentially non-matching date ranges.
+    var tempData = {};
+    $.each(videos, function(){
+        var views = get_value_by_id("daily_view_counts", this["video_id"]);
+        for (i in views){
+            if (views[i][0] in tempData)
+                tempData[views[i][0]] += views[i][1]
+            else
+                tempData[views[i][0]] = views[i][1]
+        }
+    });
+    var keys = Object.keys(tempData);
+    keys.sort();
+    var processedData = [];
+    var i;
+    var len = keys.length;
+    for (i=0; i<len; i++){
+        var entry = [];
+        entry[0] = keys[i];
+        entry[1] = tempData[keys[i]];
+        processedData.push(entry);
+    }
+    drawTimeVis(processedData, visWidth, visHeight);
+}
+
+
+/* Init routine that adds event handlers, displays info, and sets initial options */
 function init(){
     data = ${data|n};
     videos = ${videos|n};
     bindEvents();
     displayStats(); 
     displayVideos(); 
+    visualize();
     // by default, click the first item
     $("#tabs a").first().trigger("click");
     $("#vis-options a").first().trigger("click");
@@ -429,7 +461,7 @@ $(document).ready(function(){
 
     <div id="tabs" class="clearfix">
         <div><a class="tab-item" href="#" data-mode="summary">Summary</a></div>
-        <div><a class="tab-item" href="#" data-mode="views">Views over time</a></div>
+        <div><a class="tab-item" href="#" data-mode="views">Views Over Time</a></div>
     </div>
 
     <section id="stats">

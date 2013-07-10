@@ -92,7 +92,7 @@ def video_info_query(mongodb):
     start_time = time.time()
 
     collection = mongodb['videos']
-    entries = list(collection.find())
+    entries = list(collection.find().sort("video_name"))
 
     if len(entries):
         result = json.dumps(entries, default=json_util.default)
@@ -125,7 +125,6 @@ def record_segments(mongodb):
             # remove all existing (video, username) entries
             # collection2.remove({"video_id": video_id, "user_id": username})
             for segment in data[video_id][username]["segments"]:
-                print "VIDEOIDIDIDID", video_id
                 result = segment
                 result["video_id"] = video_id
                 result["user_id"] = username

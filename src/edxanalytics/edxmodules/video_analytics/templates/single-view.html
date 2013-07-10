@@ -599,7 +599,6 @@ function displayPlayRates(){
 /* display video title */
 function displayTitle(){
     var video_id = '${ video_id }';
-    console.log(video_id);
     for (index in videos){
         if (video_id == videos[index]["video_id"])
             $(".video-title").text(videos[index]["video_name"]);
@@ -607,10 +606,30 @@ function displayTitle(){
 }
 
 
+/* Add prev and next links in the nav bar */
 function displayNav(){
-    $(".nav .list")
+    var video_id = '${ video_id }';
+    for (index in videos){
+        if (video_id == videos[index]["video_id"]){
+            var prev_index = 0;
+            if (index == 0)
+                prev_index = videos.length - 1;
+            else
+                prev_index = parseInt(index) - 1;
+            $(".nav .prev a").attr("href", "video_single?vid=" + videos[prev_index]["video_id"]);
+            var next_index = 0;
+            if (index == videos.length - 1)
+                next_index = 0;
+            else
+                next_index = parseInt(index) + 1;
+            $(".nav .next a").attr("href", "video_single?vid=" + videos[next_index]["video_id"]);
+
+        }
+    }
 }
 
+
+/* Init routine that adds event handlers, displays info, and sets initial options */
 function init(){
     data = ${data|n};
     videos = ${videos|n};
@@ -646,7 +665,7 @@ $(document).ready(function(){
     <div id="tabs" class="clearfix">
         <div><a class="tab-item" href="#" data-mode="summary">Summary</a></div>
         <div><a class="tab-item" href="#" data-mode="heatmap">Heatmap</a></div>
-        <div><a class="tab-item" href="#" data-mode="views">Views over time</a></div>
+        <div><a class="tab-item" href="#" data-mode="views">Views Over Time</a></div>
         <div class="nav">
             <div class="prev"><a href="#">&lt; Prev</a></div>
             <div class="list"><a href="video_list">Dashboard</a></div>
