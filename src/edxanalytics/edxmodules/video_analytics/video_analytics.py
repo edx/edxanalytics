@@ -167,7 +167,6 @@ def record_heatmaps(mongodb):
     for video_id in results:
         result = list(vid_col.find({"video_id": video_id}))
         if len(result):
-            print result[0], result[0]["duration"]
             process_heatmaps(mongodb, results[video_id], video_id, result[0]["duration"])
         else:
             print "ERROR in video information retrieval"

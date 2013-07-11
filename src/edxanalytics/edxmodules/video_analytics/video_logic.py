@@ -40,7 +40,6 @@ def get_video_duration(video_id, host):
     Depends on which video platform is used.
     """
     duration = 0
-    print video_id, host
     if host == "youtube":
         import xml.etree.ElementTree as ET
         import urllib
@@ -51,7 +50,6 @@ def get_video_duration(video_id, host):
             if 'seconds' in item.attrib:
                 duration = int(item.attrib['seconds'])
     # TODO: implement more host options
-    print "DURATION CAPTURED", duration
     return duration
 
 
@@ -103,7 +101,7 @@ def process_segments(mongodb, log_entries):
         for username in data[video_id]:
             data[video_id][username]["segments"] = \
                 construct_segments(data[video_id][username]["entries"])
-            print video_id, username, len(data[video_id][username]["segments"]), len(data[video_id][username]["entries"])
+            # print video_id, username, len(data[video_id][username]["segments"]), len(data[video_id][username]["entries"])
             del data[video_id][username]["entries"]
     return data
 
@@ -151,7 +149,7 @@ def construct_segments(log_entries):
         segment["date_start"] = get_prop(entry1, "TIMESTAMP")
         segment["date_end"] = get_prop(entry2, "TIMESTAMP")
         segment["speed"] = get_prop(entry1, "VIDEO_SPEED")
-        print segment
+        # print segment
         segments.append(segment)
     return segments
 
@@ -171,7 +169,6 @@ def get_date_range(min_date, max_date):
         result.append(cur_pdate.strftime("%Y-%m-%d"))
         cur_pdate = cur_pdate + timedelta(days=1)
     result.append(max_date)
-    print "DATE RANGE:", result
     return result
 
 
@@ -182,19 +179,15 @@ def fill_in_zero(daily_view_counts):
     If not, fill in zero.
     Also, return a sorted dictionary.
     """
-    print "FILLINININ"
-    print daily_view_counts
     sorted_dates = sorted(daily_view_counts.keys())
     # check for index range error
     date_range = get_date_range(sorted_dates[0], sorted_dates[-1])
-    print date_range
     result = {}
     for cur_date in date_range:
         if cur_date in daily_view_counts:
             result[cur_date] = daily_view_counts[cur_date]
         else:
             result[cur_date] = 0
-    print "FILL_IN_ZERO:", result
     return result
 
 
@@ -302,12 +295,11 @@ def process_heatmaps(mongodb, segments, video_id, duration):
     db_entry["completion_counts"] = completion_counts
     db_entry["daily_view_counts"] = daily_view_counts
     db_entry["total_watching_time"] = total_watching_time
-    print playrate_counts
     db_entry["playrate_counts"] = playrate_counts
     # TODO: are we always going to insert?
     collection.remove({"video_id": video_id})
     collection.insert(db_entry)
-    print db_entry
+    # print db_entry
     return db_entry
 
 
