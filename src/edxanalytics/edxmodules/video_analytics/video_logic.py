@@ -163,9 +163,8 @@ def get_date_range(min_date, max_date):
     """
     min_pdate = datetime.strptime(min_date, "%Y-%m-%d")
     max_pdate = datetime.strptime(max_date, "%Y-%m-%d")
-    if min_pdate >= max_pdate:
+    if min_pdate > max_pdate:
         return []
-
     result = []
     cur_pdate = min_pdate
     while cur_pdate != max_pdate:
@@ -183,9 +182,12 @@ def fill_in_zero(daily_view_counts):
     If not, fill in zero.
     Also, return a sorted dictionary.
     """
+    print "FILLINININ"
+    print daily_view_counts
     sorted_dates = sorted(daily_view_counts.keys())
     # check for index range error
     date_range = get_date_range(sorted_dates[0], sorted_dates[-1])
+    print date_range
     result = {}
     for cur_date in date_range:
         if cur_date in daily_view_counts:
