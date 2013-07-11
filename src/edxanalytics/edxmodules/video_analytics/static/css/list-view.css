@@ -1,0 +1,14 @@
+#videos-table .video-name {
+    text-align: left;
+    width: 450px;
+}
+
+#videos-table .views, #videos-table .watching-time {
+    text-align: left;
+    width: 200px;
+}
+
+#videos-table a {
+    text-decoration: none;
+    color: steelblue;
+}

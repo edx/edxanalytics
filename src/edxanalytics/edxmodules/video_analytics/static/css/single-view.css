@@ -1,0 +1,46 @@
+#speed-table .speed, #speed-table .views {
+    text-align: left;
+    width: 100px;
+}
+
+#speed-table .percent-views {
+    text-align: left;
+    width: 300px;
+}
+
+.speed-bar{
+    display: inline-block;
+    height: 0.8em;
+    background-color: steelblue;
+    margin-right: 1em;
+}
+
+/*    header {
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+.title {
+    float:left;
+}*/
+#tabs .nav {
+    float:right;
+    /*margin-top: 0.6em;*/
+}
+#tabs .nav a {
+    margin: 0;
+}
+/*    #tabs .nav ul li {
+    list-style:none;
+    float:left;
+    margin: 0 0.5em;
+}
+#tabs .nav ul li a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+#tabs .nav ul li a:hover {
+    color: steelblue;
+}*/
