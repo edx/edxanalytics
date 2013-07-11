@@ -233,7 +233,9 @@ function moveLine(currentTime){
 
 
 
-function drawTimeVis(dataset, w, h){
+function drawTimeVis(dataset){
+    var w = visWidth;
+    var h = visHeight;
     // Data format: array of [date, count] entries
     // e.g., dataset[0] ==> "2013-03-01": 34
 
@@ -431,7 +433,7 @@ function visualize(){
         entry[1] = tempData[keys[i]];
         processedData.push(entry);
     }
-    drawTimeVis(processedData, visWidth, visHeight);
+    drawTimeVis(processedData);
 }
 
 

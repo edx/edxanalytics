@@ -233,9 +233,8 @@ function formatSeconds(sec){
 
 /* Move the player to the selected region to sync with the vis */
 function rectClickHandler(d, i){
-    console.log($(this), d, i);
-    // player.seekTo(i * binSize);
-    player.seekTo(i);
+    var second = Math.floor(d3.mouse(this)[0] * duration / visWidth);
+    player.seekTo(second);
 }
 
 
@@ -263,7 +262,9 @@ function moveLine(currentTime){
 //         });
 // }
 
-function drawPlayVis(dataset, duration, w, h){
+function drawPlayVis(dataset, duration){
+    var w = visWidth;
+    var h = visHeight;
     d3.selectAll("svg.play-chart").remove();
     var xScale = d3.scale.linear().domain([0, duration]).range([0, w]);
     var yScale = d3.scale.linear().domain([0, d3.max(dataset)]).range([h, 0]);
@@ -312,6 +313,8 @@ function drawPlayVis(dataset, duration, w, h){
         // .on("mouseout", function(d){
         //     return tooltip.style("visibility", "hidden");
         // });   
+    chart.on("click", rectClickHandler);
+
     // // Add histogram
     chart.selectAll("rect")
         .data(dataset)
@@ -320,7 +323,7 @@ function drawPlayVis(dataset, duration, w, h){
         .attr("y", yScale)
         .attr("width", w / dataset.length - barPadding)
         .attr("height", function(d){ return h - yScale(d); })
-        .on("click", rectClickHandler)
+        // .on("click", rectClickHandler)
         .on("mouseover", function(d, i){
             return tooltip.text("at " + formatSeconds(i) + " count: " + d).style("visibility", "visible");
         })
@@ -371,7 +374,9 @@ function drawPlayVis(dataset, duration, w, h){
 
 
 
-function drawTimeVis(dataset, w, h){
+function drawTimeVis(dataset){
+    var w = visWidth;
+    var h = visHeight;    
     // Data format: array of [date, count] entries
     // e.g., dataset[0] ==> "2013-03-01": 34
 
@@ -544,11 +549,11 @@ function bindEvents(){
         var mode = $(this).attr("data-mode");
         // var processedData = processData(data, mode, binSize, duration);
         var processedData = data[mode];
-        drawPlayVis(processedData, duration, visWidth, visHeight);
+        drawPlayVis(processedData, duration);
 
         // processedData = processTimeData(data);
         processedData = data["daily_view_counts"];
-        drawTimeVis(processedData, visWidth, visHeight);
+        drawTimeVis(processedData);
         // redrawVis(chart, processedData, duration, visWidth, visHeight);
         return false;
     });    
