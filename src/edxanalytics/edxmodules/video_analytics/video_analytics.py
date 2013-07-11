@@ -26,7 +26,7 @@ def video_single_view(mongodb, vid):
     """
     data = video_single_query(mongodb, vid)
     videos = video_info_query(mongodb)
-    from djanalytics.core.render import render
+    from edinsights.core.render import render
     return render("single-view.html", {
         'video_id': vid, 'data': data, 'videos': videos
     })
@@ -40,7 +40,7 @@ def video_list_view(mongodb):
     """
     data = video_list_query(mongodb)
     videos = video_info_query(mongodb)
-    from djanalytics.core.render import render
+    from edinsights.core.render import render
     return render("list-view.html", {
         'data': data, 'videos': videos
     })

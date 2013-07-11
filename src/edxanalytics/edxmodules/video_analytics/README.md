@@ -24,12 +24,13 @@ Typical Workflow
 
 - Step 1. configure the video source
  - inside `common.py`, add XX_CONF for a new setting
-- Step 2. run both lms and edxanalytics
+- Step 2. run both lms and edxanalytics servers
+ - consult `edxanalytics/INSTALL.md` for more information
  - `scripts/run.sh` is a convenience script running both at the same time
 - Step 3. populate tracking events (dummy or real) if not already available
  - run `send_event.py`
 - Step 4. process the collected tracking events
- - open `[edxanalytics]/process_data` in the web browser
+ - open `[edxanalytics]/query/process_data` in the web browser
 - Step 5. access the analytics dashboard
  - open `[edxanalytics]/view/video_list` in the web browser for the dashboard
  - open `[edxanalytics]/view/video_single?vid=[youtube video ID]` in the web browser for a single video
