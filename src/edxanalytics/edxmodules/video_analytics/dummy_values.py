@@ -10,19 +10,19 @@ import datetime
 
 
 videos = [
-    {"id": "S1V10_Demo_-_Taking_Abstraction_Too_Far", "code": "AEwvgztBf44"},
-    {"id": "S1V11_Lumped_Element_Abstraction", "code": "KsDpWC2M-i0"},
-    {"id": "S1V12_Lumped_Element_Abstraction", "code": "8fhUjsUUJYU"},
-    {"id": "S1V13_KVL_KCL", "code": "SaieZYN_WR0"},
-    {"id": "S1V14_Summary", "code": "BGU1poJDgOY"},
-    {"id": "S1V1_Motivation_for_6.002x", "code": "4rpg8Bq6hb4"},
-    {"id": "S1V2_Administrivia", "code": "2deIoNhqDsg"},
-    {"id": "S1V3_System_Usage", "code": "ZKqRETRbYbI"},
-    {"id": "S1V4_Course_Overview", "code": "AnTf6vS5aO8"},
-    {"id": "S1V6_Lumped_element_abstraction", "code": "hIea8V5vXh8"},
-    {"id": "S1V7_Lumped_element_abstraction", "code": "xnoAyQeGZis"},
-    {"id": "S1V8_Lumped_element_abstraction", "code": "CO1GaQ_aABk"},
-    {"id": "S1V9_Demo_Setup_-_Lumped_Elements", "code": "pFOrD8k9_p4"}
+    {"id": "S1V10_Demo_-_Taking_Abstraction_Too_Far", "code": "AEwvgztBf44", "duration": 501},
+    {"id": "S1V11_Lumped_Element_Abstraction", "code": "KsDpWC2M-i0", "duration": 387},
+    {"id": "S1V12_Lumped_Element_Abstraction", "code": "8fhUjsUUJYU", "duration": 437},
+    {"id": "S1V13_KVL_KCL", "code": "SaieZYN_WR0", "duration": 496},
+    {"id": "S1V14_Summary", "code": "BGU1poJDgOY", "duration": 260},
+    {"id": "S1V1_Motivation_for_6.002x", "code": "4rpg8Bq6hb4", "duration": 54},
+    {"id": "S1V2_Administrivia", "code": "2deIoNhqDsg", "duration": 171},
+    {"id": "S1V3_System_Usage", "code": "ZKqRETRbYbI", "duration": 352},
+    {"id": "S1V4_Course_Overview", "code": "AnTf6vS5aO8", "duration": 663},
+    {"id": "S1V6_Lumped_element_abstraction", "code": "hIea8V5vXh8", "duration": 553},
+    {"id": "S1V7_Lumped_element_abstraction", "code": "xnoAyQeGZis", "duration": 89},
+    {"id": "S1V8_Lumped_element_abstraction", "code": "CO1GaQ_aABk", "duration": 23},
+    {"id": "S1V9_Demo_Setup_-_Lumped_Elements", "code": "pFOrD8k9_p4", "duration": 83}
 ]
 
 
@@ -50,14 +50,14 @@ def generate_random_data(size):
     for j in range(0, 1500):
         names.append(''.join(random.choice(string.ascii_lowercase) for x in range(6)))
 
-    # TODO: hard-coded
-    duration = 171
+    # TODO: do something with this hard-coded date range
     date1 = datetime.datetime(2013, 3, 1, 0, 0, 0, 0)
     date2 = datetime.datetime(2013, 6, 30, 0, 0, 0, 0)
 
     for i in range(0, size):
         v_index = random.randrange(len(videos))
         username = random.choice(names)
+        duration = videos[v_index]["duration"]
         dt_org = random_date(date1, date2)
         dtcreated = unicode(dt_org.strftime("%Y-%m-%d %H:%M:%S.%f"))
         event_source = u'browser'
@@ -76,7 +76,6 @@ def generate_random_data(size):
         id_field = 0
         #show this link somewhere in the page
         page = u'http://localhost:8000/courses/MITx/6.002x/2013_Spring/courseware/Week_1/Administrivia_and_Circuit_Elements/'
-
 
         # entry = (username, dtcreated, event_source, event_type, ip_addr, agent, event_string, host, time_field, id_field, page)
         entry = {

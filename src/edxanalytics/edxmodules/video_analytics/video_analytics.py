@@ -17,7 +17,6 @@ from itertools import chain
 from edxmodules.video_analytics.common import get_prop, CONF
 
 
-
 @view(name="video_single")
 def video_single_view(mongodb, vid):
     """
@@ -159,16 +158,19 @@ def record_heatmaps(mongodb):
     collection.remove()
     print len(segments), "segments found"
 
-    # TODO: store the list of videos that the system currently knows about.
-    duration = 171
     results = defaultdict(dict)
     for segment in segments:
         if not segment["user_id"] in results[segment["video_id"]]:
             results[segment["video_id"]][segment["user_id"]] = []
         results[segment["video_id"]][segment["user_id"]].append(segment)
+    vid_col = mongodb['videos']
     for video_id in results:
-        process_heatmaps(mongodb, results[video_id], video_id, duration)
-
+        result = list(vid_col.find({"video_id": video_id}))
+        if len(result):
+            print result[0], result[0]["duration"]
+            process_heatmaps(mongodb, results[video_id], video_id, result[0]["duration"])
+        else:
+            print "ERROR in video information retrieval"
     # Make sure the collection is indexed.
     from pymongo import ASCENDING
     collection.ensure_index([("video_id", ASCENDING)])

@@ -34,8 +34,8 @@ EDX_CONF = {
     ### properties ###
     # Does the video autoplay?
     'AUTOPLAY_VIDEOS': True,
-    # Is this video hosted on YouTube?
-    'HOSTED_ON_YOUTUBE': True,
+    # Where is this video hosted?
+    'VIDEO_HOST': 'youtube',
     # Where is the absolute timestamp of an event stored?
     'TIMESTAMP': 'time',
     # Where is the event type information stored?
@@ -85,7 +85,7 @@ def get_inner_prop(obj, prop):
     """
     if isinstance(obj, str) or isinstance(obj, unicode):
         obj = ast.literal_eval(obj)
-    if isinstance(prop, str) or isinstance(obj, unicode):
+    if isinstance(prop, str) or isinstance(prop, unicode):
         if prop not in obj:
             return ""
         else:

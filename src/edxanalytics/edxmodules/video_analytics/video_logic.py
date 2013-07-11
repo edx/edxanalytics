@@ -34,6 +34,41 @@ def compute_view_count(start_times, threshold):
     return count
 
 
+def get_video_duration(video_id, host):
+    """
+    Get duration information for a video.
+    Depends on which video platform is used.
+    """
+    duration = 0
+    print video_id, host
+    if host == "youtube":
+        import xml.etree.ElementTree as ET
+        import urllib
+        f = urllib.urlopen("http://gdata.youtube.com/feeds/api/videos/" + video_id)
+        xml_string = f.read()
+        tree = ET.fromstring(xml_string)
+        for item in tree.iter('{http://gdata.youtube.com/schemas/2007}duration'):
+            if 'seconds' in item.attrib:
+                duration = int(item.attrib['seconds'])
+    # TODO: implement more host options
+    print "DURATION CAPTURED", duration
+    return duration
+
+
+def register_new_video(mongodb, video_id, entry):
+    """
+    Add a new video entry to the videos collection.
+    An important thing is to get the video duration information.
+    """
+    collection = mongodb['videos']
+    db_entry = {}
+    db_entry["video_id"] = video_id
+    db_entry["host"] = CONF["VIDEO_HOST"]
+    db_entry["duration"] = get_video_duration(video_id, db_entry["host"])
+    db_entry["video_name"] = get_prop(entry, "VIDEO_NAME")
+    collection.insert(db_entry)
+
+
 def process_segments(mongodb, log_entries):
     """
     For a list of log entries, parse them into a format that makes it easy to construct segments.
@@ -52,11 +87,7 @@ def process_segments(mongodb, log_entries):
         video_id = get_prop(entry, "VIDEO_ID")
         # if this video is not in the video database, add it
         if video_id not in videos:
-            db_entry = {}
-            db_entry["video_id"] = video_id
-            db_entry["video_name"] = get_prop(entry, "VIDEO_NAME")
-            db_entry["hosted_on_youtube"] = get_prop(entry, "HOSTED_ON_YOUTUBE")
-            collection.insert(db_entry)
+            register_new_video(mongodb, video_id, entry)
             videos.append(video_id)
 
         if video_id not in data:
@@ -74,8 +105,6 @@ def process_segments(mongodb, log_entries):
                 construct_segments(data[video_id][username]["entries"])
             print video_id, username, len(data[video_id][username]["segments"]), len(data[video_id][username]["entries"])
             del data[video_id][username]["entries"]
-
-
     return data
 
 
@@ -101,7 +130,6 @@ def construct_segments(log_entries):
         e1_time = datetime.strptime(get_prop(entry1, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
         e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
         segment = {}
-        print get_prop(entry1, "TYPE_EVENT"), get_prop(entry2, "TYPE_EVENT"), CONF["EVT_VIDEO_PAUSE"]
         if get_prop(entry1, "TYPE_EVENT") not in CONF["EVT_VIDEO_PLAY"]:
             continue
         # case 1. play-pause: watch for a while and pause
