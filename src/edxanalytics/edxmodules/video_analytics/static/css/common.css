@@ -1,3 +1,6 @@
+/**
+    Generic definitions
+ **/
 body {
     font-family: 'Open Sans', sans-serif;
     /*margin: 3em;*/
@@ -41,6 +44,9 @@ section {
     margin: 1em;
 }
 
+/**
+    Layout
+ **/
 #ytplayer {
     padding: 1em 3em;
 }
@@ -101,6 +107,11 @@ section {
 #vis-options #binsize-options {
     margin: 0.8em;
 }
+
+/**
+    d3 visualizations
+ **/
+
 .chart {
     padding: 0.5em 3em 2em 3em;
     /*padding: 0 3em 2em 3em;*/
