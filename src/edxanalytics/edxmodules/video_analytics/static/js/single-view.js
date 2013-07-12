@@ -316,6 +316,7 @@ function bindEvents(){
         // redrawVis(chart, processedData, duration, visWidth, visHeight);
         return false;
     });
+    bindSortableTableEvents();
 }
 
 /* Display summary stats */
@@ -411,5 +412,6 @@ function init(){
     // by default, click the first item
     $("#tabs a").first().trigger("click");
     $("#vis-options a").first().trigger("click");
+    $("#speed-table th").first().trigger("click");
 }
 

@@ -117,6 +117,7 @@ function bindEvents(){
         }
         return false;
     });
+    bindSortableTableEvents();
 }
 
 
@@ -211,4 +212,5 @@ function init(){
     // by default, click the first item
     $("#tabs a").first().trigger("click");
     $("#vis-options a").first().trigger("click");
+    $("#videos-table th").first().trigger("click");
 }

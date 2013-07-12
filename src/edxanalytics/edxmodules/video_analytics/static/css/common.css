@@ -43,7 +43,17 @@ section {
     display: none;
     margin: 1em;
 }
-
+table.sortable th {
+    cursor: pointer;
+    height: 2em;
+}
+table.sortable th:hover {
+    color: steelblue;
+}
+table.sortable .sort-option {
+    padding-left: 1em;
+    width: 2em;
+}
 /**
     Layout
  **/

@@ -72,11 +72,11 @@ $(document).ready(function(){
 
     <section id="videos">
         <h3>Videos</h3>
-        <table id="videos-table">
+        <table id="videos-table" class="sortable">
             <tr>
-                <th class="video-name">Video</th>
-                <th class="views">Views</th>
-                <th class="watching-time">Average view length</th>
+                <th class="video-name">Video<span class="sort-option" data-default="asc"></span></th>
+                <th class="views">Views<span class="sort-option" data-default="desc"></span></th>
+                <th class="watching-time">Average view length<span class="sort-option" data-default="desc"></span></th>
             </tr>
         </table>
     </section>  
