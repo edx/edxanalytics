@@ -57,14 +57,14 @@ function bindSortableTableEvents(){
         var table_id = $(this).closest("table").attr("id");
         // alternate between asc and desc sorting
         if ($option.hasClass("active")) {
-            is_ascending = !($option.hasClass("asc"));
-            sort_class = $option.hasClass("asc") ? "desc" : "asc";
+            is_ascending = !($option.hasClass("ascending"));
+            sort_class = $option.hasClass("ascending") ? "descending" : "ascending";
         } else {
-            is_ascending = $option.attr("data-default") == "asc";
+            is_ascending = $option.attr("data-default") == "ascending";
             sort_class = $option.attr("data-default");
         }
         $("#" + table_id + " .sort-option").text("");
-        $("#" + table_id + " .sort-option").removeClass("active asc desc");
+        $("#" + table_id + " .sort-option").removeClass("active ascending descending");
         $option.addClass("active " + sort_class);
         if (is_ascending)
             $option.html("&#8593;");
@@ -78,9 +78,9 @@ function bindSortableTableEvents(){
         var is_ascending = true;
         // alternate between asc and desc sorting
         if ($option.hasClass("active")) {
-            is_ascending = !($option.hasClass("asc"));
+            is_ascending = !($option.hasClass("ascending"));
         } else {
-            is_ascending = $option.attr("data-default") == "asc";
+            is_ascending = $option.attr("data-default") == "ascending";
         }
         if (is_ascending)
             $option.html("&#8593;");
@@ -94,14 +94,14 @@ function bindSortableTableEvents(){
         // alternate between asc and desc sorting
         if ($option.hasClass("active")) {
             // check if preview is on or not
-            is_ascending = !($option.hasClass("asc"));
+            is_ascending = !($option.hasClass("ascending"));
             if (is_ascending)
                 $option.html("&#8595;");
             else
                 $option.html("&#8593;");
         } else {
-            is_ascending = $option.attr("data-default") == "asc";
-            $option.html("&nbsp;&nbsp;&nbsp;");
+            is_ascending = $option.attr("data-default") == "ascending";
+            $option.html("&nbsp;");
         }
     });    
 }

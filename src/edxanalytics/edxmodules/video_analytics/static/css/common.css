@@ -46,6 +46,12 @@ section {
 table.sortable th {
     cursor: pointer;
     height: 2em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;    
 }
 table.sortable th:hover {
     color: steelblue;
