@@ -86,6 +86,17 @@ From the shell, run the following:
     
 Now you should be able to log in, and start using the edxanalytics modules.
 
+Setting Up edXdataanalytic (Lets edInsights access properties of LMS)
+-----
+
+After you've followed the directions above:
+* Get a branch of edx-platform that has the edXdataanalytic hookup, like feature/pmitros/analytics-server.
+* Run the LMS server, with the analytics server settings.  Like this:
+    
+     django-admin.py runserver --settings=lms.envs.analyticsserver_dev --pythonpath=.
+
+* Try it out - go to localhost:8000/edinsights_service/view/sample_view
+
 If you are using the aws settings (i.e., deploying):
 -----
 
