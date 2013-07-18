@@ -95,7 +95,7 @@ After you've followed the directions above:
 
     django-admin.py runserver --settings=lms.envs.analyticsserver_dev --pythonpath=.
 
-* Try it out - go to localhost:8000/edinsights_service/view/sample_view
+* Try it out - go to localhost:8000/edinsights_service/view/sample_view.  Notice that you are now running a version of edInsights within the LMS.  This version of edInsights is only responsible for edXdataanalytic - you will be running your real edInsights code on a separate instance of edInsights.
 
 If you are using the aws settings (i.e., deploying):
 -----
