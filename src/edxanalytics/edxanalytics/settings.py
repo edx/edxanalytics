@@ -29,19 +29,20 @@ DJFS = { 'type' : 'osfs',
          'directory_root' : '/tmp/djfsmodule',
          'url_root' : 'file:///tmp/'
        }
-DJOBJECT_CONFIG = [{}, {'baseurl' : 'http://127.0.0.1:9012/edinsights_service/'}]
+DJOBJECT_CONFIG = [{}, {'baseurl' : 'http://127.0.0.1:8000/edinsights_service/'}]
 
 TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
 INSTALLED_ANALYTICS_MODULES = (#'prototypemodules.course_stats', 
 #                               'prototypemodules.mixpanel', 
-                               'edinsights.modules.testmodule',
+                               #'edinsights.modules.testmodule',
                                'prototypemodules.event_count', 
                                #'prototypemodules.student_course_stats', 
                                #'prototypemodules.user_stats', 
                                'edxmodules.dash',
                                'edxmodules.video_analytics',
-                               'prototypemodules.edx_data',)
+                               # 'edxmodules.edxdata',
+                               'edxmodules.hinter',)
                                # 'prototypemodules.autocomplete',)
 
 # Adds test cases in debug mode. 
