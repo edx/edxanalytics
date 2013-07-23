@@ -384,10 +384,11 @@ function displayNav(video_id){
     for (var index in videos){
         if (video_id == videos[index]["video_id"]){
             var prev_index = 0;
-            if (index === 0)
+            var int_index = parseInt(index, 10);
+            if (int_index === 0)
                 prev_index = videos.length - 1;
             else
-                prev_index = parseInt(index, 10) - 1;
+                prev_index = int_index - 1;
             $(".nav .prev a").attr("href", "video_single?vid=" + videos[prev_index]["video_id"]);
             var next_index = 0;
             if (index == videos.length - 1)
