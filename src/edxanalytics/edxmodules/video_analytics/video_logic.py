@@ -102,6 +102,9 @@ def process_segments(mongodb, log_entries):
             data[video_id][username]["segments"] = \
                 construct_segments(data[video_id][username]["entries"])
             # print video_id, username, len(data[video_id][username]["segments"]), len(data[video_id][username]["entries"])
+            print video_id, username
+            for entry in data[video_id][username]["entries"]:
+                print "    ", get_prop(entry, "TYPE_EVENT")
             del data[video_id][username]["entries"]
     return data
 

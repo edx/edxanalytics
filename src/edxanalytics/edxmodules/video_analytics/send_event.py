@@ -1,14 +1,19 @@
 """
 Generates a dummy event for testing video analytics
-case 1: getting real data
+case 1: getting streaming real data
     python send_event.py localhost:8020 /httpevent
-case 2: getting dummy data
+case 2: getting data from a log file
+    python send_event.py [filename]
+case 3: getting dummy data
     python send_event.py 2000
 """
-import json
+# import json
 import sys
 import logging
 from logging.handlers import HTTPHandler
+
+# flag for using dummy data
+USE_DUMMY_DATA = False
 
 
 def main(argv):
@@ -24,13 +29,23 @@ def main(argv):
     logger.addHandler(http_handler)
     #logger.setLevel(logging.DEBUG)
 
-    from dummy_values import generate_random_data
-    results = generate_random_data(int(argv[1]))
+    if USE_DUMMY_DATA:
+        from dummy_values import generate_random_data
+        results = generate_random_data(int(argv[1]))
+    else:
+        with open(argv[1], "r") as log_file:
+            results = log_file.readlines()
+    # TODO: implement purely streaming data handling
+
     # test = ["actor=bob", "action=submitanswer", "object=problem5"]
     # objects = [o.split("=") for o in test]
     # logger.error(json.dumps(dict(objects)))
-    for entry in results:
-        logger.critical(json.dumps(entry))
+    print "================================"
+    print len(results), "entries incoming"
+    print results
+    print "================================"
+    # for entry in results:
+    #     logger.critical(json.dumps(entry))
 
 if __name__ == '__main__':
     main(sys.argv)

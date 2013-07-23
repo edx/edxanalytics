@@ -2,10 +2,13 @@
     text-align: left;
     width: 450px;
 }
-
-#videos-table .views, #videos-table .watching-time {
+#videos-table .views {
     text-align: left;
     width: 200px;
+}
+#videos-table .watching-time {
+    text-align: left;
+    width: 250px;
 }
 
 #videos-table a {

@@ -157,8 +157,8 @@ table.sortable .sort-option {
 }
 
 .chart .playbar {
-    stroke: #CD332D; /* YouTube red */
-    stroke-width: 0.1em;
+    stroke: #FFEBCD; /*#CD332D; YouTube red */
+    stroke-width: 0.3em;
 }
 
 .tooltip{
