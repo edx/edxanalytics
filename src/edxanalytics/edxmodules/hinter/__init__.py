@@ -7,6 +7,7 @@ could be expanded to use other data.
 from edinsights.core.decorators import query, event_handler, view, event_property
 from django.http import HttpResponse
 from edinsights.core.djobject import http_rpc_helper
+import json
 # from edxdataanalytic.edxdataanalytic import user_autocomplete
 
 
@@ -15,8 +16,7 @@ def hinting_setup(mongodb, events):
     """
     Establishes a problem for hinting.
     Each event in events has:
-    - problem_id
-    - course_id
+    - location - a location tuple for the hinter module.
     - moderate - True or False - controls whether moderation is
       enabled for this hinting instance.
     - display_only - if True, we will not ask people to submit or vote
@@ -27,8 +27,7 @@ def hinting_setup(mongodb, events):
     """
     for evt in events:
         # Make a location tag.
-        location = {'course': evt['course_id'],
-                    'problem': evt['problem_id']}
+        location = evt['problem_location']
 
         # settings contains content-level settings for the hinter, like
         # whether to moderate.
@@ -47,6 +46,17 @@ def hinting_setup(mongodb, events):
             new_settings.update({'location': location})
             settings.insert(new_settings)
 
+@query()
+def submit_hint(mongodb, query, in_dict):
+    """
+    Adds a new hint.
+    in_dict has the following keys:
+    - 'answer' with the text of the answer.
+    - 'hint' with the text of the hint that we want to add.
+    - 'user' with the username of the user.
+    """
+    pass
+
 
 @view()
 def hinting_get_settings(mongodb):
@@ -57,10 +67,9 @@ def hinting_get_settings(mongodb):
 def hinting_hello(query):
     ''' Tests edxdataanalytic calls.'''
     out = query.validate_answer(
-        'Me/19.002/Test',
-        'i4x://Me/19.002/crowdsource_hinter/crowdsource_hinter_78235ce8ed4a',
-        'fish',
-        )
+        json.dumps(['i4x', 'Me', '19.002', 'problem', 'Numerical_Input']),
+        '12',
+    )
     if out == 'true':
         return HttpResponse('Yes')
     else:

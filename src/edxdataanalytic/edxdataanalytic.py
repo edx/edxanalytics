@@ -1,3 +1,5 @@
+import json
+
 from edinsights.core.decorators import query, event_handler, view, event_property
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
@@ -17,7 +19,7 @@ def user_autocomplete(autocomplete):
     return [u.username for u in User.objects.filter(username__startswith='f')[:20]]
 
 
-def get_module_edinsights(course_id, problem_id):
+def get_module_edinsights(location_tuple):
     # Make a login
     # MOVE THIS SOMEWHERE ELSE BEFORE DEPLOY.
     insights_users = User.objects.filter(username='edInsights')
@@ -30,7 +32,8 @@ def get_module_edinsights(course_id, problem_id):
         user = insights_users[0]
 
     # First, initialize the problem.
-    loc = Location(problem_id)
+    loc = Location(location_tuple)
+    course_id = loc.course_id
     descriptors = modulestore().get_items(loc)
     m_d_c = ModelDataCache(descriptors, course_id, user)
 
@@ -45,25 +48,27 @@ def get_module_edinsights(course_id, problem_id):
 
 
 @query()
-def compare_answer(course_id, problem_id, a, b):
+def compare_answer(location_json, a, b):
     """
     Compares whether a and b are equal within tolerance, according
-    to the first responsetype in problem_id of course_id.
+    to the first responsetype at location_tuple.
 
     Returns 'true', 'false', or 'error'.
     """
-    hinter_module = get_module_edinsights(course_id, problem_id)
+    capa_module = get_module_edinsights(json.loads(location_json))
+    responder = capa_module.lcp.responders.values()[0]
     try:
-        return hinter_module.compare_answer(a, b)
+        return responder.compare_answer(a, b)
     except StudentInputError:
         return 'error'
 
 
 @query()
-def validate_answer(course_id, problem_id, answer):
+def validate_answer(location_json, answer):
     """
     Determines whether answer is in a valid form for the specified problem.
     Returns 'true' if valid, 'false' otherwise.
     """
-    hinter_module = get_module_edinsights(course_id, problem_id)
-    return hinter_module.validate_answer(answer)
+    capa_module = get_module_edinsights(json.loads(location_json))
+    responder = capa_module.lcp.responders.values()[0]
+    return responder.validate_answer(answer)
