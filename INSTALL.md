@@ -21,7 +21,7 @@ Then, start to install:
 Step 1. Install edinsights
 
     cd BASE_DIR
-    git clone git@github.com:MITx/edinsights.git
+    git clone git@github.com:edx/ed-insights.git
     cd edinsights (this is the EDINSIGHTS_DIR)
     sudo xargs -a apt-packages.txt apt-get install
     sudo apt-get remove python-virtualenv python-pip
@@ -42,7 +42,7 @@ Step 2. Install djeventstream
 Step 3. Install edxanalytics
 
     cd BASE_DIR
-    git clone git@github.com:MITx/edxanalytics.git
+    git clone git@github.com:edx/edxanalytics.git
     cd edxanalytics (this is the EDXANALYTICS_DIR)
     sudo xargs -a apt-packages.txt apt-get install
     pip install -r requirements.txt
