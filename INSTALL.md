@@ -21,7 +21,7 @@ Then, start to install:
 Step 1. Install edinsights
 
     cd BASE_DIR
-    git clone git@github.com:MITx/edinsights.git
+    git clone git@github.com:edx/ed-insights.git
     cd edinsights (this is the EDINSIGHTS_DIR)
     sudo xargs -a apt-packages.txt apt-get install
     sudo apt-get remove python-virtualenv python-pip
@@ -42,7 +42,7 @@ Step 2. Install djeventstream
 Step 3. Install edxanalytics
 
     cd BASE_DIR
-    git clone git@github.com:MITx/edxanalytics.git
+    git clone git@github.com:edx/edxanalytics.git
     cd edxanalytics (this is the EDXANALYTICS_DIR)
     sudo xargs -a apt-packages.txt apt-get install
     pip install -r requirements.txt
@@ -85,6 +85,17 @@ From the shell, run the following:
     user = User.objects.create_user("test","test@test.com","test")
     
 Now you should be able to log in, and start using the edxanalytics modules.
+
+Setting Up edXdataanalytic (Lets edInsights access properties of LMS)
+-----
+
+After you've followed the directions above:
+* Get a branch of edx-platform that has the edXdataanalytic hookup, like feature/pmitros/analytics-server.
+* Run the LMS server, with the analytics server settings.  Like this:
+
+    django-admin.py runserver --settings=lms.envs.analyticsserver_dev --pythonpath=.
+
+* Try it out - go to localhost:8000/edinsights_service/view/sample_view.  Notice that you are now running a version of edInsights within the LMS.  This version of edInsights is only responsible for edXdataanalytic - you will be running your real edInsights code on a separate instance of edInsights.
 
 If you are using the aws settings (i.e., deploying):
 -----
