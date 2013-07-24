@@ -15,7 +15,7 @@ from logging.handlers import HTTPHandler
 
 
 # flag for using dummy data
-USE_DUMMY_DATA = True
+USE_DUMMY_DATA = False
 
 
 def main(argv):
