@@ -82,6 +82,9 @@ def process_segments(mongodb, log_entries):
     data = {}
     for entry in log_entries:
         username = get_prop(entry, "USERNAME")
+        # ignore if username is empty
+        if username == "":
+            continue
         video_id = get_prop(entry, "VIDEO_ID")
         # if this video is not in the video database, add it
         if video_id not in videos:

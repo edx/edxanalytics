@@ -190,6 +190,7 @@ def video_interaction_event(mongodb, events):
     To send events, refer to send_event.py
     """
     print "=========== HANDLING INCOMING EVENTS ============="
+    valid_events = 0
     # Store raw event information
     for event in events:
         entry = {}
@@ -198,18 +199,14 @@ def video_interaction_event(mongodb, events):
             # flag indicating whether this item has been processed.
             entry["processed"] = 0
         collection = mongodb['video_events']
-        # get a list of event types to keep
+        # get a list of event types to keep:
+        # everything that starts with EVT defined in common.py
         temp_list = [CONF[key] for key in CONF if key.startswith("EVT")]
         events_type_list = list(chain(*temp_list))
         if get_prop(event, "TYPE_EVENT") in events_type_list:
             collection.insert(entry)
-
-# @query(name="show_stats")
-# def show_stats(mongodb, vid):
-#     start_time = time.time()
-#     bins = print_stats(mongodb, vid)
-#     print sys._getframe().f_code.co_name, "COMPLETED", (time.time() - start_time), "seconds"
-#     return bins
+            valid_events += 1
+    print "===========", len(events), "total,", valid_events, "valid. ============="
 
 
 @query(name="process_data")
