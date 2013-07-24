@@ -2,11 +2,35 @@
 edInsights backend for wrong-answer-based hinting.
 Currently used to display and collect crowdsourced hints, but
 could be expanded to use other data.
+
+Databases:
+userdata - tracks user actions on problems.  Each document:
+- 'user'
+- 'problem' - a location
+- 'hints_shown' - a list of ids of hints shown
+- 'previous_answers' - a list of previous answers
+- 'voted' - whether the user has voted already
+
+settings - problem-level settings.  Each document:
+- 'location'
+- 'moderate'
+- 'display_only'
+- 'debug'
+
+hints - has all of the hints.  Each document:
+- 'problem'
+- 'user' - the user who submitted this hint
+- 'answer' - the wrong answer that this hint is for
+- 'hint' - the text of the hint
+- 'votes' - how many votes this hint received
+- 'settings' - a subdocument:
+    - 'approved' - whether the hint has been approved
 """
 
-from edinsights.core.decorators import query, event_handler, view, event_property
+from edinsights.core.decorators import query, event_handler, view
 from django.http import HttpResponse
-from edinsights.core.djobject import http_rpc_helper
+
+from bson.objectid import ObjectId
 
 import json
 import random
@@ -93,7 +117,7 @@ def get_hint(mongodb, query, in_dict_json):
     hints = mongodb['hints']
     if moderate:
         all_hints = hints.find({'problem': location,
-                                'approved': True})
+                                'settings.approved': True})
     else:
         all_hints = hints.find({'problem': location})
     matching_hints = []
@@ -178,7 +202,50 @@ def vote(mongodb, query, in_dict_json):
     - 'user'
     - 'id' of the hint we are voting for.
     """
-    pass
+    # Verify that the user is eligible to vote.
+    in_dict = json.loads(in_dict_json)
+    location = in_dict['location']
+    spec = {
+        'user': in_dict['user'],
+        'problem': location
+    }
+    userdata = mongodb['userdata']
+    matching_user = userdata.find_one(spec)
+    if matching_user is None:
+        return {'success': False,
+                'error': 'Invalid user!'}
+    if matching_user['voted']:
+        return {'success': False,
+                'error': 'Already voted!'}
+
+    # Tally the vote
+    hints = mongodb['hints']
+    hintspec = {'_id': ObjectId(in_dict['id'])}
+    hint = hints.find_one(hintspec)
+    if hint is None:
+        return {'success': False,
+                'error': 'Non-existent hint!'}
+    hints.update(hintspec, {'$inc': {'votes': 1}})
+
+    # Return a list of how many votes each hint has now.
+    vote_counts = []    # [hint, id, votes] sublists
+    for hint_id in matching_user['hints_shown']:
+        hint = hints.find_one({'_id': hint_id})
+        if hint is None:
+            # Hint no longer exists - just go on.
+            continue
+        vote_counts.append([hint['hint'], str(hint_id), hint['votes']])
+
+    # Clear the user's history, and don't let him vote again.
+    userdata.update(spec, {'$set': {
+        'hints_shown': [],
+        'previous_answers': [],
+    }})
+    settings = mongodb['settings']
+    if not settings.find_one({'location': location})['debug']:
+        userdata.update(spec, {'$set': {'voted': True}})
+    return {'success': True,
+            'vote_counts': vote_counts}
 
 
 @query()
