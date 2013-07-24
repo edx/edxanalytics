@@ -51,7 +51,7 @@ def get_module_edinsights(location_tuple):
 def compare_answer(location_json, a, b):
     """
     Compares whether a and b are equal within tolerance, according
-    to the first responsetype at location_tuple.
+    to the first responsetype at location_json.
 
     Returns 'true', 'false', or 'error'.
     """
@@ -61,6 +61,14 @@ def compare_answer(location_json, a, b):
         return responder.compare_answer(a, b)
     except StudentInputError:
         return 'error'
+
+@query()
+def get_name(location_json):
+    """
+    Returns the display name of the xmodule at location_json.
+    """
+    module = get_module_edinsights(json.loads(location_json))
+    return module.display_name
 
 
 @query()

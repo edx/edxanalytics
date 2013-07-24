@@ -309,6 +309,34 @@ def submit_hint(mongodb, query, in_dict_json):
     return {'success': True}
 
 
+@query()
+def list_problems(mongodb, query, in_dict_json):
+    """
+    Returns all problems that have hinting in this course.
+    in_dict has one entry: 'course', which specifies the
+    course, in org/code/name form.
+    Returns a list of [location, name] pairs.
+    """
+    in_dict = json.loads(in_dict_json)
+    location_chunks = in_dict['course'].split('/')
+    settings = mongodb['settings']
+    matches = settings.find({'location': {'$all': location_chunks[:2]}})
+    out = []
+    for problem in matches:
+        name = query.get_name(json.dumps(problem['location']))
+        out.append([problem['location'], name])
+    return {'success': True,
+            'problems': out}
+
+@query()
+def dump_hints(mongodb, query, in_dict_json):
+    """
+    Returns [answer, id, text, votes] for the problem
+    specified by 'location' in in_dict.
+    """
+    pass
+
+
 @view()
 def hinting_get_hints(mongodb):
     """ A readout test for hinting_setup """
