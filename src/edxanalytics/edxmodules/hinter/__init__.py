@@ -80,19 +80,25 @@ def get_hint(mongodb, query, in_dict_json):
     answer = in_dict['answer']
 
     # First, make sure the answer is actually valid.
-    if not query.validate_answer(json.dumps(location), answer):
+    if query.validate_answer(json.dumps(location), answer) != 'true':
         return {
             'success': False,
             'error': 'Invalid answer!'
         }
+    settings = mongodb['settings']
+    moderate = settings.find_one({'location': location})['moderate']
 
     # Generate all hints whose answers are close enough to the submitted
     # answer.
     hints = mongodb['hints']
-    all_hints = hints.find({'problem': location})
+    if moderate:
+        all_hints = hints.find({'problem': location,
+                                'approved': True})
+    else:
+        all_hints = hints.find({'problem': location})
     matching_hints = []
     for candidate in all_hints:
-        if query.compare_answer(json.dumps(location), answer, candidate['answer']):
+        if query.compare_answer(json.dumps(location), answer, candidate['answer']) == 'true':
             matching_hints.append(candidate)
 
     # Now, pick the best and random hints.
@@ -126,6 +132,56 @@ def get_hint(mongodb, query, in_dict_json):
 
 
 @query()
+def hint_history(mongodb, query, in_dict_json):
+    """
+    Gives a readout of the hints the user has seen so far,
+    as well as his submissions.  (Reset whenever the user votes
+    or submits a hint.)
+    in_dict:
+    - 'location'
+    - 'user'
+    """
+    # Initialize user
+    in_dict = json.loads(in_dict_json)
+    spec = {
+        'user': in_dict['user'],
+        'problem': in_dict['location']
+    }
+    userdata = mongodb['userdata']
+    matching_user = userdata.find_one(spec)
+    if matching_user is None:
+        return {'success': False,
+                'error': 'Invalid user!'}
+
+    # Populate a list of [id, answer, hint] tuples.
+    hints = mongodb['hints']
+    hints_shown = []
+    for past_id in matching_user['hints_shown']:
+        hint = hints.find_one({'_id': past_id})
+        if hint is None:
+            # Perhaps someone deleted the hint already.  Oh well.
+            continue
+        hints_shown.append([str(past_id), hint['answer'], hint['hint']])
+
+    # Return the stuff.
+    return {'success': True,
+            'hints_shown': hints_shown,
+            'previous_answers': matching_user['previous_answers']}
+
+
+@query()
+def vote(mongodb, query, in_dict_json):
+    """
+    Tallies a user vote for a single hint.
+    in_dict:
+    - 'location'
+    - 'user'
+    - 'id' of the hint we are voting for.
+    """
+    pass
+
+
+@query()
 def submit_hint(mongodb, query, in_dict_json):
     """
     Adds a new hint.
@@ -150,14 +206,17 @@ def submit_hint(mongodb, query, in_dict_json):
     # Make sure the user is actually qualified to submit a hint.
     matching_user = userdata.find_one(spec)
     if matching_user['voted']:
-        return 'Already voted!'
+        return {'success': False,
+                'error': 'Already voted!'}
 
     problem_settings = mongodb['settings'].find_one({'location': location})
     if problem_settings is None or problem_settings['display_only']:
-        return 'This problem does not accept hints!'
+        return {'success': False,
+                'error': 'This problem does not accept hints!'}
 
-    if not query.validate_answer(json.dumps(location), answer):
-        return 'Invalid answer!'
+    if query.validate_answer(json.dumps(location), answer) != 'true':
+        return {'success': False,
+                'error': 'Invalid answer!'}
 
     # Now, add the hint to the database.
     hints = mongodb['hints']
@@ -180,7 +239,7 @@ def submit_hint(mongodb, query, in_dict_json):
         'hints_shown': [],
         'previous_answers': []
     }})
-    return 'Thank you for submitting a hint!'
+    return {'success': True}
 
 
 @view()
