@@ -11,5 +11,5 @@ sleep 1
 
 cd $LMS_DIR
 rake lms[analyticsserver_dev,0.0.0.0:$LMS_PORT] &
-#django-admin.py runserver --settings=lms.envs.analyticsserver_dev --pythonpath=. 127.0.0.1:9012 &
+#django-admin.py runserver --settings=lms.envs.analyticsserver_dev --pythonpath=. 0.0.0.0:$LMS_PORT &
 sleep 1

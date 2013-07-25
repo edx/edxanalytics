@@ -38,8 +38,14 @@ def main(argv):
     else:
         with open(argv[1], "r") as log_file:
             lines = log_file.readlines()
-            for line in lines:
-                results.append(ast.literal_eval(line))
+            for idx, line in enumerate(lines):
+		try:
+                    parsed_line = ast.literal_eval(line)
+	            results.append(parsed_line)
+		except ValueError:
+		    print "value error, ignoring line", idx
+		except SyntaxError:
+		    print "syntax error, ignoring line", idx
     # TODO: implement purely streaming data handling
 
     # test = ["actor=bob", "action=submitanswer", "object=problem5"]
