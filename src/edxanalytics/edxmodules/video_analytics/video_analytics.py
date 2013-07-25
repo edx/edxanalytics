@@ -139,7 +139,7 @@ def record_segments(mongodb):
         [("video_id", ASCENDING), ("user_id", ASCENDING)])
 
     print sys._getframe().f_code.co_name, "COMPLETED", (time.time() - start_time), "seconds"
-    print results
+    # print results
     return results
 
 

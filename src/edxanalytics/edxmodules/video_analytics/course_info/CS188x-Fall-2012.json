@@ -1,0 +1,2667 @@
+[
+  [
+    {
+      "sequence number": 1, 
+      "week number": 1, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_1_Outline", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_5f4ad135d47e"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 18, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_1_Outline", 
+            "youtubeId": "XVPJhhQei6M", 
+            "video kind": "INTRO", 
+            "recording style": "LS", 
+            "videoSrc": "https://www.youtube.com/embed/XVPJhhQei6M?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_Sci-Fi_AI_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_39761190725c"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 148, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_Sci-Fi_AI_", 
+            "youtubeId": "EMDUx57bwc0", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/EMDUx57bwc0?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_What_is_AI_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b6c6e8ec79f9"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 365, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_What_is_AI_", 
+            "youtubeId": "mp0-fXhzBeE", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/mp0-fXhzBeE?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_What_About_the_Brain_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_9a48855d658f"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 147, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_What_About_the_Brain_", 
+            "youtubeId": "2p8vzUck_Rc", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/2p8vzUck_Rc?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_A_Short_History_of_AI", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_1d99a35ae2cb"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 415, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_A_Short_History_of_AI", 
+            "youtubeId": "rlBjhD1oGQg", 
+            "video kind": "LEC", 
+            "recording style": "SV", 
+            "videoSrc": "https://www.youtube.com/embed/rlBjhD1oGQg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_6_What_Can_AI_Do_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_dae9a392eaeb"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 302, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_6_What_Can_AI_Do_", 
+            "youtubeId": "QKS0Tqt4DyQ", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/QKS0Tqt4DyQ?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_7_What_AI_Can_Do_Unintentionally_Funny_Stories", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_fdef4431723f"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 284, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_7_What_AI_Can_Do_Unintentionally_Funny_Stories", 
+            "youtubeId": "p9aWbjl1AjY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/p9aWbjl1AjY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_8_What_AI_Can_Do_Language", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_f5972bac7f0b"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 241, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_8_What_AI_Can_Do_Language", 
+            "youtubeId": "ujo-D25FINs", 
+            "video kind": "LEC", 
+            "recording style": "SV", 
+            "videoSrc": "https://www.youtube.com/embed/ujo-D25FINs?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_9_What_AI_Can_Do_Perception", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_e8daa498947c"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 187, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_9_What_AI_Can_Do_Perception", 
+            "youtubeId": "vwizBBunFbQ", 
+            "video kind": "LEC", 
+            "recording style": "SV", 
+            "videoSrc": "https://www.youtube.com/embed/vwizBBunFbQ?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_10_What_AI_Can_Do_Robotics", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_5c12a7cdb1c2"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 357, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_10_What_AI_Can_Do_Robotics", 
+            "youtubeId": "cQ1-g-20VDM", 
+            "video kind": "LEC", 
+            "recording style": "SV", 
+            "videoSrc": "https://www.youtube.com/embed/cQ1-g-20VDM?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_11_What_AI_Can_Do_Logic", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_273f26e3e1e7"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 94, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_11_What_AI_Can_Do_Logic", 
+            "youtubeId": "alXS7grfFtk", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/alXS7grfFtk?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_12_What_AI_Can_Do_Game_Playing", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_8d1344f8d378"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 172, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_12_What_AI_Can_Do_Game_Playing", 
+            "youtubeId": "BHk1TLcs0gM", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/BHk1TLcs0gM?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_13_What_AI_Can_Do_Decision_Making", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_91255560b352"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 92, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_13_What_AI_Can_Do_Decision_Making", 
+            "youtubeId": "uRkG67dHjDA", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/uRkG67dHjDA?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_14_Designing_Rational_Agents", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_9a99a75257f2"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 141, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_14_Designing_Rational_Agents", 
+            "youtubeId": "oX33bPdcOB4", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/oX33bPdcOB4?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_15_Pacman_as_an_Agent", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_22a9debc30e3"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 154, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_15_Pacman_as_an_Agent", 
+            "youtubeId": "E9r7MS-tv6A", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/E9r7MS-tv6A?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_16_Course_Topics", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_22431fe341b8"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 62, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_16_Course_Topics", 
+            "youtubeId": "Syyg43zgzFc", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/Syyg43zgzFc?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 1: Intro to AI"
+    }
+  ], 
+  [
+    {
+      "sequence number": 1, 
+      "week number": 2, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/video_Part_1_Outline_21efce85d67d", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_31406f840d22"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 51, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-video_Part_1_Outline_21efce85d67d", 
+            "youtubeId": "5P1pWr4-uwc", 
+            "video kind": "INTRO", 
+            "recording style": "LS", 
+            "videoSrc": "https://www.youtube.com/embed/5P1pWr4-uwc?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_Agents_That_Plan_vs._Reflex_Agents", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3c6ca6dbc82c"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 463, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_Agents_That_Plan_vs_Reflex_Agents", 
+            "youtubeId": "Un-IMeeNjxY", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/Un-IMeeNjxY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_1_reflex_vs_planning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_c4a80127a9d3"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_Search_Problems", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3a9e783b3a95"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 567, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_Search_Problems", 
+            "youtubeId": "tVIgeDsaXuQ", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/tVIgeDsaXuQ?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_2_Safe_Passage_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_2_safe_passage", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_deab1934ead5"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 45, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_2_Safe_Passage_video_", 
+            "youtubeId": "xJBbNgLTGMk", 
+            "video kind": "PROB", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/xJBbNgLTGMk?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_2_Safe_Passage_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3bac8675806d"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 46, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_2_Safe_Passage_answer_", 
+            "youtubeId": "W8Fx3TyQ2nI", 
+            "video kind": "SOLN", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/W8Fx3TyQ2nI?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_State_Space_Graphs_and_Search_Trees", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_9571fcaa16a6"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 287, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_State_Space_Graphs_and_Search_Trees", 
+            "youtubeId": "FeuNYxmOcnE", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/FeuNYxmOcnE?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_3_State_Space_Graphs_and_Search_Trees_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_3_state_space_graphs_search_trees", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_beec2557b2f9"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 16, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_3_State_Space_Graphs_and_Search_Trees_video_", 
+            "youtubeId": "A2Wql8XZSEo", 
+            "video kind": "PROB", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/A2Wql8XZSEo?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_3_State_Space_Graphs_and_Search_Trees_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_17ef3dcc1e98"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 58, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_3_State_Space_Graphs_and_Search_Trees_answer_", 
+            "youtubeId": "Ah-GZ-LIFm8", 
+            "video kind": "SOLN", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/Ah-GZ-LIFm8?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_Tree_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_1cb301fc00d5"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 373, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_Tree_Search", 
+            "youtubeId": "c8KfohHm-XQ", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/c8KfohHm-XQ?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_6_Depth-First_Tree_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_1eced4d4cee7"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 162, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_6_Depth-First_Tree_Search", 
+            "youtubeId": "h-TQriNDZpI", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/h-TQriNDZpI?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_4_depth_first_tree_search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_5b53121464b8"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_7_Search_Algorithm_Properties", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_843e50b94e09"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 126, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_7_Search_Algorithm_Properties", 
+            "youtubeId": "rXURl1vndPg", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/rXURl1vndPg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_8_Depth-First_Tree_Search_Properties", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_0058d5124867"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 167, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_8_Depth-First_Tree_Search_Properties", 
+            "youtubeId": "ZPgZkVEvnKs", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/ZPgZkVEvnKs?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_5_depth_first_tree_search_space_and_time_complexity", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_868da4f81739"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_9_Breadth-First_Tree_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3584689bf5d5"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 87, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_9_Breadth-First_Tree_Search", 
+            "youtubeId": "PxSA3nNhM7o", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/PxSA3nNhM7o?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_6_breadth_first_tree_search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_f8c8246992a6"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_10_Breadth-First_Tree_Search_Properties", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_7b582eb9a8e0"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 158, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_10_Breadth-First_Tree_Search_Properties", 
+            "youtubeId": "SSOZZiKaOeg", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/SSOZZiKaOeg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_7_breadth_first_tree_search_space_and_time_complexity", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_196e12d4815a"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_8_Relative_Advantages_of_Breadth-First_and_Depth-First_Search_video_", 
+            "i4x://BerkeleyX/CS188.1x/html/Lecture_2:quiz_8_relative_advantages_bfs_dfs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_2ca6ea653fd6"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 17, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_8_Relative_Advantages_of_Breadth-First_and_Depth-First_Search_video_", 
+            "youtubeId": "ns7i6nGSz2w", 
+            "video kind": "PROB", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/ns7i6nGSz2w?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_8_Relative_Advantages_of_Breadth-First_and_Depth-First_Search_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_d073f4c612d2"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 53, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_8_Relative_Advantages_of_Breadth-First_and_Depth-First_Search_answer_", 
+            "youtubeId": "CIfUmvR2VA8", 
+            "video kind": "SOLN", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/CIfUmvR2VA8?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_9_Which_Search_Algorithm_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_9", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_bf3fd4ffc2fc"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 51, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_9_Which_Search_Algorithm_video_", 
+            "youtubeId": "atqoeQ0kvGM", 
+            "video kind": "PROB", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/atqoeQ0kvGM?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_9_Which_Search_Algorithm_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_934c4acccd64"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 18, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_9_Which_Search_Algorithm_answer_", 
+            "youtubeId": "AUhP182mQ9c", 
+            "video kind": "SOLN", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/AUhP182mQ9c?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_10_Which_Search_Algorithm_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_10", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_a13866bc49d2"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 8, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_10_Which_Search_Algorithm_video_", 
+            "youtubeId": "Hjq23iWuosA", 
+            "video kind": "PROB", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/Hjq23iWuosA?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_10_Which_Search_Algorithm_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_5fbc27616061"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 20, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_10_Which_Search_Algorithm_answer_", 
+            "youtubeId": "ambUcq1AgwM", 
+            "video kind": "SOLN", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/ambUcq1AgwM?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_11_Iterative_Deepening", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_afc73999668a"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 68, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_11_Iterative_Deepening", 
+            "youtubeId": "W2br1VY6-pA", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/W2br1VY6-pA?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 2: Uninformed Search"
+    }, 
+    {
+      "sequence number": 2, 
+      "week number": 2, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_12_Cost-Sensitive_Search_and_Uniform_Cost_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3e6bf23031a3"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 405, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_12_Cost-Sensitive_Search_and_Uniform_Cost_Search", 
+            "youtubeId": "AaKEW_mVBtg", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/AaKEW_mVBtg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_11_ucs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_77772966e908"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_12_Which_Search_Algorithm_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_12", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3d7a55672262"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 17, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_12_Which_Search_Algorithm_video_", 
+            "youtubeId": "5VcezJ5lMTU", 
+            "video kind": "PROB", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/5VcezJ5lMTU?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_12_Which_Search_Algorithm_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_9bbed7a930f8"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 18, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_12_Which_Search_Algorithm_answer_", 
+            "youtubeId": "HTnl6V9wMvM", 
+            "video kind": "SOLN", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/HTnl6V9wMvM?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_13_Which_Search_Algorithm_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_2:quiz_13", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_83714f969b04"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 5, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_13_Which_Search_Algorithm_video_", 
+            "youtubeId": "0giPTuj1Qwc", 
+            "video kind": "PROB", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/0giPTuj1Qwc?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_13_Which_Search_Algorithm_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_69863f1a66c7"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 14, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_13_Which_Search_Algorithm_answer_", 
+            "youtubeId": "qCHvXbkWqa0", 
+            "video kind": "SOLN", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/qCHvXbkWqa0?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_13_Which_Search_Algorithm_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_43a251024322"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 7, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_13_Which_Search_Algorithm_", 
+            "youtubeId": "wFDvjqElIdM", 
+            "video kind": "LEC", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/wFDvjqElIdM?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_14_Search_and_Models", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_c26979f760cc"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 112, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_14_Search_and_Models", 
+            "youtubeId": "OqHFr4IeqgI", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/OqHFr4IeqgI?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 2: Uninformed Search (continued)"
+    }, 
+    {
+      "sequence number": 3, 
+      "week number": 2, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_1_Overview", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_abfdd73fd596"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 53, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_1_Overview", 
+            "youtubeId": "Iap2WfBtwgw", 
+            "video kind": "INTRO", 
+            "recording style": "LS", 
+            "videoSrc": "https://www.youtube.com/embed/Iap2WfBtwgw?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_Recap_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_f9035943e8dd"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 577, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_Recap_Search", 
+            "youtubeId": "hq3GyBw4jfo", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/hq3GyBw4jfo?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_1_search_execution", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_0beabca1036e"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_Informed_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3e4d0bd8c631"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 295, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_Informed_Search", 
+            "youtubeId": "XPeNFLO23Jc", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/XPeNFLO23Jc?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_Greedy_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_7491d2d255fa"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 344, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_Greedy_Search", 
+            "youtubeId": "MOsnxh15Wko", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/MOsnxh15Wko?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_2_greedy_search_execution", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_c270be2de2f1"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_A_Tree_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_80606252469e"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 363, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_A_Tree_Search", 
+            "youtubeId": "b9fH-j_yNHU", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/b9fH-j_yNHU?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_3_a_star_search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_ced465bdc518"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_6_Admissible_Heuristics_and_A_Tree_Search_Optimality", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_99efebe1f0b7"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 303, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_6_Admissible_Heuristics_and_A_Tree_Search_Optimality", 
+            "youtubeId": "tpgIhwl2oiU", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/tpgIhwl2oiU?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_7_Proof_of_Optimality_of_A_Tree_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_d90faf0bcc24"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 208, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_7_Proof_of_Optimality_of_A_Tree_Search", 
+            "youtubeId": "7RumNumuyeA", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/7RumNumuyeA?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_8_Properties_of_A_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_feba31338c0d"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 97, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_8_Properties_of_A_", 
+            "youtubeId": "MMzLknU_kzM", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/MMzLknU_kzM?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_4_a_star_search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_a064ac8a7339"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_9_A_Applications_and_Demos", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_970c57fdc796"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 120, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_9_A_Applications_and_Demos", 
+            "youtubeId": "0WiDUBL4u5Y", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/0WiDUBL4u5Y?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_5_Which_Search_Algorithm_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_5_which_search_bfs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b662fc22e826"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 29, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_5_Which_Search_Algorithm_video_", 
+            "youtubeId": "2zoP7bElCZU", 
+            "video kind": "PROB", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/2zoP7bElCZU?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_5_Which_Search_Algorithm_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_8cbf5fb5b5ad"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 13, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_5_Which_Search_Algorithm_answer_", 
+            "youtubeId": "XAW-RIa0TRc", 
+            "video kind": "SOLN", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/XAW-RIa0TRc?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_6_Which_Search_Algorithm_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_6_which_search_ucs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_ba4ca81bbd0f"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 6, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_6_Which_Search_Algorithm_video_", 
+            "youtubeId": "hg1b8rJkwjw", 
+            "video kind": "PROB", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/hg1b8rJkwjw?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_6_Which_Search_Algorithm_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_184bcee47434"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 7, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_6_Which_Search_Algorithm_answer_", 
+            "youtubeId": "7rghn5b_qfk", 
+            "video kind": "SOLN", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/7rghn5b_qfk?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_7_Which_Search_Algorithm_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_7_which_search_greedy", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_5f2bfda92683"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 6, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_7_Which_Search_Algorithm_video_", 
+            "youtubeId": "sNBzheo-Bfs", 
+            "video kind": "PROB", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/sNBzheo-Bfs?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_7_Which_Search_Algorithm_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_0c92ae66467e"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 10, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_7_Which_Search_Algorithm_answer_", 
+            "youtubeId": "sPXUcis1E4M", 
+            "video kind": "SOLN", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/sPXUcis1E4M?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_8_Which_Search_Algorithm_video_", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_8_which_search_dfs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_1c49e89a0a66"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 16, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_8_Which_Search_Algorithm_video_", 
+            "youtubeId": "F7XtOMs_tkg", 
+            "video kind": "PROB", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/F7XtOMs_tkg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_8_Which_Search_Algorithm_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_358b5b58fbbd"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 5, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_8_Which_Search_Algorithm_answer_", 
+            "youtubeId": "C-g5QFVzl8I", 
+            "video kind": "SOLN", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/C-g5QFVzl8I?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/video_Quiz_9_Which_Search_Algorithm_video__6ff0b6baf1d9", 
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_9_which_search_a_star", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3ac900a2c04b"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 4, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-video_Quiz_9_Which_Search_Algorithm_video_6ff0b6baf1d9", 
+            "youtubeId": "HGs3jlIWk0M", 
+            "video kind": "PROB", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/HGs3jlIWk0M?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/video_Quiz_9_Which_Search_Algorithm_answer__3dc86611fcfd", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_c257a2fc0012"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 17, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-video_Quiz_9_Which_Search_Algorithm_answer_3dc86611fcfd", 
+            "youtubeId": "a5W78BVFKSc", 
+            "video kind": "SOLN", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/a5W78BVFKSc?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 3: Informed Search"
+    }, 
+    {
+      "sequence number": 4, 
+      "week number": 2, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_10_Creating_Admissible_Heuristics", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_f98146af66f5"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 625, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_10_Creating_Admissible_Heuristics", 
+            "youtubeId": "UtTt73HTMSY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/UtTt73HTMSY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_10_admissible_heuristics", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_879cc1b4741a"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_11_Semi-Lattice_of_Heuristics", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_8804aa3b9e98"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 131, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_11_Semi-Lattice_of_Heuristics", 
+            "youtubeId": "sePr-AUuNGY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/sePr-AUuNGY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_11_combining_heuristics", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_a913d2f32ea6"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_12_Graph_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_8474b8ebf559"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 294, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_12_Graph_Search", 
+            "youtubeId": "r-NUE5HabNg", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/r-NUE5HabNg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_13_A_Graph_Search_Gone_Wrong", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_aba8e0dd4bf9"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 208, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_13_A_Graph_Search_Gone_Wrong", 
+            "youtubeId": "XuTE6lQDeVs", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/XuTE6lQDeVs?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_14_Consistency_and_Optimality_of_A_Graph_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_1ba177c5388a"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 224, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_14_Consistency_and_Optimality_of_A_Graph_Search", 
+            "youtubeId": "hbeF2QWSJLA", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/hbeF2QWSJLA?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_3:quiz_12_consistency", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3230aef3428f"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_15_A_Optimality_Summary", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_e418909be5bd"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 67, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_15_A_Optimality_Summary", 
+            "youtubeId": "eG2cziF-lZY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/eG2cziF-lZY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_16_A_Summary", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_9bfd2b3fd3a7"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 19, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_16_A_Summary", 
+            "youtubeId": "yVCwtl_J_eo", 
+            "video kind": "INTRO", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/yVCwtl_J_eo?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 3: Informed Search (continued)"
+    }, 
+    {
+      "sequence number": 5, 
+      "week number": 2, 
+      "lessonSequence": [
+        {
+          "verticals": [], 
+          "video": {
+            "lecturer": "Abbeel", 
+            "seconds": 531, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Step_By_Step_DFS_and_BFS", 
+            "youtubeId": "cXZKV7K5v3E", 
+            "video kind": "TUT", 
+            "recording style": "K", 
+            "videoSrc": "https://www.youtube.com/embed/cXZKV7K5v3E?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Step-By-Step: DFS and BFS"
+    }, 
+    {
+      "sequence number": 6, 
+      "week number": 2, 
+      "lessonSequence": [
+        {
+          "verticals": [], 
+          "video": {
+            "lecturer": "Abbeel", 
+            "seconds": 1336, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Step_By_Step_A_Star", 
+            "youtubeId": "g0MJRpquEOk", 
+            "video kind": "TUT", 
+            "recording style": "K", 
+            "videoSrc": "https://www.youtube.com/embed/g0MJRpquEOk?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Step By Step: A*"
+    }
+  ], 
+  [
+    {
+      "sequence number": 1, 
+      "week number": 3, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_1_Today", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b092358699f3"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 148, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_1_Today", 
+            "youtubeId": "OhglxRGK3xY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/OhglxRGK3xY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_CSPs_Definition", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_568768ce56f2"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 141, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_CSPs_Definition", 
+            "youtubeId": "k4VnW2RVGbI", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/k4VnW2RVGbI?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_CSP_Examples_Map_Coloring_and_N-Queens", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_4782885e889d"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 443, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_CSP_Examples_Map_Coloring_and_N-Queens", 
+            "youtubeId": "Cu9t1XxyHCQ", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/Cu9t1XxyHCQ?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_4:quiz_1_constraints", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_bb58e4f3f4df"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_Constraint_Graphs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_62535ec7fece"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 107, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_Constraint_Graphs", 
+            "youtubeId": "wORBpypAt5k", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/wORBpypAt5k?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_4:quiz_2_constraint_graph", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_d882e7a85f07"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_CSP_Examples_Cryptarithmetic_Sudoku_and_Waltz", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_75a0210f3073"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 221, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_CSP_Examples_Cryptarithmetic_Sudoku_and_Waltz", 
+            "youtubeId": "eQ0lWkC0GuY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/eQ0lWkC0GuY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_4:quiz_3_constraints", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_168bf6f88e46"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_6_Varieties_of_CSPs_and_Constraints", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_a943534b8b40"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 126, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_6_Varieties_of_CSPs_and_Constraints", 
+            "youtubeId": "wm_CuyB6gFY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/wm_CuyB6gFY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_7_Real-World_CSPs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_1cd8b3a51b81"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 50, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_7_Real-World_CSPs", 
+            "youtubeId": "aSyAn-jVFRo", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/aSyAn-jVFRo?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_8_Solving_CSPs_with_Standard_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_f8dcf5dba5ca"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 273, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_8_Solving_CSPs_with_Standard_Search", 
+            "youtubeId": "pe3sNVd0CHw", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/pe3sNVd0CHw?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_9_Backtracking_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_6e3eb643a2d9"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 240, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_9_Backtracking_Search", 
+            "youtubeId": "P1c9-SzXEv4", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/P1c9-SzXEv4?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_4:quiz_4_backtracking", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_89d77fc750b8"
+          ]
+        }
+      ], 
+      "title": "Lecture 4: CSPs"
+    }, 
+    {
+      "sequence number": 2, 
+      "week number": 3, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_10_Improving_Backtracking_Overview", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_541777246a01"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 45, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_10_Improving_Backtracking_Overview", 
+            "youtubeId": "zN-1IvZXBlg", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/zN-1IvZXBlg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_11_Filtering_Forward_Checking", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_69d8b5d5faad"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 266, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_11_Filtering_Forward_Checking", 
+            "youtubeId": "_3R_BK42f1g", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/_3R_BK42f1g?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_4:quiz_5_forward_checking", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_0540c9e4f761"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_12_Filtering_Constraint_Propagation", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_e4155c0da497"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 67, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_12_Filtering_Constraint_Propagation", 
+            "youtubeId": "4AMYTfuxQME", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/4AMYTfuxQME?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_13_Consistency_of_a_Single_Arc", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_65bd93879275"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 211, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_13_Consistency_of_a_Single_Arc", 
+            "youtubeId": "1sEAPcfjtBA", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/1sEAPcfjtBA?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_4:quiz_6_consistency", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_82dfe28db45d"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_14_Arc_Consistency_of_an_Entire_CSP", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_dd73885a6bfb"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 490, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_14_Arc_Consistency_of_an_Entire_CSP", 
+            "youtubeId": "ndZ44aSOKHs", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/ndZ44aSOKHs?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_4:quiz_7_arc_consistency", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_efa7b74e5a92"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_15_Limitations_of_Arc_Consistency", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_e19e11ea997e"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 110, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_15_Limitations_of_Arc_Consistency", 
+            "youtubeId": "4ecUxs3Urns", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/4ecUxs3Urns?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_4:quiz_8_arc_consistency_backtracking", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_7c845caf3244"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_16_Demo_of_Forward_Checking_and_Arc_Consistency", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_e9ca501fe057"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 130, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_16_Demo_of_Forward_Checking_and_Arc_Consistency", 
+            "youtubeId": "bXQ_ZiPtbnc", 
+            "video kind": "DEMO", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/bXQ_ZiPtbnc?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_17_Variable_Ordering_Minimum_Remaining_Values", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_e23bd3563477"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 121, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_17_Variable_Ordering_Minimum_Remaining_Values", 
+            "youtubeId": "CCbCoQHGRoY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/CCbCoQHGRoY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_18_Value_Ordering_Least_Constraining_Value", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_cbc7bcae69a8"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 104, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_18_Value_Ordering_Least_Constraining_Value", 
+            "youtubeId": "oelkY9x7Lus", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/oelkY9x7Lus?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_4:quiz_10_lcv", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_09a79a2d812a"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_19_Demo", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_a772ae389f81"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 100, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_19_Demo", 
+            "youtubeId": "Jk6SwQyJxmU", 
+            "video kind": "DEMO", 
+            "recording style": "C", 
+            "videoSrc": "https://www.youtube.com/embed/Jk6SwQyJxmU?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 4: CSPs (continued)"
+    }, 
+    {
+      "sequence number": 3, 
+      "week number": 3, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/video_Part_1_Today_9958da9b392b", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_ccff7b0be6dc"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 18, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-video_Part_1_Today_9958da9b392b", 
+            "youtubeId": "tmQ6Mdcm8AQ", 
+            "video kind": "LEC", 
+            "recording style": "LS", 
+            "videoSrc": "https://www.youtube.com/embed/tmQ6Mdcm8AQ?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_Refresher_CSPs_Backtracking_Search_Ordering_Filtering", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_dd6af0eff50e"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 307, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_Refresher_CSPs_Backtracking_Search_Ordering_Filtering", 
+            "youtubeId": "mkmlGvOPFmk", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/mkmlGvOPFmk?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_Arc_Consistency_Limitations_K-Consistency", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_e59c1fc52f4f"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 504, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_Arc_Consistency_Limitations_K-Consistency", 
+            "youtubeId": "YcHOHKsDiyg", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/YcHOHKsDiyg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_Problem_Structure", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_cd03de8a5e64"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 215, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_Problem_Structure", 
+            "youtubeId": "yJPETPSOudg", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/yJPETPSOudg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_Tree-Structured_CSPs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_3dc41c755482"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 65, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_Tree-Structured_CSPs", 
+            "youtubeId": "QzTLuXbYeSo", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/QzTLuXbYeSo?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_5:quiz_1_tree", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_0abcd2874378"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_6_Algorithm_for_Tree-Structured_CSPs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_0fe812a00b3a"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 325, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_6_Algorithm_for_Tree-Structured_CSPs", 
+            "youtubeId": "xUgZjGU_jQw", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/xUgZjGU_jQw?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_7_Properties_of_Algorithm_for_Tree-Structured_CSPs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_2a088d362161"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 218, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_7_Properties_of_Algorithm_for_Tree-Structured_CSPs", 
+            "youtubeId": "gHMvyGw08wI", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/gHMvyGw08wI?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_8_Improving_Structure_Cutset_Conditioning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_88fd45d1c587"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 184, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_8_Improving_Structure_Cutset_Conditioning", 
+            "youtubeId": "ih6d2dUH-P0", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/ih6d2dUH-P0?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_5:quiz_2_cutset", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_49b90fa718b5"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_9_Tree_Decomposition", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_5a31cbae4008"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 193, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_9_Tree_Decomposition", 
+            "youtubeId": "NHxkJ1c8aWg", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/NHxkJ1c8aWg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_10_Iterative_Algorithms_Min-Conflicts", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_0ba45f445a91"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 268, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_10_Iterative_Algorithms_Min-Conflicts", 
+            "youtubeId": "6orLUOZ2ITk", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/6orLUOZ2ITk?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_5:quiz_3_min", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_59b68fff4d1f"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_11_Performance_of_Min-Conflicts", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_f3cb3a65eafd"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 151, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_11_Performance_of_Min-Conflicts", 
+            "youtubeId": "1JkPtYe_jms", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/1JkPtYe_jms?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_12_Summary_of_CSPs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_271881fab145"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 52, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_12_Summary_of_CSPs", 
+            "youtubeId": "lch6QD4KPxY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/lch6QD4KPxY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 5: CSPs II"
+    }, 
+    {
+      "sequence number": 4, 
+      "week number": 3, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_13_Local_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_91bc01d90e35"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 107, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_13_Local_Search", 
+            "youtubeId": "hi9gs8HzX6s", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/hi9gs8HzX6s?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_14_Hill_Climbing", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_7b6f323aabd6"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 171, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_14_Hill_Climbing", 
+            "youtubeId": "-44K9dATsX4", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/-44K9dATsX4?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_5:quiz_4_hill", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_81c8af685828"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_15_Simulated_Annealing", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_7e45f1082f5c"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 237, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_15_Simulated_Annealing", 
+            "youtubeId": "6K8nUSV-NU4", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/6K8nUSV-NU4?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_16_Genetic_Algorithms", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_7f30d04ba679"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 148, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_16_Genetic_Algorithms", 
+            "youtubeId": "4Vd916tLPZY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/4Vd916tLPZY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_17_Next_Time", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_a1618fd1495f"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 10, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_17_Next_Time", 
+            "youtubeId": "OcKQbTZpz0o", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/OcKQbTZpz0o?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 5: CSPs II (continued)"
+    }
+  ], 
+  [
+    {
+      "sequence number": 1, 
+      "week number": 4, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_1_Today_and_Game_Playing_State_of_the_Art", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_68d9ea60241d"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 257, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_1_Today_and_Game_Playing_State_of_the_Art", 
+            "youtubeId": "kno_qqtEyMY", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/kno_qqtEyMY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_Adversarial_Games", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b482cfe856b1"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 244, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_Adversarial_Games", 
+            "youtubeId": "1JS7lenpkg0", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/1JS7lenpkg0?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_Adversarial_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_c7b19105842d"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 1069, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_Adversarial_Search", 
+            "youtubeId": "S1VVtjIny5Q", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/S1VVtjIny5Q?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_6:quiz_1_minimax", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_6d3160158c58"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_Resource_Limits", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_5a5b5274d1c3"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 336, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_Resource_Limits", 
+            "youtubeId": "CG4WloOE2aY", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/CG4WloOE2aY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_Evaluation_Functions", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_ead7e91ca7e2"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 657, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_Evaluation_Functions", 
+            "youtubeId": "ZCrJMwsJtJg", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/ZCrJMwsJtJg?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_6:quiz_2_evaluation", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_814b318baa64"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_6_Alpha-Beta_Pruning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_414d48b9f909"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 558, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_6_Alpha-Beta_Pruning", 
+            "youtubeId": "uHQdl1OWwHU", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/uHQdl1OWwHU?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_6:quiz_3_alphabeta", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_a8e58b8ad1fe"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_7_Next_Time", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_50304e3e831d"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 28, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_7_Next_Time", 
+            "youtubeId": "Xq0n7TNe7eM", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/Xq0n7TNe7eM?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 6: Adversarial Search"
+    }, 
+    {
+      "sequence number": 2, 
+      "week number": 4, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_1_Today_Search_in_the_Presence_of_Uncertainty", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_59ad3510469a"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 131, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_1_Today_Search_in_the_Presence_of_Uncertainty", 
+            "youtubeId": "f94JfoHV1Ss", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/f94JfoHV1Ss?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_Expectimax_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_734577f64354"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 687, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_Expectimax_Search", 
+            "youtubeId": "B326I1Pat-s", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/B326I1Pat-s?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_7:quiz_1_expectimax", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_bf2266686afb"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_Probabilities", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_27692b8c0723"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 283, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_Probabilities", 
+            "youtubeId": "6bKhakA0mpo", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/6bKhakA0mpo?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_2_Informed_Probabilities_video_", 
+            "i4x://BerkeleyX/CS188.1x/html/Lecture_7:quiz_2_informed_probabilities", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_05ea48ce1c51"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 31, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_2_Informed_Probabilities_video_", 
+            "youtubeId": "pkhEzpouPQA", 
+            "video kind": "PROB", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/pkhEzpouPQA?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Quiz_2_Informed_Probabilities_answer_", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_6fe40a1f033b"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 119, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Quiz_2_Informed_Probabilities_answer_", 
+            "youtubeId": "TWxcCz23WqI", 
+            "video kind": "SOLN", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/TWxcCz23WqI?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_Modeling_Assumptions", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_f3dd71baed75"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 297, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_Modeling_Assumptions", 
+            "youtubeId": "8IKO56y9YTk", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/8IKO56y9YTk?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_Other_Game_Types", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_9f829eccc8da"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 289, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_Other_Game_Types", 
+            "youtubeId": "B04yeDT0cwQ", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/B04yeDT0cwQ?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_7:quiz_3_other", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_88cea6aedce3"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_6_Utilities", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_8b41dfa3918d"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 461, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_6_Utilities", 
+            "youtubeId": "-C9stzzDRbQ", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/-C9stzzDRbQ?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_7:quiz_4_utilities", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_f23aea9e9e75"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_7_Rationality", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b8b71b7d6dff"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 305, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_7_Rationality", 
+            "youtubeId": "efgUJILRjqY", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/efgUJILRjqY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_7:quiz_5_rationality", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b9d5d65ccec2"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_8_Human_Utilities", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b1d4dd61ddce"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 763, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_8_Human_Utilities", 
+            "youtubeId": "Pf7rFpWOCHk", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/Pf7rFpWOCHk?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_7:quiz_6_certainty", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_226ba24b3bed"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_9_Next_Time_MDPs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_1c1fe7c944ea"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 10, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_9_Next_Time_MDPs", 
+            "youtubeId": "gWMmIdWVlS0", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/gWMmIdWVlS0?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 7: Uncertainty and Utilities"
+    }, 
+    {
+      "sequence number": 3, 
+      "week number": 4, 
+      "lessonSequence": [
+        {
+          "verticals": [], 
+          "video": {
+            "lecturer": "Abbeel", 
+            "seconds": 846, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Step_By_Step_Alpha_Beta", 
+            "youtubeId": "jvpWtwVSvjA", 
+            "video kind": "TUT", 
+            "recording style": "K", 
+            "videoSrc": "https://www.youtube.com/embed/jvpWtwVSvjA?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Step By Step: Alpha-Beta"
+    }
+  ], 
+  [
+    {
+      "sequence number": 1, 
+      "week number": 5, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_1_Non-Deterministic_Search_and_Markov_Decision_Processes", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_a5d2950e3d02"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 853, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_1_Non-Deterministic_Search_and_Markov_Decision_Processes", 
+            "youtubeId": "MMSMhU3Xy0w", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/MMSMhU3Xy0w?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_Example_Racing", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_dd8e88b614aa"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 342, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_Example_Racing", 
+            "youtubeId": "4Sf7nsM_Zp4", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/4Sf7nsM_Zp4?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_8:mdp_notation", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_fcfbbd697d03"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_Utilities_of_Sequences", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_72b80b873ce5"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 523, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_Utilities_of_Sequences", 
+            "youtubeId": "RXG6kuYbb3w", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/RXG6kuYbb3w?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_8:discounting", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_794e5d7667b8"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_Solving_MDPs", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_df6e1e7aee10"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 1155, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_Solving_MDPs", 
+            "youtubeId": "OKe-wRvGhA0", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/OKe-wRvGhA0?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_8:solving_mdps", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_ff5058e5282c"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_Value_Iteration", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_06aef5da4809"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 684, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_Value_Iteration", 
+            "youtubeId": "jQS7zxwpZXM", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/jQS7zxwpZXM?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_8:vi", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_c8a7a65a888e"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_6_Next_Time_Policy-Based_Methods", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_5c6f1b4ae843"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 15, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_6_Next_Time_Policy-Based_Methods", 
+            "youtubeId": "C4joGbqws8g", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/C4joGbqws8g?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 8: Markov Decision Processes"
+    }, 
+    {
+      "sequence number": 2, 
+      "week number": 5, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_1_MDPs_Recap", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_e7272febfa8a"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 656, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_1_MDPs_Recap", 
+            "youtubeId": "1RjzXcZB-e8", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/1RjzXcZB-e8?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_The_Bellman_Equations", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_e8b32924183e"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 478, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_The_Bellman_Equations", 
+            "youtubeId": "TkeA-0V5w4I", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/TkeA-0V5w4I?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_9:bellman", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_0cd13b2c0b29"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_Policy_Methods_Policy_Evaluation_and_Extraction", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_35464c7ac90e"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 986, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_Policy_Methods_Policy_Evaluation_and_Extraction", 
+            "youtubeId": "An1hFw_qF6I", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/An1hFw_qF6I?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_9:pe", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_23a5324882bf"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_Policy_Methods_Policy_Iteration", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_332f83faebd9"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 563, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_Policy_Methods_Policy_Iteration", 
+            "youtubeId": "lQEkt8vkC8A", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/lQEkt8vkC8A?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_9:pi", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_c6933880d913"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_Double_Bandits", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_6fe02ff86721"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 543, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_Double_Bandits", 
+            "youtubeId": "91F9vwzUrQ0", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/91F9vwzUrQ0?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_6_Next_Time_Reinforcement_Learning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_39e84f19d623"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 10, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_6_Next_Time_Reinforcement_Learning", 
+            "youtubeId": "AUouQdPx16k", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/AUouQdPx16k?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 9: Markov Decision Processes II"
+    }
+  ], 
+  [
+    {
+      "sequence number": 1, 
+      "week number": 6, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_1_Reinforcement_Learning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_7287f983228d"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 571, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_1_Reinforcement_Learning", 
+            "youtubeId": "H8YRZr-6RHU", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/H8YRZr-6RHU?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_10:rl", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b5de98310fc9"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_Model-Based_Learning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_1372c2dec7a6"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 497, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_Model-Based_Learning", 
+            "youtubeId": "i84l-AEDpaw", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/i84l-AEDpaw?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_10:model_based_rl", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b052836c5430"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_Passive_Reinforcement_Learning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b823f0322063"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 641, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_Passive_Reinforcement_Learning", 
+            "youtubeId": "ce9ACUfAX3s", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/ce9ACUfAX3s?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_10:passive_rl", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_076830bd8982"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_Model-Free_Learning_Sample_Based_---_Temporal_Difference_Learning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_95cd6cca4ec1"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 892, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_Model-Free_Learning_Sample_Based_---_Temporal_Difference_Learning", 
+            "youtubeId": "eqqqwbQCaeY", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/eqqqwbQCaeY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_10:td_learning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_329bbbd7be63"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_Active_Reinforcement_Learning_--_Q-Learning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_caeef3e7a1c5"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 626, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_Active_Reinforcement_Learning_--_Q-Learning", 
+            "youtubeId": "W5IfMphITbY", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/W5IfMphITbY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_10:q_learning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_cc28b26ca7a5"
+          ]
+        }
+      ], 
+      "title": "Lecture 10: Reinforcement Learning"
+    }, 
+    {
+      "sequence number": 2, 
+      "week number": 6, 
+      "lessonSequence": [
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_1_Reinforcement_Learning_Recap", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_507b397b2747"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 704, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_1_Reinforcement_Learning_Recap", 
+            "youtubeId": "Pw9NO9VOT8k", 
+            "video kind": "LEC", 
+            "recording style": "SC", 
+            "videoSrc": "https://www.youtube.com/embed/Pw9NO9VOT8k?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_2_Exploration_vs._Exploitation_and_Regret", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_6a88a9071da5"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 636, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_2_Exploration_vs_Exploitation_and_Regret", 
+            "youtubeId": "RBzL4dt3gR8", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/RBzL4dt3gR8?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_11:explore_exploit", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_4a7faf64d168"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_3_Approximate_Q-Learning", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_556e80dbfb2b"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 1132, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_3_Approximate_Q-Learning", 
+            "youtubeId": "8IakYZnMdIk", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/8IakYZnMdIk?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/problem/Lecture_11:features", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_ee1e91074172"
+          ]
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_4_Policy_Search", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b592c2d871bd"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 238, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_4_Policy_Search", 
+            "youtubeId": "Ee0fkgn8GTY", 
+            "video kind": "LEC", 
+            "recording style": "SV", 
+            "videoSrc": "https://www.youtube.com/embed/Ee0fkgn8GTY?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }, 
+        {
+          "verticals": [
+            "i4x://BerkeleyX/CS188.1x/video/Part_5_Conclusion", 
+            "i4x://BerkeleyX/CS188.1x/discussion/discussion_b8d896ab8967"
+          ], 
+          "video": {
+            "lecturer": "Klein", 
+            "seconds": 29, 
+            "videoId": "i4x-BerkeleyX-CS188_1x-video-Part_5_Conclusion", 
+            "youtubeId": "AJ3Ae_9Lew4", 
+            "video kind": "LEC", 
+            "recording style": "S", 
+            "videoSrc": "https://www.youtube.com/embed/AJ3Ae_9Lew4?controls=0&wmode=transparent&rel=\u2026info=0&enablejsapi=1&modestbranding=1&origin=https%3A%2F%2Fcourses.edx.org"
+          }
+        }
+      ], 
+      "title": "Lecture 11: Reinforcement Learning II"
+    }
+  ]
+]
