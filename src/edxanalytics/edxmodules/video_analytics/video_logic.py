@@ -43,15 +43,15 @@ def get_video_duration(video_id, host):
     if host == "youtube":
         import xml.etree.ElementTree as ET
         import urllib
- 	try:
+        try:
             f = urllib.urlopen("http://gdata.youtube.com/feeds/api/videos/" + video_id)
             xml_string = f.read()
             tree = ET.fromstring(xml_string)
             for item in tree.iter('{http://gdata.youtube.com/schemas/2007}duration'):
                 if 'seconds' in item.attrib:
                     duration = int(item.attrib['seconds'])
-	except IOError:
-	    pass
+        except IOError:
+            pass
     # TODO: implement more host options
     return duration
 
@@ -84,32 +84,31 @@ def process_segments(mongodb, log_entries):
         videos.append(video)
     data = {}
     for entry in log_entries:
-	print entry
+        # print entry
         username = get_prop(entry, "USERNAME")
         # ignore if username is empty
         if username == "":
             continue
         video_id = get_prop(entry, "VIDEO_ID")
-	# non-video player events
-	if video_id == "":
-	    # TODO: use this to more accurately capture sessions
-	    # and also display before/after destinations
-	    continue 
-	# video player events
-	else:
-	    # if this video is not in the video database, add it
-	    if video_id not in videos:
-	        register_new_video(mongodb, video_id, entry)
-	        videos.append(video_id)
+        # non-video player events
+        if video_id == "":
+            # TODO: use this to more accurately capture sessions
+            # and also display before/after destinations
+            continue
+        # video player events
+        else:
+            # if this video is not in the video database, add it
+            if video_id not in videos:
+                register_new_video(mongodb, video_id, entry)
+                videos.append(video_id)
+            if video_id not in data:
+                data[video_id] = {}
+            if username not in data[video_id]:
+                data[video_id][username] = {}
+                data[video_id][username]["segments"] = []
+                data[video_id][username]["entries"] = []
 
-	    if video_id not in data:
-	        data[video_id] = {}
-	    if username not in data[video_id]:
-	        data[video_id][username] = {}
-	        data[video_id][username]["segments"] = []
-	        data[video_id][username]["entries"] = []
-
-	    data[video_id][username]["entries"].append(entry)
+            data[video_id][username]["entries"].append(entry)
 
     for video_id in data:
         for username in data[video_id]:
@@ -142,15 +141,15 @@ def construct_segments(log_entries):
     for i in range(1, len(log_entries)):
         entry1 = log_entries[i-1]
         entry2 = log_entries[i]
-	try: 
+        try:
             e1_time = datetime.strptime(get_prop(entry1, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
-	except ValueError:
+        except ValueError:
             e1_time = datetime.strptime(get_prop(entry1, "TIMESTAMP"), "%Y-%m-%dT%H:%M:%S.%f")
-	try: 
+        try:
             e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
-	except ValueError:
+        except ValueError:
             e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%dT%H:%M:%S.%f")
-	    
+
         segment = {}
         if get_prop(entry1, "TYPE_EVENT") not in CONF["EVT_VIDEO_PLAY"]:
             continue
@@ -285,10 +284,10 @@ def process_heatmaps(mongodb, segments, video_id, duration):
             total_watching_time += watching_time
             if user_id not in start_times:
                 start_times[user_id] = []
-	    try: 
+            try:
                 parsed_time = datetime.strptime(
                     segment["date_start"], "%Y-%m-%d %H:%M:%S.%f")
-	    except ValueError:
+            except ValueError:
                 parsed_time = datetime.strptime(
                     segment["date_start"], "%Y-%m-%dT%H:%M:%S.%f")
             start_times[user_id].append(parsed_time)

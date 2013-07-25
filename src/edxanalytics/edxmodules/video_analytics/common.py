@@ -84,12 +84,12 @@ def get_inner_prop(obj, prop):
     Has recursive handling for hierarchical data formats.
     """
     if isinstance(obj, str) or isinstance(obj, unicode):
-	try:
+        try:
             obj = ast.literal_eval(obj)
-	except ValueError:
-	    print "value error, ignoring line"
-	except SyntaxError:
-	    print "syntax error, ignoring line"
+        except ValueError:
+            print "value error, ignoring line"
+        except SyntaxError:
+            print "syntax error, ignoring line"
     if isinstance(prop, str) or isinstance(prop, unicode):
         if prop not in obj:
             return ""
@@ -99,10 +99,10 @@ def get_inner_prop(obj, prop):
         if len(prop) == 2:
             return get_inner_prop(obj[prop[0]], prop[1])
         if len(prop) == 1:
-	    try:
-	    	value = obj[prop[0]]
-	    except:
-		value = ""
+            try:
+                value = obj[prop[0]]
+            except:
+                value = ""
             return value
     return ""
 
