@@ -138,6 +138,8 @@ function get_value_by_id(field, video_id){
         if (data[index]["video_id"] == video_id)
             entry = data[index];
     }
+    if (entry == null)
+        return null;
     return entry[field];
 }
 
@@ -181,6 +183,8 @@ function visualize(){
     var tempData = {};
     $.each(videos, function(){
         var views = get_value_by_id("daily_view_counts", this["video_id"]);
+        if (views == null)
+            return;
         for (var i in views){
             if (views[i][0] in tempData)
                 tempData[views[i][0]] += views[i][1];

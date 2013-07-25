@@ -214,7 +214,7 @@ def fill_in_zero(daily_view_counts):
     return result
 
 
-def process_heatmaps(mongodb, segments, video_id, duration):
+def process_heatmaps(mongodb, segments, video_id, video_duration):
     """
     For a given set of watching segments, update count for each bin.
     modes: playcount, play_unique, skip, replay
@@ -228,6 +228,11 @@ def process_heatmaps(mongodb, segments, video_id, duration):
     duration: Video duration (in sec)
     """
     # placeholders for keeping delta counts so that we can do a batch update.
+    # if duration is not available, apply a large enough default value
+    if video_duration == 0:
+        duration = 1200
+    else:
+        duration = video_duration
     raw_counts = [0] * duration
     unique_counts = [0] * duration
     pause_counts = [0] * duration
