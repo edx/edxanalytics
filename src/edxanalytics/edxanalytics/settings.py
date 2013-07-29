@@ -42,7 +42,7 @@ INSTALLED_ANALYTICS_MODULES = (#'prototypemodules.course_stats',
                                'edxmodules.dash',
                                'edxmodules.video_analytics',
                                # 'edxmodules.edxdata',
-                               'edxmodules.hinter',)
+                               'edxmodules.hinter.query',)
                                # 'prototypemodules.autocomplete',)
 
 # Adds test cases in debug mode. 
@@ -59,10 +59,12 @@ INSTALLED_ANALYTICS_MODULES = (#'prototypemodules.course_stats',
 import djcelery
 djcelery.setup_loader()
 
+DJA_AUTH = {'handle_query': 'edxmodules.hinter.auth.token_check'}
+PASSWORD = 'Basic swordfish'
+
 SNS_SUBSCRIPTIONS = []
 
 import django.contrib.auth.decorators
-#DJA_AUTH = { '.*' : django.contrib.auth.decorators.login_required } 
 
 #### Remaining settings
 
