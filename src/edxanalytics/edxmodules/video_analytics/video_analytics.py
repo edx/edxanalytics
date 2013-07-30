@@ -189,7 +189,6 @@ def video_interaction_event(mongodb, events):
 
     To send events, refer to send_event.py
     """
-    print "=========== HANDLING INCOMING EVENTS ============="
     valid_events = 0
     # Store raw event information
     for event in events:
@@ -206,7 +205,7 @@ def video_interaction_event(mongodb, events):
         if get_prop(event, "TYPE_EVENT") in events_type_list:
             collection.insert(entry)
             valid_events += 1
-    print "===========", len(events), "total,", valid_events, "valid. ============="
+    print "=========== INCOMING EVENTS", len(events), "total,", valid_events, "valid. ============="
 
 
 @query(name="process_data")

@@ -112,12 +112,12 @@ def process_segments(mongodb, log_entries):
 
     for video_id in data:
         for username in data[video_id]:
-            data[video_id][username]["segments"] = \
-                construct_segments(data[video_id][username]["entries"])
-            # print video_id, username, len(data[video_id][username]["segments"]), len(data[video_id][username]["entries"])
             print video_id, username
             for entry in data[video_id][username]["entries"]:
                 print "    ", get_prop(entry, "TYPE_EVENT")
+            data[video_id][username]["segments"] = \
+                construct_segments(data[video_id][username]["entries"])
+            # print video_id, username, len(data[video_id][username]["segments"]), len(data[video_id][username]["entries"])
             del data[video_id][username]["entries"]
     return data
 
@@ -149,31 +149,34 @@ def construct_segments(log_entries):
             e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
         except ValueError:
             e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%dT%H:%M:%S.%f")
+        try:
+            segment = {}
+            if get_prop(entry1, "TYPE_EVENT") not in CONF["EVT_VIDEO_PLAY"]:
+                continue
+            # case 1. play-pause: watch for a while and pause
+            if get_prop(entry2, "TYPE_EVENT") in CONF["EVT_VIDEO_PAUSE"]:
+                # 1) compute time elapsed between play and pause
+                # 2) subtract from the final position to get the starting position
+                # 3) avoid negative time with max(x, 0)
+                # time_diff = time.mktime(e2_time) - time.mktime(e1_time)
+                time_diff = e2_time - e1_time
+                time_diff_secs = time_diff.days * 60 * 60 * 24 + time_diff.seconds
+                elapsed_time = float(get_prop(entry2, "VIDEO_TIME")) - time_diff_secs
+                segment["time_start"] = max(elapsed_time, 0)
+                segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
+            # case 2. play-play: watch for a while, access another part of the clip
+            elif get_prop(entry2, "TYPE_EVENT") in CONF["EVT_VIDEO_PLAY"]:
+                segment["time_start"] = float(get_prop(entry1, "VIDEO_TIME"))
+                segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
 
-        segment = {}
-        if get_prop(entry1, "TYPE_EVENT") not in CONF["EVT_VIDEO_PLAY"]:
-            continue
-        # case 1. play-pause: watch for a while and pause
-        if get_prop(entry2, "TYPE_EVENT") in CONF["EVT_VIDEO_PAUSE"]:
-            # 1) compute time elapsed between play and pause
-            # 2) subtract from the final position to get the starting position
-            # 3) avoid negative time with max(x, 0)
-            # time_diff = time.mktime(e2_time) - time.mktime(e1_time)
-            time_diff = e2_time - e1_time
-            time_diff_secs = time_diff.days * 60 * 60 * 24 + time_diff.seconds
-            elapsed_time = float(get_prop(entry2, "VIDEO_TIME")) - time_diff_secs
-            segment["time_start"] = max(elapsed_time, 0)
-            segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
-        # case 2. play-play: watch for a while, access another part of the clip
-        elif get_prop(entry2, "TYPE_EVENT") in CONF["EVT_VIDEO_PLAY"]:
-            segment["time_start"] = float(get_prop(entry1, "VIDEO_TIME"))
-            segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
-
-        segment["date_start"] = get_prop(entry1, "TIMESTAMP")
-        segment["date_end"] = get_prop(entry2, "TIMESTAMP")
-        segment["speed"] = get_prop(entry1, "VIDEO_SPEED")
-        # print segment
-        segments.append(segment)
+            segment["date_start"] = get_prop(entry1, "TIMESTAMP")
+            segment["date_end"] = get_prop(entry2, "TIMESTAMP")
+            segment["speed"] = get_prop(entry1, "VIDEO_SPEED")
+            # print segment
+            segments.append(segment)
+        except ValueError:
+            # corrupt data missing certain fields
+            pass
     return segments
 
 
