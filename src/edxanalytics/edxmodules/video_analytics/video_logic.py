@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 import math
 from collections import Counter
 from edxmodules.video_analytics.common import get_prop, CONF
-
+from xml.etree.ElementTree import ParseError
 
 def compute_view_count(start_times, threshold):
     """
@@ -50,7 +50,9 @@ def get_video_duration(video_id, host):
             for item in tree.iter('{http://gdata.youtube.com/schemas/2007}duration'):
                 if 'seconds' in item.attrib:
                     duration = int(item.attrib['seconds'])
-        except IOError:
+        except IOError: # network not available
+            pass
+        except ParseError: # video not found or malformed xml returned
             pass
     # TODO: implement more host options
     return duration
@@ -77,13 +79,19 @@ def process_segments(mongodb, log_entries):
     - segments: all segments for this user
     - entries: all raw log entries
     """
+    print "here"
     collection = mongodb['videos']
     current_videos = list(collection.find({}, {"video_id": 1}).distinct("video_id"))
     videos = []
     for video in current_videos:
         videos.append(video)
     data = {}
+    index = 0
+    print "here2"
     for entry in log_entries:
+        index += 1
+        if index % 1000 == 0:
+            print ".",
         # print entry
         username = get_prop(entry, "USERNAME")
         # ignore if username is empty
@@ -99,6 +107,7 @@ def process_segments(mongodb, log_entries):
         else:
             # if this video is not in the video database, add it
             if video_id not in videos:
+                print "adding video", video_id
                 register_new_video(mongodb, video_id, entry)
                 videos.append(video_id)
             if video_id not in data:

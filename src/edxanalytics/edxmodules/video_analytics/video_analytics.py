@@ -109,9 +109,10 @@ def record_segments(mongodb):
 
     collection = mongodb['video_events']
     # For incremental updates, retrieve only the events not processed yet.
-    entries = collection.find({"processed": 0})
+    #entries = collection.find({"processed": 0}).limit(1000) #.batch_size(1000)
+    entries = collection.find().limit(100000) #.batch_size(1000)
     print entries.count(), "new events found"
-    data = process_segments(mongodb, list(entries))
+    data = process_segments(mongodb, entries)
     collection_seg = mongodb['video_segments']
     # collection.remove()
     results = {}
@@ -237,3 +238,6 @@ def test(mongodb):
     print "RESULT:", get_prop(entries[0], "VIDEO_SPEED")
     print "RESULT:", get_prop(entries[0], "TIXXMESTAMP")
     return "RESULT:", get_prop(entries[0], "TIMESTAMP")
+
+
+

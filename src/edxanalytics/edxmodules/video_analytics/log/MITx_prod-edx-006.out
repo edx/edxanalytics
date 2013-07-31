@@ -1,0 +1,145 @@
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-11-28_MITx.log ] retrieved 86 out of 86
+=========== INCOMING EVENTS 86 total, 16 valid. =============
+send_events_local COMPLETED 0.00914597511292 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-11-29_MITx.log ] retrieved 18781 out of 18781
+=========== INCOMING EVENTS 18781 total, 5978 valid. =============
+send_events_local COMPLETED 1.28571677208 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-11-30_MITx.log ] retrieved 67599 out of 67599
+=========== INCOMING EVENTS 67599 total, 22414 valid. =============
+send_events_local COMPLETED 5.70619702339 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-01_MITx.log ] retrieved 174733 out of 174733
+=========== INCOMING EVENTS 174733 total, 58052 valid. =============
+send_events_local COMPLETED 14.1286358833 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-02_MITx.log ] retrieved 261546 out of 261546
+=========== INCOMING EVENTS 261546 total, 82025 valid. =============
+send_events_local COMPLETED 20.0802001953 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-03_MITx.log ] retrieved 197835 out of 197835
+=========== INCOMING EVENTS 197835 total, 54347 valid. =============
+send_events_local COMPLETED 14.1180250645 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-04_MITx.log ] retrieved 206831 out of 206831
+=========== INCOMING EVENTS 206831 total, 63102 valid. =============
+send_events_local COMPLETED 15.9788219929 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-05_MITx.log ] retrieved 231337 out of 231337
+=========== INCOMING EVENTS 231337 total, 72889 valid. =============
+send_events_local COMPLETED 16.957324028 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-06_MITx.log ] retrieved 242382 out of 242382
+=========== INCOMING EVENTS 242382 total, 81043 valid. =============
+send_events_local COMPLETED 19.0266280174 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-07_MITx.log ] retrieved 265182 out of 265182
+=========== INCOMING EVENTS 265182 total, 89356 valid. =============
+send_events_local COMPLETED 22.1545557976 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-08_MITx.log ] retrieved 368415 out of 368415
+=========== INCOMING EVENTS 368415 total, 124241 valid. =============
+send_events_local COMPLETED 28.3021681309 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-09_MITx.log ] retrieved 573434 out of 573434
+=========== INCOMING EVENTS 573434 total, 169797 valid. =============
+send_events_local COMPLETED 41.5438439846 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-10_MITx.log ] retrieved 296315 out of 296315
+=========== INCOMING EVENTS 296315 total, 80893 valid. =============
+send_events_local COMPLETED 20.605880022 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-11_MITx.log ] retrieved 240680 out of 240680
+=========== INCOMING EVENTS 240680 total, 65335 valid. =============
+send_events_local COMPLETED 17.3089621067 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-12_MITx.log ] retrieved 266019 out of 266019
+=========== INCOMING EVENTS 266019 total, 67505 valid. =============
+send_events_local COMPLETED 17.0697181225 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-13_MITx.log ] retrieved 185045 out of 185045
+=========== INCOMING EVENTS 185045 total, 66005 valid. =============
+send_events_local COMPLETED 16.4210698605 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-14_MITx.log ] retrieved 209348 out of 209348
+=========== INCOMING EVENTS 209348 total, 74519 valid. =============
+send_events_local COMPLETED 17.3895061016 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-15_MITx.log ] retrieved 221988 out of 221988
+=========== INCOMING EVENTS 221988 total, 79662 valid. =============
+send_events_local COMPLETED 18.0175039768 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-16_MITx.log ] retrieved 218127 out of 218127
+=========== INCOMING EVENTS 218127 total, 79806 valid. =============
+send_events_local COMPLETED 19.0666429996 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-17_MITx.log ] retrieved 132342 out of 132342
+=========== INCOMING EVENTS 132342 total, 50051 valid. =============
+send_events_local COMPLETED 11.0560679436 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-18_MITx.log ] retrieved 102949 out of 102949
+=========== INCOMING EVENTS 102949 total, 39906 valid. =============
+send_events_local COMPLETED 8.32554292679 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-19_MITx.log ] retrieved 100083 out of 100083
+=========== INCOMING EVENTS 100083 total, 38939 valid. =============
+send_events_local COMPLETED 8.36382889748 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-20_MITx.log ] retrieved 141827 out of 141827
+=========== INCOMING EVENTS 141827 total, 43755 valid. =============
+send_events_local COMPLETED 11.4872400761 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-21_MITx.log ] retrieved 150473 out of 150473
+=========== INCOMING EVENTS 150473 total, 40977 valid. =============
+send_events_local COMPLETED 11.0709788799 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-22_MITx.log ] retrieved 168187 out of 168187
+=========== INCOMING EVENTS 168187 total, 49204 valid. =============
+send_events_local COMPLETED 12.2087368965 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-23_MITx.log ] retrieved 209519 out of 209519
+=========== INCOMING EVENTS 209519 total, 53977 valid. =============
+send_events_local COMPLETED 13.9918820858 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-24_MITx.log ] retrieved 108624 out of 108624
+=========== INCOMING EVENTS 108624 total, 30844 valid. =============
+send_events_local COMPLETED 7.20246601105 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-25_MITx.log ] retrieved 62233 out of 62233
+=========== INCOMING EVENTS 62233 total, 21021 valid. =============
+send_events_local COMPLETED 5.22296595573 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-26_MITx.log ] retrieved 70823 out of 70823
+=========== INCOMING EVENTS 70823 total, 25504 valid. =============
+send_events_local COMPLETED 6.04009795189 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-27_MITx.log ] retrieved 97287 out of 97287
+=========== INCOMING EVENTS 97287 total, 25598 valid. =============
+send_events_local COMPLETED 7.05586385727 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-28_MITx.log ] retrieved 66221 out of 66221
+=========== INCOMING EVENTS 66221 total, 25346 valid. =============
+send_events_local COMPLETED 5.11666703224 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-29_MITx.log ] retrieved 60950 out of 60950
+=========== INCOMING EVENTS 60950 total, 22594 valid. =============
+send_events_local COMPLETED 4.73742699623 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-30_MITx.log ] retrieved 65798 out of 65798
+=========== INCOMING EVENTS 65798 total, 24330 valid. =============
+send_events_local COMPLETED 6.0843231678 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2012-12-31_MITx.log ] retrieved 55498 out of 55498
+=========== INCOMING EVENTS 55498 total, 18859 valid. =============
+send_events_local COMPLETED 4.5157058239 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-01_MITx.log ] retrieved 70503 out of 70503
+=========== INCOMING EVENTS 70503 total, 25040 valid. =============
+send_events_local COMPLETED 5.90971398354 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-02_MITx.log ] retrieved 114794 out of 114794
+=========== INCOMING EVENTS 114794 total, 38388 valid. =============
+send_events_local COMPLETED 9.38542294502 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-03_MITx.log ] retrieved 124673 out of 124673
+=========== INCOMING EVENTS 124673 total, 28020 valid. =============
+send_events_local COMPLETED 8.73885893822 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-04_MITx.log ] retrieved 71920 out of 71920
+=========== INCOMING EVENTS 71920 total, 23769 valid. =============
+send_events_local COMPLETED 5.7647600174 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-05_MITx.log ] retrieved 105270 out of 105270
+=========== INCOMING EVENTS 105270 total, 39814 valid. =============
+send_events_local COMPLETED 9.19137001038 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-06_MITx.log ] retrieved 91627 out of 91627
+=========== INCOMING EVENTS 91627 total, 36232 valid. =============
+send_events_local COMPLETED 7.58001708984 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-07_MITx.log ] retrieved 103262 out of 103262
+=========== INCOMING EVENTS 103262 total, 37391 valid. =============
+send_events_local COMPLETED 8.09627914429 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-08_MITx.log ] retrieved 86166 out of 86166
+=========== INCOMING EVENTS 86166 total, 32254 valid. =============
+send_events_local COMPLETED 6.95480298996 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-09_MITx.log ] retrieved 86166 out of 86166
+=========== INCOMING EVENTS 86166 total, 35593 valid. =============
+send_events_local COMPLETED 7.9145450592 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-10_MITx.log ] retrieved 131476 out of 131476
+=========== INCOMING EVENTS 131476 total, 45342 valid. =============
+send_events_local COMPLETED 10.7307920456 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-11_MITx.log ] retrieved 341022 out of 341022
+=========== INCOMING EVENTS 341022 total, 86599 valid. =============
+send_events_local COMPLETED 22.970952034 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-12_MITx.log ] retrieved 945454 out of 945454
+=========== INCOMING EVENTS 945454 total, 115889 valid. =============
+send_events_local COMPLETED 41.8077669144 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-13_MITx.log ] retrieved 512160 out of 512160
+=========== INCOMING EVENTS 512160 total, 139319 valid. =============
+send_events_local COMPLETED 36.2904610634 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/MITx/prod-edx-006/2013-01-14_MITx.log ] retrieved 326737 out of 326737
+=========== INCOMING EVENTS 326737 total, 90116 valid. =============
+send_events_local COMPLETED 23.8320720196 seconds

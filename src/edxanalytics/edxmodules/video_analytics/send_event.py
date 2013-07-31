@@ -18,11 +18,48 @@ import fnmatch
 import ast
 import logging
 from logging.handlers import HTTPHandler
+from itertools import chain
+from common import get_prop, CONF
+from pymongo import MongoClient
 
 # if this is used, all events are filtered to the specific course only
 # COURSE_NAMES = ["6.00x", "3.091x"]
 
-def send_events(results):
+results = []
+
+def send_events():
+    send_events_local()
+    #send_events_http()
+
+def send_events_local():
+    global results
+    client = MongoClient()
+    mongodb = client['edxmodules_video_analytics_video_analytics'] 
+
+    start_time = time.time()
+    valid_events = 0
+    # Store raw event information
+    for event in results:
+        #entry = {}
+        #for key in event.keys():
+        #    entry[key] = event[key]
+            # flag indicating whether this item has been processed.
+        #    entry["processed"] = 0
+        event["processed"] = 0
+        collection = mongodb['video_events']
+        # get a list of event types to keep:
+        # everything that starts with EVT defined in common.py
+        temp_list = [CONF[key] for key in CONF if key.startswith("EVT")]
+        events_type_list = list(chain(*temp_list))
+        if get_prop(event, "TYPE_EVENT") in events_type_list:
+            collection.insert(event)
+            valid_events += 1
+    print "=========== INCOMING EVENTS", len(results), "total,", valid_events, "valid. ============="
+    print sys._getframe().f_code.co_name, "COMPLETED", (time.time() - start_time), "seconds"
+
+
+def send_events_http():
+    global results
     start_time = time.time()
     logger = logging.getLogger('video_analytics')
     # http_handler = HTTPHandler('', '', method='GET')
@@ -43,13 +80,15 @@ def send_events(results):
 
 
 def read_file(path):
+    global results
     results = []
     filtered_out = 0
     with open(path, "r") as log_file:
         lines = log_file.readlines()
         for idx, line in enumerate(lines):
             try:
-                parsed_line = ast.literal_eval(line)
+                #parsed_line = ast.literal_eval(line)
+                parsed_line = json.loads(line)
                 results.append(parsed_line)
                 # print ".", 
             except ValueError:
@@ -61,7 +100,6 @@ def read_file(path):
                 # print "S",
                 # print "syntax error, ignoring line", idx
         print "[", path, "] retrieved", len(results), "out of", len(lines) 
-    return results
 
 
 def main(argv):
@@ -69,14 +107,14 @@ def main(argv):
     Send dummy data over the event handler.
     The event handler inside the module will grab this data.
     """
-
+    global results
     results = []
     if (argv[1] == "-stream"):
         # TODO: implement purely streaming data handling
         pass
     elif (argv[1] == "-file"):
-        results = read_file(argv[2])
-        send_events(results)
+        read_file(argv[2])
+        send_events()
 
     elif (argv[1] == "-dir"):
         start_date = "2012-10-01"
@@ -88,12 +126,13 @@ def main(argv):
             files = [f for f in files if re.match(includes, f) and start_date <= f <= end_date]
             files.sort()
             for fname in files:
-                results = read_file(os.path.join(root, fname))
-                send_events(results)
+                results = []
+                read_file(os.path.join(root, fname))
+                send_events()
 
     elif (argv[1] == "-dummy"):
         from dummy_values import generate_random_data
-        results = generate_random_data(int(argv[2]))
+        generate_random_data(int(argv[2]))
         send_events(results)
 
     else:

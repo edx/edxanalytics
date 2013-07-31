@@ -87,9 +87,11 @@ def get_inner_prop(obj, prop):
         try:
             obj = ast.literal_eval(obj)
         except ValueError:
-            print "value error, ignoring line"
+            pass
+            #print "value error, ignoring line"
         except SyntaxError:
-            print "syntax error, ignoring line"
+            pass
+            #print "syntax error, ignoring line"
     if isinstance(prop, str) or isinstance(prop, unicode):
         if prop not in obj:
             return ""

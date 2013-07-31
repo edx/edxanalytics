@@ -29,7 +29,7 @@ DJFS = { 'type' : 'osfs',
          'directory_root' : '/tmp/djfsmodule',
          'url_root' : 'file:///tmp/'
        }
-DJOBJECT_CONFIG = [{}, {'baseurl' : 'http://192.168.20.40:8000/edinsights_service/'}]
+DJOBJECT_CONFIG = [{}, {'baseurl' : 'http://127.0.0.1:8000/edinsights_service/'}]
 
 TIME_BETWEEN_DATA_REGENERATION = datetime.timedelta(minutes=1)
 
