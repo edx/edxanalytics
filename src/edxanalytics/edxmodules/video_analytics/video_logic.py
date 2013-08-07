@@ -79,7 +79,6 @@ def process_segments(mongodb, log_entries):
     - segments: all segments for this user
     - entries: all raw log entries
     """
-    print "here"
     collection = mongodb['videos']
     current_videos = list(collection.find({}, {"video_id": 1}).distinct("video_id"))
     videos = []
@@ -87,13 +86,15 @@ def process_segments(mongodb, log_entries):
         videos.append(video)
     data = {}
     index = 0
-    print "here2"
     for entry in log_entries:
         index += 1
         if index % 1000 == 0:
             print ".",
         # print entry
         username = get_prop(entry, "USERNAME")
+        # ignore ones that are already processed
+        #if entry["processed"] == 1:
+        #    continue
         # ignore if username is empty
         if username == "":
             continue
@@ -121,9 +122,9 @@ def process_segments(mongodb, log_entries):
 
     for video_id in data:
         for username in data[video_id]:
-            print video_id, username
-            for entry in data[video_id][username]["entries"]:
-                print "    ", get_prop(entry, "TYPE_EVENT")
+            #print video_id, username
+            #for entry in data[video_id][username]["entries"]:
+            #    print "    ", get_prop(entry, "TYPE_EVENT")
             data[video_id][username]["segments"] = \
                 construct_segments(data[video_id][username]["entries"])
             # print video_id, username, len(data[video_id][username]["segments"]), len(data[video_id][username]["entries"])
@@ -153,11 +154,23 @@ def construct_segments(log_entries):
         try:
             e1_time = datetime.strptime(get_prop(entry1, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
         except ValueError:
-            e1_time = datetime.strptime(get_prop(entry1, "TIMESTAMP"), "%Y-%m-%dT%H:%M:%S.%f")
+            try:
+                e1_time = datetime.strptime(get_prop(entry1, "TIMESTAMP"), "%Y-%m-%dT%H:%M:%S.%f")
+            except ValueError:
+                e1_time = datetime.strptime(get_prop(entry1, "TIMESTAMP"), "%Y-%m-%dT%H:%M:%S")
+            except:
+                print "time format error. moving on"
+                continue
         try:
             e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%d %H:%M:%S.%f")
         except ValueError:
-            e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%dT%H:%M:%S.%f")
+            try:
+                e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%dT%H:%M:%S.%f")
+            except ValueError:
+                e2_time = datetime.strptime(get_prop(entry2, "TIMESTAMP"), "%Y-%m-%dT%H:%M:%S")
+            except:
+                print "time format error. moving on"
+                continue
         try:
             segment = {}
             if get_prop(entry1, "TYPE_EVENT") not in CONF["EVT_VIDEO_PLAY"]:
@@ -305,8 +318,16 @@ def process_heatmaps(mongodb, segments, video_id, video_duration):
                 parsed_time = datetime.strptime(
                     segment["date_start"], "%Y-%m-%d %H:%M:%S.%f")
             except ValueError:
-                parsed_time = datetime.strptime(
-                    segment["date_start"], "%Y-%m-%dT%H:%M:%S.%f")
+                try:
+                    parsed_time = datetime.strptime(
+                        segment["date_start"], "%Y-%m-%dT%H:%M:%S.%f")
+                except ValueError:
+                    parsed_time = datetime.strptime(
+                        segment["date_start"], "%Y-%m-%dT%H:%M:%S")
+                except:
+                    print "time format error. moving on"
+                    continue
+                
             start_times[user_id].append(parsed_time)
 
             daily_key = parsed_time.strftime("%Y-%m-%d")

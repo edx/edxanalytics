@@ -1,0 +1,77 @@
+<%! 
+    from staticfiles.storage import staticfiles_storage 
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel='stylesheet' type='text/css'>
+    <link href="${staticfiles_storage.url('djmodules/video_analytics/css/common.css')}" rel='stylesheet' type='text/css'>
+    <link href="${staticfiles_storage.url('djmodules/video_analytics/css/single-view.css')}" rel='stylesheet' type='text/css'>
+    <script src="${staticfiles_storage.url('djmodules/video_analytics/js/jquery-1.10.2.min.js')}"></script>
+    <script src="${staticfiles_storage.url('djmodules/video_analytics/js/d3.v3.min.js')}"></script>
+    <!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>-->
+    <style>
+    .incomplete{
+    }
+    .inprogress{
+        background-color: orange;
+    }
+    .complete{
+        background-color: teal;
+    }
+    </style>
+    <script>
+    var num_entries = ${num_entries};
+    var bin_size = 100000;
+
+    function ajax_handler(data){
+        var json = JSON.parse(data);
+        $("#bin-" + json["index"])
+            .removeClass("incomplete inprogress")
+            .addClass("complete")
+            .text(json["index"] + " " + json["time"]);
+        console.log(json["index"], json);
+        var new_index = parseInt(json["index"]) + 1;
+        if (new_index * bin_size < num_entries){
+            $("#bin-" + new_index).addClass("inprogress");
+            //$.get('/query/process_heatmaps_ajax', {index: new_index})
+            //    .done(ajax_handler); 
+        }
+    }
+
+    $(document).ready(function(){
+        var index = 0;
+        while(true){
+            if (index * bin_size > num_entries)
+                break;
+            $line = $("<div/>")
+                .addClass("incomplete")
+                .attr("id", "bin-"+index)
+                .text(index);
+            $("#dashboard").append($line);
+            index += 1;
+        }
+        $("#start-button").click(function(){
+            $(this).attr("disabled", "disabled");
+            $("#bin-0").addClass("inprogress");
+            $.get('/query/process_heatmaps_ajax', {index: 0})
+                .done(ajax_handler); 
+        });
+    });
+
+    </script>
+</head>
+<body>
+<div class="container">
+    <h2 class="title">
+       Data Processing Dashboard 
+    </h2>
+    <button id="start-button">Start</button>
+    <div id="dashboard">
+    </div>
+</div>
+
+</body>
+</html>
