@@ -108,8 +108,10 @@ def process_segments(mongodb, log_entries):
                 data[video_id][username]["segments"] = []
                 data[video_id][username]["entries"] = []
 
+        #TODO: unindent?
             data[video_id][username]["entries"].append(entry)
 
+    #TODO: not rely on data?
     for video_id in data:
         for username in data[video_id]:
             data[video_id][username]["segments"] = \

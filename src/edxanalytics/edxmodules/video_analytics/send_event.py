@@ -15,7 +15,7 @@ from logging.handlers import HTTPHandler
 
 
 # flag for using dummy data
-USE_DUMMY_DATA = False
+USE_DUMMY_DATA = True
 
 
 def main(argv):
@@ -53,7 +53,7 @@ def main(argv):
     # logger.error(json.dumps(dict(objects)))
     print "================================"
     print len(results), "entries incoming"
-    print results
+    # print results
     print "================================"
     for entry in results:
         logger.critical(json.dumps(entry))
