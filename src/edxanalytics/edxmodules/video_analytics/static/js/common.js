@@ -19,6 +19,12 @@ function formatSeconds(sec){
 }
 
 
+/* Check if the string is a number */
+function isNumber(n){
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+
 /* Sort table by the table ID and column index. */
 function sortTable(id, index, is_first_header, is_ascending){
     var tbl = document.getElementById(id).tBodies[0];
@@ -32,6 +38,8 @@ function sortTable(id, index, is_first_header, is_ascending){
     }
     store.sort(function(x, y){
         var val = 0;
+        if (isNumber(x[0]) && isNumber(y[0]))
+            return parseFloat(x[0]) - parseFloat(y[0]);
         if (x[0] > y[0])
             val = 1;
         if (x[0] < y[0])

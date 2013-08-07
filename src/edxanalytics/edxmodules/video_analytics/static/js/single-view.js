@@ -308,6 +308,15 @@ function bindEvents(){
         var mode = $(this).attr("data-mode");
         // var processedData = processData(data, mode, binSize, duration);
         var processedData = data[mode];
+        // filter out initial play events because they are mandatory
+        if (mode == "play_counts")
+            processedData[0] = 0;
+        // filter out final pause events because they are mandatory
+        if (mode == "pause_counts"){
+            processedData[0] = 0;
+            processedData[processedData.length-1] = 0;
+        }
+        console.log(mode, processedData);
         drawPlayVis(processedData, duration);
 
         // processedData = processTimeData(data);
