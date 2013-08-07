@@ -353,20 +353,42 @@ def process_heatmaps_ajax(mongodb, index):
     return result
 
 
+@query(name="export_heatmaps")
+def export_heatmaps(mongodb):
+    import os
+    collection = mongodb['video_heatmaps']
+    entries = list(collection.find())
+    with open("video_heatmaps_0807.json", "w+") as outfile:
+        json.dump(entries, outfile, default=json_util.default)    
+        return len(entries), "items written to", os.path.abspath(outfile.name)
+
+
 @query(name="test")
 def test(mongodb):
     """
     Test property retrieval
     """
-    collection = mongodb['video_events']
+    """
+    for index, entry in enumerate(entries):
+        try:
+            #json.dumps(entry, cls=MongoAwareEncoder)    
+            json.dumps(entry, default=json_util.default)    
+            #for key in entry:
+            #    print key, entry[key]
+        except TypeError:
+            if index % 100 == 0:
+                for key in entry:
+                    print key, json.dumps(entry[key]) 
+    """
+        #print json.dumps(entry)
     # For incremental updates, retrieve only the events not processed yet.
-    entries = list(collection.find({"processed": 0}))
-    print "RESULT:", get_prop(entries[0], "TIMESTAMP")
-    print "RESULT:", get_prop(entries[0], "VIDEO_ID")
-    print "RESULT:", get_prop(entries[0], "VIDEO_TIME")
-    print "RESULT:", get_prop(entries[0], "VIDEO_SPEED")
-    print "RESULT:", get_prop(entries[0], "TIXXMESTAMP")
-    return "RESULT:", get_prop(entries[0], "TIMESTAMP")
-
+    #entries = list(collection.find({"processed": 0}))
+    #print "RESULT:", get_prop(entries[0], "TIMESTAMP")
+    #print "RESULT:", get_prop(entries[0], "VIDEO_ID")
+    #print "RESULT:", get_prop(entries[0], "VIDEO_TIME")
+    #print "RESULT:", get_prop(entries[0], "VIDEO_SPEED")
+    #print "RESULT:", get_prop(entries[0], "TIXXMESTAMP")
+    #return "RESULT:", get_prop(entries[0], "TIMESTAMP")
+    return ""
 
 
