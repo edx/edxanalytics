@@ -16,6 +16,17 @@ from edxmodules.video_analytics.video_logic \
 from itertools import chain
 from edxmodules.video_analytics.common import get_prop, CONF
 
+# name of the event collection
+EVENTS_COL = 'video_events_harvardx_ph207x_fall2012'
+#EVENTS_COL = 'video_events' #mitx fall2012
+#EVENTS_COL = 'video_events_berkeleyx_cs188x_fall2012'
+SEGMENTS_COL = 'video_segments_harvardx_ph207x_fall2012'
+#SEGMENTS_COL = 'video_segments' #mitx fall2012
+#SEGMENTS_COL = 'video_segments_berkeleyx_cs188x_fall2012'
+HEATMAPS_COL = 'video_heatmaps_harvardx_ph207x_fall2012'
+#HEATMAPS_COL = 'video_heatmaps' #mitx fall2012
+#HEATMAPS_COL = 'video_heatmaps_berkeleyx_cs188x_fall2012'
+VIDEOS_COL = 'videos'
 
 @view(name="video_single")
 def video_single_view(mongodb, vid):
@@ -54,7 +65,7 @@ def video_single_query(mongodb, vid):
     """
     start_time = time.time()
 
-    collection = mongodb['video_heatmaps']
+    collection = mongodb[HEATMAPS_COL]
     entries = list(collection.find({"video_id": vid}))
 
     if len(entries):
@@ -72,7 +83,7 @@ def video_list_query(mongodb):
     """
     start_time = time.time()
 
-    collection = mongodb['video_heatmaps']
+    collection = mongodb[HEATMAPS_COL]
     entries = list(collection.find())
 
     if len(entries):
@@ -107,13 +118,13 @@ def record_segments(mongodb):
     """
     start_time = time.time()
 
-    collection = mongodb['video_events']
+    collection = mongodb[EVENTS_COL]
     # For incremental updates, retrieve only the events not processed yet.
     #entries = collection.find({"processed": 0}).limit(1000) #.batch_size(1000)
     entries = collection.find().limit(500000) #.batch_size(1000)
     print entries.count(), "new events found"
     data = process_segments(mongodb, list(entries))
-    collection_seg = mongodb['video_segments']
+    collection_seg = mongodb[SEGMENTS_COL]
     # collection.remove()
     results = {}
     for video_id in data:
@@ -153,9 +164,9 @@ def record_heatmaps(mongodb):
 
     # TODO: handle cut segments (i.e., start event exists but end event missing)
     # TODO: only remove the corresponding entries in the database: (video, user)
-    collection = mongodb['video_segments']
+    collection = mongodb[SEGMENTS_COL]
     segments = list(collection.find())
-    collection = mongodb['video_heatmaps']
+    collection = mongodbp[HEATMAPS_COL]
     collection.remove()
     print len(segments), "segments found"
 
@@ -198,7 +209,7 @@ def video_interaction_event(mongodb, events):
             entry[key] = event[key]
             # flag indicating whether this item has been processed.
             entry["processed"] = 0
-        collection = mongodb['video_events']
+        collection = mongodb[EVENTS_COL]
         # get a list of event types to keep:
         # everything that starts with EVT defined in common.py
         temp_list = [CONF[key] for key in CONF if key.startswith("EVT")]
@@ -231,13 +242,13 @@ def record_segments_ajax(mongodb, index):
     bin_size = 100000
     start_time = time.time()
 
-    collection = mongodb['video_events']
+    collection = mongodb[EVENTS_COL]
     # For incremental updates, retrieve only the events not processed yet.
     #entries = collection.find({"processed": 0}).limit(1000) #.batch_size(1000)
     entries = collection.find().limit(bin_size).skip(index*bin_size) #.batch_size(1000)
     print entries.count(), "new events found"
     data = process_segments(mongodb, list(entries))
-    collection_seg = mongodb['video_segments']
+    collection_seg = mongodb[SEGMENTS_COL]
     # collection.remove()
     results = {}
     for video_id in data:
@@ -276,7 +287,7 @@ def record_heatmaps_ajax(mongodb, index):
     bin_size = 100000
     start_time = time.time()
 
-    collection = mongodb['video_heatmaps']
+    collection = mongodb[HEATMAPS_COL]
     collection.remove()
     # TODO: handle cut segments (i.e., start event exists but end event missing)
     # TODO: only remove the corresponding entries in the database: (video, user)
@@ -286,7 +297,7 @@ def record_heatmaps_ajax(mongodb, index):
     for index, video in enumerate(video_list):
         video_id = video["video_id"]
         loop_start_time = time.time()
-        collection = mongodb['video_segments']
+        collection = mongodb[SEGMENTS_COL]
         segments = list(collection.find({"video_id": video_id}))
         #segments = collection.find().limit(bin_size).skip(index*bin_size) #.batch_size(1000)
         print index, "/", num_videos, video_id, ":", len(segments), "segments", (time.time() - loop_start_time), "seconds"
@@ -309,7 +320,7 @@ def record_heatmaps_ajax(mongodb, index):
 
 @view(name="data_dashboard")
 def data_dashboard(mongodb):
-    collection = mongodb['video_events']
+    collection = mongodb[EVENTS_COL]
     num_entries = collection.find().count()
     from edinsights.core.render import render
     return render("data-dashboard.html", {
@@ -319,7 +330,7 @@ def data_dashboard(mongodb):
 
 @view(name="heatmap_dashboard")
 def heatmap_dashboard(mongodb):
-    collection = mongodb['video_segments']
+    collection = mongodb[SEGMENTS_COL]
     num_entries = collection.find().count()
     from edinsights.core.render import render
     return render("heatmap-dashboard.html", {
@@ -356,11 +367,13 @@ def process_heatmaps_ajax(mongodb, index):
 @query(name="export_heatmaps")
 def export_heatmaps(mongodb):
     import os
-    collection = mongodb['video_heatmaps']
+    collection = mongodb[HEATMAPS_COL]
     entries = list(collection.find())
-    with open("video_heatmaps_0807.json", "w+") as outfile:
-        json.dump(entries, outfile, default=json_util.default)    
-        return len(entries), "items written to", os.path.abspath(outfile.name)
+    for index, entry in enumerate(entries):
+        with open("edxmodules/video_analytics/mongo-data/video_heatmaps_0812_" + HEATMAPS_COL + "_" + str(index) + ".json", "w+") as outfile:
+            json.dump(entry, outfile, default=json_util.default, indent=0)    
+        print index, "done"
+    return len(entries), "items written to", os.path.abspath(outfile.name)
 
 
 @query(name="test")

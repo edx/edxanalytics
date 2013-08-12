@@ -24,6 +24,12 @@ from pymongo import MongoClient
 
 # if this is used, all events are filtered to the specific course only
 # COURSE_NAMES = ["6.00x", "3.091x"]
+COURSE_START_DATE = "2012-09-24"
+COURSE_END_DATE = "2012-11-19"
+#EVENTS_COL = 'video_events_harvardx_ph207x_fall2012'
+#EVENTS_COL = 'video_events' #mitx fall2012
+EVENTS_COL = 'video_events_berkeleyx_cs188x_fall2012'
+HTTP_ADDR = '192.168.20.40:9999'
 
 results = []
 
@@ -46,7 +52,7 @@ def send_events_local():
             # flag indicating whether this item has been processed.
         #    entry["processed"] = 0
         event["processed"] = 0
-        collection = mongodb['video_events']
+        collection = mongodb[EVENTS_COL]
         # get a list of event types to keep:
         # everything that starts with EVT defined in common.py
         temp_list = [CONF[key] for key in CONF if key.startswith("EVT")]
@@ -64,7 +70,7 @@ def send_events_http():
     logger = logging.getLogger('video_analytics')
     # http_handler = HTTPHandler('', '', method='GET')
     # logging.handlers.HTTPHandler(http_handler)
-    http_handler = HTTPHandler('192.168.20.40:9999', '/httpevent', method='POST')
+    http_handler = HTTPHandler(HTTP_ADDR, '/httpevent', method='POST')
 
     logger.addHandler(http_handler)
     #logger.setLevel(logging.DEBUG)
@@ -117,8 +123,8 @@ def main(argv):
         send_events()
 
     elif (argv[1] == "-dir"):
-        start_date = "2012-10-01"
-        end_date = "2013-01-15"
+        start_date = COURSE_START_DATE
+        end_date = COURSE_END_DATE
         includes = ['*.log'] # log files only
         includes = r'|'.join([fnmatch.translate(x) for x in includes])
         for root, dirs, files in os.walk(sys.argv[2]):

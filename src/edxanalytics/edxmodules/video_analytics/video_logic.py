@@ -9,6 +9,18 @@ from collections import Counter
 from edxmodules.video_analytics.common import get_prop, CONF
 from xml.etree.ElementTree import ParseError
 
+# name of the event collection
+#EVENTS_COL = 'video_events_harvardx_ph207x_fall2012'
+#EVENTS_COL = 'video_events' #mitx fall2012
+EVENTS_COL = 'video_events_berkeleyx_cs188x_fall2012'
+#SEGMENTS_COL = 'video_segments_harvardx_ph207x_fall2012'
+#SEGMENTS_COL = 'video_segments' #mitx fall2012
+SEGMENTS_COL = 'video_segments_berkeleyx_cs188x_fall2012'
+#HEATMAPS_COL = 'video_heatmaps_harvardx_ph207x_fall2012'
+#HEATMAPS_COL = 'video_heatmaps' #mitx fall2012
+HEATMAPS_COL = 'video_heatmaps_berkeleyx_cs188x_fall2012'
+VIDEOS_COL = 'videos'
+
 def compute_view_count(start_times, threshold):
     """
     Compute the number of valid view counts,
@@ -63,7 +75,7 @@ def register_new_video(mongodb, video_id, entry):
     Add a new video entry to the videos collection.
     An important thing is to get the video duration information.
     """
-    collection = mongodb['videos']
+    collection = mongodb[VIDEOS_COL]
     db_entry = {}
     db_entry["video_id"] = video_id
     db_entry["host"] = CONF["VIDEO_HOST"]
@@ -79,7 +91,7 @@ def process_segments(mongodb, log_entries):
     - segments: all segments for this user
     - entries: all raw log entries
     """
-    collection = mongodb['videos']
+    collection = mongodb[VIDEOS_COL]
     current_videos = list(collection.find({}, {"video_id": 1}).distinct("video_id"))
     videos = []
     for video in current_videos:
@@ -185,13 +197,21 @@ def construct_segments(log_entries):
                 # time_diff = time.mktime(e2_time) - time.mktime(e1_time)
                 time_diff = e2_time - e1_time
                 time_diff_secs = time_diff.days * 60 * 60 * 24 + time_diff.seconds
-                elapsed_time = float(get_prop(entry2, "VIDEO_TIME")) - time_diff_secs
-                segment["time_start"] = max(elapsed_time, 0)
-                segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
+                try:
+                    elapsed_time = float(get_prop(entry2, "VIDEO_TIME")) - time_diff_secs
+                    segment["time_start"] = max(elapsed_time, 0)
+                    segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
+                except TypeError:
+                    print "malformatted field. skipping"
+                    continue
             # case 2. play-play: watch for a while, access another part of the clip
             elif get_prop(entry2, "TYPE_EVENT") in CONF["EVT_VIDEO_PLAY"]:
-                segment["time_start"] = float(get_prop(entry1, "VIDEO_TIME"))
-                segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
+                try:
+                    segment["time_start"] = float(get_prop(entry1, "VIDEO_TIME"))
+                    segment["time_end"] = float(get_prop(entry2, "VIDEO_TIME"))
+                except TypeError:
+                    print "malformatted field. skipping"
+                    continue
 
             segment["date_start"] = get_prop(entry1, "TIMESTAMP")
             segment["date_end"] = get_prop(entry2, "TIMESTAMP")
@@ -271,7 +291,7 @@ def process_heatmaps(mongodb, segments, video_id, video_duration):
     completion_count = 0
     completion_counts = Counter()
 
-    collection = mongodb['video_heatmaps']
+    collection = mongodb[HEATMAPS_COL]
     # Get counts for each time bin
     for current_time in range(0, duration):
         for user_id in segments:
