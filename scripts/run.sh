@@ -1,8 +1,10 @@
 #!/bin/bash
 
-EDXANALYTICS_DIR=/home/juhokim/edx-vagrant/edxanalytics
+EDXANALYTICS_DIR=/Users/juhokim/edx-vagrant/edxanalytics
+#EDXANALYTICS_DIR=/home/juhokim/edx-vagrant/edxanalytics
 EDXANALYTICS_PORT=9999
-LMS_DIR=/home/juhokim/edx-platform
+LMS_DIR=/Users/juhokim/edx_all/edx-platform
+#LMS_DIR=/home/juhokim/edx-platform
 LMS_PORT=8000
 
 cd $EDXANALYTICS_DIR/src/edxanalytics

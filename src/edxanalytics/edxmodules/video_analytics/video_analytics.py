@@ -17,14 +17,14 @@ from itertools import chain
 from edxmodules.video_analytics.common import get_prop, CONF
 
 # name of the event collection
-EVENTS_COL = 'video_events_harvardx_ph207x_fall2012'
-#EVENTS_COL = 'video_events' #mitx fall2012
+# EVENTS_COL = 'video_events_harvardx_ph207x_fall2012'
+EVENTS_COL = 'video_events'  #mitx fall2012
 #EVENTS_COL = 'video_events_berkeleyx_cs188x_fall2012'
-SEGMENTS_COL = 'video_segments_harvardx_ph207x_fall2012'
-#SEGMENTS_COL = 'video_segments' #mitx fall2012
+# SEGMENTS_COL = 'video_segments_harvardx_ph207x_fall2012'
+SEGMENTS_COL = 'video_segments'  #mitx fall2012
 #SEGMENTS_COL = 'video_segments_berkeleyx_cs188x_fall2012'
-HEATMAPS_COL = 'video_heatmaps_harvardx_ph207x_fall2012'
-#HEATMAPS_COL = 'video_heatmaps' #mitx fall2012
+# HEATMAPS_COL = 'video_heatmaps_harvardx_ph207x_fall2012'
+HEATMAPS_COL = 'video_heatmaps'  #mitx fall2012
 #HEATMAPS_COL = 'video_heatmaps_berkeleyx_cs188x_fall2012'
 VIDEOS_COL = 'videos'
 
