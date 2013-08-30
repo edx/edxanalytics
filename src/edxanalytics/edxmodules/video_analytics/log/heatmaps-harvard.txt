@@ -1,0 +1,1900 @@
+5121 / 6069 qZawhr-TLT0 : 34739 segments 0.533530950546 seconds
+48.8266661167 seconds
+5122 / 6069 nP3OnqOM2SE : 5149 segments 0.492146015167 seconds
+6.05766010284 seconds
+5123 / 6069 mm5RhQumAeY : 2374 segments 0.0322880744934 seconds
+2.38813495636 seconds
+5124 / 6069 ZFYm5ijBMIA : 22040 segments 0.506808042526 seconds
+28.4372849464 seconds
+5125 / 6069 aSZ2G_K8UxU : 34332 segments 0.796726942062 seconds
+44.4249138832 seconds
+5126 / 6069 BO_U84iXvtw : 17276 segments 0.788563966751 seconds
+22.1159739494 seconds
+5127 / 6069 WO0oLpP0eQE : 3490 segments 0.433603048325 seconds
+3.41975808144 seconds
+5128 / 6069 KYz391A5qD0 : 7641 segments 0.132179021835 seconds
+8.04977202415 seconds
+5129 / 6069 uTiS_jnznFg : 3603 segments 0.0974841117859 seconds
+3.33667612076 seconds
+5130 / 6069 g90imBr3XxM : 15426 segments 0.273059844971 seconds
+18.3951780796 seconds
+5131 / 6069 3rlX600mQv0 : 6485 segments 0.712004899979 seconds
+8.27283000946 seconds
+5132 / 6069 sCbD9AJMF14 : 10567 segments 0.330347061157 seconds
+13.4530558586 seconds
+5133 / 6069 xlBOAiccTUM : 8184 segments 0.759500980377 seconds
+8.41190290451 seconds
+5134 / 6069 4PVMorwGAGM : 1136 segments 0.0651619434357 seconds
+1.18773698807 seconds
+5135 / 6069 39M68HPtg3I : 2280 segments 0.116844892502 seconds
+2.22165393829 seconds
+5136 / 6069 Eu7ppA82mxM : 6204 segments 0.122361898422 seconds
+6.19683909416 seconds
+5137 / 6069 olubEPmP8-E : 6756 segments 0.153536081314 seconds
+7.47024011612 seconds
+5138 / 6069 0OAOFfhkpp4 : 6157 segments 0.0811200141907 seconds
+6.9767100811 seconds
+5139 / 6069 SX5qBKFYlPo : 5149 segments 0.125370979309 seconds
+5.53374099731 seconds
+5140 / 6069 0I2lsU8EKnw : 5825 segments 0.107326030731 seconds
+6.14391613007 seconds
+5141 / 6069 f0xxYlsR87A : 8484 segments 0.232738018036 seconds
+9.04119992256 seconds
+5142 / 6069 _PcLDBzq5qs : 2070 segments 0.086776971817 seconds
+1.98607587814 seconds
+5143 / 6069 mG6dGXXjTgo : 3964 segments 0.291891098022 seconds
+3.917979002 seconds
+5144 / 6069 XupBYPs3ypQ : 11974 segments 0.240716934204 seconds
+13.9528729916 seconds
+5145 / 6069 bk7aKfgFYRs : 3527 segments 0.0779349803925 seconds
+3.40529203415 seconds
+5146 / 6069 aKQHvSzKEGE : 3302 segments 0.0491769313812 seconds
+3.21232509613 seconds
+5147 / 6069 SmBSW0g0XlY : 4990 segments 0.182089090347 seconds
+4.62933802605 seconds
+5148 / 6069 UNKJkjNTAp0 : 598 segments 0.0190689563751 seconds
+0.537905931473 seconds
+5149 / 6069 LoKcZ1lgIZk : 20633 segments 0.518177032471 seconds
+24.4959819317 seconds
+5150 / 6069 C7vVoX3o9PQ : 698 segments 0.00393104553223 seconds
+0.60965681076 seconds
+5151 / 6069 hs5kwU3HReU : 6985 segments 0.132468938828 seconds
+7.12805891037 seconds
+5152 / 6069 rpfCR6RvAW8 : 5881 segments 0.179904937744 seconds
+5.30040216446 seconds
+5153 / 6069 I_impwN7ipU : 2380 segments 0.253361940384 seconds
+2.10093784332 seconds
+5154 / 6069 uXaXFzvbksA : 2251 segments 0.124138116837 seconds
+1.89778900146 seconds
+5155 / 6069 e074oIBiYcM : 2282 segments 0.0496590137482 seconds
+1.88665699959 seconds
+5156 / 6069 ZPmyw24fEdg : 1885 segments 0.108435869217 seconds
+1.61855483055 seconds
+5157 / 6069 4ZfNd49m28Q : 1513 segments 0.0955431461334 seconds
+1.31121087074 seconds
+5158 / 6069 SI-SHT0IqMY : 1412 segments 0.012158870697 seconds
+1.32024002075 seconds
+5159 / 6069 7h18udflYOc : 1815 segments 0.150604963303 seconds
+1.54044914246 seconds
+5160 / 6069 iivmP1irYz4 : 3163 segments 0.0455567836761 seconds
+2.65186500549 seconds
+5161 / 6069 3Lrl8SLHmDg : 4561 segments 0.0802040100098 seconds
+4.71995687485 seconds
+5162 / 6069 d41cjB51Q3s : 1352 segments 0.0299351215363 seconds
+1.26879906654 seconds
+5163 / 6069 Vnn8MdD9c0I : 12806 segments 0.19104218483 seconds
+14.3246581554 seconds
+5164 / 6069 Ux1RnISfLN4 : 5355 segments 0.0645542144775 seconds
+5.87609887123 seconds
+5165 / 6069 t6K6PzaG1A8 : 8054 segments 0.21381688118 seconds
+8.62234711647 seconds
+5166 / 6069 ttKqduWB4Kc : 9463 segments 0.662983894348 seconds
+10.5537030697 seconds
+5167 / 6069 ujVMyXJf7ME : 3234 segments 0.0653870105743 seconds
+3.02642989159 seconds
+5168 / 6069 fa6sQuMJoLY : 2593 segments 0.056282043457 seconds
+2.47589802742 seconds
+5169 / 6069 5DoFgyOSreE : 6734 segments 0.140876054764 seconds
+6.33842492104 seconds
+5170 / 6069 1EKZFaQ0pgY : 4184 segments 0.161152839661 seconds
+3.96223306656 seconds
+5171 / 6069 27Is5Pp_Nkk : 13612 segments 0.395784139633 seconds
+15.7234268188 seconds
+5172 / 6069 ChusnVGyeKI : 13236 segments 0.594088077545 seconds
+14.7013299465 seconds
+5173 / 6069 Q7bkOLaH6qE : 5245 segments 0.0351619720459 seconds
+5.1863219738 seconds
+5174 / 6069 ylZUARi0CLg : 10870 segments 0.207375049591 seconds
+11.2936069965 seconds
+5175 / 6069 cmOoigg0M3s : 3376 segments 0.214630842209 seconds
+3.40174889565 seconds
+5176 / 6069 AvborA7MsGk : 2703 segments 0.0852568149567 seconds
+2.59855604172 seconds
+5177 / 6069 rctwZovLnAg : 4145 segments 0.109604120255 seconds
+3.77673506737 seconds
+5178 / 6069 XtI4ayJnkKU : 5464 segments 0.0724971294403 seconds
+5.40208816528 seconds
+5179 / 6069 fyqnY7fZbyc : 5856 segments 0.384650945663 seconds
+6.05199193954 seconds
+5180 / 6069 PkdNo_okqVw : 2688 segments 0.158694028854 seconds
+2.57901501656 seconds
+5181 / 6069 u2UDOMk8zGE : 22430 segments 0.513515949249 seconds
+27.1136851311 seconds
+5182 / 6069 alF28Ci3xZE : 2243 segments 0.0669569969177 seconds
+2.19204378128 seconds
+5183 / 6069 6X2q3sQas6s : 2960 segments 0.0321800708771 seconds
+3.29650783539 seconds
+5184 / 6069 1vqgqd2B1pI : 4235 segments 0.06285405159 seconds
+3.97236680984 seconds
+5185 / 6069 QW2V46n4LF0 : 4564 segments 0.0412158966064 seconds
+5.09616804123 seconds
+5186 / 6069 gO8L9Zkhbuk : 11645 segments 0.36451292038 seconds
+13.2902610302 seconds
+5187 / 6069 Tlf3rldN560 : 13490 segments 0.777080059052 seconds
+15.2318248749 seconds
+5188 / 6069 XJPLb-_XTYQ : 4620 segments 0.124631881714 seconds
+4.70632100105 seconds
+5189 / 6069 zns7Tm3c8-Y : 5843 segments 0.0755438804626 seconds
+6.10513782501 seconds
+5190 / 6069 CWMaspmaxRo : 2285 segments 0.0563540458679 seconds
+2.24474310875 seconds
+5191 / 6069 y0PAa_MmXQ4 : 3253 segments 0.150778055191 seconds
+3.11525917053 seconds
+5192 / 6069 _eD1a-CydVI : 4370 segments 0.0423390865326 seconds
+4.29073095322 seconds
+5193 / 6069 yqKfNLJ4UBI : 8336 segments 0.161399841309 seconds
+9.03304696083 seconds
+5194 / 6069 sFdVaOPTNBI : 7590 segments 0.0599160194397 seconds
+8.07778596878 seconds
+5195 / 6069 EsXuzuVAeTs : 4992 segments 0.0532081127167 seconds
+4.95490694046 seconds
+5196 / 6069 Im25HwvNTK8 : 4275 segments 0.0352218151093 seconds
+4.71645188332 seconds
+5197 / 6069 jTjaqCN_pa4 : 8946 segments 0.228358983994 seconds
+10.2181990147 seconds
+5198 / 6069 G-TIOJOIeAk : 11284 segments 0.234856843948 seconds
+12.8673911095 seconds
+5199 / 6069 LNZZwV9Ieec : 2209 segments 0.505604028702 seconds
+1.94071722031 seconds
+5200 / 6069 HuY2YDHL--Q : 4097 segments 0.0561809539795 seconds
+3.73509502411 seconds
+5201 / 6069 cMZJQIIiFSY : 4779 segments 0.0886988639832 seconds
+4.56319713593 seconds
+5202 / 6069 AFs5j90Wfps : 3158 segments 0.0566620826721 seconds
+3.01503801346 seconds
+5203 / 6069 F7Na5biMyRA : 1866 segments 0.0289649963379 seconds
+1.60740804672 seconds
+5204 / 6069 xlLufWl0Tss : 702 segments 0.0593659877777 seconds
+0.622954130173 seconds
+5205 / 6069 O8_RbKSxCaw : 34299 segments 0.614706993103 seconds
+44.2880890369 seconds
+5206 / 6069 zKWbvspkPf4 : 3021 segments 0.484019994736 seconds
+2.83550190926 seconds
+5207 / 6069 CzIIvWd4Qfs : 3733 segments 0.0444519519806 seconds
+3.53174710274 seconds
+5208 / 6069 lQXGEANgl-Y : 2705 segments 0.0337071418762 seconds
+2.56391620636 seconds
+5209 / 6069 Y9AWN-IB2eI : 1222 segments 0.0111877918243 seconds
+1.0846619606 seconds
+5210 / 6069 plS9EZO0KCQ : 1769 segments 0.0287899971008 seconds
+1.47887015343 seconds
+5211 / 6069 BnZrwSwittc : 4853 segments 0.136234998703 seconds
+5.05514788628 seconds
+5212 / 6069 eSxL3BXGNNs : 23615 segments 0.489747047424 seconds
+30.9284739494 seconds
+5213 / 6069 6fF0Hr1SkME : 18746 segments 0.305234193802 seconds
+22.9860241413 seconds
+5214 / 6069 W-77x0wQuj8 : 2125 segments 0.101558923721 seconds
+2.02107691765 seconds
+5215 / 6069 mW49Qh82yTQ : 2578 segments 0.0685489177704 seconds
+2.44561600685 seconds
+5216 / 6069 tlz1oeMi_E8 : 5822 segments 0.131562948227 seconds
+5.56949901581 seconds
+5217 / 6069 xsvB7Nuz4Jk : 4217 segments 0.0862720012665 seconds
+3.94646596909 seconds
+5218 / 6069 1-qank_mKzI : 4069 segments 0.158555984497 seconds
+4.17078399658 seconds
+5219 / 6069 pFYG4r4EsvI : 5278 segments 0.102592945099 seconds
+4.65955901146 seconds
+5220 / 6069 lG9K7Uo825M : 3062 segments 0.0279350280762 seconds
+2.87069296837 seconds
+5221 / 6069 Ko3RHHzkwkA : 2319 segments 0.0425019264221 seconds
+2.43739199638 seconds
+5222 / 6069 9Jw5sFEPzV0 : 4429 segments 0.140628099442 seconds
+4.38212394714 seconds
+5223 / 6069 gxqfI65AiRA : 8882 segments 0.122476816177 seconds
+8.94375395775 seconds
+5224 / 6069 Siv4ENYvCak : 7687 segments 0.167130947113 seconds
+7.9564371109 seconds
+5225 / 6069 GWqrLDtOv38 : 938 segments 0.00683403015137 seconds
+0.822899103165 seconds
+5226 / 6069 i_c5YqlEKc8 : 478 segments 0.0184988975525 seconds
+0.444723844528 seconds
+5227 / 6069 2VDgXOwoM2s : 490 segments 0.00308203697205 seconds
+0.443422079086 seconds
+5228 / 6069 CHZ4j02gHmo : 7705 segments 0.0946838855743 seconds
+7.34571290016 seconds
+5229 / 6069 wTZ_og2BwmA : 16866 segments 0.33373093605 seconds
+19.7231981754 seconds
+5230 / 6069 HW4fvgwavL0 : 1299 segments 0.00653696060181 seconds
+1.09293317795 seconds
+5231 / 6069 bpWK-pPnB1E : 2723 segments 0.0446422100067 seconds
+2.4597799778 seconds
+5232 / 6069 z_ZX7guKVJI : 1825 segments 0.0103359222412 seconds
+1.78826498985 seconds
+5233 / 6069 I4gL9NB_o5A : 2287 segments 0.0372629165649 seconds
+2.05751609802 seconds
+5234 / 6069 8MXVTyRfGiw : 4143 segments 0.0548670291901 seconds
+3.7924489975 seconds
+5235 / 6069 2nkhzq1R7qE : 1472 segments 0.0149447917938 seconds
+1.25589084625 seconds
+5236 / 6069 k0dqX38I6OU : 2361 segments 0.0565810203552 seconds
+1.99797606468 seconds
+5237 / 6069 Sopwxq93N2o : 1331 segments 0.00750803947449 seconds
+1.17669200897 seconds
+5238 / 6069 3dBPhL_bkDg : 863 segments 0.0499489307404 seconds
+0.723391056061 seconds
+5239 / 6069 7-MN8GHE1Fo : 1070 segments 0.0083589553833 seconds
+0.91672205925 seconds
+5240 / 6069 c-opX4__UWM : 5063 segments 0.0866611003876 seconds
+4.30457019806 seconds
+5241 / 6069 lkhqlMxc9EI : 5426 segments 0.0798029899597 seconds
+4.88612508774 seconds
+5242 / 6069 Vs4KSVtPslI : 8216 segments 0.21325302124 seconds
+8.02254199982 seconds
+5243 / 6069 tSOxcA1YPEQ : 1274 segments 0.0605220794678 seconds
+1.05913186073 seconds
+5244 / 6069 7XnMmFaS6sA : 1120 segments 0.0216119289398 seconds
+0.917393922806 seconds
+5245 / 6069 ReckoTiQNtE : 1224 segments 0.0550429821014 seconds
+1.06245517731 seconds
+5246 / 6069 csTBwN7Ucvs : 511 segments 0.0192408561707 seconds
+0.442053079605 seconds
+5247 / 6069 F80KM1iLd30 : 682 segments 0.0314049720764 seconds
+0.613643884659 seconds
+5248 / 6069 LIg740mnkfg : 695 segments 0.0374579429626 seconds
+0.587029933929 seconds
+5249 / 6069 LEPnX4PSdqg : 1331 segments 0.10907292366 seconds
+1.11140012741 seconds
+5250 / 6069 1lm9msWQKu0 : 904 segments 0.00988793373108 seconds
+0.776041030884 seconds
+5251 / 6069 InL_CuiDds0 : 9906 segments 0.125537872314 seconds
+12.1279149055 seconds
+5252 / 6069 ILnYa_u5dDs : 6003 segments 0.492501974106 seconds
+6.37067198753 seconds
+5253 / 6069 cSQfAhfKaHs : 4628 segments 0.0574691295624 seconds
+4.36388683319 seconds
+5254 / 6069 GCmtNsCnYoA : 1010 segments 0.0123660564423 seconds
+0.866249084473 seconds
+5255 / 6069 kcXph3hREW0 : 3453 segments 0.105710029602 seconds
+3.30623006821 seconds
+5256 / 6069 YCwKIQjUqxI : 471 segments 0.00385689735413 seconds
+0.443734884262 seconds
+5257 / 6069 43uFWzJCalw : 880 segments 0.00650000572205 seconds
+0.721946001053 seconds
+5258 / 6069 3pAtD9IwgQU : 438 segments 0.0198400020599 seconds
+0.376587867737 seconds
+5259 / 6069 QFVJZgf5png : 394 segments 0.00365591049194 seconds
+0.350584030151 seconds
+5260 / 6069 ERXRtdG02jg : 445 segments 0.0269899368286 seconds
+0.363351106644 seconds
+5261 / 6069 4pKaauf8EZs : 788 segments 0.00454688072205 seconds
+0.62636590004 seconds
+5262 / 6069 Ks1knDxCb98 : 5945 segments 0.116014003754 seconds
+5.16263103485 seconds
+5263 / 6069 stOCicJ2Gyo : 3231 segments 0.0311238765717 seconds
+2.63456201553 seconds
+5264 / 6069 GKHXd6LeYMU : 21711 segments 0.524272918701 seconds
+26.7649729252 seconds
+5265 / 6069 mbnbIfnROXc : 13066 segments 0.23454785347 seconds
+15.8052389622 seconds
+5266 / 6069 NEH0F01SC3Y : 5450 segments 0.521903038025 seconds
+4.95355510712 seconds
+5267 / 6069 IzfFfy2N7C4 : 7402 segments 0.226363182068 seconds
+7.83913993835 seconds
+5268 / 6069 ffNYCopBXUM : 9657 segments 0.287951946259 seconds
+10.6409409046 seconds
+5269 / 6069 x5yM_bkAGvA : 11872 segments 0.974277973175 seconds
+13.9490759373 seconds
+5270 / 6069 epRzxcW6APg : 5752 segments 0.154387950897 seconds
+5.4758040905 seconds
+5271 / 6069 Qe4aZpeXLiI : 11273 segments 0.159126996994 seconds
+11.7032771111 seconds
+5272 / 6069 24DKzMM0dCc : 6230 segments 0.513396978378 seconds
+6.27289700508 seconds
+5273 / 6069 rD8TXrYB2Sw : 5246 segments 0.162375926971 seconds
+4.75623297691 seconds
+5274 / 6069 b5AooB3HGqw : 1767 segments 0.0449430942535 seconds
+1.49246287346 seconds
+5275 / 6069 XpHH3T-zIQ0 : 2640 segments 0.0454659461975 seconds
+2.67061686516 seconds
+5276 / 6069 s-7tO0w0xtU : 5658 segments 0.145478963852 seconds
+5.40277004242 seconds
+5277 / 6069 BG71J_EsVFY : 5976 segments 0.130516052246 seconds
+6.76121997833 seconds
+5278 / 6069 3wwTg7FqM64 : 8585 segments 0.120828151703 seconds
+9.86282491684 seconds
+5279 / 6069 GG_wZjDUh80 : 15923 segments 0.340117931366 seconds
+21.3826999664 seconds
+5280 / 6069 UBRGWjGZiek : 18116 segments 0.266862869263 seconds
+20.3500099182 seconds
+5281 / 6069 QGcTHUORWpw : 8320 segments 0.174831867218 seconds
+8.69445586205 seconds
+5282 / 6069 9wGW17-PO6E : 8695 segments 0.207244873047 seconds
+10.3367488384 seconds
+5283 / 6069 3wCXewu72YI : 8498 segments 0.0855939388275 seconds
+9.61566400528 seconds
+5284 / 6069 mpbwTiWNEK4 : 5197 segments 0.118935823441 seconds
+5.48535609245 seconds
+5285 / 6069 00MaE6RVGtg : 23714 segments 0.554394006729 seconds
+27.6765301228 seconds
+5286 / 6069 6n3RLWfvqC4 : 10654 segments 0.534044027328 seconds
+11.0020179749 seconds
+5287 / 6069 Umr9bm2D_NY : 13267 segments 0.26358795166 seconds
+16.0510759354 seconds
+5288 / 6069 MWaKn2AtwZk : 20559 segments 0.321061849594 seconds
+26.441532135 seconds
+5289 / 6069 BF1cijHwFgE : 6882 segments 0.637849092484 seconds
+7.36659312248 seconds
+5290 / 6069 FVJovGpa3j0 : 8306 segments 0.189914941788 seconds
+8.9146001339 seconds
+5291 / 6069 buK9byKrcFY : 6307 segments 0.177872896194 seconds
+6.60215187073 seconds
+5292 / 6069 ipM2eakNoXs : 2831 segments 0.0461409091949 seconds
+2.43416285515 seconds
+5293 / 6069 nZeSumMGGVc : 8001 segments 0.245490074158 seconds
+7.41307806969 seconds
+5294 / 6069 HMmfLYQBuuI : 9561 segments 0.11830997467 seconds
+10.7258341312 seconds
+5295 / 6069 2bCdnKM0DGY : 3678 segments 0.0768001079559 seconds
+3.45664715767 seconds
+5296 / 6069 QXLd0NwCJZw : 1502 segments 0.0699329376221 seconds
+1.22145485878 seconds
+5297 / 6069 enruqbE0Zhk : 3066 segments 0.0356059074402 seconds
+3.20202589035 seconds
+5298 / 6069 zEQcBjDi22w : 4663 segments 0.0428159236908 seconds
+4.75087308884 seconds
+5299 / 6069 n7JKvcHnEBQ : 4423 segments 0.0879428386688 seconds
+4.69710803032 seconds
+5300 / 6069 zKQiPbesvIo : 2112 segments 0.0172910690308 seconds
+1.74703502655 seconds
+5301 / 6069 TM3wckJHE2U : 1930 segments 0.0441370010376 seconds
+1.75939011574 seconds
+5302 / 6069 RnJYQlsCiIM : 2156 segments 0.0363078117371 seconds
+1.88271093369 seconds
+5303 / 6069 5gggwjsGSHk : 17065 segments 0.346138000488 seconds
+22.0730609894 seconds
+5304 / 6069 nrtDaYjc9Kc : 16603 segments 0.715630054474 seconds
+19.5935919285 seconds
+5305 / 6069 yuIGwFha6SU : 7825 segments 0.11559009552 seconds
+8.11154317856 seconds
+5306 / 6069 grLBwZEhzig : 7475 segments 0.0618860721588 seconds
+7.37262606621 seconds
+5307 / 6069 PE-0zscjZmY : 10909 segments 0.216780900955 seconds
+12.3582909107 seconds
+5308 / 6069 z-IDnsaO5Fw : 24578 segments 0.570895910263 seconds
+30.6683568954 seconds
+5309 / 6069 DF8hV2EO-Vk : 12318 segments 0.596957921982 seconds
+14.7464048862 seconds
+5310 / 6069 mOnyzw-mKew : 65382 segments 1.82881402969 seconds
+83.2344121933 seconds
+5311 / 6069 Q00TUIAZV7s : 4685 segments 0.513674020767 seconds
+4.64528393745 seconds
+5312 / 6069 CamQ7a8ZVnQ : 5643 segments 0.171931028366 seconds
+5.71385383606 seconds
+5313 / 6069 xoVqK2Okktc : 11374 segments 0.280543804169 seconds
+13.0388140678 seconds
+5314 / 6069 h4VjDXfDUbI : 7407 segments 0.604679107666 seconds
+8.09011697769 seconds
+5315 / 6069 EP4If-b89-Q : 11097 segments 0.266526937485 seconds
+12.1180198193 seconds
+5316 / 6069 u_eJP4_WXjo : 9380 segments 0.149699211121 seconds
+9.46267604828 seconds
+5317 / 6069 PBaFrM4korY : 16021 segments 0.525496006012 seconds
+19.2464039326 seconds
+5318 / 6069 lhrH9tatROs : 7437 segments 0.551467180252 seconds
+7.50634813309 seconds
+5319 / 6069 kC7x1BFybgM : 6162 segments 0.183250904083 seconds
+5.72866106033 seconds
+5320 / 6069 9hqFMt9ARRc : 8369 segments 0.151345968246 seconds
+8.91616201401 seconds
+5321 / 6069 kec0q0KkQzw : 14178 segments 0.346659183502 seconds
+16.4028880596 seconds
+5322 / 6069 LclqT_agni8 : 13977 segments 0.262021064758 seconds
+17.22560215 seconds
+5323 / 6069 UTVUXzCQMYo : 9312 segments 0.119374036789 seconds
+11.0049090385 seconds
+5324 / 6069 aO3_hPZglsw : 11461 segments 0.668731927872 seconds
+13.6326141357 seconds
+5325 / 6069 qqRhmOs-J88 : 9308 segments 0.548336029053 seconds
+9.65646696091 seconds
+5326 / 6069 xrZIW30wpas : 3974 segments 0.159076929092 seconds
+3.63961482048 seconds
+5327 / 6069 csXuNdsDkCg : 6429 segments 0.143069028854 seconds
+6.95970988274 seconds
+5328 / 6069 yqFLeeDih9k : 5181 segments 0.11983704567 seconds
+4.78377890587 seconds
+5329 / 6069 k9OZbwbyHoc : 8953 segments 0.434479951859 seconds
+10.3057470322 seconds
+5330 / 6069 Mi7zyMxa8QM : 7774 segments 0.138729095459 seconds
+7.66464114189 seconds
+5331 / 6069 VlpfFE7TqaI : 6364 segments 0.113426923752 seconds
+6.15941500664 seconds
+5332 / 6069 0GrcKWA2GvY : 6538 segments 0.170602083206 seconds
+7.10764598846 seconds
+5333 / 6069 qwIhfs21GeU : 9157 segments 0.199067115784 seconds
+10.0339961052 seconds
+5334 / 6069 NWxRrrvcqdc : 15283 segments 0.669026136398 seconds
+18.5129470825 seconds
+5335 / 6069 wDoUDO8-42s : 8039 segments 0.555689811707 seconds
+8.98656916618 seconds
+5336 / 6069 VFlwcnqAh38 : 3206 segments 0.0522749423981 seconds
+2.84674119949 seconds
+5337 / 6069 6mLKeI4xlME : 2091 segments 0.0637907981873 seconds
+1.84114098549 seconds
+5338 / 6069 4GXtHcVAfis : 2438 segments 0.0730891227722 seconds
+2.50915503502 seconds
+5339 / 6069 OK0LwHrc9g0 : 6488 segments 0.100665807724 seconds
+8.02489614487 seconds
+5340 / 6069 w63Q7Sm63C0 : 7268 segments 0.135581970215 seconds
+8.40454697609 seconds
+5341 / 6069 xi4NiOBBHJg : 2057 segments 0.0597150325775 seconds
+2.10173010826 seconds
+5342 / 6069 mfFLj-hDdxo : 1773 segments 0.0926351547241 seconds
+1.7594730854 seconds
+5343 / 6069 GpnRbEj5VGQ : 1899 segments 0.00977611541748 seconds
+1.77601695061 seconds
+5344 / 6069 HDKrqZHKTDI : 7377 segments 0.191534042358 seconds
+8.09403085709 seconds
+5345 / 6069 2U3rYOUgCDI : 4213 segments 0.0700500011444 seconds
+4.12852787971 seconds
+5346 / 6069 6DdFJUUHA2M : 5911 segments 0.097797870636 seconds
+6.25496196747 seconds
+5347 / 6069 -YEyqzikMUA : 2562 segments 0.102028846741 seconds
+2.6829791069 seconds
+5348 / 6069 R3fkH1WjYho : 3484 segments 0.0657970905304 seconds
+3.68623995781 seconds
+5349 / 6069 FaisE5P2xyI : 8033 segments 0.170814037323 seconds
+9.84442090988 seconds
+5350 / 6069 S6NtTbhYs6M : 19122 segments 0.351480960846 seconds
+27.4823429585 seconds
+5351 / 6069 sUi_nFrWo3w : 8174 segments 0.130486011505 seconds
+9.69909214973 seconds
+5352 / 6069 -Z8TixkMVpw : 1814 segments 0.00916814804077 seconds
+1.66667485237 seconds
+5353 / 6069 07QDC2-SV8Y : 5537 segments 0.127905130386 seconds
+4.95336413383 seconds
+5354 / 6069 wKnllQ4-Wf4 : 4422 segments 0.0529391765594 seconds
+3.99484705925 seconds
+5355 / 6069 ST1le4abjes : 4116 segments 0.0606939792633 seconds
+4.1465549469 seconds
+5356 / 6069 mtbGJr1xIto : 4366 segments 0.0635440349579 seconds
+3.9556889534 seconds
+5357 / 6069 sn0Atnz2RLM : 3812 segments 0.0652859210968 seconds
+3.18589305878 seconds
+5358 / 6069 DToPFPKATJg : 845 segments 0.0106799602509 seconds
+0.730939149857 seconds
+5359 / 6069 -1lDI_XPkV0 : 1621 segments 0.080619096756 seconds
+1.38594007492 seconds
+5360 / 6069 oOYgzrzRwHU : 1520 segments 0.0118658542633 seconds
+1.3188419342 seconds
+5361 / 6069 wRofDCfMu3w : 4775 segments 0.0415289402008 seconds
+5.05069708824 seconds
+5362 / 6069 Vljn4Baw-hc : 2781 segments 0.0383398532867 seconds
+2.43527007103 seconds
+5363 / 6069 lQ67Tv43FM4 : 5209 segments 0.162804841995 seconds
+4.52620315552 seconds
+5364 / 6069 xeGjGqj1by4 : 4630 segments 0.0378019809723 seconds
+4.02900505066 seconds
+5365 / 6069 qwGeTh4_oOw : 3316 segments 0.0836589336395 seconds
+2.77751207352 seconds
+5366 / 6069 wYhrhnGsckI : 4750 segments 0.0976049900055 seconds
+4.36230397224 seconds
+5367 / 6069 AFTpcJkzmHI : 1647 segments 0.0332407951355 seconds
+1.42161393166 seconds
+5368 / 6069 kXBJYPvi9jg : 10029 segments 0.123445987701 seconds
+10.7485790253 seconds
+5369 / 6069 7MdB_jZXgYM : 3230 segments 0.0381150245667 seconds
+2.89229106903 seconds
+5370 / 6069 nirhR9cVTGs : 5207 segments 0.119582176208 seconds
+4.90953612328 seconds
+5371 / 6069 af6RRvgXN9c : 2660 segments 0.0540759563446 seconds
+2.3155040741 seconds
+5372 / 6069 dcQYIItu6vE : 2295 segments 0.0349688529968 seconds
+1.91279006004 seconds
+5373 / 6069 YlJ4aHzhlx8 : 1206 segments 0.0243349075317 seconds
+1.0330581665 seconds
+5374 / 6069 CAmZMwwsKgg : 2487 segments 0.0305159091949 seconds
+2.21300911903 seconds
+5375 / 6069 AKwDikm7gx8 : 3799 segments 0.0362439155579 seconds
+3.41294598579 seconds
+5376 / 6069 5aidu2omphE : 4220 segments 0.0577647686005 seconds
+4.15669798851 seconds
+5377 / 6069 vLYM7leY-iw : 3331 segments 0.0564279556274 seconds
+3.27712917328 seconds
+5378 / 6069 oEe5qVNDwkU : 4727 segments 0.0557391643524 seconds
+4.20928382874 seconds
+5379 / 6069 BBIgrDH_1v8 : 3507 segments 0.214774847031 seconds
+3.21935105324 seconds
+5380 / 6069 8HBGNSwH54k : 1630 segments 0.0310277938843 seconds
+1.45512986183 seconds
+5381 / 6069 nksV_PcyYr8 : 1736 segments 0.0120589733124 seconds
+1.62129497528 seconds
+5382 / 6069 p6UV-zO5blk : 659 segments 0.00370502471924 seconds
+0.534822940826 seconds
+5383 / 6069 UcaddIioQcg : 612 segments 0.00456309318542 seconds
+0.526048898697 seconds
+5384 / 6069 WPmF55_0MBQ : 540 segments 0.00526905059814 seconds
+0.46260881424 seconds
+5385 / 6069 2g0I352SagU : 572 segments 0.0042929649353 seconds
+0.468700885773 seconds
+5386 / 6069 CYyUEKpr9ks : 1037 segments 0.00741410255432 seconds
+0.836853981018 seconds
+5387 / 6069 HVitxrs_6GE : 557 segments 0.00534701347351 seconds
+0.481512069702 seconds
+5388 / 6069 BfbYMSjrwdQ : 2620 segments 0.0942680835724 seconds
+2.16064405441 seconds
+5389 / 6069 yog55CqMYZ4 : 3738 segments 0.0386490821838 seconds
+3.34847283363 seconds
+5390 / 6069 N0kiPd8KQPc : 5039 segments 0.0472221374512 seconds
+4.39985394478 seconds
+5391 / 6069 zVcfcUstuLc : 4980 segments 0.0636579990387 seconds
+4.70665001869 seconds
+5392 / 6069 xc6Fgz-gkdk : 5091 segments 0.0913660526276 seconds
+4.33636116982 seconds
+5393 / 6069 7eJdveOLSPA : 2290 segments 0.0460321903229 seconds
+2.06984519958 seconds
+5394 / 6069 tr_kW0sR4Q0 : 4073 segments 0.100347042084 seconds
+3.45717597008 seconds
+5395 / 6069 SerON6VLi0g : 6007 segments 0.0333158969879 seconds
+5.92337489128 seconds
+5396 / 6069 cYGIRvWy9-M : 13690 segments 0.162842035294 seconds
+18.0401461124 seconds
+5397 / 6069 e6a84BfekWc : 5389 segments 0.0817608833313 seconds
+5.7515001297 seconds
+5398 / 6069 wurw3XVYkLw : 4763 segments 0.036208152771 seconds
+5.06270003319 seconds
+5399 / 6069 _wG4znpNOXo : 3352 segments 0.0337109565735 seconds
+3.21146607399 seconds
+5400 / 6069 iEws2RT5yHI : 1650 segments 0.159268856049 seconds
+1.71819591522 seconds
+5401 / 6069 J0WNibQAIFA : 1508 segments 0.028156042099 seconds
+1.47820997238 seconds
+5402 / 6069 0TVMbCgftGI : 1121 segments 0.0258719921112 seconds
+1.04106593132 seconds
+5403 / 6069 PTlx7g6IKPQ : 1417 segments 0.0390949249268 seconds
+1.37195420265 seconds
+5404 / 6069 Wy0uUgb7_l8 : 1666 segments 0.030168056488 seconds
+1.61883091927 seconds
+5405 / 6069 f2W9y5F6t4M : 1552 segments 0.0251939296722 seconds
+1.4684510231 seconds
+5406 / 6069 J2oeIGAXGJ0 : 3669 segments 0.0743319988251 seconds
+3.10218691826 seconds
+5407 / 6069 FVPRobP0WhM : 4253 segments 0.110107898712 seconds
+4.08231687546 seconds
+5408 / 6069 mzhBE0xNuc8 : 3976 segments 0.0513360500336 seconds
+3.45806598663 seconds
+5409 / 6069 Y-7rdpY_kb8 : 6961 segments 0.140779018402 seconds
+7.24099802971 seconds
+5410 / 6069 GSi1XTycZgs : 6016 segments 0.162495851517 seconds
+5.48334002495 seconds
+5411 / 6069 wnql_mhTE04 : 5883 segments 0.12725687027 seconds
+5.54187393188 seconds
+5412 / 6069 FdHG2nGZnxM : 12314 segments 0.324443101883 seconds
+14.2591369152 seconds
+5413 / 6069 PZwx7wdgrcY : 3611 segments 0.470263957977 seconds
+3.47937607765 seconds
+5414 / 6069 51nzvSBPy24 : 6713 segments 0.0732500553131 seconds
+6.46809196472 seconds
+5415 / 6069 cMvGqO39bpg : 7803 segments 0.107378005981 seconds
+8.75794291496 seconds
+5416 / 6069 E9YdJdLX9o4 : 17766 segments 0.325469017029 seconds
+23.4054639339 seconds
+5417 / 6069 jp5mk1Y2bVg : 14258 segments 0.734282016754 seconds
+16.3696029186 seconds
+5418 / 6069 fAG7kLTpMZM : 10732 segments 0.662543058395 seconds
+11.6588528156 seconds
+5419 / 6069 QPBUZ43O-Vg : 7955 segments 0.125044822693 seconds
+8.28485894203 seconds
+5420 / 6069 kkLRkWT0mf0 : 13732 segments 0.240596055984 seconds
+16.59060812 seconds
+5421 / 6069 ReJY7cCi5bI : 24911 segments 0.880967855453 seconds
+30.3665339947 seconds
+5422 / 6069 hUfknqN6eXE : 3319 segments 0.477619886398 seconds
+2.96862983704 seconds
+5423 / 6069 -yDQDKW9Wqs : 10737 segments 0.193509101868 seconds
+11.2045528889 seconds
+5424 / 6069 DYP6Yr4qsDA : 12573 segments 0.221292972565 seconds
+14.9217689037 seconds
+5425 / 6069 lrkrdl1Vtys : 16994 segments 0.70907998085 seconds
+19.6155359745 seconds
+5426 / 6069 QJRQeggD060 : 8425 segments 0.514736890793 seconds
+9.63879394531 seconds
+5427 / 6069 U-97b4_qHcE : 1773 segments 0.430296897888 seconds
+1.58534502983 seconds
+5428 / 6069 ld8rQKJPanw : 14489 segments 0.230993032455 seconds
+16.1601719856 seconds
+5429 / 6069 MDljLvdZtRI : 10291 segments 0.532542943954 seconds
+10.8872950077 seconds
+5430 / 6069 T5rnyGpvnyg : 15359 segments 0.78719997406 seconds
+18.6237959862 seconds
+5431 / 6069 _8bKbaqAlaM : 9697 segments 0.664192914963 seconds
+10.4556009769 seconds
+5432 / 6069 KB5fMoDKXRA : 2635 segments 0.123316049576 seconds
+2.69927597046 seconds
+5433 / 6069 BHOlF7yUFfk : 2848 segments 0.106760978699 seconds
+2.65433716774 seconds
+5434 / 6069 _1YE9Rc7DlY : 3454 segments 0.0252568721771 seconds
+3.47548890114 seconds
+5435 / 6069 QQTpwruRSKQ : 1984 segments 0.0594751834869 seconds
+2.00453281403 seconds
+5436 / 6069 ATwHU6ubrxQ : 2554 segments 0.0853230953217 seconds
+2.33193087578 seconds
+5437 / 6069 F8Vx4srfrKY : 9100 segments 0.106581926346 seconds
+10.1584730148 seconds
+5438 / 6069 tjUPACF-xJ4 : 6747 segments 0.0776739120483 seconds
+7.31948399544 seconds
+5439 / 6069 YzLhbxxRKYA : 14367 segments 0.278208017349 seconds
+17.2986760139 seconds
+5440 / 6069 PebjZzQUrUc : 4385 segments 0.45316195488 seconds
+4.69839906693 seconds
+5441 / 6069 VG2U8qmLIs8 : 8191 segments 0.138077974319 seconds
+9.56250214577 seconds
+5442 / 6069 QXvRk3FBhLE : 9102 segments 0.114629983902 seconds
+9.2728099823 seconds
+5443 / 6069 CjYOPl_tr94 : 3407 segments 0.066878080368 seconds
+3.22644114494 seconds
+5444 / 6069 kKPjA5H-U_A : 1282 segments 0.00984907150269 seconds
+1.02681612968 seconds
+5445 / 6069 lae3lEMKG1c : 934 segments 0.00778317451477 seconds
+0.790513038635 seconds
+5446 / 6069 _Yix2WVNDy0 : 4753 segments 0.136184930801 seconds
+4.35103106499 seconds
+5447 / 6069 zs7D0e94nEM : 1637 segments 0.0328249931335 seconds
+1.37408900261 seconds
+5448 / 6069 kj8Cq_PlxYk : 3703 segments 0.0444250106812 seconds
+3.5517809391 seconds
+5449 / 6069 nujY2jkX6Uo : 726 segments 0.0179038047791 seconds
+0.581182003021 seconds
+5450 / 6069 B6jPcrc4pJY : 5182 segments 0.0976130962372 seconds
+4.67982602119 seconds
+5451 / 6069 audaBRjfAFM : 995 segments 0.0426349639893 seconds
+0.811514854431 seconds
+5452 / 6069 pnjqKpiRSIA : 1040 segments 0.0074028968811 seconds
+0.907385110855 seconds
+5453 / 6069 1iEP51FxRX0 : 5432 segments 0.0615711212158 seconds
+5.92111206055 seconds
+5454 / 6069 hbH4D4-CiUI : 1149 segments 0.0228610038757 seconds
+0.961218833923 seconds
+5455 / 6069 6Ddn11IUeUg : 648 segments 0.00490999221802 seconds
+0.65167593956 seconds
+5456 / 6069 zGIfhfxwj5Q : 556 segments 0.00379610061646 seconds
+0.487867116928 seconds
+5457 / 6069 K8MUy_Z0KoM : 8699 segments 0.10547208786 seconds
+8.53865504265 seconds
+5458 / 6069 jfFXI6DhuTA : 2211 segments 0.0121929645538 seconds
+2.13312506676 seconds
+5459 / 6069 B13e8grPXEA : 5516 segments 0.166733026505 seconds
+5.37967085838 seconds
+5460 / 6069 pFsWP0KqeIQ : 2228 segments 0.0416619777679 seconds
+2.09830498695 seconds
+5461 / 6069 zUe9td2GoyU : 10791 segments 0.237576961517 seconds
+12.2809448242 seconds
+5462 / 6069 ArJFoWjq0XM : 8776 segments 0.12256193161 seconds
+9.21760892868 seconds
+5463 / 6069 XvrMgVAj9Pk : 1784 segments 0.00902009010315 seconds
+1.55594086647 seconds
+5464 / 6069 Ju6Luse5-OY : 2876 segments 0.0666601657867 seconds
+2.45202422142 seconds
+5465 / 6069 L2EU7Bm53lc : 1610 segments 0.0238349437714 seconds
+1.41726994514 seconds
+5466 / 6069 edSllnqnXM0 : 2078 segments 0.01775598526 seconds
+1.8193821907 seconds
+5467 / 6069 HvTeYmynsKc : 9626 segments 0.122107982635 seconds
+10.1584839821 seconds
+5468 / 6069 3PqH8H8_T3Y : 2868 segments 0.0291209220886 seconds
+2.55429005623 seconds
+5469 / 6069 u2u2RWat6s4 : 5868 segments 0.0907130241394 seconds
+6.32140803337 seconds
+5470 / 6069 6HuAuuyhXCQ : 3598 segments 0.0446300506592 seconds
+3.24005198479 seconds
+5471 / 6069 wocBDwO_5Po : 2564 segments 0.146014928818 seconds
+2.1218559742 seconds
+5472 / 6069 qDo_dMGh-f0 : 4052 segments 0.0672228336334 seconds
+3.86582016945 seconds
+5473 / 6069 ojlGQy_nK_4 : 1532 segments 0.0497231483459 seconds
+1.32178711891 seconds
+5474 / 6069 NkNpdPQ8uzw : 7974 segments 0.128670930862 seconds
+7.7187538147 seconds
+5475 / 6069 sSu8we5hams : 581 segments 0.00328183174133 seconds
+0.497530937195 seconds
+5476 / 6069 ou9gewkaNRY : 2685 segments 0.0295169353485 seconds
+2.43120288849 seconds
+5477 / 6069 tqFqqz2IZy4 : 1251 segments 0.0351469516754 seconds
+1.01886892319 seconds
+5478 / 6069 ispETbYfk10 : 2709 segments 0.0297811031342 seconds
+2.50105309486 seconds
+5479 / 6069 4n_eq-pII_s : 9009 segments 0.14697098732 seconds
+9.05244803429 seconds
+5480 / 6069 Eek0qrj2lq8 : 5019 segments 0.109679937363 seconds
+4.52290916443 seconds
+5481 / 6069 k9uk7X5yJ98 : 1312 segments 0.00665092468262 seconds
+1.15875101089 seconds
+5482 / 6069 wRqD8069diU : 9849 segments 0.325294017792 seconds
+11.0147879124 seconds
+5483 / 6069 NSFc7V_dptE : 19004 segments 0.296830892563 seconds
+24.2598462105 seconds
+5484 / 6069 Sp_d_bwzifQ : 3104 segments 0.0584778785706 seconds
+3.09832000732 seconds
+5485 / 6069 zdMvhU2j_cg : 1406 segments 0.0881688594818 seconds
+1.23768115044 seconds
+5486 / 6069 eUrXsqQFHGc : 4125 segments 0.0634441375732 seconds
+3.68693709373 seconds
+5487 / 6069 5MBLJZMuFV0 : 4070 segments 0.022558927536 seconds
+3.84759902954 seconds
+5488 / 6069 MPIbZP-E9xg : 14386 segments 0.238986968994 seconds
+18.0274100304 seconds
+5489 / 6069 AA9N8C1sClc : 16091 segments 0.38471698761 seconds
+18.3228240013 seconds
+5490 / 6069 VqxnuylUpf8 : 1329 segments 0.0108850002289 seconds
+1.08284807205 seconds
+5491 / 6069 mvRaOdKUNqo : 4625 segments 0.0396089553833 seconds
+4.38321995735 seconds
+5492 / 6069 fGTQfTjmTD4 : 947 segments 0.014132976532 seconds
+0.897341012955 seconds
+5493 / 6069 y4ahy9dE_es : 16686 segments 0.335190057755 seconds
+21.8478648663 seconds
+5494 / 6069 dRqj3nqEfrI : 9993 segments 0.59956908226 seconds
+10.3357150555 seconds
+5495 / 6069 hKaOukAJSyc : 4975 segments 0.82644200325 seconds
+5.17000102997 seconds
+5496 / 6069 JlTq9wuy9kQ : 1954 segments 0.0369470119476 seconds
+2.01355791092 seconds
+5497 / 6069 sLXDj_I3-JY : 2751 segments 0.116449117661 seconds
+2.65026593208 seconds
+5498 / 6069 AsFHkISDjrQ : 6727 segments 0.0748448371887 seconds
+7.10894489288 seconds
+5499 / 6069 K1SQPIbSfBM : 1221 segments 0.006422996521 seconds
+1.09598898888 seconds
+5500 / 6069 4lIoawGUJUg : 16398 segments 0.212080001831 seconds
+18.8875420094 seconds
+5501 / 6069 hjoBl-3tH28 : 19736 segments 0.897620201111 seconds
+24.5248498917 seconds
+5502 / 6069 LXq3UWq_SLI : 6611 segments 0.497459173203 seconds
+6.89012312889 seconds
+5503 / 6069 VCV8cuSQRHw : 10722 segments 0.287479877472 seconds
+11.3246450424 seconds
+5504 / 6069 19i3k8iwlLQ : 8775 segments 0.109884977341 seconds
+8.95976400375 seconds
+5505 / 6069 6lWaHMofTj0 : 4955 segments 0.167604923248 seconds
+4.49889397621 seconds
+5506 / 6069 3WsHHl1cwww : 9228 segments 0.244667053223 seconds
+9.06468105316 seconds
+5507 / 6069 vaM4CqUE62Q : 7387 segments 0.09552693367 seconds
+8.21994900703 seconds
+5508 / 6069 CF_zIsZ5tRA : 3766 segments 0.049684047699 seconds
+3.63925290108 seconds
+5509 / 6069 ijnLHqn-9dg : 3783 segments 0.0417149066925 seconds
+3.35234904289 seconds
+5510 / 6069 -P6jMAdQi8Q : 3532 segments 0.0347590446472 seconds
+3.10063290596 seconds
+5511 / 6069 7zqP7ex2gDc : 5574 segments 0.0728170871735 seconds
+5.68067216873 seconds
+5512 / 6069 Ka-Pt2niIHg : 5582 segments 0.0771880149841 seconds
+5.40082406998 seconds
+5513 / 6069 d7JCiUS6iIk : 1051 segments 0.0384969711304 seconds
+0.925889015198 seconds
+5514 / 6069 gz8c8sIp9Bc : 6464 segments 0.0919449329376 seconds
+6.14104199409 seconds
+5515 / 6069 WbL8lwIjums : 6592 segments 0.0588350296021 seconds
+5.99802207947 seconds
+5516 / 6069 GYnai-5lHic : 4043 segments 0.0337550640106 seconds
+3.51530814171 seconds
+5517 / 6069 5hpqKuzVmmM : 7406 segments 0.149950027466 seconds
+7.10150289536 seconds
+5518 / 6069 deNze_bgwTY : 7998 segments 0.0732879638672 seconds
+7.7799539566 seconds
+5519 / 6069 j1mfj01GE_0 : 11812 segments 0.230120897293 seconds
+13.2267231941 seconds
+5520 / 6069 Y_A_Nln1fcQ : 4642 segments 0.0935211181641 seconds
+4.42944979668 seconds
+5521 / 6069 mZ5JD_YwQPg : 5470 segments 0.0893001556396 seconds
+5.32614803314 seconds
+5522 / 6069 WXZVJEQrHTM : 11021 segments 0.118272066116 seconds
+11.5508019924 seconds
+5523 / 6069 ETkYfBIv-3Y : 4532 segments 0.0807890892029 seconds
+4.23156189919 seconds
+5524 / 6069 EkuW5HkJcGw : 8471 segments 0.124799966812 seconds
+8.91994905472 seconds
+5525 / 6069 ySbTvglBWFw : 3349 segments 0.689183950424 seconds
+3.32353210449 seconds
+5526 / 6069 HNODpYjFdKQ : 7303 segments 0.154196023941 seconds
+8.1060090065 seconds
+5527 / 6069 8gzL3gcdT5Y : 546 segments 0.00323796272278 seconds
+0.463757991791 seconds
+5528 / 6069 0qqDpYtYC3s : 12941 segments 0.222419977188 seconds
+13.9776339531 seconds
+5529 / 6069 6blfnR0PnXU : 7824 segments 0.0921671390533 seconds
+8.19422602654 seconds
+5530 / 6069 fB1wVJ4wOIs : 5204 segments 0.0850071907043 seconds
+4.78980898857 seconds
+5531 / 6069 JWkYsULciTo : 17251 segments 0.328903913498 seconds
+19.9399700165 seconds
+5532 / 6069 P0ghmNHdmFM : 8190 segments 0.0956819057465 seconds
+8.63987398148 seconds
+5533 / 6069 uU7greAtex0 : 4360 segments 0.0931351184845 seconds
+4.78020906448 seconds
+5534 / 6069 h0_sL8KDfBE : 2418 segments 0.0361330509186 seconds
+2.2508559227 seconds
+5535 / 6069 ibMVJFUPZ6U : 1394 segments 0.00788617134094 seconds
+1.19949412346 seconds
+5536 / 6069 V7kMHjWdgWE : 4129 segments 0.0233209133148 seconds
+3.51466012001 seconds
+5537 / 6069 y4X6scTrIZk : 3004 segments 0.0711350440979 seconds
+2.83908200264 seconds
+5538 / 6069 36coLe3hnko : 1566 segments 0.00869703292847 seconds
+1.31257414818 seconds
+5539 / 6069 P6efE_fC-88 : 6755 segments 0.0750181674957 seconds
+7.26490688324 seconds
+5540 / 6069 hPLCi_MNgZw : 9364 segments 0.177134037018 seconds
+9.89552307129 seconds
+5541 / 6069 uxUC2IGWJOU : 8981 segments 0.564568996429 seconds
+9.07294511795 seconds
+5542 / 6069 pEklfSmZkyo : 4082 segments 0.0576679706573 seconds
+3.72595095634 seconds
+5543 / 6069 iP1_6xr1-tY : 6147 segments 0.139412879944 seconds
+5.70521712303 seconds
+5544 / 6069 us5VBzfaBvQ : 10017 segments 0.109681129456 seconds
+10.7127671242 seconds
+5545 / 6069 FYQKUJkcVVE : 6508 segments 0.47224521637 seconds
+6.66849589348 seconds
+5546 / 6069 9DOXbC8vFcs : 13377 segments 0.193751096725 seconds
+15.1151511669 seconds
+5547 / 6069 qSPy0XH3nnY : 4421 segments 0.465975999832 seconds
+4.27455997467 seconds
+5548 / 6069 DF5dP6qyTjI : 937 segments 0.0218482017517 seconds
+0.80005812645 seconds
+5549 / 6069 RLLKpPlLMpo : 2003 segments 0.016713142395 seconds
+1.82178497314 seconds
+5550 / 6069 XJdnjZOOVi8 : 1067 segments 0.0231401920319 seconds
+0.98238492012 seconds
+5551 / 6069 ZUGpxov3GsQ : 1445 segments 0.0289750099182 seconds
+1.40181589127 seconds
+5552 / 6069 E-UWgpBF3NY : 923 segments 0.00524687767029 seconds
+0.91420006752 seconds
+5553 / 6069 CxMQHpM5OG0 : 626 segments 0.00346112251282 seconds
+0.532928943634 seconds
+5554 / 6069 vAzoDhHpBec : 594 segments 0.00451707839966 seconds
+0.561851024628 seconds
+5555 / 6069 oXoCUspwlxQ : 581 segments 0.00360488891602 seconds
+0.563402891159 seconds
+5556 / 6069 A5D0fOpRT1M : 11426 segments 0.217451095581 seconds
+12.5258131027 seconds
+5557 / 6069 f-Sw-pbILEk : 8181 segments 0.506078004837 seconds
+7.97548317909 seconds
+5558 / 6069 suG_EZa8TYc : 15633 segments 0.286612033844 seconds
+19.6660718918 seconds
+5559 / 6069 Pyt7-wP1sWg : 9711 segments 0.614732027054 seconds
+10.7069001198 seconds
+5560 / 6069 Bme6QrkIO8U : 4843 segments 0.0899369716644 seconds
+5.58083701134 seconds
+5561 / 6069 -EBcd8HFeEs : 4977 segments 0.10051202774 seconds
+4.79355287552 seconds
+5562 / 6069 c-TueOGO6kI : 7576 segments 0.146248102188 seconds
+7.97646403313 seconds
+5563 / 6069 yDn2TjAijQw : 4970 segments 0.0957000255585 seconds
+4.82466006279 seconds
+5564 / 6069 g25HbESKMxA : 3708 segments 0.113333940506 seconds
+3.44104790688 seconds
+5565 / 6069 j8KZJDWDkTU : 2261 segments 0.0472149848938 seconds
+2.03725004196 seconds
+5566 / 6069 Bl6bLq-X6t0 : 989 segments 0.0249538421631 seconds
+0.955098152161 seconds
+5567 / 6069 xihDhxGVJe8 : 3459 segments 0.0412621498108 seconds
+3.167126894 seconds
+5568 / 6069 GYxZEFIIz-8 : 902 segments 0.0106408596039 seconds
+0.837265014648 seconds
+5569 / 6069 _R5mPQQPXVE : 11686 segments 0.111451864243 seconds
+13.3609399796 seconds
+5570 / 6069 pfgURbz2XnA : 1336 segments 0.00887703895569 seconds
+1.29831314087 seconds
+5571 / 6069 8vgtlas_I5s : 1481 segments 0.0293560028076 seconds
+1.28749203682 seconds
+5572 / 6069 r4Vtyewbgvg : 651 segments 0.0514540672302 seconds
+0.538693189621 seconds
+5573 / 6069 2d3Ou8AIvbg : 4295 segments 0.0769798755646 seconds
+3.84128189087 seconds
+5574 / 6069 vYy_krG9kPc : 4608 segments 0.0502519607544 seconds
+4.1882519722 seconds
+5575 / 6069 t0CWKkjDsrw : 2713 segments 0.0408449172974 seconds
+2.40086698532 seconds
+5576 / 6069 L-wIyClqujw : 4283 segments 0.0739951133728 seconds
+3.71305179596 seconds
+5577 / 6069 IVVemyxKtTI : 14365 segments 0.314179182053 seconds
+16.2318360806 seconds
+5578 / 6069 XgzsCFnIlDk : 3784 segments 0.524091959 seconds
+3.85444879532 seconds
+5579 / 6069 FF2CivDOcvA : 5162 segments 0.0637521743774 seconds
+4.76206707954 seconds
+5580 / 6069 YZSczj-PyGc : 3766 segments 0.0784289836884 seconds
+3.32282590866 seconds
+5581 / 6069 SR1v3kHYIK0 : 7507 segments 0.150798082352 seconds
+7.8448638916 seconds
+5582 / 6069 9J5-7jtZTYE : 3281 segments 0.0474979877472 seconds
+2.95472311974 seconds
+5583 / 6069 f6IxPosIH98 : 5240 segments 0.0631220340729 seconds
+4.87193512917 seconds
+5584 / 6069 iwQSq-eoufw : 2943 segments 0.0255558490753 seconds
+2.5018529892 seconds
+5585 / 6069 EL7BpQBIiqU : 5711 segments 0.10840010643 seconds
+5.69137382507 seconds
+5586 / 6069 DeKMKxVFCis : 6903 segments 0.0906269550323 seconds
+6.63392114639 seconds
+5587 / 6069 xhrHiOdYxV0 : 3666 segments 0.0518069267273 seconds
+3.30025196075 seconds
+5588 / 6069 Nkf0hYDsg4Y : 9614 segments 0.10632109642 seconds
+9.78666996956 seconds
+5589 / 6069 H9Ofo17cHe0 : 4690 segments 0.0783169269562 seconds
+4.25127005577 seconds
+5590 / 6069 khibq0YA7oQ : 4980 segments 0.058629989624 seconds
+4.67531704903 seconds
+5591 / 6069 mpwep_8dCys : 7413 segments 0.0798139572144 seconds
+6.91283202171 seconds
+5592 / 6069 gjEzmhyJMts : 4261 segments 0.110566139221 seconds
+3.67717695236 seconds
+5593 / 6069 eMv0ZFXONvQ : 7520 segments 0.0694320201874 seconds
+7.99148702621 seconds
+5594 / 6069 Zv5KuyCfZLw : 13725 segments 0.17107796669 seconds
+15.5380160809 seconds
+5595 / 6069 o-p3K3s3yug : 4153 segments 0.555024862289 seconds
+4.1013109684 seconds
+5596 / 6069 4x5jI45S1aw : 8013 segments 0.0741069316864 seconds
+8.13476920128 seconds
+5597 / 6069 MUv2SZXoPvo : 7121 segments 0.12681889534 seconds
+6.98452496529 seconds
+5598 / 6069 Xl54W9lld2U : 6861 segments 0.0620999336243 seconds
+6.33178591728 seconds
+5599 / 6069 xc3RPQmjG04 : 9976 segments 0.132003068924 seconds
+11.0572609901 seconds
+5600 / 6069 MdSMmf7pHnE : 4643 segments 0.0377840995789 seconds
+4.23240804672 seconds
+5601 / 6069 JYDKJIiUxA4 : 9616 segments 0.0899667739868 seconds
+11.0661170483 seconds
+5602 / 6069 Q8---zrbHo0 : 6320 segments 0.113397121429 seconds
+7.16156816483 seconds
+5603 / 6069 5h-1-6vXXQM : 3716 segments 0.218460083008 seconds
+3.64753508568 seconds
+5604 / 6069 6EIXKHTItMc : 7301 segments 0.0502891540527 seconds
+7.555519104 seconds
+5605 / 6069 jB3uZYLp53w : 6491 segments 0.227934122086 seconds
+7.53179097176 seconds
+5606 / 6069 mcrWjaCxWFU : 1954 segments 0.0226550102234 seconds
+1.92433094978 seconds
+5607 / 6069 YCTseSNP73o : 5171 segments 0.0427010059357 seconds
+5.25314307213 seconds
+5608 / 6069 nSF8ua7RFww : 2642 segments 0.0427181720734 seconds
+2.29449701309 seconds
+5609 / 6069 4SiUYEyEFgY : 1528 segments 0.0302979946136 seconds
+1.2968070507 seconds
+5610 / 6069 bKlPFN6JQxA : 3088 segments 0.067400932312 seconds
+2.78145694733 seconds
+5611 / 6069 IL7dgeYkg_Q : 3186 segments 0.0581750869751 seconds
+2.83900785446 seconds
+5612 / 6069 cEfOyaGLnO8 : 1603 segments 0.0470359325409 seconds
+1.40390586853 seconds
+5613 / 6069 CIwWfY0nlI8 : 1672 segments 0.00902485847473 seconds
+1.7815759182 seconds
+5614 / 6069 8KpWGlZWAH0 : 6504 segments 0.0669491291046 seconds
+6.80793595314 seconds
+5615 / 6069 C0bPB6R_oWc : 6504 segments 0.198673009872 seconds
+6.7712521553 seconds
+5616 / 6069 PnS38uIc0Y4 : 5305 segments 0.0565099716187 seconds
+5.39340400696 seconds
+5617 / 6069 UldNAgkGsQQ : 5394 segments 0.0616648197174 seconds
+4.73183703423 seconds
+5618 / 6069 LnAUydMGvv4 : 7487 segments 0.0883138179779 seconds
+6.95998001099 seconds
+5619 / 6069 HWcnBpj3dlc : 5850 segments 0.05597615242 seconds
+6.43251109123 seconds
+5620 / 6069 gERZibLwU4g : 2057 segments 0.162425041199 seconds
+1.90685987473 seconds
+5621 / 6069 kR82n3Agtks : 760 segments 0.0148539543152 seconds
+0.64438700676 seconds
+5622 / 6069 milJjZ05VCU : 1001 segments 0.0051429271698 seconds
+0.870200872421 seconds
+5623 / 6069 bun1s_GLjD4 : 928 segments 0.00497198104858 seconds
+0.82733297348 seconds
+5624 / 6069 Esf2ZRlJkZg : 1451 segments 0.00706100463867 seconds
+1.3079829216 seconds
+5625 / 6069 1Sv-tLc6R5Q : 994 segments 0.0146360397339 seconds
+0.831160068512 seconds
+5626 / 6069 Rs9MrJTGKis : 1008 segments 0.00514793395996 seconds
+0.860884904861 seconds
+5627 / 6069 NEk0qEX4vxE : 1539 segments 0.00857591629028 seconds
+1.32380700111 seconds
+5628 / 6069 oZraZfWZVwQ : 1624 segments 0.0268359184265 seconds
+1.31063103676 seconds
+5629 / 6069 RdR9boE03FY : 1189 segments 0.0124790668488 seconds
+1.1512389183 seconds
+5630 / 6069 ts4r2CBcE8E : 1686 segments 0.0186429023743 seconds
+1.61712908745 seconds
+5631 / 6069 u2VEaLVV3Xw : 810 segments 0.0321099758148 seconds
+1.19565200806 seconds
+5632 / 6069 1B1vBGxbyxM : 544 segments 0.00730204582214 seconds
+0.496206045151 seconds
+5633 / 6069 NJS-3pgm8Pw : 815 segments 0.00913310050964 seconds
+0.761074066162 seconds
+5634 / 6069 YSwxE8Od2d8 : 1428 segments 0.0629479885101 seconds
+1.38351511955 seconds
+5635 / 6069 2djEVrtCPH8 : 956 segments 0.00686597824097 seconds
+0.918044805527 seconds
+5636 / 6069 FMeLQBnzIsU : 470 segments 0.00260782241821 seconds
+0.448939800262 seconds
+5637 / 6069 lfGJJLYAk28 : 660 segments 0.00380611419678 seconds
+0.541516065598 seconds
+5638 / 6069 z4yJsJSlsSw : 1189 segments 0.0169079303741 seconds
+0.959969997406 seconds
+5639 / 6069 rNznVISfGHY : 742 segments 0.0102589130402 seconds
+0.677662134171 seconds
+5640 / 6069 jvD1Nm-zvJk : 369 segments 0.00254106521606 seconds
+0.345515012741 seconds
+5641 / 6069 6g8acYumLtw : 572 segments 0.0236039161682 seconds
+0.519804954529 seconds
+5642 / 6069 OSNzGE9HLoo : 430 segments 0.0040111541748 seconds
+0.407911062241 seconds
+5643 / 6069 kb3QcwOIP0c : 2564 segments 0.0253570079803 seconds
+2.48957300186 seconds
+5644 / 6069 dG6u-yNFvIY : 1792 segments 0.0435431003571 seconds
+1.62601399422 seconds
+5645 / 6069 rjQVLgwqo0s : 947 segments 0.0135471820831 seconds
+0.863628149033 seconds
+5646 / 6069 QjQAXGkpy6s : 1388 segments 0.174118995667 seconds
+1.30954313278 seconds
+5647 / 6069 62JLDn32_iI : 9646 segments 0.203958034515 seconds
+10.0135960579 seconds
+5648 / 6069 LdabPlLnYaU : 8239 segments 0.534453868866 seconds
+9.22294616699 seconds
+5649 / 6069 FU3fCJNs94Y : 7117 segments 0.121034860611 seconds
+8.40257096291 seconds
+5650 / 6069 XX04HjEF79E : 2360 segments 0.0380921363831 seconds
+1.99027299881 seconds
+5651 / 6069 sY6SfIPe8GI : 882 segments 0.0329630374908 seconds
+0.764271974564 seconds
+5652 / 6069 G7qkit_YGNk : 8109 segments 0.174762964249 seconds
+9.522824049 seconds
+5653 / 6069 qT09WnegRUU : 1796 segments 0.0323269367218 seconds
+1.59488415718 seconds
+5654 / 6069 pMZ5wuKDlr4 : 776 segments 0.0255460739136 seconds
+0.699631929398 seconds
+5655 / 6069 apyC5flxXuM : 7148 segments 0.0939629077911 seconds
+7.78221106529 seconds
+5656 / 6069 Xig5MLdLFeo : 9592 segments 0.169131040573 seconds
+10.1535968781 seconds
+5657 / 6069 eshyhZev1gY : 4218 segments 0.0648291110992 seconds
+3.52824521065 seconds
+5658 / 6069 fFXzioNRehw : 4608 segments 0.0794298648834 seconds
+4.03063511848 seconds
+5659 / 6069 UucPAXUhx-4 : 6379 segments 0.0966429710388 seconds
+6.27923297882 seconds
+5660 / 6069 HKEsiyq4S_M : 11931 segments 0.175141096115 seconds
+12.9477131367 seconds
+5661 / 6069 hBCZMBrxRFE : 12756 segments 0.170856952667 seconds
+14.652946949 seconds
+5662 / 6069 zNsIvfOSx0s : 5419 segments 0.474627017975 seconds
+4.91751909256 seconds
+5663 / 6069 tyYKl2G8IE8 : 5555 segments 0.159468173981 seconds
+5.16260385513 seconds
+5664 / 6069 oSwCuxN4QSE : 18242 segments 0.297983169556 seconds
+21.1379580498 seconds
+5665 / 6069 gGW2V2Hde1k : 4573 segments 0.436280965805 seconds
+5.23285794258 seconds
+5666 / 6069 TRK-41VVwrA : 6939 segments 0.122236967087 seconds
+7.54610705376 seconds
+5667 / 6069 SdZ9b-E18QQ : 10429 segments 0.234544038773 seconds
+11.2186460495 seconds
+5668 / 6069 BDMDlMrcrNU : 8200 segments 0.578012943268 seconds
+8.78050804138 seconds
+5669 / 6069 eCUMEhuccFk : 10094 segments 0.225248098373 seconds
+12.6752328873 seconds
+5670 / 6069 Fd1X0EoHYgM : 15081 segments 0.594441890717 seconds
+18.4588479996 seconds
+5671 / 6069 PGNl1Cso_6E : 2739 segments 0.0133171081543 seconds
+2.5607111454 seconds
+5672 / 6069 WWdkKHWM9o4 : 6253 segments 0.08083319664 seconds
+6.06679797173 seconds
+5673 / 6069 SDRFn_DS3kk : 4297 segments 0.0308389663696 seconds
+3.77505493164 seconds
+5674 / 6069 zCe_UYLEK-w : 3719 segments 0.0297360420227 seconds
+3.36045098305 seconds
+5675 / 6069 SbhMf2pVkL8 : 3463 segments 0.0446350574493 seconds
+3.19873905182 seconds
+5676 / 6069 vaR7pK0-pKk : 6738 segments 0.168016910553 seconds
+7.15384292603 seconds
+5677 / 6069 q5uGMaXhqR0 : 10602 segments 0.124055147171 seconds
+11.0756878853 seconds
+5678 / 6069 xXPxMz7mccw : 2655 segments 0.0150761604309 seconds
+2.22814917564 seconds
+5679 / 6069 nYAzeq3ZCtA : 3137 segments 0.071790933609 seconds
+2.68016600609 seconds
+5680 / 6069 7mSYzkp-NpY : 2665 segments 0.0511019229889 seconds
+2.34987902641 seconds
+5681 / 6069 my5BcfKC7Bw : 2740 segments 0.0633640289307 seconds
+2.44487905502 seconds
+5682 / 6069 nl2WsmfLw7A : 1483 segments 0.0374529361725 seconds
+1.36809110641 seconds
+5683 / 6069 UDGJGsh44W0 : 2327 segments 0.0277419090271 seconds
+2.05307412148 seconds
+5684 / 6069 _jjjJmHa7us : 13948 segments 0.230289936066 seconds
+16.4135539532 seconds
+5685 / 6069 Xc-qIwSzGMs : 3942 segments 0.0458929538727 seconds
+3.53940200806 seconds
+5686 / 6069 dFmVWswN4ic : 3353 segments 0.0536980628967 seconds
+3.23039603233 seconds
+5687 / 6069 YRwhIByA55g : 2953 segments 0.0528678894043 seconds
+3.0118060112 seconds
+5688 / 6069 ceasiZaPXxg : 3688 segments 0.0355830192566 seconds
+3.51928782463 seconds
+5689 / 6069 TwCnpN1PsmY : 1601 segments 0.0238900184631 seconds
+1.4591190815 seconds
+5690 / 6069 idkW4MQ_Vno : 1580 segments 0.0152690410614 seconds
+1.4553399086 seconds
+5691 / 6069 pBotjnPhcrw : 2337 segments 0.0119731426239 seconds
+2.0899939537 seconds
+5692 / 6069 ChwoQ0n8zYw : 2985 segments 0.019681930542 seconds
+3.12682819366 seconds
+5693 / 6069 wMSi_Kjyti8 : 3937 segments 0.0555279254913 seconds
+3.51349806786 seconds
+5694 / 6069 mt2-ugdwDrE : 1680 segments 0.00886416435242 seconds
+1.6886100769 seconds
+5695 / 6069 zOPWpBN9Ik4 : 434 segments 0.00363898277283 seconds
+0.418317079544 seconds
+5696 / 6069 -85AkfvZAgI : 273 segments 0.00409293174744 seconds
+0.260200977325 seconds
+5697 / 6069 0U9OR8yDCto : 641 segments 0.0202939510345 seconds
+0.620754003525 seconds
+5698 / 6069 58A5oyX8USw : 1375 segments 0.0152258872986 seconds
+1.28810214996 seconds
+5699 / 6069 obXHqifG3cM : 8133 segments 0.155410051346 seconds
+8.96400284767 seconds
+5700 / 6069 gh8Nx_n3tVs : 5222 segments 0.116936922073 seconds
+4.66698503494 seconds
+5701 / 6069 0N9r1YqqXbM : 2591 segments 0.0690460205078 seconds
+2.21727395058 seconds
+5702 / 6069 DkzUMf0oAuY : 3590 segments 0.0899958610535 seconds
+3.60816693306 seconds
+5703 / 6069 zxvXqFX55bk : 2001 segments 0.0132110118866 seconds
+1.79044008255 seconds
+5704 / 6069 1oFvUB5Z6QE : 7656 segments 0.0796580314636 seconds
+7.91310405731 seconds
+5705 / 6069 JWrfNiA6zK0 : 2254 segments 0.0503270626068 seconds
+2.13759493828 seconds
+5706 / 6069 h1IjGtebwDg : 4419 segments 0.054780960083 seconds
+3.86271905899 seconds
+5707 / 6069 SlknBOCCBQM : 6539 segments 0.129534006119 seconds
+6.94995093346 seconds
+5708 / 6069 z7TtOnG2mLY : 3197 segments 0.0662219524384 seconds
+2.80882906914 seconds
+5709 / 6069 q-qq2sN4lwo : 4446 segments 0.0795869827271 seconds
+4.00160288811 seconds
+5710 / 6069 7F3txGHKuA4 : 5086 segments 0.0531260967255 seconds
+4.81519699097 seconds
+5711 / 6069 dXJRfhmsC6I : 5636 segments 0.107197999954 seconds
+5.97472691536 seconds
+5712 / 6069 h6SMuemmh_A : 2134 segments 0.0182101726532 seconds
+1.85083699226 seconds
+5713 / 6069 eug_NDLTMSk : 1132 segments 0.00802707672119 seconds
+1.04624295235 seconds
+5714 / 6069 LE2yHmQ2pY0 : 503 segments 0.0136549472809 seconds
+0.477308988571 seconds
+5715 / 6069 P0hbxZZ-xOo : 7274 segments 0.0576419830322 seconds
+7.56340193748 seconds
+5716 / 6069 4lDz65h9rWY : 5146 segments 0.0455269813538 seconds
+4.91355991364 seconds
+5717 / 6069 UyiwNZQ7VI0 : 4349 segments 0.0703699588776 seconds
+3.96492600441 seconds
+5718 / 6069 ytZTAvdVUxk : 3761 segments 0.0207839012146 seconds
+3.63009500504 seconds
+5719 / 6069 MQvhUBqE55E : 2468 segments 0.038437128067 seconds
+2.21486520767 seconds
+5720 / 6069 lh6FhvKmVPk : 2200 segments 0.0225958824158 seconds
+2.17459893227 seconds
+5721 / 6069 S_TDBeDd094 : 4117 segments 0.0838329792023 seconds
+4.5781121254 seconds
+5722 / 6069 -NGXbPC_1yo : 568 segments 0.00357699394226 seconds
+0.55788397789 seconds
+5723 / 6069 zCN1IvgJQf8 : 9502 segments 0.141937017441 seconds
+10.6812000275 seconds
+5724 / 6069 -6j3_mdsBNI : 582 segments 0.784770965576 seconds
+0.58126282692 seconds
+5725 / 6069 VHamoJK42E4 : 1930 segments 0.0327870845795 seconds
+1.80221199989 seconds
+5726 / 6069 rtAa0jRDVU0 : 1949 segments 0.0213341712952 seconds
+1.79585504532 seconds
+5727 / 6069 xvUkExOwyQc : 333 segments 0.00258803367615 seconds
+0.347357988358 seconds
+5728 / 6069 66vYcJL2du0 : 603 segments 0.0242779254913 seconds
+0.582726955414 seconds
+5729 / 6069 WEMfvo6DR80 : 5358 segments 0.033716917038 seconds
+5.30002093315 seconds
+5730 / 6069 ATKUQ6AXjfg : 4981 segments 0.0284578800201 seconds
+4.62244796753 seconds
+5731 / 6069 2evtSPKi6Jg : 3255 segments 0.0223479270935 seconds
+2.8227930069 seconds
+5732 / 6069 mz7J6p4yJ2g : 3688 segments 0.039577960968 seconds
+3.43964195251 seconds
+5733 / 6069 FPs3T_qHYY8 : 2040 segments 0.015426158905 seconds
+2.08878898621 seconds
+5734 / 6069 E1mAmxXwPHM : 4386 segments 0.128408908844 seconds
+4.85691905022 seconds
+5735 / 6069 QxbbMMuPJ_Q : 2060 segments 0.012316942215 seconds
+1.87593698502 seconds
+5736 / 6069 1QFFiQYLITw : 2040 segments 0.023325920105 seconds
+1.84181284904 seconds
+5737 / 6069 a9fZp0CcgWM : 671 segments 0.00508904457092 seconds
+0.621918201447 seconds
+5738 / 6069 2EREhDU-V_0 : 4780 segments 0.0569908618927 seconds
+4.46893978119 seconds
+5739 / 6069 mtRq3QZjJ14 : 591 segments 0.00465297698975 seconds
+0.5155210495 seconds
+5740 / 6069 3Df0JJjflyc : 5118 segments 0.116786956787 seconds
+4.82450604439 seconds
+5741 / 6069 Oth78BgOlRg : 1617 segments 0.0153539180756 seconds
+1.43544077873 seconds
+5742 / 6069 e3pV3CPf6lU : 702 segments 0.0038537979126 seconds
+0.564801931381 seconds
+5743 / 6069 5A6rp-gN1N4 : 347 segments 0.00271892547607 seconds
+0.300021886826 seconds
+5744 / 6069 RFxtOihccPo : 746 segments 0.00402092933655 seconds
+0.630103111267 seconds
+5745 / 6069 KGlm3YqtUZg : 458 segments 0.00283598899841 seconds
+0.412006855011 seconds
+5746 / 6069 8FPquc623W4 : 4923 segments 0.100010156631 seconds
+4.56842899323 seconds
+5747 / 6069 qPd37SyrKJ4 : 9366 segments 0.0914919376373 seconds
+10.6667070389 seconds
+5748 / 6069 nma6REqxBT4 : 4383 segments 0.479249954224 seconds
+4.1493768692 seconds
+5749 / 6069 o54cI-KsY80 : 5372 segments 0.0744190216064 seconds
+5.21541714668 seconds
+5750 / 6069 82zjTxxTlKU : 2466 segments 0.0520429611206 seconds
+2.28850007057 seconds
+5751 / 6069 0FbZHJ4nR1s : 4803 segments 0.0581071376801 seconds
+4.90513110161 seconds
+5752 / 6069 EXr2P-bVBGs : 8739 segments 0.105788946152 seconds
+10.7833008766 seconds
+5753 / 6069 jXus02zOVDY : 5999 segments 0.447729110718 seconds
+7.2195379734 seconds
+5754 / 6069 Bgv0rEYx5Lw : 2401 segments 0.0533871650696 seconds
+2.09939217567 seconds
+5755 / 6069 Gwc4i-U1Vp8 : 1716 segments 0.03200507164 seconds
+1.63435411453 seconds
+5756 / 6069 qRwU8R7neV4 : 740 segments 0.00757312774658 seconds
+0.734824895859 seconds
+5757 / 6069 uh1Q3Nqzu7M : 1563 segments 0.0268931388855 seconds
+1.50521492958 seconds
+5758 / 6069 6Wwzv7TGYNg : 570 segments 0.00696897506714 seconds
+0.506191015244 seconds
+5759 / 6069 maAaJ3gtXHA : 613 segments 0.0240559577942 seconds
+0.530683994293 seconds
+5760 / 6069 -JwWcbcHZ_A : 932 segments 0.00465512275696 seconds
+0.858019828796 seconds
+5761 / 6069 CFfq6fc3j1A : 2340 segments 0.0295639038086 seconds
+2.03043794632 seconds
+5762 / 6069 kbNxsrhYvto : 3946 segments 0.0246858596802 seconds
+3.83642816544 seconds
+5763 / 6069 pHD_sTduLuc : 3628 segments 0.0283689498901 seconds
+3.09718108177 seconds
+5764 / 6069 WDwI_cSiwm4 : 692 segments 0.0283470153809 seconds
+0.615832090378 seconds
+5765 / 6069 sJTsWKuHKOo : 702 segments 0.00854706764221 seconds
+0.605529069901 seconds
+5766 / 6069 Cj1tf1B13xI : 842 segments 0.0103778839111 seconds
+0.746838092804 seconds
+5767 / 6069 JcJ6d8q3LaY : 1441 segments 0.0239260196686 seconds
+1.35099720955 seconds
+5768 / 6069 T9jEjVH0F7A : 38 segments 0.000616073608398 seconds
+0.0416131019592 seconds
+5769 / 6069 uA9YW1i6_uI : 332 segments 0.00270915031433 seconds
+0.312427997589 seconds
+5770 / 6069 FxMrmjjhE0Q : 504 segments 0.00680208206177 seconds
+0.429533958435 seconds
+5771 / 6069 uhgkCLIewzw : 2576 segments 0.0480840206146 seconds
+2.37256383896 seconds
+5772 / 6069 Q1IGn-jJSU0 : 310 segments 0.00233387947083 seconds
+0.285960912704 seconds
+5773 / 6069 6t_uIsAc_jI : 339 segments 0.00301098823547 seconds
+0.291813850403 seconds
+5774 / 6069 TDCGg92gJKc : 640 segments 0.00436401367188 seconds
+0.607872962952 seconds
+5775 / 6069 HRflXwr6nO8 : 1365 segments 0.0131328105927 seconds
+1.34326004982 seconds
+5776 / 6069 K03jWCvGn_I : 368 segments 0.00547003746033 seconds
+0.335759162903 seconds
+5777 / 6069 GbzfSun_aqo : 4223 segments 0.0554809570312 seconds
+3.81842708588 seconds
+5778 / 6069 d-ohJ3tbNBI : 6131 segments 0.067920923233 seconds
+6.55164313316 seconds
+5779 / 6069 MxNaxy6bLh8 : 1199 segments 0.0310220718384 seconds
+1.12843799591 seconds
+5780 / 6069 -uswj02RBr0 : 583 segments 0.00454902648926 seconds
+0.54299902916 seconds
+5781 / 6069 lHOM8egi1hY : 84 segments 0.000991106033325 seconds
+0.0828359127045 seconds
+5782 / 6069 GzTiehGDQo8 : 53 segments 0.00047492980957 seconds
+0.0592219829559 seconds
+5783 / 6069 MgXvhPo-kVM : 768 segments 0.00732398033142 seconds
+0.767571926117 seconds
+5784 / 6069 AU78hjQKry8 : 747 segments 0.0088357925415 seconds
+0.696277856827 seconds
+5785 / 6069 Zi1mppWN2U4 : 646 segments 0.0136721134186 seconds
+0.63930106163 seconds
+5786 / 6069 zzgTWyIKzc0 : 315 segments 0.00268602371216 seconds
+0.322371959686 seconds
+5787 / 6069 iVmX4Fo8m2M : 1468 segments 0.0272169113159 seconds
+1.55949687958 seconds
+5788 / 6069 7cyfwtL3Bsw : 255 segments 0.00168609619141 seconds
+0.225898981094 seconds
+5789 / 6069 7t-cgR116WA : 3471 segments 0.0484671592712 seconds
+3.62219023705 seconds
+5790 / 6069 Btlkt4vdaIA : 1489 segments 0.00909399986267 seconds
+1.34649801254 seconds
+5791 / 6069 OtQID141ecU : 1716 segments 0.0110700130463 seconds
+1.55858707428 seconds
+5792 / 6069 h_m8MzmiODo : 4722 segments 0.076110124588 seconds
+4.62001299858 seconds
+5793 / 6069 gygnFSOefZM : 3530 segments 0.0497219562531 seconds
+3.29028201103 seconds
+5794 / 6069 hg95XSOWYZg : 5542 segments 0.0770878791809 seconds
+5.75175404549 seconds
+5795 / 6069 cn469mAip4U : 8189 segments 0.122653007507 seconds
+8.04207110405 seconds
+5796 / 6069 qwtbRL46COk : 6767 segments 0.0793719291687 seconds
+6.35868501663 seconds
+5797 / 6069 GhBwX9DWgWI : 1556 segments 0.0297508239746 seconds
+1.32919383049 seconds
+5798 / 6069 hCmmuPA7VOM : 829 segments 0.0046169757843 seconds
+0.720756053925 seconds
+5799 / 6069 rDQHMw_zy2k : 845 segments 0.00442099571228 seconds
+0.737481117249 seconds
+5800 / 6069 cKm1_AgeQXc : 522 segments 0.00389790534973 seconds
+0.436434030533 seconds
+5801 / 6069 oVc0CpSASx4 : 889 segments 0.00550293922424 seconds
+0.832067012787 seconds
+5802 / 6069 FvVYLGDBVsM : 893 segments 0.027804851532 seconds
+0.801465988159 seconds
+5803 / 6069 FPI4QevJZJM : 488 segments 0.00391793251038 seconds
+0.47022485733 seconds
+5804 / 6069 y5pAAr1u6G0 : 412 segments 0.00275993347168 seconds
+0.381608009338 seconds
+5805 / 6069 2ou_-Wpm1fs : 655 segments 0.00468611717224 seconds
+0.594671964645 seconds
+5806 / 6069 KtxZRls2j2Q : 971 segments 0.00720191001892 seconds
+0.913642883301 seconds
+5807 / 6069 -n8ymy49Nu8 : 72 segments 0.000690937042236 seconds
+0.0701150894165 seconds
+5808 / 6069 1s42fyzDEI8 : 917 segments 0.00846719741821 seconds
+0.848538160324 seconds
+5809 / 6069 d8ADZHXDTVU : 407 segments 0.00321912765503 seconds
+0.345086097717 seconds
+5810 / 6069 I_Oef5rdlrk : 448 segments 0.00350403785706 seconds
+0.399551868439 seconds
+5811 / 6069 F0cHh88APaI : 160 segments 0.0138051509857 seconds
+0.149782896042 seconds
+5812 / 6069 nayPmpWSZjo : 221 segments 0.0110831260681 seconds
+0.197507143021 seconds
+5813 / 6069 pOT2GKKtXNo : 5383 segments 0.0591309070587 seconds
+5.94307899475 seconds
+5814 / 6069 ujKrcIEd5_Y : 12726 segments 0.178215026855 seconds
+14.0060338974 seconds
+5815 / 6069 hPqahM6isEI : 6473 segments 0.449635982513 seconds
+6.33982610703 seconds
+5816 / 6069 7cv36ktC1Is : 1362 segments 0.00663781166077 seconds
+1.25633692741 seconds
+5817 / 6069 Tfc6TehJzJE : 662 segments 0.00409483909607 seconds
+0.70734000206 seconds
+5818 / 6069 awOcAgi_Yb8 : 8542 segments 0.0774900913239 seconds
+8.77952194214 seconds
+5819 / 6069 NAUIuoa3-Pw : 2228 segments 0.0164039134979 seconds
+2.10327887535 seconds
+5820 / 6069 IWyez8AuAj4 : 1278 segments 0.00662589073181 seconds
+1.14129281044 seconds
+5821 / 6069 4KsKkZqmTWA : 724 segments 0.00553393363953 seconds
+0.665421962738 seconds
+5822 / 6069 3d8gyHIhZdQ : 770 segments 0.00538802146912 seconds
+0.782973051071 seconds
+5823 / 6069 bVtrcstFOB0 : 157 segments 0.00262188911438 seconds
+0.152489900589 seconds
+5824 / 6069 kDuivFiDOJo : 5189 segments 0.102632045746 seconds
+4.72643089294 seconds
+5825 / 6069 MmCYe0VtkVk : 2102 segments 0.0355589389801 seconds
+1.73044991493 seconds
+5826 / 6069 Yi-fQn2PYWc : 1166 segments 0.0220501422882 seconds
+1.06243896484 seconds
+5827 / 6069 AYMRO8tukrE : 5877 segments 0.0925109386444 seconds
+5.63899898529 seconds
+5828 / 6069 HlkkEGcdrDw : 4901 segments 0.0707728862762 seconds
+5.12479996681 seconds
+5829 / 6069 liFKS87YdW0 : 326 segments 0.00183606147766 seconds
+0.266057014465 seconds
+5830 / 6069 F7wL9KPb7Lk : 4219 segments 0.0671761035919 seconds
+3.80427598953 seconds
+5831 / 6069 o1-lmjY-0Y4 : 11592 segments 0.153110980988 seconds
+12.8227250576 seconds
+5832 / 6069 hpkxUIeldSE : 2356 segments 0.0349090099335 seconds
+2.2555911541 seconds
+5833 / 6069 qpmuo0wQSNo : 626 segments 0.00361299514771 seconds
+0.595756053925 seconds
+5834 / 6069 kgoCiQ6LpIg : 11177 segments 0.17341709137 seconds
+11.6327278614 seconds
+5835 / 6069 afbDVJ-75Ns : 9290 segments 0.361493825912 seconds
+9.22046899796 seconds
+5836 / 6069 Tb6RVkoJXUw : 965 segments 0.0111231803894 seconds
+0.877131938934 seconds
+5837 / 6069 u42SFSHpLJU : 1256 segments 0.0126481056213 seconds
+1.28207993507 seconds
+5838 / 6069 IszbfLbDp54 : 496 segments 0.0030791759491 seconds
+0.441504001617 seconds
+5839 / 6069 Zpvtcmylmp8 : 762 segments 0.0038640499115 seconds
+0.658387899399 seconds
+5840 / 6069 MG0tiY7R6zI : 539 segments 0.0030210018158 seconds
+0.451257944107 seconds
+5841 / 6069 fEpJ-asyjhg : 6060 segments 0.0575799942017 seconds
+5.89375305176 seconds
+5842 / 6069 jIpjncONHp4 : 2480 segments 0.0324988365173 seconds
+2.15462112427 seconds
+5843 / 6069 suMDFKeK2C0 : 6822 segments 0.0701100826263 seconds
+6.69585084915 seconds
+5844 / 6069 2ggVINQfDBs : 10027 segments 0.144879102707 seconds
+11.5164959431 seconds
+5845 / 6069 PMAXyNZrbLo : 2391 segments 0.0331192016602 seconds
+2.06284093857 seconds
+5846 / 6069 vv3tev0uvBI : 3996 segments 0.105510950089 seconds
+3.60497617722 seconds
+5847 / 6069 X9TGaXN62y4 : 2729 segments 0.0259568691254 seconds
+2.45600891113 seconds
+5848 / 6069 TONfCwOr3vs : 6602 segments 0.0406618118286 seconds
+6.805560112 seconds
+5849 / 6069 f85yo76RvTQ : 5108 segments 0.0898320674896 seconds
+4.64041399956 seconds
+5850 / 6069 JlGcQAv718M : 6190 segments 0.073725938797 seconds
+5.92148804665 seconds
+5851 / 6069 RAuh70YVpgo : 4525 segments 0.0544400215149 seconds
+4.17631196976 seconds
+5852 / 6069 YfC3FhBzfiQ : 4681 segments 0.0537910461426 seconds
+4.18722105026 seconds
+5853 / 6069 Sx-tsdXEczE : 4075 segments 0.0641670227051 seconds
+3.98512792587 seconds
+5854 / 6069 o-vm62q6Qgo : 4356 segments 0.0668110847473 seconds
+3.69282197952 seconds
+5855 / 6069 OO8qbFYm1m0 : 17224 segments 0.20173406601 seconds
+22.3820121288 seconds
+5856 / 6069 28Bf_EiMZac : 4481 segments 0.0551719665527 seconds
+4.1022939682 seconds
+5857 / 6069 3nSE9Sdsnp4 : 5665 segments 0.0667409896851 seconds
+5.47390794754 seconds
+5858 / 6069 6SkU7jMfoYM : 5886 segments 0.060683965683 seconds
+5.32874083519 seconds
+5859 / 6069 CzLSY58RfQA : 3562 segments 0.0545029640198 seconds
+3.01795601845 seconds
+5860 / 6069 LlPO1MksPdw : 3417 segments 0.0418200492859 seconds
+2.90842080116 seconds
+5861 / 6069 JW_fMlNZZ-Y : 5485 segments 0.0850179195404 seconds
+5.09869408607 seconds
+5862 / 6069 ocpZ0K049Ps : 7716 segments 0.126554965973 seconds
+7.56658482552 seconds
+5863 / 6069 qT4lJ3IFKSg : 1815 segments 0.0180430412292 seconds
+1.79887986183 seconds
+5864 / 6069 VAECYQkhJW8 : 1446 segments 0.00711011886597 seconds
+1.21033787727 seconds
+5865 / 6069 zmJYYSRXvWc : 8463 segments 0.0918138027191 seconds
+8.97076797485 seconds
+5866 / 6069 gofi5sGQKOU : 6240 segments 0.0964829921722 seconds
+6.28019595146 seconds
+5867 / 6069 huOjfxojSmQ : 2892 segments 0.0423049926758 seconds
+2.67119216919 seconds
+5868 / 6069 obL1sRpGzcU : 5632 segments 0.12215089798 seconds
+5.6488058567 seconds
+5869 / 6069 1sS4hI3r3Bk : 5014 segments 0.0773000717163 seconds
+4.76945185661 seconds
+5870 / 6069 -zNVr8QyojQ : 4695 segments 0.0705900192261 seconds
+4.07334709167 seconds
+5871 / 6069 DdhM_S0ZlwM : 3283 segments 0.0241930484772 seconds
+3.14018392563 seconds
+5872 / 6069 BvaaIKS_lhY : 987 segments 0.143310070038 seconds
+0.852424144745 seconds
+5873 / 6069 zMDRchongHE : 543 segments 0.0088791847229 seconds
+0.475734949112 seconds
+5874 / 6069 4-cQUBbj074 : 495 segments 0.00415897369385 seconds
+0.414613008499 seconds
+5875 / 6069 PXrjAZO_Gv8 : 698 segments 0.00363516807556 seconds
+0.644240856171 seconds
+5876 / 6069 6pszxCwCrms : 990 segments 0.00551605224609 seconds
+0.824234962463 seconds
+5877 / 6069 Pk1gHWDJtaY : 1618 segments 0.00907611846924 seconds
+1.4284889698 seconds
+5878 / 6069 mEPQIU8CMLo : 246 segments 0.00168609619141 seconds
+0.215048074722 seconds
+5879 / 6069 deymHS_Lwdw : 417 segments 0.00244903564453 seconds
+0.38341999054 seconds
+5880 / 6069 _5Zr5RqaEXw : 504 segments 0.00321388244629 seconds
+0.443242073059 seconds
+5881 / 6069 kvZ6uGF7Dwc : 391 segments 0.00381898880005 seconds
+0.365077972412 seconds
+5882 / 6069 jaybg_IMDJw : 254 segments 0.00172901153564 seconds
+0.246421098709 seconds
+5883 / 6069 -fszk-1DNBQ : 23615 segments 0.295893907547 seconds
+31.8087098598 seconds
+5884 / 6069 nWqnQMm4p3Q : 7192 segments 0.0545771121979 seconds
+6.97339892387 seconds
+5885 / 6069 t5mZSak1GL8 : 11928 segments 0.209363937378 seconds
+15.1784858704 seconds
+5886 / 6069 o0GbbSY-_Z4 : 2022 segments 0.011754989624 seconds
+1.85917401314 seconds
+5887 / 6069 pK-h72izxqg : 16123 segments 0.227944850922 seconds
+19.4977359772 seconds
+5888 / 6069 S1ZPYQsKNC4 : 7807 segments 0.470626115799 seconds
+7.51801085472 seconds
+5889 / 6069 nsexhPWNC6k : 9271 segments 0.236863851547 seconds
+9.55664014816 seconds
+5890 / 6069 LHxSEMAk5mo : 2096 segments 0.0369699001312 seconds
+1.97289896011 seconds
+5891 / 6069 Qn3wmEzlmng : 5601 segments 0.0585570335388 seconds
+5.59177994728 seconds
+5892 / 6069 KwzZWwJ-riY : 1580 segments 0.0365889072418 seconds
+1.35563182831 seconds
+5893 / 6069 INy9Kay6mgU : 2206 segments 0.0104279518127 seconds
+1.94740200043 seconds
+5894 / 6069 qHha-JsIljg : 2901 segments 0.0454151630402 seconds
+2.45453095436 seconds
+5895 / 6069 ppSUmKQasp0 : 5374 segments 0.0871300697327 seconds
+4.81477093697 seconds
+5896 / 6069 vol3zcMp_Ko : 2679 segments 0.0309970378876 seconds
+2.19230699539 seconds
+5897 / 6069 nmMO71cw-a4 : 9749 segments 0.148359060287 seconds
+10.9722959995 seconds
+5898 / 6069 F0x8UEt2Agg : 5237 segments 0.0608479976654 seconds
+5.31004595757 seconds
+5899 / 6069 XFwfx2liibQ : 4114 segments 0.0557110309601 seconds
+3.64410805702 seconds
+5900 / 6069 03Yl9rNLp3s : 4476 segments 0.0890219211578 seconds
+4.32690906525 seconds
+5901 / 6069 mamN6t8sYzk : 3737 segments 0.0608668327332 seconds
+3.27120089531 seconds
+5902 / 6069 C9dtBzuw1Xw : 6187 segments 0.061733007431 seconds
+6.28989911079 seconds
+5903 / 6069 kJQeDSzmOJo : 2433 segments 0.0238389968872 seconds
+2.13580298424 seconds
+5904 / 6069 Ua5GFhY6u4o : 3762 segments 0.0548839569092 seconds
+3.72699999809 seconds
+5905 / 6069 P87G8wJESBo : 3367 segments 0.0852830410004 seconds
+2.96765208244 seconds
+5906 / 6069 MzEKtwWMlYY : 4876 segments 0.0613179206848 seconds
+5.00985097885 seconds
+5907 / 6069 fwBGXaKUPIY : 2606 segments 0.0462439060211 seconds
+2.33315491676 seconds
+5908 / 6069 c-4uapMuLSw : 2995 segments 0.0166990756989 seconds
+2.61273407936 seconds
+5909 / 6069 iNEzZa1aF6M : 2616 segments 0.0622999668121 seconds
+2.26976919174 seconds
+5910 / 6069 gcqmNeTpqcs : 10839 segments 0.1517598629 seconds
+12.2462091446 seconds
+5911 / 6069 2i4YIQzZdco : 7322 segments 0.253752946854 seconds
+9.20336103439 seconds
+5912 / 6069 IQO-yqeKurU : 2369 segments 0.420083999634 seconds
+2.53598022461 seconds
+5913 / 6069 RUdZu5-QQ3E : 9621 segments 0.115273952484 seconds
+10.5950689316 seconds
+5914 / 6069 KAJuwR-s3DM : 11781 segments 0.126924037933 seconds
+13.5667850971 seconds
+5915 / 6069 oRC0jUpk8JE : 3353 segments 0.0593779087067 seconds
+2.91311502457 seconds
+5916 / 6069 MN5swxd1wo0 : 3778 segments 0.0192079544067 seconds
+3.37935996056 seconds
+5917 / 6069 4VUySLKwBjA : 3035 segments 0.0179347991943 seconds
+2.76584196091 seconds
+5918 / 6069 xrJSVKnF0qM : 7194 segments 0.118922948837 seconds
+7.87347388268 seconds
+5919 / 6069 qvtDpPC68o0 : 2990 segments 0.0737161636353 seconds
+2.60303783417 seconds
+5920 / 6069 93Vrb5GNV2M : 3192 segments 0.0714740753174 seconds
+3.09904003143 seconds
+5921 / 6069 RH8CfFK2lwU : 3646 segments 0.0563399791718 seconds
+3.22373199463 seconds
+5922 / 6069 hyohnF9BtRg : 2585 segments 0.0246031284332 seconds
+2.28698086739 seconds
+5923 / 6069 n5qGe07y2h0 : 3718 segments 0.0481331348419 seconds
+3.23140907288 seconds
+5924 / 6069 43v1CXr8QxE : 6464 segments 0.104074954987 seconds
+6.0096039772 seconds
+5925 / 6069 J0HsBlJGa8s : 2888 segments 0.0464599132538 seconds
+2.44775080681 seconds
+5926 / 6069 H_CRPKvR-H8 : 5384 segments 0.105326890945 seconds
+5.2094578743 seconds
+5927 / 6069 QZMs-bkWT7k : 4100 segments 0.0463869571686 seconds
+3.60477113724 seconds
+5928 / 6069 ewUQvSjbLxw : 3886 segments 0.062637090683 seconds
+3.438185215 seconds
+5929 / 6069 7WMeKZFTHVI : 4163 segments 0.0384299755096 seconds
+3.78535509109 seconds
+5930 / 6069 P2jyHYrjB90 : 24587 segments 0.392338037491 seconds
+31.255012989 seconds
+5931 / 6069 IGzr98xA8P4 : 3211 segments 0.483736991882 seconds
+2.73834705353 seconds
+5932 / 6069 BpPZPufWl1c : 1408 segments 0.00894689559937 seconds
+1.32260489464 seconds
+5933 / 6069 b4wSecFBiuM : 330 segments 0.00309586524963 seconds
+0.302901983261 seconds
+5934 / 6069 umffejpm43g : 866 segments 0.00991916656494 seconds
+0.738288164139 seconds
+5935 / 6069 IUtWn_agaqg : 371 segments 0.00363898277283 seconds
+0.323907852173 seconds
+5936 / 6069 TQY6mS-WHqw : 506 segments 0.00285792350769 seconds
+0.439968109131 seconds
+5937 / 6069 9_mfQVCZNrg : 4317 segments 0.0485970973969 seconds
+4.40138792992 seconds
+5938 / 6069 1fKJqX3Qu1Q : 1983 segments 0.0466809272766 seconds
+1.87141108513 seconds
+5939 / 6069 zNQPnFIcIxw : 808 segments 0.00560188293457 seconds
+0.688424110413 seconds
+5940 / 6069 B6EqN4qBwGU : 581 segments 0.00433111190796 seconds
+0.559453010559 seconds
+5941 / 6069 T_8XlGygnuk : 3443 segments 0.0467779636383 seconds
+2.55628800392 seconds
+5942 / 6069 ZOcroGm1koI : 507 segments 0.00320196151733 seconds
+0.41566491127 seconds
+5943 / 6069 pa-LPibbOPM : 522 segments 0.00697898864746 seconds
+0.455888032913 seconds
+5944 / 6069 sGavJypFEP0 : 375 segments 0.024215221405 seconds
+0.331993103027 seconds
+5945 / 6069 8shzDEoFvZY : 695 segments 0.00527715682983 seconds
+0.605174064636 seconds
+5946 / 6069 YSa-25hTF3g : 618 segments 0.00336813926697 seconds
+0.487170934677 seconds
+5947 / 6069 5dxeFdMIJL0 : 2195 segments 0.0161190032959 seconds
+2.14001107216 seconds
+5948 / 6069 Tg7aKVE7TJ0 : 593 segments 0.00339388847351 seconds
+0.482335090637 seconds
+5949 / 6069 Ai18j_KxNyg : 530 segments 0.00304102897644 seconds
+0.435726881027 seconds
+5950 / 6069 71RtjQB9yQg : 690 segments 0.00517988204956 seconds
+0.61039686203 seconds
+5951 / 6069 _4cAo4pBUPk : 254 segments 0.00182318687439 seconds
+0.232251882553 seconds
+5952 / 6069 vWrxh632ar0 : 453 segments 0.00275897979736 seconds
+0.37299489975 seconds
+5953 / 6069 BfAuKFclOcA : 143 segments 0.00228905677795 seconds
+0.110801935196 seconds
+5954 / 6069 MQe_kX_Vev8 : 384 segments 0.00276303291321 seconds
+0.35488820076 seconds
+5955 / 6069 cxGhJppkNWc : 271 segments 0.00359606742859 seconds
+0.266880989075 seconds
+5956 / 6069 WorhOWxTYZ0 : 31 segments 0.000947952270508 seconds
+0.0355789661407 seconds
+5957 / 6069 LyPs5MkIjxs : 391 segments 0.00239396095276 seconds
+0.355875015259 seconds
+5958 / 6069 rN9fZSc8_34 : 14808 segments 0.267004013062 seconds
+18.149091959 seconds
+5959 / 6069 OTAHoB6HC5A : 5395 segments 0.0671088695526 seconds
+4.96693897247 seconds
+5960 / 6069 sjKswi4aj0A : 14895 segments 0.171418905258 seconds
+18.2939269543 seconds
+5961 / 6069 cozMiBQAsBE : 4214 segments 0.502017021179 seconds
+3.68505191803 seconds
+5962 / 6069 VLqznJG4mYY : 8983 segments 0.160151958466 seconds
+9.13396406174 seconds
+5963 / 6069 w3XNMfARSVs : 5522 segments 0.0733060836792 seconds
+4.90087294579 seconds
+5964 / 6069 hDAE_tfXsfM : 15642 segments 0.220711946487 seconds
+19.8935511112 seconds
+5965 / 6069 9YzZorUi23o : 2294 segments 0.0311560630798 seconds
+2.16090893745 seconds
+5966 / 6069 hRg3unHu_uE : 13089 segments 0.255131006241 seconds
+14.9806320667 seconds
+5967 / 6069 nPu1Pcp1-UE : 4336 segments 0.021880865097 seconds
+3.67973709106 seconds
+5968 / 6069 lIGb47hm250 : 5696 segments 0.0569908618927 seconds
+5.40159606934 seconds
+5969 / 6069 8I_PlJa-hVM : 5208 segments 0.063248872757 seconds
+4.73992800713 seconds
+5970 / 6069 FmRypcDhg-0 : 5891 segments 0.0521030426025 seconds
+6.18726015091 seconds
+5971 / 6069 v4ZbdcWZk_M : 5575 segments 0.0621519088745 seconds
+5.50347495079 seconds
+5972 / 6069 iDIuS-OM5tk : 3707 segments 0.0517430305481 seconds
+3.48133707047 seconds
+5973 / 6069 igynEkgqyGI : 920 segments 0.0109419822693 seconds
+0.724899053574 seconds
+5974 / 6069 fgHBZ0Pmilw : 4551 segments 0.0327279567719 seconds
+4.45163702965 seconds
+5975 / 6069 8FsG82eGH-s : 3117 segments 0.0191931724548 seconds
+3.14981293678 seconds
+5976 / 6069 ZSZi04sMtOE : 6808 segments 0.0761239528656 seconds
+7.27313685417 seconds
+5977 / 6069 YSrUXR-yd9s : 4678 segments 0.0327308177948 seconds
+4.63591194153 seconds
+5978 / 6069 6g1SHXEwfPQ : 2577 segments 0.0321550369263 seconds
+2.42361307144 seconds
+5979 / 6069 5JGHFkVJJ50 : 183 segments 0.0272188186646 seconds
+0.189342021942 seconds
+5980 / 6069 mEIVpQdgN8k : 229 segments 0.00333786010742 seconds
+0.221934080124 seconds
+5981 / 6069 no8Kin7vaAU : 11261 segments 0.114300966263 seconds
+11.4531478882 seconds
+5982 / 6069 32rweHY6mdA : 833 segments 0.0041811466217 seconds
+0.719913959503 seconds
+5983 / 6069 NjN3DnZfcjU : 15459 segments 0.134449958801 seconds
+17.7670168877 seconds
+5984 / 6069 ytnJTGM2Xu4 : 6240 segments 0.0740358829498 seconds
+5.73413801193 seconds
+5985 / 6069 VHUOcifUnRM : 4350 segments 0.0691938400269 seconds
+3.85227203369 seconds
+5986 / 6069 9YPgQPj8KNg : 2811 segments 0.0291318893433 seconds
+2.54692482948 seconds
+5987 / 6069 Zsg6uy4hvfQ : 5062 segments 0.0567162036896 seconds
+4.58827900887 seconds
+5988 / 6069 _n--S6Qzvus : 9628 segments 0.129650831223 seconds
+10.713531971 seconds
+5989 / 6069 xVqFu91cXQ4 : 11381 segments 0.0913338661194 seconds
+11.445991993 seconds
+5990 / 6069 WVggma0-j58 : 5894 segments 0.451120138168 seconds
+5.93472480774 seconds
+5991 / 6069 ui0XR2boBdY : 7363 segments 0.107134103775 seconds
+7.26452898979 seconds
+5992 / 6069 NJDLi4arGYc : 1235 segments 0.00605320930481 seconds
+1.15124988556 seconds
+5993 / 6069 PGYsZ5o4n38 : 887 segments 0.00520396232605 seconds
+0.809990882874 seconds
+5994 / 6069 qv0JcUolsbE : 557 segments 0.00414204597473 seconds
+0.528445005417 seconds
+5995 / 6069 CrIWOUBNdEc : 639 segments 0.00781583786011 seconds
+0.616468906403 seconds
+5996 / 6069 yRciBgHp48o : 832 segments 0.00640606880188 seconds
+0.782891988754 seconds
+5997 / 6069 CzWyqiEEO_0 : 1377 segments 0.0100359916687 seconds
+1.33459997177 seconds
+5998 / 6069 GIeN7cGpGqQ : 1910 segments 0.0120899677277 seconds
+1.63664388657 seconds
+5999 / 6069 -ZiEceImc-s : 8 segments 0.000436067581177 seconds
+0.0150752067566 seconds
+6000 / 6069 zSWXRz-xyo0 : 13 segments 0.000349044799805 seconds
+0.0146789550781 seconds
+6001 / 6069 WizoLDSlVvc : 6384 segments 0.0355370044708 seconds
+6.10617494583 seconds
+6002 / 6069 9Dn4q324T_4 : 3331 segments 0.0332689285278 seconds
+2.99899101257 seconds
+6003 / 6069 YECurmSDhWc : 298 segments 0.00311398506165 seconds
+0.313642024994 seconds
+6004 / 6069 iWwY0pPuOY0 : 3257 segments 0.0232968330383 seconds
+3.26048493385 seconds
+6005 / 6069 WxMAsNf--mM : 4575 segments 0.0786728858948 seconds
+4.36420917511 seconds
+6006 / 6069 6Vz-vtllfvE : 195 segments 0.0031840801239 seconds
+0.199424028397 seconds
+6007 / 6069 9YqV_AjAuzU : 8203 segments 0.0774579048157 seconds
+8.19363689423 seconds
+6008 / 6069 fvOgiaMEmnU : 906 segments 0.0242559909821 seconds
+0.769775152206 seconds
+6009 / 6069 qF0_7MwRLdY : 1501 segments 0.0108151435852 seconds
+1.51201701164 seconds
+6010 / 6069 UM_pIgdnzxY : 1032 segments 0.00683403015137 seconds
+0.964646100998 seconds
+6011 / 6069 YJxrpzPPDR8 : 1167 segments 0.035295009613 seconds
+1.44235014915 seconds
+6012 / 6069 G7zqP4CV-Tw : 469 segments 0.00676083564758 seconds
+0.425375938416 seconds
+6013 / 6069 7y7Yrr_9SoA : 689 segments 0.00841212272644 seconds
+0.637202978134 seconds
+6014 / 6069 ganpAFAZCOc : 623 segments 0.00509405136108 seconds
+0.682399988174 seconds
+6015 / 6069 RbZoLMnaO20 : 1442 segments 0.00858402252197 seconds
+1.25061392784 seconds
+6016 / 6069 CDO_Ak6LD3w : 141 segments 0.00191283226013 seconds
+0.175641059875 seconds
+6017 / 6069 KOnW0QxbAho : 193 segments 0.00185394287109 seconds
+0.184046030045 seconds
+6018 / 6069 JmWwLK2BIzA : 64 segments 0.000847101211548 seconds
+0.0625519752502 seconds
+6019 / 6069 3ulNhHaQxe0 : 404 segments 0.00506806373596 seconds
+0.373957872391 seconds
+6020 / 6069 S1W8EcbOTZs : 168 segments 0.00270199775696 seconds
+0.167155981064 seconds
+6021 / 6069 DKLD5kDKS3A : 482 segments 0.00615310668945 seconds
+0.513890028 seconds
+6022 / 6069 cgyM1kJYIcw : 1880 segments 0.00903511047363 seconds
+1.65321516991 seconds
+6023 / 6069 F-pN6rqIDz0 : 1517 segments 0.036581993103 seconds
+1.3849978447 seconds
+6024 / 6069 W2YCkS1Ot8U : 3794 segments 0.0498440265656 seconds
+3.434705019 seconds
+6025 / 6069 d6eVqWmRcjI : 3078 segments 0.0342230796814 seconds
+2.78836607933 seconds
+6026 / 6069 rwhDdkkZLgM : 1846 segments 0.0309479236603 seconds
+1.59935116768 seconds
+6027 / 6069 YXlu2IgXhYc : 2128 segments 0.0383870601654 seconds
+2.06407094002 seconds
+6028 / 6069 nqXz44OF4mU : 2228 segments 0.0304889678955 seconds
+1.82914805412 seconds
+6029 / 6069 QzdfOwdfgCo : 2270 segments 0.0212209224701 seconds
+2.12467122078 seconds
+6030 / 6069 tnh_HVR6zFY : 11641 segments 0.130527973175 seconds
+13.0386590958 seconds
+6031 / 6069 KHKPoN26HbQ : 13194 segments 0.102999925613 seconds
+15.8671989441 seconds
+6032 / 6069 QfEvRg4gmzk : 3748 segments 0.0241749286652 seconds
+3.22208499908 seconds
+6033 / 6069 4YKP0ODK19Q : 3843 segments 0.0415589809418 seconds
+3.29696202278 seconds
+6034 / 6069 Uw9Gt3gmY3A : 8715 segments 0.0804390907288 seconds
+8.19881105423 seconds
+6035 / 6069 8ne8uCqzC9o : 9720 segments 0.0593841075897 seconds
+9.73950409889 seconds
+6036 / 6069 1BSXAJu6xM0 : 2076 segments 0.0127120018005 seconds
+1.84566307068 seconds
+6037 / 6069 i06CvQQS1fc : 666 segments 0.00375604629517 seconds
+0.661687135696 seconds
+6038 / 6069 0osRZRVhQY0 : 160 segments 0.00115609169006 seconds
+0.139918088913 seconds
+6039 / 6069 jbT8ujuxk3o : 4299 segments 0.0275740623474 seconds
+4.29442310333 seconds
+6040 / 6069 SgYUpMFWJbw : 100 segments 0.000954866409302 seconds
+0.0973498821259 seconds
+6041 / 6069 ohzSLoP3UYQ : 22 segments 0.000355005264282 seconds
+0.0286619663239 seconds
+6042 / 6069 p8fS0BnFCEw : 74 segments 0.00127005577087 seconds
+0.0680160522461 seconds
+6043 / 6069 VCdgf6VQ-V8 : 26 segments 0.000610828399658 seconds
+0.0276758670807 seconds
+6044 / 6069 ycQKZKBqa7I : 16 segments 0.000714063644409 seconds
+0.021800994873 seconds
+6045 / 6069 ncHwEbk9YFo : 154 segments 0.0012309551239 seconds
+0.154451847076 seconds
+6046 / 6069 OIoqWyqWXxk : 117 segments 0.00114512443542 seconds
+0.123070001602 seconds
+6047 / 6069 jn3fqsYue60 : 2935 segments 0.01811003685 seconds
+3.07277107239 seconds
+6048 / 6069 AYZGnohRpnc : 2452 segments 0.0334188938141 seconds
+2.36682581902 seconds
+6049 / 6069 tCDXJcWd0Bk : 305 segments 0.00215101242065 seconds
+0.297910928726 seconds
+6050 / 6069 osr_QXwYXSw : 3928 segments 0.0285201072693 seconds
+3.67856478691 seconds
+6051 / 6069 e_axBYhdnak : 3372 segments 0.0233979225159 seconds
+3.79669594765 seconds
+6052 / 6069 E6mTsslZSrk : 1913 segments 0.0107049942017 seconds
+1.69256305695 seconds
+6053 / 6069 obUGYFitt0M : 1951 segments 0.0308821201324 seconds
+1.93063998222 seconds
+6054 / 6069 DZV54J3Hn78 : 2456 segments 0.0289168357849 seconds
+2.33474493027 seconds
+6055 / 6069 P9rJ1makVbI : 2458 segments 0.0218589305878 seconds
+2.31434297562 seconds
+6056 / 6069 wL7xhOxVfso : 2967 segments 0.0303120613098 seconds
+2.83960103989 seconds
+6057 / 6069 xPOX3p7kKPk : 418 segments 0.0143241882324 seconds
+0.349156141281 seconds
+6058 / 6069 vwoc-fzm1xw : 682 segments 0.0230989456177 seconds
+0.629587888718 seconds
+6059 / 6069 gq6brW-XE_s : 83 segments 0.000766038894653 seconds
+0.102441072464 seconds
+6060 / 6069 YaXckonwEMc : 1908 segments 0.0149638652802 seconds
+1.80985212326 seconds
+6061 / 6069 N2G_ETkNaPc : 1243 segments 0.00578784942627 seconds
+1.11210989952 seconds
+6062 / 6069 tjUpZMAYLwM : 267 segments 0.00209093093872 seconds
+0.250611066818 seconds
+6063 / 6069 pU54J5LveY0 : 193 segments 0.00274205207825 seconds
+0.169239997864 seconds
+6064 / 6069 kjSHrYPXIX4 : 251 segments 0.00227618217468 seconds
+0.231096982956 seconds
+6065 / 6069 yRjhosODXVw : 7353 segments 0.0465669631958 seconds
+8.68600392342 seconds
+6066 / 6069 3KDUx4-u7m4 : 2297 segments 0.157585144043 seconds
+2.06938886642 seconds
+6067 / 6069 U6IDC7DJIo4 : 2373 segments 0.0331552028656 seconds
+2.47071504593 seconds
+6068 / 6069 8xXoRcSqLHo : 481 segments 0.00883102416992 seconds
+0.434970855713 seconds
+record_heatmaps_ajax COMPLETED 12752.7813759 seconds
+('process_heatmaps_ajax', 'COMPLETED', 12752.785885810852, 'seconds')
+[12/Aug/2013 12:40:53] "GET /query/process_heatmaps_ajax?index=0 HTTP/1.1" 200 93
+

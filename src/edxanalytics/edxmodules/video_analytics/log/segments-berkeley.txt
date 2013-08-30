@@ -1,0 +1,943 @@
+16778913 new events found
+adding video wKx4MuLfe0M
+adding video V36LpHqtcDY
+. adding video 2M7mv4-BPCg
+adding video rzcoumjV8mY
+. . . adding video hRbQzDxfGF4
+. . . . . adding video 4DIWPWoGK6w
+. adding video 3HTQxj30T0c
+adding video BopHHHkPcL8
+adding video CNqxmy1pzsk
+adding video WIw44jFxT7w
+adding video DFARrA1xLZ0
+adding video YXp8Jf3DSS0
+adding video QwZMfUA5qzM
+adding video Fy8aOwSqLFk
+adding video O3b-ETfq5Zo
+adding video vCCFyfMlgcY
+adding video zenQaED0aH4
+adding video InZvW04HYGE
+adding video JkWOCVNmsMA
+adding video fBPJji7BQ-A
+. adding video 90r4W0KG0yE
+adding video F4g4BoYhKek
+adding video lm3IKbRE2VA
+adding video n5RAClUmZ2E
+adding video bc0xi94RnZU
+adding video dJvsFgk1OJY
+adding video po6hcose9N8
+. . adding video EFAYAXcX7m0
+adding video J6PBD-wNEDs
+. adding video NG1KkvVWFxs
+adding video gMkXGp1RHP4
+adding video OR8znrx0Eig
+adding video kRphDHyNOVA
+adding video -gKKUBQ2NWA
+. adding video nq7tUDr7wWE
+adding video B1OjCbaN6M8
+. adding video 6dxtkp-d9Lk
+adding video DZnsywvFzyw
+adding video OkgXSi5DhOY
+adding video heDN6sq00_0
+adding video MG3lyvnBRSk
+adding video Pz0XiZ8wO9o
+adding video if5_PlQKUzo
+. . . . . adding video V8pGOtAkXVQ
+. . . . . adding video nHeChTFkD4E
+. . . . . . . . . adding video cwbjLIahbv8
+. . . adding video jTm0JO7xXI4
+. . . . . . . adding video GevK0-9n24g
+. . . . . . . . . . . . . . . . . . . . . . adding video afwPe_OqPX0
+. . . . . . . . . . . . . . . . . adding video SwoAlAiGMVY
+adding video OGcG4jSKOVA
+. . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 52.0953788757 seconds
+('process_data_ajax', 'COMPLETED', 52.13627004623413, 'seconds')
+[09/Aug/2013 15:19:02] "GET /query/process_data_ajax?index=0 HTTP/1.1" 200 88
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video LajAWn51HmE
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video yho-5Ibg6GU
+. . . . . . . . . . . . . . . record_segments_ajax COMPLETED 45.9419050217 seconds
+('process_data_ajax', 'COMPLETED', 45.98201894760132, 'seconds')
+[09/Aug/2013 15:19:48] "GET /query/process_data_ajax?index=1 HTTP/1.1" 200 88
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 47.9174220562 seconds
+('process_data_ajax', 'COMPLETED', 47.95261788368225, 'seconds')
+[09/Aug/2013 15:20:36] "GET /query/process_data_ajax?index=2 HTTP/1.1" 200 88
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video hegL0V4ckco
+. . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 50.9225840569 seconds
+('process_data_ajax', 'COMPLETED', 50.96230983734131, 'seconds')
+[09/Aug/2013 15:21:26] "GET /query/process_data_ajax?index=3 HTTP/1.1" 200 88
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video hsz0zq6AXGE
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video R0vTZp0ve4s
+. . adding video R9MwW9TNX1E
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 53.5726430416 seconds
+('process_data_ajax', 'COMPLETED', 53.607568979263306, 'seconds')
+[09/Aug/2013 15:22:20] "GET /query/process_data_ajax?index=4 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video IaY6VjFSIlw
+adding video EDGiPm8Yau0
+. . . . . . . adding video D731YRE27RM
+adding video zHVngzvgkpY
+adding video 9zyWBbCTDDE
+adding video H1HwgS3Nrd4
+. adding video oSAkh85Ax98
+adding video BmT_SLdst9c
+. adding video YGXjfYkspio
+adding video bT-XMtqEwvQ
+adding video jE4n5wEznDs
+adding video leO8hNvYU9g
+adding video lxRzfWHjepg
+adding video uXJchI8A5nE
+adding video sx9Gh4pHkTs
+adding video B7AZ6gvXYqI
+adding video qG8r7CMj5ak
+adding video vi1bUt09HZs
+. adding video 4KrSPvqTAk4
+adding video nvhjsIahuxU
+. adding video hMzTCXqGypc
+adding video YuLcmdn5FZo
+adding video anP7F_JJ06g
+. adding video -51tZ-Q1_Qs
+adding video YPEwIlGPcEY
+adding video oZGgdl2yZUQ
+. adding video 8aNVxK2Xj-Q
+adding video JyJEaE9pJzQ
+. adding video 4ZJkjqtk2m0
+adding video 9JRI4zaCAFw
+. . . adding video 5SMbhTGI_NI
+adding video M3SAu__ZOAk
+. adding video t5S0yYD21_I
+adding video wCx5QnjJPD4
+. . . . . . . . . adding video o1iD0ohEJOs
+. . . . adding video b3W_KBYhYpM
+. . adding video Bkf5KcKKhDk
+adding video 8UVFTy2jkgc
+. . . . . . . . . . . . adding video Ymk-w2XkIfY
+. . . . . . . . . . . . . . . . . . adding video Gatpjrpd-rI
+. . . . . . record_segments_ajax COMPLETED 52.6305508614 seconds
+('process_data_ajax', 'COMPLETED', 52.66832399368286, 'seconds')
+[09/Aug/2013 15:23:13] "GET /query/process_data_ajax?index=5 HTTP/1.1" 200 88
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 45.1383562088 seconds
+('process_data_ajax', 'COMPLETED', 45.18458795547485, 'seconds')
+[09/Aug/2013 15:23:58] "GET /query/process_data_ajax?index=6 HTTP/1.1" 200 88
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 44.2738878727 seconds
+('process_data_ajax', 'COMPLETED', 44.318132162094116, 'seconds')
+[09/Aug/2013 15:24:42] "GET /query/process_data_ajax?index=7 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video UIhbGihnZ68
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 48.3729979992 seconds
+('process_data_ajax', 'COMPLETED', 48.4153790473938, 'seconds')
+[09/Aug/2013 15:25:31] "GET /query/process_data_ajax?index=8 HTTP/1.1" 200 87
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 43.2609531879 seconds
+('process_data_ajax', 'COMPLETED', 43.30172801017761, 'seconds')
+[09/Aug/2013 15:26:14] "GET /query/process_data_ajax?index=9 HTTP/1.1" 200 88
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 43.9784519672 seconds
+('process_data_ajax', 'COMPLETED', 44.02203607559204, 'seconds')
+[09/Aug/2013 15:26:58] "GET /query/process_data_ajax?index=10 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 48.1558761597 seconds
+('process_data_ajax', 'COMPLETED', 48.195204973220825, 'seconds')
+[09/Aug/2013 15:27:46] "GET /query/process_data_ajax?index=11 HTTP/1.1" 200 90
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . adding video 04CITGEvGMw
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 45.9366440773 seconds
+('process_data_ajax', 'COMPLETED', 45.97726893424988, 'seconds')
+[09/Aug/2013 15:28:32] "GET /query/process_data_ajax?index=12 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 41.3592219353 seconds
+('process_data_ajax', 'COMPLETED', 41.39746594429016, 'seconds')
+[09/Aug/2013 15:29:14] "GET /query/process_data_ajax?index=13 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . adding video OYtrMtjYceQ
+adding video 5jL_hsICtPI
+adding video nPjvigRM8B0
+adding video fBrxgJJNJU0
+adding video 2tdH9uj-H-c
+adding video UYn7lzpcZk0
+adding video YRlEWvE21tc
+adding video Hnovsi8JFGE
+adding video G6sQY6usyC8
+adding video IacNUOOSD0s
+. adding video l0IjEJGeltQ
+adding video H0dlyaqZFaI
+. . . adding video -sXtZ4OsEn0
+adding video 20FqcVyBaQc
+. adding video dXZ2S-9ioik
+adding video rvsolHpqK4U
+adding video E-HVKSbrLD0
+adding video 3vBpqPIZWZQ
+adding video Tg7EMRV14EY
+. adding video 1XFa0LvQtZk
+. . adding video Bxv7ce40VD4
+. . . adding video eON4XsYnfLU
+. . . adding video GHWnhuRQb6U
+. . . adding video DwCrqmem1wM
+adding video DRnqUCO9t6A
+adding video QejT-inqJTc
+. adding video hsXHw5ig0Oc
+adding video dyJP_rdfXVo
+adding video BrUdxMIRAKY
+. adding video uws7vxmJx2k
+. . adding video GeynYjpCak0
+. . adding video PeI_mSzkPvs
+. adding video oDSPhzu1P5Q
+adding video ysV75DkyDbc
+adding video yotRXX4GlGc
+. adding video JFq_ULQxg6w
+. adding video Lg7IlyMGUkk
+. . . . . . . . adding video OXykTskNjXo
+. . . . . adding video WaoVcIoggv0
+adding video o9vOBOg9cus
+. adding video qQWoGtNw_ow
+. . adding video 5anVspvMsMw
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 45.0914540291 seconds
+('process_data_ajax', 'COMPLETED', 45.131000995635986, 'seconds')
+[09/Aug/2013 15:29:59] "GET /query/process_data_ajax?index=14 HTTP/1.1" 200 90
+16778913 new events found
+. . . . . . . . . . . adding video qNAdySGZlS0
+adding video ATsaY4MRLnM
+adding video qGs09olF8TQ
+adding video WHPYvyx5KiI
+adding video 9m5AOIgjWjA
+adding video vKV6XP3dSxQ
+adding video UikYGpOH9lQ
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video OVOrP-FXaDM
+. . . . . . adding video cLm_p8nlMIk
+. . . . . . . . . . . . . . adding video 8xvkUHulDmk
+. adding video tlp0opTnyDs
+. . adding video 1ZNgTSjSJ0M
+adding video jRAxINOYF5o
+. adding video IetO11Kih6E
+. . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 49.4004459381 seconds
+('process_data_ajax', 'COMPLETED', 49.43518090248108, 'seconds')
+[09/Aug/2013 15:30:48] "GET /query/process_data_ajax?index=15 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video uf6edsjj8Yc
+adding video twZEV3thgTs
+adding video 8W55ed6aw_4
+adding video IQ81WkxxUVU
+adding video rBTOvGzrN0E
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video Mp79Yag_Y6s
+adding video YbYOFDiMNRo
+. adding video OH-OPJF-mjY
+. adding video IVDDt0piHD0
+. adding video csPUhLWJ0fI
+adding video H5lrI77UKwo
+adding video f8v1US6rWBc
+. . . . . . . . adding video DkggjWWwbf8
+. . . . . . . . . . . . . . record_segments_ajax COMPLETED 48.3717060089 seconds
+('process_data_ajax', 'COMPLETED', 48.41170406341553, 'seconds')
+[09/Aug/2013 15:31:37] "GET /query/process_data_ajax?index=16 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . adding video Mu_mUxwCifA
+. adding video 7Q9xE4KPNPY
+adding video GO-vdQS5g-I
+. adding video 33yfYFdSTtA
+adding video 4r95hluHUlM
+. . . . . . . . . . . . . . . . . . . . . . . . . . adding video ZZB3oCjM2Zs
+. . . . . . . . . . . . . . . . . . . . . adding video TPKQPPu8hhc
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 47.5304768085 seconds
+('process_data_ajax', 'COMPLETED', 47.56754207611084, 'seconds')
+[09/Aug/2013 15:32:24] "GET /query/process_data_ajax?index=17 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video GMge4cuYwZ8
+. record_segments_ajax COMPLETED 49.0439078808 seconds
+('process_data_ajax', 'COMPLETED', 49.08163499832153, 'seconds')
+[09/Aug/2013 15:33:13] "GET /query/process_data_ajax?index=18 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 45.6750688553 seconds
+('process_data_ajax', 'COMPLETED', 45.71550798416138, 'seconds')
+[09/Aug/2013 15:33:59] "GET /query/process_data_ajax?index=19 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 44.6287839413 seconds
+('process_data_ajax', 'COMPLETED', 44.66807699203491, 'seconds')
+[09/Aug/2013 15:34:44] "GET /query/process_data_ajax?index=20 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video W0mW0Byg28Q
+. adding video d5smIG1Pioo
+adding video rUeP8jnTa3I
+adding video Yf3uPR2G13M
+adding video wj1wM82gtug
+adding video ngIO5Ougv7I
+adding video BxuHMCeC6Xk
+adding video lQyIHmNCJ4Y
+adding video 9XymFwPMF9c
+adding video l8v2EtapXi0
+adding video vtmyiq5V4Fk
+adding video F7rGwqjydHw
+adding video bAu9j0nHOYw
+adding video gdhP9M2Ti5o
+adding video GOombtIA6BY
+adding video 61lJ_9WKFaE
+adding video KYqbC33VFkA
+adding video M12mxpfqfvw
+. adding video wmSWzjUGaZc
+adding video e-8BM41OUOY
+adding video 1XPxUXai2dQ
+. adding video S-cEzeMCDUM
+. adding video e11iBy9PqwM
+adding video Sc72naSffM0
+adding video SboFOmrArxs
+adding video x4U1R-I8BiE
+adding video 8L4RVcdbB8k
+. adding video g9rg1W3Mqsc
+adding video vUrPHH9Hd_Y
+adding video G4dC80itALM
+adding video f4VqoEw12Nw
+adding video ANseqo6zXYc
+adding video u_V1nh7H-rQ
+adding video LEBPs2yd44w
+adding video eW-9b_Bp8c0
+. adding video 61_LgHJMABU
+adding video QWmzQELPIHE
+adding video 4SNjEbWR5CY
+adding video by9qUvJHFhI
+adding video NohubCMYxt0
+. . . . . . . . . . . . . . . . . . adding video wvyEzufS15A
+adding video 2goPMS3Aw4E
+adding video 93TZhIfwMa4
+. . . . . . . . . . record_segments_ajax COMPLETED 47.2590899467 seconds
+('process_data_ajax', 'COMPLETED', 47.29877805709839, 'seconds')
+[09/Aug/2013 15:35:31] "GET /query/process_data_ajax?index=21 HTTP/1.1" 200 89
+16778913 new events found
+. adding video 61x8SS1catY
+. . adding video G-CaA54uevc
+. . . . . . . . . . . . . . . . . . . . . . . adding video T-8C3Ml425M
+. adding video SD8khfa1qPE
+adding video jgZNScZ7wyY
+adding video nvMGcFyJxJE
+adding video r-UsERvm2fg
+adding video KZXgRgf-rIE
+adding video BQiMWKaOzTY
+. . . . . . . . . . . . . . adding video I7DCT-UzO7w
+. adding video Urha5tOsriA
+. adding video ekI4LpYWa80
+adding video eDtgL-7-5TI
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 53.512016058 seconds
+('process_data_ajax', 'COMPLETED', 53.545506954193115, 'seconds')
+[09/Aug/2013 15:36:24] "GET /query/process_data_ajax?index=22 HTTP/1.1" 200 90
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video GgyH6Nbjdcw
+. . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 51.9853060246 seconds
+('process_data_ajax', 'COMPLETED', 52.02207112312317, 'seconds')
+[09/Aug/2013 15:37:17] "GET /query/process_data_ajax?index=23 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . adding video -Y-XiO9VeLQ
+. adding video 4-Cr_Lv9Sr4
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video u9Gfs8PmmEc
+. . . adding video UqseWnKtQZw
+. . adding video bd_k5bh3XNs
+adding video mZlvsk9N-yo
+. adding video ZieO49NuohU
+adding video M2rgE-y4Ml4
+adding video nTwyYcI5Xr0
+. adding video sm4C0rv2wr8
+adding video y1dpQlvJ5Ys
+adding video Q6NzkeUvj2I
+adding video AInu2V_S0H8
+adding video YEvg2LUexVQ
+adding video NDbuz_ErJJM
+adding video fTf7Rt5GMaQ
+adding video KTEVf5IdmjA
+. adding video AMBpYjQ7EAw
+adding video RcCjn2O8qQ8
+. adding video eSSva8KM-Kk
+adding video util6A5hzeE
+adding video IfYd2UuX2IE
+adding video _4lREt5sTfo
+adding video jjbBZdQGt_8
+adding video LTx8c-5V-W0
+. adding video eaElDTRdLDA
+. adding video YyOEH9_ccrA
+adding video ywk_uzEuZQ8
+adding video epLvKn0WFjY
+. . . . . . adding video J1CDhtXykKw
+adding video HbZIDfpZQJE
+. adding video Ov0qhCkx2AI
+adding video mGLZgp_zXKA
+. adding video EXMYIT8V1GI
+adding video yt4FrQ5AiFI
+adding video hjNIRxP9hL0
+. adding video grT5b2fce-Y
+adding video DrF67NyJPZQ
+adding video V3GCwHnrPG4
+adding video fR0MrNycZxo
+adding video IBm3ZBqR-aU
+. . adding video XA0DJue_pEM
+adding video BZQkpjSVzuE
+. . . . . adding video CJ482b9r_0g
+. . . . . . . . adding video QSDC8YX76sA
+. adding video Qm8KmtzXQwE
+adding video tRPBi76NL10
+. . . . . adding video -x6sfU-kN-s
+. . . adding video DN7rr3Fv1Kc
+adding video xHQYDdIymIw
+adding video NpiWXQQGSnY
+adding video rsTYtdWb7_I
+. . . record_segments_ajax COMPLETED 48.2473578453 seconds
+('process_data_ajax', 'COMPLETED', 48.28007984161377, 'seconds')
+[09/Aug/2013 15:38:05] "GET /query/process_data_ajax?index=24 HTTP/1.1" 200 89
+16778913 new events found
+. . adding video -KEHl2W96jQ
+. . . . . . . . . . adding video bduIvPsdAeQ
+. . . . . adding video -bC9CVeFPhM
+. . . . . . . adding video vXWvv3y9D-g
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video mqap9lVSzPU
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video 4K4zydh4CCU
+. . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 51.3701379299 seconds
+('process_data_ajax', 'COMPLETED', 51.407336950302124, 'seconds')
+[09/Aug/2013 15:38:56] "GET /query/process_data_ajax?index=25 HTTP/1.1" 200 90
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video _ssnk26p1pk
+adding video JZIeYjlgP5s
+adding video rYvUxJhJEEg
+adding video gbQPB-Mag0g
+adding video 2ND92QXWZ_w
+adding video hhV5aIGhdpM
+. adding video qSyq9gi79uw
+adding video 7lDxgol1HeA
+adding video 5wq-uVDMR0s
+adding video vdi2t_gePAc
+adding video _vJfPEXlYIo
+. adding video aEg_1J8LY5U
+adding video ssroBvJ_tRA
+adding video 2k-PtpLqPRs
+. adding video 0EZwMbvphgk
+adding video Jp9Seaif-IQ
+. adding video I1LyM1-kYnQ
+adding video vF2ZKI8Ov5A
+. . adding video funVAmu-Vp8
+. adding video mvUPdbgptxk
+adding video 7Q6UOY8mqS0
+adding video l5VrUjaErko
+. adding video 8RBhN-ceVOQ
+adding video v3T1m8kl1co
+adding video 5iJfgo9BnFE
+adding video xtLVSC3_BLA
+adding video RvanfeOyd5s
+adding video dImwZw6iWO0
+adding video A1a6zWUaAY4
+adding video Zh_sikSTaVo
+adding video liWwdxS2VXQ
+adding video Dr0RqGoBsb8
+. . . . . . . . . adding video 6XBIAO3IhKs
+. adding video vF4P9Zntbt8
+adding video unMH1UJ_ZI4
+adding video hII1_XYJBw0
+adding video ubeLeOMaNDo
+adding video WkCWKI63Tqw
+. adding video -3woDZGWaJA
+adding video FpIC7zW_sjQ
+adding video humvV5N3Q0k
+adding video uuhsYw7bXDI
+. . . . . . . . . . . adding video toNl8HiqDLY
+. . adding video P-a8687ociQ
+. . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 51.9195539951 seconds
+('process_data_ajax', 'COMPLETED', 51.95936584472656, 'seconds')
+[09/Aug/2013 15:39:48] "GET /query/process_data_ajax?index=26 HTTP/1.1" 200 89
+16778913 new events found
+. . adding video diFPDJWmGgE
+. . . . . . . . . . . . . . adding video bk1vlqkV3vU
+adding video NFmyn_ps7Ko
+adding video AKbHWbl4ft8
+adding video KND8FyjgWB8
+adding video ZN_gOuGmQy8
+adding video uB2HOcRwAm4
+. adding video hgD_7_Vc4N0
+adding video Y0I2Cxk2pOI
+adding video Eg_KAfRz5qM
+adding video ojMmoJxhBBc
+adding video PrIHOms0SbM
+adding video UsiYW65m4WU
+adding video QdP9Rass6Ic
+adding video uLh0KK8e104
+adding video J93yBZjni8g
+. . adding video FJXANa7pPV0
+adding video C8xL3rgz5yU
+adding video Xl7YOIfvcoI
+. adding video zQQGPfsGG-M
+. . . . . . . . adding video r_ijevEnBVQ
+. . . adding video UfCdGbYDtTQ
+. . adding video bHlwa44Fye0
+. adding video LWPntBBHAXo
+adding video alb4pXc66Tw
+adding video Hd_NDXrdQXQ
+. adding video Izo5MBXvFWw
+adding video lFcgGt8jOig
+. adding video xP2ooGbsxDg
+adding video onCbqlfSEwU
+adding video fZiqJGkxFvk
+. adding video YvOZJKpMCw8
+. . . . . . . adding video W5bniuAyGto
+adding video sb8TU9dq5ow
+. . . . . . . adding video iFJmcb-evrc
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video IwEsaCTydn0
+. adding video aDRN1YK4LhU
+adding video WE0HPC7Twx4
+. . . . . . . . . record_segments_ajax COMPLETED 49.6456530094 seconds
+('process_data_ajax', 'COMPLETED', 49.68352007865906, 'seconds')
+[09/Aug/2013 15:40:38] "GET /query/process_data_ajax?index=27 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video gp6-CH40ao8
+. adding video huAr-F68Dek
+. . . . . . . . . . . . . adding video ri7-fYVqnGU
+. . . . . . . . . . . . . adding video n2aVTx53KyM
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 50.1345779896 seconds
+('process_data_ajax', 'COMPLETED', 50.1674919128418, 'seconds')
+[09/Aug/2013 15:41:28] "GET /query/process_data_ajax?index=28 HTTP/1.1" 200 88
+16778913 new events found
+. . . . . . . . adding video uSpiQFD67vQ
+. . . adding video u-LEODr6nwI
+. adding video AvtKUeIvyfI
+. . . adding video CNfL13YlYfU
+adding video LazSPnaoJ_Q
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 54.1431410313 seconds
+('process_data_ajax', 'COMPLETED', 54.18245887756348, 'seconds')
+[09/Aug/2013 15:42:22] "GET /query/process_data_ajax?index=29 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video 6F0pR-ANmXY
+adding video _DHW3KhqR40
+adding video WO4AjMys4MY
+adding video -d6AJA2I9u8
+adding video BFLX0JlAg18
+adding video l5z5h8zBro4
+adding video 6Cmzw2RPF7A
+. record_segments_ajax COMPLETED 52.4690589905 seconds
+('process_data_ajax', 'COMPLETED', 52.507625102996826, 'seconds')
+[09/Aug/2013 15:43:15] "GET /query/process_data_ajax?index=30 HTTP/1.1" 200 90
+16778913 new events found
+adding video OqFxVWzjtsA
+adding video M1jxGJWET-Y
+adding video HD_59nFVzkU
+adding video MksaEc1y0Us
+adding video FZ_d1fwLFX8
+adding video fULVrZ9b3_0
+adding video 4rb0DIlesOg
+. adding video rO765WfBD_I
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video d5EhlxUJjYI
+adding video dkWVytJd5_g
+adding video gdoI2nM6Lio
+. adding video psZryo9-MQM
+. adding video q7x3xLhuVI8
+. adding video 8hPi61AXps0
+adding video HjS983jRI54
+adding video etSvu41NH0U
+. adding video tU7zqOzV4iE
+. adding video i4nXtKTmRXU
+adding video amqV4QF0JcA
+. adding video FRnTWX2jAI8
+. . . . . . . . . . . adding video vAn2auo1LeQ
+. . . adding video qese_aRgHUw
+. . adding video Pc1ER5XTu1w
+adding video 45uIZkosGCY
+. adding video vXzh97XPawg
+adding video fK45BV7QJe0
+adding video s9FhcvjM7Hk
+adding video VpNJbvZhNCQ
+adding video ohksz3A00fk
+adding video dnXPVYqpFG8
+. adding video d1b86RhoAWo
+adding video tqF1KyMzORU
+adding video ipHqXUBUQP8
+. adding video JGjtErpi8f4
+adding video uXh5BRkOqOg
+. adding video M7AI77mChLo
+adding video ocRKQJZOiMw
+adding video g49NpUahdmw
+. adding video PcKNCqukRNQ
+adding video Nl2suIDpHX8
+adding video og9YqT8Q714
+adding video xF3SFNl_tE8
+. adding video sD9t532AldU
+adding video 0lGJu3c1uMw
+. . adding video Mm2vEAjeAsg
+adding video AIOwTCk3i3g
+. adding video bIhEDtuL8hk
+adding video hHukN8HELlY
+. adding video xeiA0bq1Fts
+. adding video PNAtr1tBaXw
+. . . adding video PTU05lo1M9o
+adding video k72Rp9CN-Ik
+adding video VZXr4PjcE8I
+adding video R8aUykcxYjA
+. . adding video w7bje9GvWEE
+adding video aDy6FHAzTl8
+adding video lRWXBUZcdAc
+adding video ARB3e0kjVoY
+adding video uJMW7hBLfKc
+. adding video 4gN6vIlAzrI
+adding video fcMqynrVao8
+adding video nUEJm6sp008
+adding video uRX4iMW76Hk
+adding video pB8aCR97Dxk
+. . adding video udPhh6DWYwM
+adding video kUMcjGn2sTo
+adding video Q_6FNvnm5N4
+adding video 9uYz6rLxjbk
+. adding video 9vOulf2GAyM
+. adding video IM_wbOm0ifk
+adding video 6y7l_idLIHc
+. . . adding video DNuDHNgEY4c
+. adding video FRgmzHQ62ck
+. adding video eDteetDOTEU
+. adding video bM5qNHxBMYw
+. adding video 0vXqCrYviwE
+. adding video ixZnhX8kehQ
+adding video J_o_FKl34IA
+adding video LpJqj8r8D-k
+. adding video W2QWKcuQ5vU
+adding video bZ3DBMBr3Pg
+adding video Bj_3AOc1foM
+. adding video wbTseJOXp7M
+adding video cvhBwA1F2cQ
+adding video ef6_s8yoZXg
+adding video ZKCOR2VFfrA
+adding video kXWkSJr--MQ
+. adding video RpP8TVV7sCw
+. adding video cEvQE60BKu8
+. . . . adding video zBwhhEjMKQg
+. . . . . adding video JRcrLc-EbX0
+. . record_segments_ajax COMPLETED 53.2800681591 seconds
+('process_data_ajax', 'COMPLETED', 53.31758904457092, 'seconds')
+[09/Aug/2013 15:44:08] "GET /query/process_data_ajax?index=31 HTTP/1.1" 200 89
+16778913 new events found
+. . adding video u2te69-qgJI
+adding video sN4VU_wjzxs
+adding video rYDbaLLh6FA
+adding video 5D9peXYNo2I
+. adding video dsfW0tFoLCk
+. adding video b8nzxJlsjI8
+adding video WNdDjaI5b3M
+. adding video b0EYYHzLL-Q
+adding video QpyYAJuGj1Q
+. . . . . . . adding video 06p86OrTGLc
+. . adding video HmCxjAeGt6U
+adding video jcBY01U9czE
+. . . . . . . . . . . . . adding video ReIAZ89jTMM
+. . adding video sDryiOB11ew
+adding video 9NOjYD7xsUQ
+adding video cwmn5zyaWT4
+. . . . . . . adding video P9rxWYpdquc
+adding video hcVY3-yBTqk
+adding video d7EXv493VYw
+. . . . . adding video gUxMVaZEfQY
+adding video LzYZGB-BaSE
+. . . . adding video -5knQEtk9Fk
+. . adding video Nk2LnjUT9Qo
+. adding video 49WM39-pN4Q
+. adding video OAMb0BVByS4
+. . . adding video bDcJvvf2Wx4
+. . . . adding video wB5MH1-HJMc
+. . . . . . . . . . . . . adding video dUy5Jfc_MnI
+. . . . . . . . . . . . . . adding video 1Xu3KXlEZCE
+. . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 54.8133790493 seconds
+('process_data_ajax', 'COMPLETED', 54.85047507286072, 'seconds')
+[09/Aug/2013 15:45:03] "GET /query/process_data_ajax?index=32 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video _4ruBe2IGWc
+. adding video -VGV_yQwm2Q
+. adding video 78O3_hBQ6rc
+adding video QsFO-Jyqn9g
+adding video 8n_DmYoMF8w
+adding video M4c9lPzsCcU
+. . . . . . . . . . . . . . . . . . adding video 7ON1jcOZFtY
+. . . . . adding video wV-LrreZQuY
+adding video BmAvjowJQRs
+. . . . . . . . adding video ykOT1G-ui50
+. adding video S33xk1YGK3A
+. . adding video oyzvLMt90OI
+. adding video 0xxQrLHnN_o
+. . . . . adding video jUNNevTPeaI
+adding video Jd-c-Q_TiS8
+. . adding video nM7hy0P-J3w
+adding video 0YmvYEvIM9c
+adding video nqB5YZU58_0
+. adding video 83nP8z6kC7k
+. adding video yHPS0G_zHRc
+. adding video _FPcH6-YkMI
+adding video IXvzA8MJmGQ
+. adding video 66o2aKd8re0
+. . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 54.2774250507 seconds
+('process_data_ajax', 'COMPLETED', 54.31067180633545, 'seconds')
+[09/Aug/2013 15:45:57] "GET /query/process_data_ajax?index=33 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . adding video g1g2AnwByMw
+adding video hiB_NjkwNzM
+adding video 1ra8ivAGxAA
+adding video X48Y8UljCcA
+adding video QQFk614r0XE
+adding video 0UX9MzmiTVQ
+adding video Xt-h4MMF7_A
+adding video syaUxMJvGMs
+adding video Oi4N7bWJrYc
+. adding video O-k3rXRPnb0
+. adding video I4lhHlTCJ1U
+adding video 399fKcDolmQ
+. adding video 52GwWIz2ugI
+adding video tXD58Osn0OA
+adding video KbzklK6aL0k
+. . . adding video E9fdBFCoRSM
+. . adding video WUXbXi2M-k4
+. adding video 9ZmgGv6Yugc
+. . . . . adding video Qzwjj9deNR0
+. . . adding video ULTzdcWziKo
+. adding video kty2KLNtiA8
+. . . . adding video FLueU1u8Y-I
+adding video VWVzc45lTMw
+adding video NygdlcQdOLw
+adding video GcGjSCBp2DQ
+adding video J2A7b9ttndA
+adding video K6-SyhOvwbQ
+. adding video s8H-tcQJyOo
+. adding video jPJVOfQpI4s
+. adding video doOmkMsNZVY
+. adding video tzoyGGUjwdQ
+adding video 2dHWvRFYe5g
+adding video GPqlUc3ElW8
+. . . . . . adding video 6i0QhWoyWDU
+. . . . . . . . . . . . . . . . . . . . . . . adding video _-FtqBuNHig
+. adding video cU9LXJ5SxS8
+. . . . . . . . adding video RHLW-Ms3bho
+. . . . . . . . adding video n2z227iWcy0
+adding video qxFCY3oNMhI
+. . adding video 5nJsOsGc1PI
+. adding video PVrQkAK5Nho
+. . . . . . . . adding video lBAYSSeDanU
+. . . . adding video dH8WP1SXVzk
+. adding video V9lhvDSYo78
+. . . adding video nQgNksLo4BY
+adding video JHaATiexOY4
+. record_segments_ajax COMPLETED 56.5427970886 seconds
+('process_data_ajax', 'COMPLETED', 56.57722806930542, 'seconds')
+[09/Aug/2013 15:46:54] "GET /query/process_data_ajax?index=34 HTTP/1.1" 200 89
+16778913 new events found
+adding video FI-DFJAo6oY
+. . . . adding video 3c0aRFJKjIY
+. . . . . . . . . . . . . . . . . . . . . . . . . adding video OvVcH26x1qg
+adding video ggghZwataiA
+adding video L6NrEqB0tfc
+adding video vAO44IW3no0
+. adding video HpDUhGrPqNo
+adding video By2Vdh9Utv0
+adding video UaRAU_b6FAA
+adding video W8lxMYTEWeg
+. adding video 8V4kIdUA74s
+. . adding video ruLi2sYOlpk
+adding video NGmxNdGDeFg
+adding video 3t1dFK2O-RM
+adding video F5NytbZOSOQ
+adding video nFp6MsLUOV8
+adding video vJGmTn9bh-A
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video Dhp04E7ZMa0
+adding video vv9i15FucE4
+. . . . . . . . . . . . . . record_segments_ajax COMPLETED 56.9864821434 seconds
+('process_data_ajax', 'COMPLETED', 57.02429485321045, 'seconds')
+[09/Aug/2013 15:47:51] "GET /query/process_data_ajax?index=35 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . adding video qbfVVW8MTzc
+adding video Yyh3qXlztFw
+adding video UapoJ8jov1s
+. adding video HR2KNanFnfg
+adding video Hu9NaqsqpAw
+adding video 5sR9dvDjwdo
+. . . . . . . . . . . . . adding video b2g88r69vPI
+. . . . . . . . . . . . . . . . . . . . . . . . . . adding video zmr_rxwfNgg
+. . adding video VkBytl_Qmt8
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 55.6204910278 seconds
+('process_data_ajax', 'COMPLETED', 55.655877113342285, 'seconds')
+[09/Aug/2013 15:48:46] "GET /query/process_data_ajax?index=36 HTTP/1.1" 200 90
+16778913 new events found
+. . . . . . . . . adding video XP7TPZPGzuk
+. . . . . adding video qJdgcwzMuB0
+. . . . . . . . . . . . . . adding video 2GInLSQbFHA
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video tint7uHW56M
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 58.1147658825 seconds
+('process_data_ajax', 'COMPLETED', 58.14691710472107, 'seconds')
+[09/Aug/2013 15:49:45] "GET /query/process_data_ajax?index=37 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 100.043418884 seconds
+('process_data_ajax', 'COMPLETED', 100.08272504806519, 'seconds')
+[09/Aug/2013 15:51:25] "GET /query/process_data_ajax?index=38 HTTP/1.1" 200 90
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video CMmTTN5_Bbk
+adding video 40jlepPR-jQ
+adding video 20j2-_IXwQo
+adding video ckIXqo_Q4VU
+adding video O_00DGQB4q8
+adding video munhXeP7Dh4
+adding video Ied2AMG0Lu8
+adding video H6yWg9a6MWU
+adding video oOLbnKN-cUw
+adding video zI4EPoEl4rk
+. . adding video s8TjaAG5iV0
+. adding video wvAQFCGyHvA
+adding video B-ixfNiJJAE
+. adding video mmeHRQg5x58
+adding video b5AP31hLdS8
+. adding video jgf24yIxe40
+. adding video QGDfLlVfc98
+adding video 2xUn5OIDmnc
+. . . . . . . . . . . adding video KJ9ibOVWKFw
+. . . . . . adding video ijKBeoUkWhM
+. . . . . . . adding video WMekDSESkUw
+. . . adding video se1304GMDL0
+adding video JDHv2MUaM0A
+. adding video -vrvBL4w4tc
+. . . adding video cHjI3N2sfFk
+. . . . . adding video PRFM3e7C4QU
+. . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 77.7581951618 seconds
+('process_data_ajax', 'COMPLETED', 77.79683208465576, 'seconds')
+[09/Aug/2013 15:52:43] "GET /query/process_data_ajax?index=39 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . record_segments_ajax COMPLETED 98.7966718674 seconds
+('process_data_ajax', 'COMPLETED', 98.83629894256592, 'seconds')
+[09/Aug/2013 15:54:21] "GET /query/process_data_ajax?index=40 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video HkkxrPF6sh4
+. . . . . . . . . . . . . . . . . . adding video RUY10K0avQ8
+. adding video 9jy4BEAnGg4
+. adding video QXhjwJHggOA
+. . . . . . . . . record_segments_ajax COMPLETED 83.953619957 seconds
+('process_data_ajax', 'COMPLETED', 83.99149489402771, 'seconds')
+[09/Aug/2013 15:55:45] "GET /query/process_data_ajax?index=41 HTTP/1.1" 200 89
+16778913 new events found
+. . . . . . . . . . . . . . . . . . . . adding video 92YU9fjJH9Y
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . adding video 4LGh2HlyQZ4
+. . . . . . . . . . record_segments_ajax COMPLETED 57.8303558826 seconds
+('process_data_ajax', 'COMPLETED', 57.86668419837952, 'seconds')
+[09/Aug/2013 15:56:43] "GET /query/process_data_ajax?index=42 HTTP/1.1" 200 89
+
+
+43 process_data_ajax,COMPLETED,55.84643006324768,seconds
+44 process_data_ajax,COMPLETED,54.65779900550842,seconds
+45 process_data_ajax,COMPLETED,49.167510986328125,seconds
+46 process_data_ajax,COMPLETED,49.19907999038696,seconds
+47 process_data_ajax,COMPLETED,51.06814098358154,seconds
+48 process_data_ajax,COMPLETED,51.54217004776001,seconds
+49 process_data_ajax,COMPLETED,51.02513790130615,seconds
+50 process_data_ajax,COMPLETED,54.061068058013916,seconds
+51 process_data_ajax,COMPLETED,46.14264988899231,seconds
+52 process_data_ajax,COMPLETED,48.13002300262451,seconds
+53 process_data_ajax,COMPLETED,50.66110396385193,seconds
+54 process_data_ajax,COMPLETED,51.205060958862305,seconds
+55 process_data_ajax,COMPLETED,47.6431040763855,seconds
+56 process_data_ajax,COMPLETED,44.503194093704224,seconds
+57 process_data_ajax,COMPLETED,47.42670798301697,seconds
+58 process_data_ajax,COMPLETED,49.17120695114136,seconds
+59 process_data_ajax,COMPLETED,44.98743200302124,seconds
+60 process_data_ajax,COMPLETED,44.24780511856079,seconds
+61 process_data_ajax,COMPLETED,44.419703006744385,seconds
+62 process_data_ajax,COMPLETED,51.93871188163757,seconds
+63 process_data_ajax,COMPLETED,50.31309700012207,seconds
+64 process_data_ajax,COMPLETED,49.863587856292725,seconds
+65 process_data_ajax,COMPLETED,47.00233221054077,seconds
+66 process_data_ajax,COMPLETED,46.0310161113739,seconds
+67 process_data_ajax,COMPLETED,47.8594229221344,seconds
+68 process_data_ajax,COMPLETED,50.9501371383667,seconds
+69 process_data_ajax,COMPLETED,57.55858302116394,seconds
+70 process_data_ajax,COMPLETED,55.489211082458496,seconds
+71 process_data_ajax,COMPLETED,54.6938841342926,seconds
+72 process_data_ajax,COMPLETED,51.576797008514404,seconds
+73 process_data_ajax,COMPLETED,50.189809799194336,seconds
+74 process_data_ajax,COMPLETED,48.34257388114929,seconds
+75 process_data_ajax,COMPLETED,53.67159390449524,seconds
+76 process_data_ajax,COMPLETED,59.05398416519165,seconds
+77 process_data_ajax,COMPLETED,55.1404709815979,seconds
+78 process_data_ajax,COMPLETED,54.72309589385986,seconds
+79 process_data_ajax,COMPLETED,57.60572600364685,seconds
+80 process_data_ajax,COMPLETED,58.41008114814758,seconds
+81 process_data_ajax,COMPLETED,56.20472502708435,seconds
+82 process_data_ajax,COMPLETED,52.03465509414673,seconds
+83 process_data_ajax,COMPLETED,56.820815086364746,seconds
+84 process_data_ajax,COMPLETED,82.80275511741638,seconds
+85 process_data_ajax,COMPLETED,71.67298817634583,seconds
+86 process_data_ajax,COMPLETED,58.51427102088928,seconds
+87 process_data_ajax,COMPLETED,57.75913882255554,seconds
+88 process_data_ajax,COMPLETED,60.496166944503784,seconds
+89 process_data_ajax,COMPLETED,60.47254180908203,seconds
+90 process_data_ajax,COMPLETED,50.8005690574646,seconds
+91 process_data_ajax,COMPLETED,52.471920013427734,seconds
+92 process_data_ajax,COMPLETED,60.91295003890991,seconds
+93 process_data_ajax,COMPLETED,56.069440841674805,seconds
+94 process_data_ajax,COMPLETED,58.09629821777344,seconds
+95 process_data_ajax,COMPLETED,45.83294701576233,seconds
+96 process_data_ajax,COMPLETED,47.07452893257141,seconds
+97 process_data_ajax,COMPLETED,50.196779012680054,seconds
+98 process_data_ajax,COMPLETED,50.46641778945923,seconds
+99 process_data_ajax,COMPLETED,53.19811797142029,seconds
+100 process_data_ajax,COMPLETED,50.96043801307678,seconds
+101 process_data_ajax,COMPLETED,49.155375957489014,seconds
+102 process_data_ajax,COMPLETED,45.05377912521362,seconds
+103 process_data_ajax,COMPLETED,50.11184811592102,seconds
+104 process_data_ajax,COMPLETED,53.16427493095398,seconds
+105 process_data_ajax,COMPLETED,57.100428104400635,seconds
+106 process_data_ajax,COMPLETED,54.69019103050232,seconds
+107 process_data_ajax,COMPLETED,54.85576105117798,seconds
+108 process_data_ajax,COMPLETED,54.98323106765747,seconds
+109 process_data_ajax,COMPLETED,55.19541692733765,seconds
+110 process_data_ajax,COMPLETED,51.506678104400635,seconds
+111 process_data_ajax,COMPLETED,60.225801944732666,seconds
+112 process_data_ajax,COMPLETED,60.35948896408081,seconds
+113 process_data_ajax,COMPLETED,56.94116282463074,seconds
+114 process_data_ajax,COMPLETED,62.800580978393555,seconds
+115 process_data_ajax,COMPLETED,61.05176901817322,seconds
+116 process_data_ajax,COMPLETED,52.78222894668579,seconds
+117 process_data_ajax,COMPLETED,55.720174074172974,seconds
+118 process_data_ajax,COMPLETED,56.581942081451416,seconds
+119 process_data_ajax,COMPLETED,56.74984097480774,seconds
+120 process_data_ajax,COMPLETED,58.27857184410095,seconds
+121 process_data_ajax,COMPLETED,67.26392698287964,seconds
+122 process_data_ajax,COMPLETED,62.065873861312866,seconds
+123 process_data_ajax,COMPLETED,61.654810190200806,seconds
+124 process_data_ajax,COMPLETED,65.49009394645691,seconds
+125 process_data_ajax,COMPLETED,69.67156314849854,seconds
+126 process_data_ajax,COMPLETED,65.28769397735596,seconds
+127 process_data_ajax,COMPLETED,60.03710412979126,seconds
+128 process_data_ajax,COMPLETED,56.70756196975708,seconds
+129 process_data_ajax,COMPLETED,57.23905801773071,seconds
+130 process_data_ajax,COMPLETED,60.08560800552368,seconds
+131 process_data_ajax,COMPLETED,73.07605314254761,seconds
+132 process_data_ajax,COMPLETED,97.42962694168091,seconds
+133 process_data_ajax,COMPLETED,58.03300189971924,seconds
+134 process_data_ajax,COMPLETED,53.624682903289795,seconds
+135 process_data_ajax,COMPLETED,52.80012011528015,seconds
+136 process_data_ajax,COMPLETED,54.87025213241577,seconds
+137 process_data_ajax,COMPLETED,56.847408056259155,seconds
+138 process_data_ajax,COMPLETED,55.02195715904236,seconds
+139 process_data_ajax,COMPLETED,59.27524399757385,seconds
+140 process_data_ajax,COMPLETED,55.160879135131836,seconds
+141 process_data_ajax,COMPLETED,57.949769020080566,seconds
+142 process_data_ajax,COMPLETED,65.37804794311523,seconds
+143 process_data_ajax,COMPLETED,61.289170026779175,seconds
+144 process_data_ajax,COMPLETED,62.550864934921265,seconds
+145 process_data_ajax,COMPLETED,60.536076068878174,seconds
+146 process_data_ajax,COMPLETED,61.883875131607056,seconds
+147 process_data_ajax,COMPLETED,61.456433057785034,seconds
+148 process_data_ajax,COMPLETED,56.97480511665344,seconds
+149 process_data_ajax,COMPLETED,88.95410990715027,seconds
+150 process_data_ajax,COMPLETED,71.22736716270447,seconds
+151 process_data_ajax,COMPLETED,66.34164905548096,seconds
+152 process_data_ajax,COMPLETED,70.79347801208496,seconds
+153 process_data_ajax,COMPLETED,66.15670084953308,seconds
+154 process_data_ajax,COMPLETED,63.3847861289978,seconds
+155 process_data_ajax,COMPLETED,62.714683055877686,seconds
+156 process_data_ajax,COMPLETED,60.99542808532715,seconds
+157 process_data_ajax,COMPLETED,64.09192109107971,seconds
+158 process_data_ajax,COMPLETED,85.68829607963562,seconds
+159 process_data_ajax,COMPLETED,67.16057705879211,seconds
+160 process_data_ajax,COMPLETED,69.76332497596741,seconds
+161 process_data_ajax,COMPLETED,69.77351212501526,seconds
+162 process_data_ajax,COMPLETED,65.85689401626587,seconds
+163 process_data_ajax,COMPLETED,66.86638402938843,seconds
+164 process_data_ajax,COMPLETED,72.44129395484924,seconds
+165 process_data_ajax,COMPLETED,73.80423903465271,seconds
+166 process_data_ajax,COMPLETED,70.50899887084961,seconds
+167 process_data_ajax,COMPLETED,58.78418302536011,seconds
+
+

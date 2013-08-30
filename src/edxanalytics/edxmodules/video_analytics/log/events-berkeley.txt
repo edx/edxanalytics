@@ -1,0 +1,673 @@
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-09-24_BerkeleyX.log ] retrieved 218211 out of 218211
+=========== INCOMING EVENTS 218211 total, 79370 valid. =============
+send_events_local COMPLETED 27.0914340019 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-09-25_BerkeleyX.log ] retrieved 388254 out of 388254
+=========== INCOMING EVENTS 388254 total, 161328 valid. =============
+send_events_local COMPLETED 49.5377800465 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-09-26_BerkeleyX.log ] retrieved 204332 out of 204332
+=========== INCOMING EVENTS 204332 total, 82786 valid. =============
+send_events_local COMPLETED 25.1716518402 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-09-27_BerkeleyX.log ] retrieved 149566 out of 149566
+=========== INCOMING EVENTS 149566 total, 62954 valid. =============
+send_events_local COMPLETED 19.990901947 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-09-28_BerkeleyX.log ] retrieved 138630 out of 138630
+=========== INCOMING EVENTS 138630 total, 49416 valid. =============
+send_events_local COMPLETED 15.82396698 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-09-29_BerkeleyX.log ] retrieved 167674 out of 167674
+=========== INCOMING EVENTS 167674 total, 49627 valid. =============
+send_events_local COMPLETED 15.8339159489 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-09-30_BerkeleyX.log ] retrieved 149224 out of 149224
+=========== INCOMING EVENTS 149224 total, 45039 valid. =============
+send_events_local COMPLETED 14.6984751225 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-01_BerkeleyX.log ] retrieved 214178 out of 214178
+=========== INCOMING EVENTS 214178 total, 73657 valid. =============
+send_events_local COMPLETED 22.0353808403 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-02_BerkeleyX.log ] retrieved 361325 out of 361325
+=========== INCOMING EVENTS 361325 total, 153859 valid. =============
+send_events_local COMPLETED 46.9254331589 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-03_BerkeleyX.log ] retrieved 209295 out of 209295
+=========== INCOMING EVENTS 209295 total, 50892 valid. =============
+send_events_local COMPLETED 17.567358017 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-04_BerkeleyX.log ] retrieved 323188 out of 323188
+=========== INCOMING EVENTS 323188 total, 120703 valid. =============
+send_events_local COMPLETED 33.7938239574 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-05_BerkeleyX.log ] retrieved 378502 out of 378502
+=========== INCOMING EVENTS 378502 total, 136641 valid. =============
+send_events_local COMPLETED 41.5769739151 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-06_BerkeleyX.log ] retrieved 439059 out of 439059
+=========== INCOMING EVENTS 439059 total, 158758 valid. =============
+send_events_local COMPLETED 50.53083992 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-07_BerkeleyX.log ] retrieved 596889 out of 596889
+=========== INCOMING EVENTS 596889 total, 182108 valid. =============
+send_events_local COMPLETED 60.8236970901 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-08_BerkeleyX.log ] retrieved 329765 out of 329765
+=========== INCOMING EVENTS 329765 total, 98997 valid. =============
+send_events_local COMPLETED 27.8607349396 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-09_BerkeleyX.log ] retrieved 290100 out of 290100
+=========== INCOMING EVENTS 290100 total, 105965 valid. =============
+send_events_local COMPLETED 28.4194219112 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-10_BerkeleyX.log ] retrieved 264702 out of 264702
+=========== INCOMING EVENTS 264702 total, 98901 valid. =============
+send_events_local COMPLETED 29.1004810333 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-11_BerkeleyX.log ] retrieved 252686 out of 252686
+=========== INCOMING EVENTS 252686 total, 84157 valid. =============
+send_events_local COMPLETED 27.3686029911 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-12_BerkeleyX.log ] retrieved 272298 out of 272298
+=========== INCOMING EVENTS 272298 total, 86796 valid. =============
+send_events_local COMPLETED 29.6609899998 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-13_BerkeleyX.log ] retrieved 487856 out of 487856
+=========== INCOMING EVENTS 487856 total, 103036 valid. =============
+send_events_local COMPLETED 37.8880848885 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-14_BerkeleyX.log ] retrieved 1096757 out of 1096757
+=========== INCOMING EVENTS 1096757 total, 144218 valid. =============
+send_events_local COMPLETED 61.7799050808 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-15_BerkeleyX.log ] retrieved 321776 out of 321776
+=========== INCOMING EVENTS 321776 total, 82058 valid. =============
+send_events_local COMPLETED 26.5374009609 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-16_BerkeleyX.log ] retrieved 258627 out of 258627
+=========== INCOMING EVENTS 258627 total, 81817 valid. =============
+send_events_local COMPLETED 27.0463252068 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-17_BerkeleyX.log ] retrieved 282450 out of 282450
+=========== INCOMING EVENTS 282450 total, 80019 valid. =============
+send_events_local COMPLETED 28.0156979561 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-18_BerkeleyX.log ] retrieved 236515 out of 236515
+=========== INCOMING EVENTS 236515 total, 71260 valid. =============
+send_events_local COMPLETED 23.9499769211 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-19_BerkeleyX.log ] retrieved 205804 out of 205804
+=========== INCOMING EVENTS 205804 total, 58393 valid. =============
+send_events_local COMPLETED 20.77597785 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-20_BerkeleyX.log ] retrieved 218844 out of 218844
+=========== INCOMING EVENTS 218844 total, 65619 valid. =============
+send_events_local COMPLETED 22.7997250557 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-21_BerkeleyX.log ] retrieved 275497 out of 275497
+=========== INCOMING EVENTS 275497 total, 69097 valid. =============
+send_events_local COMPLETED 24.9548921585 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-22_BerkeleyX.log ] retrieved 289786 out of 289786
+=========== INCOMING EVENTS 289786 total, 61528 valid. =============
+send_events_local COMPLETED 20.5621399879 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-23_BerkeleyX.log ] retrieved 275491 out of 275491
+=========== INCOMING EVENTS 275491 total, 58260 valid. =============
+send_events_local COMPLETED 17.530110836 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-24_BerkeleyX.log ] retrieved 330845 out of 330845
+=========== INCOMING EVENTS 330845 total, 72973 valid. =============
+send_events_local COMPLETED 21.4344549179 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-25_BerkeleyX.log ] retrieved 244194 out of 244194
+=========== INCOMING EVENTS 244194 total, 53433 valid. =============
+send_events_local COMPLETED 17.4949080944 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-26_BerkeleyX.log ] retrieved 170801 out of 170801
+=========== INCOMING EVENTS 170801 total, 43775 valid. =============
+send_events_local COMPLETED 15.0010790825 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-27_BerkeleyX.log ] retrieved 215224 out of 215224
+=========== INCOMING EVENTS 215224 total, 46787 valid. =============
+send_events_local COMPLETED 17.7537710667 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-28_BerkeleyX.log ] retrieved 481437 out of 481437
+=========== INCOMING EVENTS 481437 total, 58899 valid. =============
+send_events_local COMPLETED 24.5858399868 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-29_BerkeleyX.log ] retrieved 186996 out of 186996
+=========== INCOMING EVENTS 186996 total, 44142 valid. =============
+send_events_local COMPLETED 15.657127142 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-30_BerkeleyX.log ] retrieved 115255 out of 115255
+=========== INCOMING EVENTS 115255 total, 39095 valid. =============
+send_events_local COMPLETED 13.052451849 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-10-31_BerkeleyX.log ] retrieved 104585 out of 104585
+=========== INCOMING EVENTS 104585 total, 32285 valid. =============
+send_events_local COMPLETED 11.1779439449 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-01_BerkeleyX.log ] retrieved 174405 out of 174405
+=========== INCOMING EVENTS 174405 total, 58444 valid. =============
+send_events_local COMPLETED 19.3336031437 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-02_BerkeleyX.log ] retrieved 181459 out of 181459
+=========== INCOMING EVENTS 181459 total, 61533 valid. =============
+send_events_local COMPLETED 20.9465010166 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-03_BerkeleyX.log ] retrieved 262266 out of 262266
+=========== INCOMING EVENTS 262266 total, 69956 valid. =============
+send_events_local COMPLETED 25.1886799335 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-04_BerkeleyX.log ] retrieved 216712 out of 216712
+=========== INCOMING EVENTS 216712 total, 60801 valid. =============
+send_events_local COMPLETED 19.3361079693 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-05_BerkeleyX.log ] retrieved 230319 out of 230319
+=========== INCOMING EVENTS 230319 total, 63083 valid. =============
+send_events_local COMPLETED 22.3612399101 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-06_BerkeleyX.log ] retrieved 223496 out of 223496
+=========== INCOMING EVENTS 223496 total, 64658 valid. =============
+send_events_local COMPLETED 21.8192210197 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-07_BerkeleyX.log ] retrieved 212819 out of 212819
+=========== INCOMING EVENTS 212819 total, 60480 valid. =============
+send_events_local COMPLETED 19.9797670841 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-08_BerkeleyX.log ] retrieved 179882 out of 179882
+=========== INCOMING EVENTS 179882 total, 43980 valid. =============
+send_events_local COMPLETED 15.4427630901 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-09_BerkeleyX.log ] retrieved 222184 out of 222184
+=========== INCOMING EVENTS 222184 total, 42508 valid. =============
+send_events_local COMPLETED 16.689371109 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-10_BerkeleyX.log ] retrieved 319799 out of 319799
+=========== INCOMING EVENTS 319799 total, 55599 valid. =============
+send_events_local COMPLETED 20.7634730339 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-11_BerkeleyX.log ] retrieved 459862 out of 459862
+=========== INCOMING EVENTS 459862 total, 114869 valid. =============
+send_events_local COMPLETED 38.8273949623 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-12_BerkeleyX.log ] retrieved 628788 out of 628788
+=========== INCOMING EVENTS 628788 total, 313889 valid. =============
+send_events_local COMPLETED 90.8696939945 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-13_BerkeleyX.log ] retrieved 184602 out of 184602
+=========== INCOMING EVENTS 184602 total, 57743 valid. =============
+send_events_local COMPLETED 19.3123869896 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-14_BerkeleyX.log ] retrieved 259621 out of 259621
+=========== INCOMING EVENTS 259621 total, 53133 valid. =============
+send_events_local COMPLETED 20.5265209675 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-15_BerkeleyX.log ] retrieved 136608 out of 136608
+=========== INCOMING EVENTS 136608 total, 44847 valid. =============
+send_events_local COMPLETED 14.9544150829 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-16_BerkeleyX.log ] retrieved 133460 out of 133460
+=========== INCOMING EVENTS 133460 total, 38598 valid. =============
+send_events_local COMPLETED 13.4458830357 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-17_BerkeleyX.log ] retrieved 194561 out of 194561
+=========== INCOMING EVENTS 194561 total, 54386 valid. =============
+send_events_local COMPLETED 21.5876829624 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-001/2012-11-18_BerkeleyX.log ] retrieved 229260 out of 229260
+=========== INCOMING EVENTS 229260 total, 64838 valid. =============
+send_events_local COMPLETED 21.2888560295 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-09-24_BerkeleyX.log ] retrieved 234004 out of 234004
+=========== INCOMING EVENTS 234004 total, 82293 valid. =============
+send_events_local COMPLETED 22.2259140015 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-09-25_BerkeleyX.log ] retrieved 382092 out of 382092
+=========== INCOMING EVENTS 382092 total, 160085 valid. =============
+send_events_local COMPLETED 42.390255928 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-09-26_BerkeleyX.log ] retrieved 213628 out of 213628
+=========== INCOMING EVENTS 213628 total, 89506 valid. =============
+send_events_local COMPLETED 23.1594319344 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-09-27_BerkeleyX.log ] retrieved 162271 out of 162271
+=========== INCOMING EVENTS 162271 total, 62502 valid. =============
+send_events_local COMPLETED 18.2882890701 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-09-28_BerkeleyX.log ] retrieved 145083 out of 145083
+=========== INCOMING EVENTS 145083 total, 53121 valid. =============
+send_events_local COMPLETED 16.1473081112 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-09-29_BerkeleyX.log ] retrieved 169721 out of 169721
+=========== INCOMING EVENTS 169721 total, 50657 valid. =============
+send_events_local COMPLETED 15.1661748886 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-09-30_BerkeleyX.log ] retrieved 155454 out of 155454
+=========== INCOMING EVENTS 155454 total, 43476 valid. =============
+send_events_local COMPLETED 15.6232309341 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-01_BerkeleyX.log ] retrieved 228375 out of 228375
+=========== INCOMING EVENTS 228375 total, 85954 valid. =============
+send_events_local COMPLETED 29.7170269489 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-02_BerkeleyX.log ] retrieved 368667 out of 368667
+=========== INCOMING EVENTS 368667 total, 158290 valid. =============
+send_events_local COMPLETED 42.4053108692 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-03_BerkeleyX.log ] retrieved 731768 out of 731768
+=========== INCOMING EVENTS 731768 total, 184768 valid. =============
+send_events_local COMPLETED 66.8545260429 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-04_BerkeleyX.log ] retrieved 444809 out of 444809
+=========== INCOMING EVENTS 444809 total, 131573 valid. =============
+send_events_local COMPLETED 45.4047570229 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-05_BerkeleyX.log ] retrieved 412309 out of 412309
+=========== INCOMING EVENTS 412309 total, 144618 valid. =============
+send_events_local COMPLETED 47.0362689495 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-06_BerkeleyX.log ] retrieved 437906 out of 437906
+=========== INCOMING EVENTS 437906 total, 153904 valid. =============
+send_events_local COMPLETED 48.6318969727 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-07_BerkeleyX.log ] retrieved 631849 out of 631849
+=========== INCOMING EVENTS 631849 total, 198589 valid. =============
+send_events_local COMPLETED 67.5256650448 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-08_BerkeleyX.log ] retrieved 351048 out of 351048
+=========== INCOMING EVENTS 351048 total, 103943 valid. =============
+send_events_local COMPLETED 36.9904241562 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-09_BerkeleyX.log ] retrieved 268653 out of 268653
+=========== INCOMING EVENTS 268653 total, 95750 valid. =============
+send_events_local COMPLETED 30.7403078079 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-10_BerkeleyX.log ] retrieved 285801 out of 285801
+=========== INCOMING EVENTS 285801 total, 99258 valid. =============
+send_events_local COMPLETED 29.2557780743 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-11_BerkeleyX.log ] retrieved 264089 out of 264089
+=========== INCOMING EVENTS 264089 total, 90135 valid. =============
+send_events_local COMPLETED 30.407407999 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-12_BerkeleyX.log ] retrieved 290568 out of 290568
+=========== INCOMING EVENTS 290568 total, 100132 valid. =============
+send_events_local COMPLETED 34.8175749779 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-13_BerkeleyX.log ] retrieved 555102 out of 555102
+=========== INCOMING EVENTS 555102 total, 111881 valid. =============
+send_events_local COMPLETED 40.9018990993 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-14_BerkeleyX.log ] retrieved 1148518 out of 1148518
+=========== INCOMING EVENTS 1148518 total, 146391 valid. =============
+send_events_local COMPLETED 61.0797100067 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-15_BerkeleyX.log ] retrieved 323018 out of 323018
+=========== INCOMING EVENTS 323018 total, 87296 valid. =============
+send_events_local COMPLETED 31.7193529606 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-16_BerkeleyX.log ] retrieved 267902 out of 267902
+=========== INCOMING EVENTS 267902 total, 83883 valid. =============
+send_events_local COMPLETED 28.8982589245 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-17_BerkeleyX.log ] retrieved 279356 out of 279356
+=========== INCOMING EVENTS 279356 total, 80451 valid. =============
+send_events_local COMPLETED 29.870098114 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-18_BerkeleyX.log ] retrieved 240961 out of 240961
+=========== INCOMING EVENTS 240961 total, 72861 valid. =============
+send_events_local COMPLETED 28.1917338371 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-19_BerkeleyX.log ] retrieved 209093 out of 209093
+=========== INCOMING EVENTS 209093 total, 61087 valid. =============
+send_events_local COMPLETED 21.9259700775 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-20_BerkeleyX.log ] retrieved 213117 out of 213117
+=========== INCOMING EVENTS 213117 total, 57998 valid. =============
+send_events_local COMPLETED 16.8447539806 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-21_BerkeleyX.log ] retrieved 256598 out of 256598
+=========== INCOMING EVENTS 256598 total, 68391 valid. =============
+send_events_local COMPLETED 22.1956121922 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-22_BerkeleyX.log ] retrieved 183043 out of 183043
+=========== INCOMING EVENTS 183043 total, 39026 valid. =============
+send_events_local COMPLETED 14.8863039017 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-23_BerkeleyX.log ] retrieved 259162 out of 259162
+=========== INCOMING EVENTS 259162 total, 59751 valid. =============
+send_events_local COMPLETED 20.713958025 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-24_BerkeleyX.log ] retrieved 293927 out of 293927
+=========== INCOMING EVENTS 293927 total, 67404 valid. =============
+send_events_local COMPLETED 24.3933911324 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-25_BerkeleyX.log ] retrieved 227396 out of 227396
+=========== INCOMING EVENTS 227396 total, 50921 valid. =============
+send_events_local COMPLETED 25.9439098835 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-26_BerkeleyX.log ] retrieved 162452 out of 162452
+=========== INCOMING EVENTS 162452 total, 39727 valid. =============
+send_events_local COMPLETED 16.0101120472 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-27_BerkeleyX.log ] retrieved 207880 out of 207880
+=========== INCOMING EVENTS 207880 total, 47232 valid. =============
+send_events_local COMPLETED 19.2582061291 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-28_BerkeleyX.log ] retrieved 442546 out of 442546
+=========== INCOMING EVENTS 442546 total, 64416 valid. =============
+send_events_local COMPLETED 25.348845005 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-29_BerkeleyX.log ] retrieved 193263 out of 193263
+=========== INCOMING EVENTS 193263 total, 45512 valid. =============
+send_events_local COMPLETED 13.7874388695 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-30_BerkeleyX.log ] retrieved 119900 out of 119900
+=========== INCOMING EVENTS 119900 total, 36284 valid. =============
+send_events_local COMPLETED 12.5376520157 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-10-31_BerkeleyX.log ] retrieved 104634 out of 104634
+=========== INCOMING EVENTS 104634 total, 33752 valid. =============
+send_events_local COMPLETED 10.6390371323 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-01_BerkeleyX.log ] retrieved 161317 out of 161317
+=========== INCOMING EVENTS 161317 total, 57629 valid. =============
+send_events_local COMPLETED 17.9127719402 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-02_BerkeleyX.log ] retrieved 176068 out of 176068
+=========== INCOMING EVENTS 176068 total, 57591 valid. =============
+send_events_local COMPLETED 18.52425313 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-03_BerkeleyX.log ] retrieved 233495 out of 233495
+=========== INCOMING EVENTS 233495 total, 64435 valid. =============
+send_events_local COMPLETED 23.2155790329 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-04_BerkeleyX.log ] retrieved 213256 out of 213256
+=========== INCOMING EVENTS 213256 total, 55255 valid. =============
+send_events_local COMPLETED 19.9967479706 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-05_BerkeleyX.log ] retrieved 214967 out of 214967
+=========== INCOMING EVENTS 214967 total, 62115 valid. =============
+send_events_local COMPLETED 22.0245819092 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-06_BerkeleyX.log ] retrieved 221289 out of 221289
+=========== INCOMING EVENTS 221289 total, 60775 valid. =============
+send_events_local COMPLETED 20.7570829391 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-07_BerkeleyX.log ] retrieved 199561 out of 199561
+=========== INCOMING EVENTS 199561 total, 56972 valid. =============
+send_events_local COMPLETED 20.4459860325 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-08_BerkeleyX.log ] retrieved 187181 out of 187181
+=========== INCOMING EVENTS 187181 total, 43896 valid. =============
+send_events_local COMPLETED 15.4673759937 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-09_BerkeleyX.log ] retrieved 210832 out of 210832
+=========== INCOMING EVENTS 210832 total, 38893 valid. =============
+send_events_local COMPLETED 13.5801038742 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-10_BerkeleyX.log ] retrieved 305740 out of 305740
+=========== INCOMING EVENTS 305740 total, 54538 valid. =============
+send_events_local COMPLETED 25.9376080036 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-11_BerkeleyX.log ] retrieved 392836 out of 392836
+=========== INCOMING EVENTS 392836 total, 81608 valid. =============
+send_events_local COMPLETED 33.1357870102 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-12_BerkeleyX.log ] retrieved 386638 out of 386638
+=========== INCOMING EVENTS 386638 total, 137335 valid. =============
+send_events_local COMPLETED 42.6826989651 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-13_BerkeleyX.log ] retrieved 181370 out of 181370
+=========== INCOMING EVENTS 181370 total, 52547 valid. =============
+send_events_local COMPLETED 18.8991019726 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-14_BerkeleyX.log ] retrieved 214278 out of 214278
+=========== INCOMING EVENTS 214278 total, 52712 valid. =============
+send_events_local COMPLETED 19.9041209221 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-15_BerkeleyX.log ] retrieved 138247 out of 138247
+=========== INCOMING EVENTS 138247 total, 43430 valid. =============
+send_events_local COMPLETED 13.2493710518 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-16_BerkeleyX.log ] retrieved 133219 out of 133219
+=========== INCOMING EVENTS 133219 total, 38527 valid. =============
+send_events_local COMPLETED 14.5969369411 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-17_BerkeleyX.log ] retrieved 217919 out of 217919
+=========== INCOMING EVENTS 217919 total, 56929 valid. =============
+send_events_local COMPLETED 20.5969359875 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-002/2012-11-18_BerkeleyX.log ] retrieved 236216 out of 236216
+=========== INCOMING EVENTS 236216 total, 65482 valid. =============
+send_events_local COMPLETED 24.2507181168 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-09-24_BerkeleyX.log ] retrieved 218823 out of 218823
+=========== INCOMING EVENTS 218823 total, 80543 valid. =============
+send_events_local COMPLETED 26.685259819 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-09-25_BerkeleyX.log ] retrieved 386952 out of 386952
+=========== INCOMING EVENTS 386952 total, 161411 valid. =============
+send_events_local COMPLETED 50.3740720749 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-09-26_BerkeleyX.log ] retrieved 197704 out of 197704
+=========== INCOMING EVENTS 197704 total, 79199 valid. =============
+send_events_local COMPLETED 24.3090689182 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-09-27_BerkeleyX.log ] retrieved 145778 out of 145778
+=========== INCOMING EVENTS 145778 total, 57430 valid. =============
+send_events_local COMPLETED 18.9804089069 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-09-28_BerkeleyX.log ] retrieved 143677 out of 143677
+=========== INCOMING EVENTS 143677 total, 52396 valid. =============
+send_events_local COMPLETED 16.0559859276 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-09-29_BerkeleyX.log ] retrieved 141319 out of 141319
+=========== INCOMING EVENTS 141319 total, 44354 valid. =============
+send_events_local COMPLETED 14.5302400589 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-09-30_BerkeleyX.log ] retrieved 168321 out of 168321
+=========== INCOMING EVENTS 168321 total, 45516 valid. =============
+send_events_local COMPLETED 16.3553209305 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-01_BerkeleyX.log ] retrieved 205830 out of 205830
+=========== INCOMING EVENTS 205830 total, 70768 valid. =============
+send_events_local COMPLETED 23.3331229687 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-02_BerkeleyX.log ] retrieved 387471 out of 387471
+=========== INCOMING EVENTS 387471 total, 164485 valid. =============
+send_events_local COMPLETED 47.0319149494 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-03_BerkeleyX.log ] retrieved 566261 out of 566261
+=========== INCOMING EVENTS 566261 total, 146635 valid. =============
+send_events_local COMPLETED 49.4800231457 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-04_BerkeleyX.log ] retrieved 346195 out of 346195
+=========== INCOMING EVENTS 346195 total, 127103 valid. =============
+send_events_local COMPLETED 40.1375579834 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-05_BerkeleyX.log ] retrieved 386544 out of 386544
+=========== INCOMING EVENTS 386544 total, 132606 valid. =============
+send_events_local COMPLETED 45.4185900688 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-06_BerkeleyX.log ] retrieved 415129 out of 415129
+=========== INCOMING EVENTS 415129 total, 143782 valid. =============
+send_events_local COMPLETED 47.2456128597 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-07_BerkeleyX.log ] retrieved 558557 out of 558557
+=========== INCOMING EVENTS 558557 total, 175259 valid. =============
+send_events_local COMPLETED 54.965255022 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-08_BerkeleyX.log ] retrieved 319034 out of 319034
+=========== INCOMING EVENTS 319034 total, 92990 valid. =============
+send_events_local COMPLETED 26.2591781616 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-09_BerkeleyX.log ] retrieved 271066 out of 271066
+=========== INCOMING EVENTS 271066 total, 94636 valid. =============
+send_events_local COMPLETED 26.7269439697 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-10_BerkeleyX.log ] retrieved 242409 out of 242409
+=========== INCOMING EVENTS 242409 total, 86210 valid. =============
+send_events_local COMPLETED 26.555380106 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-11_BerkeleyX.log ] retrieved 255593 out of 255593
+=========== INCOMING EVENTS 255593 total, 79367 valid. =============
+send_events_local COMPLETED 24.9732000828 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-12_BerkeleyX.log ] retrieved 261558 out of 261558
+=========== INCOMING EVENTS 261558 total, 82327 valid. =============
+send_events_local COMPLETED 27.4927949905 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-13_BerkeleyX.log ] retrieved 502511 out of 502511
+=========== INCOMING EVENTS 502511 total, 101200 valid. =============
+send_events_local COMPLETED 29.1331830025 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-14_BerkeleyX.log ] retrieved 1017854 out of 1017854
+=========== INCOMING EVENTS 1017854 total, 133634 valid. =============
+send_events_local COMPLETED 59.5973360538 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-15_BerkeleyX.log ] retrieved 290446 out of 290446
+=========== INCOMING EVENTS 290446 total, 74777 valid. =============
+send_events_local COMPLETED 28.5727818012 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-16_BerkeleyX.log ] retrieved 263986 out of 263986
+=========== INCOMING EVENTS 263986 total, 84557 valid. =============
+send_events_local COMPLETED 29.5414860249 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-17_BerkeleyX.log ] retrieved 240713 out of 240713
+=========== INCOMING EVENTS 240713 total, 68480 valid. =============
+send_events_local COMPLETED 25.3338210583 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-18_BerkeleyX.log ] retrieved 199090 out of 199090
+=========== INCOMING EVENTS 199090 total, 64363 valid. =============
+send_events_local COMPLETED 21.9291257858 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-19_BerkeleyX.log ] retrieved 185981 out of 185981
+=========== INCOMING EVENTS 185981 total, 54402 valid. =============
+send_events_local COMPLETED 17.6036810875 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-20_BerkeleyX.log ] retrieved 209571 out of 209571
+=========== INCOMING EVENTS 209571 total, 58039 valid. =============
+send_events_local COMPLETED 19.7315080166 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-21_BerkeleyX.log ] retrieved 256808 out of 256808
+=========== INCOMING EVENTS 256808 total, 66723 valid. =============
+send_events_local COMPLETED 24.7773678303 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-22_BerkeleyX.log ] retrieved 239717 out of 239717
+=========== INCOMING EVENTS 239717 total, 53953 valid. =============
+send_events_local COMPLETED 21.5363309383 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-23_BerkeleyX.log ] retrieved 276134 out of 276134
+=========== INCOMING EVENTS 276134 total, 59444 valid. =============
+send_events_local COMPLETED 23.5015420914 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-24_BerkeleyX.log ] retrieved 275450 out of 275450
+=========== INCOMING EVENTS 275450 total, 58497 valid. =============
+send_events_local COMPLETED 22.6053788662 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-25_BerkeleyX.log ] retrieved 203475 out of 203475
+=========== INCOMING EVENTS 203475 total, 46888 valid. =============
+send_events_local COMPLETED 17.9647359848 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-26_BerkeleyX.log ] retrieved 141599 out of 141599
+=========== INCOMING EVENTS 141599 total, 35956 valid. =============
+send_events_local COMPLETED 12.4449532032 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-27_BerkeleyX.log ] retrieved 212676 out of 212676
+=========== INCOMING EVENTS 212676 total, 47985 valid. =============
+send_events_local COMPLETED 18.1232709885 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-28_BerkeleyX.log ] retrieved 398372 out of 398372
+=========== INCOMING EVENTS 398372 total, 49549 valid. =============
+send_events_local COMPLETED 21.7164368629 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-29_BerkeleyX.log ] retrieved 163887 out of 163887
+=========== INCOMING EVENTS 163887 total, 41117 valid. =============
+send_events_local COMPLETED 15.5775008202 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-30_BerkeleyX.log ] retrieved 104230 out of 104230
+=========== INCOMING EVENTS 104230 total, 33566 valid. =============
+send_events_local COMPLETED 11.6732051373 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-10-31_BerkeleyX.log ] retrieved 95214 out of 95214
+=========== INCOMING EVENTS 95214 total, 30191 valid. =============
+send_events_local COMPLETED 10.6619858742 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-01_BerkeleyX.log ] retrieved 143257 out of 143257
+=========== INCOMING EVENTS 143257 total, 48721 valid. =============
+send_events_local COMPLETED 16.0844709873 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-02_BerkeleyX.log ] retrieved 165018 out of 165018
+=========== INCOMING EVENTS 165018 total, 51416 valid. =============
+send_events_local COMPLETED 18.1496930122 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-03_BerkeleyX.log ] retrieved 236576 out of 236576
+=========== INCOMING EVENTS 236576 total, 59890 valid. =============
+send_events_local COMPLETED 21.3894851208 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-04_BerkeleyX.log ] retrieved 200751 out of 200751
+=========== INCOMING EVENTS 200751 total, 56072 valid. =============
+send_events_local COMPLETED 18.9716260433 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-05_BerkeleyX.log ] retrieved 200953 out of 200953
+=========== INCOMING EVENTS 200953 total, 54360 valid. =============
+send_events_local COMPLETED 19.3082549572 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-06_BerkeleyX.log ] retrieved 230966 out of 230966
+=========== INCOMING EVENTS 230966 total, 55772 valid. =============
+send_events_local COMPLETED 19.9530339241 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-07_BerkeleyX.log ] retrieved 184264 out of 184264
+=========== INCOMING EVENTS 184264 total, 52263 valid. =============
+send_events_local COMPLETED 16.4560770988 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-08_BerkeleyX.log ] retrieved 182284 out of 182284
+=========== INCOMING EVENTS 182284 total, 42628 valid. =============
+send_events_local COMPLETED 16.5879359245 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-09_BerkeleyX.log ] retrieved 193492 out of 193492
+=========== INCOMING EVENTS 193492 total, 37478 valid. =============
+send_events_local COMPLETED 13.5200870037 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-10_BerkeleyX.log ] retrieved 32164 out of 32164
+=========== INCOMING EVENTS 32164 total, 7775 valid. =============
+send_events_local COMPLETED 2.6925880909 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-13_BerkeleyX.log ] retrieved 41676 out of 41676
+=========== INCOMING EVENTS 41676 total, 12449 valid. =============
+send_events_local COMPLETED 4.09751486778 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-14_BerkeleyX.log ] retrieved 146674 out of 146674
+=========== INCOMING EVENTS 146674 total, 36153 valid. =============
+send_events_local COMPLETED 11.1902589798 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-15_BerkeleyX.log ] retrieved 103391 out of 103391
+=========== INCOMING EVENTS 103391 total, 33905 valid. =============
+send_events_local COMPLETED 11.3893909454 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-16_BerkeleyX.log ] retrieved 121437 out of 121437
+=========== INCOMING EVENTS 121437 total, 35978 valid. =============
+send_events_local COMPLETED 12.7776050568 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-17_BerkeleyX.log ] retrieved 187952 out of 187952
+=========== INCOMING EVENTS 187952 total, 47212 valid. =============
+send_events_local COMPLETED 15.3119859695 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-003/2012-11-18_BerkeleyX.log ] retrieved 205570 out of 205570
+=========== INCOMING EVENTS 205570 total, 56253 valid. =============
+send_events_local COMPLETED 18.1208741665 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-09-24_BerkeleyX.log ] retrieved 226569 out of 226569
+=========== INCOMING EVENTS 226569 total, 85437 valid. =============
+send_events_local COMPLETED 27.020277977 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-09-25_BerkeleyX.log ] retrieved 393870 out of 393870
+=========== INCOMING EVENTS 393870 total, 167259 valid. =============
+send_events_local COMPLETED 53.3488411903 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-09-26_BerkeleyX.log ] retrieved 208790 out of 208790
+=========== INCOMING EVENTS 208790 total, 86877 valid. =============
+send_events_local COMPLETED 27.7232880592 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-09-27_BerkeleyX.log ] retrieved 152476 out of 152476
+=========== INCOMING EVENTS 152476 total, 59448 valid. =============
+send_events_local COMPLETED 16.7386670113 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-09-28_BerkeleyX.log ] retrieved 141162 out of 141162
+=========== INCOMING EVENTS 141162 total, 50612 valid. =============
+send_events_local COMPLETED 12.9661200047 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-09-29_BerkeleyX.log ] retrieved 146065 out of 146065
+=========== INCOMING EVENTS 146065 total, 47006 valid. =============
+send_events_local COMPLETED 16.3932020664 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-09-30_BerkeleyX.log ] retrieved 141236 out of 141236
+=========== INCOMING EVENTS 141236 total, 42637 valid. =============
+send_events_local COMPLETED 15.8001010418 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-01_BerkeleyX.log ] retrieved 211077 out of 211077
+=========== INCOMING EVENTS 211077 total, 70837 valid. =============
+send_events_local COMPLETED 23.5022029877 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-02_BerkeleyX.log ] retrieved 371933 out of 371933
+=========== INCOMING EVENTS 371933 total, 159921 valid. =============
+send_events_local COMPLETED 48.9421691895 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-03_BerkeleyX.log ] retrieved 606250 out of 606250
+=========== INCOMING EVENTS 606250 total, 165992 valid. =============
+send_events_local COMPLETED 58.5867860317 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-04_BerkeleyX.log ] retrieved 487510 out of 487510
+=========== INCOMING EVENTS 487510 total, 136532 valid. =============
+send_events_local COMPLETED 47.0630671978 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-05_BerkeleyX.log ] retrieved 419368 out of 419368
+=========== INCOMING EVENTS 419368 total, 149656 valid. =============
+send_events_local COMPLETED 46.664880991 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-06_BerkeleyX.log ] retrieved 442901 out of 442901
+=========== INCOMING EVENTS 442901 total, 157592 valid. =============
+send_events_local COMPLETED 52.6444308758 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-07_BerkeleyX.log ] retrieved 647003 out of 647003
+=========== INCOMING EVENTS 647003 total, 199104 valid. =============
+send_events_local COMPLETED 67.1359698772 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-08_BerkeleyX.log ] retrieved 361004 out of 361004
+=========== INCOMING EVENTS 361004 total, 106364 valid. =============
+send_events_local COMPLETED 38.8462622166 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-09_BerkeleyX.log ] retrieved 249008 out of 249008
+=========== INCOMING EVENTS 249008 total, 90393 valid. =============
+send_events_local COMPLETED 27.2794189453 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-10_BerkeleyX.log ] retrieved 245883 out of 245883
+=========== INCOMING EVENTS 245883 total, 84558 valid. =============
+send_events_local COMPLETED 24.9911298752 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-11_BerkeleyX.log ] retrieved 243304 out of 243304
+=========== INCOMING EVENTS 243304 total, 85049 valid. =============
+send_events_local COMPLETED 27.7757291794 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-12_BerkeleyX.log ] retrieved 281190 out of 281190
+=========== INCOMING EVENTS 281190 total, 91231 valid. =============
+send_events_local COMPLETED 31.758491993 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-13_BerkeleyX.log ] retrieved 526444 out of 526444
+=========== INCOMING EVENTS 526444 total, 116197 valid. =============
+send_events_local COMPLETED 43.9794201851 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-14_BerkeleyX.log ] retrieved 1139910 out of 1139910
+=========== INCOMING EVENTS 1139910 total, 149861 valid. =============
+send_events_local COMPLETED 70.0811750889 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-15_BerkeleyX.log ] retrieved 336027 out of 336027
+=========== INCOMING EVENTS 336027 total, 91793 valid. =============
+send_events_local COMPLETED 31.6849019527 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-16_BerkeleyX.log ] retrieved 272479 out of 272479
+=========== INCOMING EVENTS 272479 total, 86452 valid. =============
+send_events_local COMPLETED 23.5495111942 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-17_BerkeleyX.log ] retrieved 255821 out of 255821
+=========== INCOMING EVENTS 255821 total, 73294 valid. =============
+send_events_local COMPLETED 21.7386980057 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-18_BerkeleyX.log ] retrieved 197084 out of 197084
+=========== INCOMING EVENTS 197084 total, 64957 valid. =============
+send_events_local COMPLETED 19.5916318893 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-19_BerkeleyX.log ] retrieved 169853 out of 169853
+=========== INCOMING EVENTS 169853 total, 50185 valid. =============
+send_events_local COMPLETED 14.8200240135 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-20_BerkeleyX.log ] retrieved 226154 out of 226154
+=========== INCOMING EVENTS 226154 total, 62547 valid. =============
+send_events_local COMPLETED 19.5551159382 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-21_BerkeleyX.log ] retrieved 267659 out of 267659
+=========== INCOMING EVENTS 267659 total, 62987 valid. =============
+send_events_local COMPLETED 23.1198329926 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-22_BerkeleyX.log ] retrieved 252068 out of 252068
+=========== INCOMING EVENTS 252068 total, 54447 valid. =============
+send_events_local COMPLETED 16.2036280632 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-23_BerkeleyX.log ] retrieved 264106 out of 264106
+=========== INCOMING EVENTS 264106 total, 60872 valid. =============
+send_events_local COMPLETED 19.2830719948 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-24_BerkeleyX.log ] retrieved 259080 out of 259080
+=========== INCOMING EVENTS 259080 total, 60746 valid. =============
+send_events_local COMPLETED 23.6314117908 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-25_BerkeleyX.log ] retrieved 210245 out of 210245
+=========== INCOMING EVENTS 210245 total, 46556 valid. =============
+send_events_local COMPLETED 19.2371709347 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-26_BerkeleyX.log ] retrieved 142214 out of 142214
+=========== INCOMING EVENTS 142214 total, 35094 valid. =============
+send_events_local COMPLETED 11.0800719261 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-27_BerkeleyX.log ] retrieved 200534 out of 200534
+=========== INCOMING EVENTS 200534 total, 42784 valid. =============
+send_events_local COMPLETED 16.0524330139 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-28_BerkeleyX.log ] retrieved 405522 out of 405522
+=========== INCOMING EVENTS 405522 total, 53383 valid. =============
+send_events_local COMPLETED 24.5916428566 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-29_BerkeleyX.log ] retrieved 168117 out of 168117
+=========== INCOMING EVENTS 168117 total, 37677 valid. =============
+send_events_local COMPLETED 14.0709428787 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-30_BerkeleyX.log ] retrieved 104729 out of 104729
+=========== INCOMING EVENTS 104729 total, 34073 valid. =============
+send_events_local COMPLETED 10.8626079559 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-10-31_BerkeleyX.log ] retrieved 91187 out of 91187
+=========== INCOMING EVENTS 91187 total, 27242 valid. =============
+send_events_local COMPLETED 9.62456607819 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-01_BerkeleyX.log ] retrieved 132831 out of 132831
+=========== INCOMING EVENTS 132831 total, 44961 valid. =============
+send_events_local COMPLETED 15.4178578854 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-02_BerkeleyX.log ] retrieved 154405 out of 154405
+=========== INCOMING EVENTS 154405 total, 50288 valid. =============
+send_events_local COMPLETED 15.5035631657 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-03_BerkeleyX.log ] retrieved 207023 out of 207023
+=========== INCOMING EVENTS 207023 total, 54451 valid. =============
+send_events_local COMPLETED 21.0171108246 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-04_BerkeleyX.log ] retrieved 184099 out of 184099
+=========== INCOMING EVENTS 184099 total, 50134 valid. =============
+send_events_local COMPLETED 18.0602087975 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-05_BerkeleyX.log ] retrieved 192226 out of 192226
+=========== INCOMING EVENTS 192226 total, 51923 valid. =============
+send_events_local COMPLETED 17.2683389187 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-06_BerkeleyX.log ] retrieved 197759 out of 197759
+=========== INCOMING EVENTS 197759 total, 54405 valid. =============
+send_events_local COMPLETED 18.8134877682 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-07_BerkeleyX.log ] retrieved 174576 out of 174576
+=========== INCOMING EVENTS 174576 total, 48838 valid. =============
+send_events_local COMPLETED 17.9469900131 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-08_BerkeleyX.log ] retrieved 160648 out of 160648
+=========== INCOMING EVENTS 160648 total, 38685 valid. =============
+send_events_local COMPLETED 14.4579291344 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-09_BerkeleyX.log ] retrieved 192443 out of 192443
+=========== INCOMING EVENTS 192443 total, 34532 valid. =============
+send_events_local COMPLETED 12.4503080845 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-10_BerkeleyX.log ] retrieved 289430 out of 289430
+=========== INCOMING EVENTS 289430 total, 55303 valid. =============
+send_events_local COMPLETED 21.6550660133 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-11_BerkeleyX.log ] retrieved 323719 out of 323719
+=========== INCOMING EVENTS 323719 total, 58570 valid. =============
+send_events_local COMPLETED 24.1792430878 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-12_BerkeleyX.log ] retrieved 287787 out of 287787
+=========== INCOMING EVENTS 287787 total, 74575 valid. =============
+send_events_local COMPLETED 26.9454381466 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-13_BerkeleyX.log ] retrieved 186557 out of 186557
+=========== INCOMING EVENTS 186557 total, 55006 valid. =============
+send_events_local COMPLETED 19.4486968517 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-14_BerkeleyX.log ] retrieved 71401 out of 71401
+=========== INCOMING EVENTS 71401 total, 22136 valid. =============
+send_events_local COMPLETED 8.08983421326 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-15_BerkeleyX.log ] retrieved 94491 out of 94491
+=========== INCOMING EVENTS 94491 total, 30522 valid. =============
+send_events_local COMPLETED 10.103883028 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-16_BerkeleyX.log ] retrieved 114908 out of 114908
+=========== INCOMING EVENTS 114908 total, 31730 valid. =============
+send_events_local COMPLETED 12.192909956 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-17_BerkeleyX.log ] retrieved 175300 out of 175300
+=========== INCOMING EVENTS 175300 total, 44349 valid. =============
+send_events_local COMPLETED 15.468777895 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/BerkeleyX/prod-edx-004/2012-11-18_BerkeleyX.log ] retrieved 230384 out of 230384
+=========== INCOMING EVENTS 230384 total, 66710 valid. =============
+send_events_local COMPLETED 23.6706550121 seconds
+

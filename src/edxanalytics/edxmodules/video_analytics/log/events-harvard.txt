@@ -1,0 +1,1160 @@
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-15_HarvardX.log ] retrieved 311923 out of 311923
+=========== INCOMING EVENTS 311923 total, 106483 valid. =============
+send_events_local COMPLETED 34.9354038239 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-16_HarvardX.log ] retrieved 438873 out of 438873
+=========== INCOMING EVENTS 438873 total, 176970 valid. =============
+send_events_local COMPLETED 55.7965009212 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-17_HarvardX.log ] retrieved 321835 out of 321835
+=========== INCOMING EVENTS 321835 total, 138975 valid. =============
+send_events_local COMPLETED 42.5039241314 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-18_HarvardX.log ] retrieved 316065 out of 316065
+=========== INCOMING EVENTS 316065 total, 141116 valid. =============
+send_events_local COMPLETED 32.7093288898 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-19_HarvardX.log ] retrieved 300994 out of 300994
+=========== INCOMING EVENTS 300994 total, 140781 valid. =============
+send_events_local COMPLETED 43.3866009712 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-20_HarvardX.log ] retrieved 357791 out of 357791
+=========== INCOMING EVENTS 357791 total, 167969 valid. =============
+send_events_local COMPLETED 50.9464840889 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-21_HarvardX.log ] retrieved 610850 out of 610850
+=========== INCOMING EVENTS 610850 total, 272220 valid. =============
+send_events_local COMPLETED 82.2480061054 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-22_HarvardX.log ] retrieved 860043 out of 860043
+=========== INCOMING EVENTS 860043 total, 348200 valid. =============
+send_events_local COMPLETED 97.7004368305 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-23_HarvardX.log ] retrieved 403964 out of 403964
+=========== INCOMING EVENTS 403964 total, 170945 valid. =============
+send_events_local COMPLETED 53.2259249687 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-24_HarvardX.log ] retrieved 270661 out of 270661
+=========== INCOMING EVENTS 270661 total, 134723 valid. =============
+send_events_local COMPLETED 37.7843739986 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-25_HarvardX.log ] retrieved 261087 out of 261087
+=========== INCOMING EVENTS 261087 total, 128241 valid. =============
+send_events_local COMPLETED 35.2569830418 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-26_HarvardX.log ] retrieved 242777 out of 242777
+=========== INCOMING EVENTS 242777 total, 118081 valid. =============
+send_events_local COMPLETED 34.3016691208 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-27_HarvardX.log ] retrieved 269284 out of 269284
+=========== INCOMING EVENTS 269284 total, 131719 valid. =============
+send_events_local COMPLETED 39.4693529606 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-28_HarvardX.log ] retrieved 350110 out of 350110
+=========== INCOMING EVENTS 350110 total, 165110 valid. =============
+send_events_local COMPLETED 49.6091399193 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-29_HarvardX.log ] retrieved 562895 out of 562895
+=========== INCOMING EVENTS 562895 total, 253673 valid. =============
+send_events_local COMPLETED 77.7032079697 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-30_HarvardX.log ] retrieved 307424 out of 307424
+=========== INCOMING EVENTS 307424 total, 155517 valid. =============
+send_events_local COMPLETED 48.6818161011 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-10-31_HarvardX.log ] retrieved 197430 out of 197430
+=========== INCOMING EVENTS 197430 total, 109288 valid. =============
+send_events_local COMPLETED 30.2594370842 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-01_HarvardX.log ] retrieved 215319 out of 215319
+=========== INCOMING EVENTS 215319 total, 119013 valid. =============
+send_events_local COMPLETED 30.4225280285 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-02_HarvardX.log ] retrieved 225916 out of 225916
+=========== INCOMING EVENTS 225916 total, 121858 valid. =============
+send_events_local COMPLETED 31.4377069473 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-03_HarvardX.log ] retrieved 243084 out of 243084
+=========== INCOMING EVENTS 243084 total, 124764 valid. =============
+send_events_local COMPLETED 32.5735518932 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-04_HarvardX.log ] retrieved 356178 out of 356178
+=========== INCOMING EVENTS 356178 total, 167656 valid. =============
+send_events_local COMPLETED 45.5425879955 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-05_HarvardX.log ] retrieved 554492 out of 554492
+=========== INCOMING EVENTS 554492 total, 238218 valid. =============
+send_events_local COMPLETED 65.0707409382 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-06_HarvardX.log ] retrieved 299349 out of 299349
+=========== INCOMING EVENTS 299349 total, 129704 valid. =============
+send_events_local COMPLETED 34.5547478199 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-07_HarvardX.log ] retrieved 184838 out of 184838
+=========== INCOMING EVENTS 184838 total, 93408 valid. =============
+send_events_local COMPLETED 20.9233901501 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-08_HarvardX.log ] retrieved 186431 out of 186431
+=========== INCOMING EVENTS 186431 total, 93052 valid. =============
+send_events_local COMPLETED 28.8068678379 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-09_HarvardX.log ] retrieved 205143 out of 205143
+=========== INCOMING EVENTS 205143 total, 100375 valid. =============
+send_events_local COMPLETED 29.5133330822 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-10_HarvardX.log ] retrieved 273315 out of 273315
+=========== INCOMING EVENTS 273315 total, 135251 valid. =============
+send_events_local COMPLETED 44.8681099415 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-11_HarvardX.log ] retrieved 465899 out of 465899
+=========== INCOMING EVENTS 465899 total, 211865 valid. =============
+send_events_local COMPLETED 65.036123991 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-12_HarvardX.log ] retrieved 744860 out of 744860
+=========== INCOMING EVENTS 744860 total, 309172 valid. =============
+send_events_local COMPLETED 96.4721210003 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-13_HarvardX.log ] retrieved 370342 out of 370342
+=========== INCOMING EVENTS 370342 total, 166729 valid. =============
+send_events_local COMPLETED 48.2642810345 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-14_HarvardX.log ] retrieved 207807 out of 207807
+=========== INCOMING EVENTS 207807 total, 119261 valid. =============
+send_events_local COMPLETED 34.657075882 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-15_HarvardX.log ] retrieved 186251 out of 186251
+=========== INCOMING EVENTS 186251 total, 102234 valid. =============
+send_events_local COMPLETED 28.4333138466 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-16_HarvardX.log ] retrieved 190212 out of 190212
+=========== INCOMING EVENTS 190212 total, 98803 valid. =============
+send_events_local COMPLETED 29.1640951633 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-17_HarvardX.log ] retrieved 206842 out of 206842
+=========== INCOMING EVENTS 206842 total, 108133 valid. =============
+send_events_local COMPLETED 34.9873981476 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-18_HarvardX.log ] retrieved 279211 out of 279211
+=========== INCOMING EVENTS 279211 total, 125657 valid. =============
+send_events_local COMPLETED 39.3827660084 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-19_HarvardX.log ] retrieved 387808 out of 387808
+=========== INCOMING EVENTS 387808 total, 159921 valid. =============
+send_events_local COMPLETED 52.0362789631 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-001/2012-11-20_HarvardX.log ] retrieved 211260 out of 211260
+=========== INCOMING EVENTS 211260 total, 89911 valid. =============
+send_events_local COMPLETED 29.599629879 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-15_HarvardX.log ] retrieved 306986 out of 306986
+=========== INCOMING EVENTS 306986 total, 108293 valid. =============
+send_events_local COMPLETED 33.0551578999 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-16_HarvardX.log ] retrieved 438316 out of 438316
+=========== INCOMING EVENTS 438316 total, 174698 valid. =============
+send_events_local COMPLETED 51.5711250305 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-17_HarvardX.log ] retrieved 330109 out of 330109
+=========== INCOMING EVENTS 330109 total, 145276 valid. =============
+send_events_local COMPLETED 39.2546708584 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-18_HarvardX.log ] retrieved 326103 out of 326103
+=========== INCOMING EVENTS 326103 total, 147266 valid. =============
+send_events_local COMPLETED 39.2895998955 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-19_HarvardX.log ] retrieved 317462 out of 317462
+=========== INCOMING EVENTS 317462 total, 148247 valid. =============
+send_events_local COMPLETED 40.3757050037 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-20_HarvardX.log ] retrieved 376673 out of 376673
+=========== INCOMING EVENTS 376673 total, 176540 valid. =============
+send_events_local COMPLETED 41.3838200569 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-21_HarvardX.log ] retrieved 669695 out of 669695
+=========== INCOMING EVENTS 669695 total, 299445 valid. =============
+send_events_local COMPLETED 84.9062459469 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-22_HarvardX.log ] retrieved 651669 out of 651669
+=========== INCOMING EVENTS 651669 total, 266908 valid. =============
+send_events_local COMPLETED 81.8754770756 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-23_HarvardX.log ] retrieved 406381 out of 406381
+=========== INCOMING EVENTS 406381 total, 170996 valid. =============
+send_events_local COMPLETED 50.6856169701 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-24_HarvardX.log ] retrieved 262353 out of 262353
+=========== INCOMING EVENTS 262353 total, 128789 valid. =============
+send_events_local COMPLETED 36.5324890614 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-25_HarvardX.log ] retrieved 241633 out of 241633
+=========== INCOMING EVENTS 241633 total, 116316 valid. =============
+send_events_local COMPLETED 36.2530620098 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-26_HarvardX.log ] retrieved 236152 out of 236152
+=========== INCOMING EVENTS 236152 total, 109646 valid. =============
+send_events_local COMPLETED 32.9596560001 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-27_HarvardX.log ] retrieved 271125 out of 271125
+=========== INCOMING EVENTS 271125 total, 127887 valid. =============
+send_events_local COMPLETED 38.7644388676 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-28_HarvardX.log ] retrieved 384822 out of 384822
+=========== INCOMING EVENTS 384822 total, 184110 valid. =============
+send_events_local COMPLETED 48.5668108463 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-29_HarvardX.log ] retrieved 544429 out of 544429
+=========== INCOMING EVENTS 544429 total, 245552 valid. =============
+send_events_local COMPLETED 67.7201099396 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-30_HarvardX.log ] retrieved 297874 out of 297874
+=========== INCOMING EVENTS 297874 total, 143311 valid. =============
+send_events_local COMPLETED 39.1019518375 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-10-31_HarvardX.log ] retrieved 206680 out of 206680
+=========== INCOMING EVENTS 206680 total, 113030 valid. =============
+send_events_local COMPLETED 33.8254761696 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-01_HarvardX.log ] retrieved 206897 out of 206897
+=========== INCOMING EVENTS 206897 total, 113297 valid. =============
+send_events_local COMPLETED 32.1561040878 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-02_HarvardX.log ] retrieved 203837 out of 203837
+=========== INCOMING EVENTS 203837 total, 107846 valid. =============
+send_events_local COMPLETED 32.3683991432 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-03_HarvardX.log ] retrieved 241536 out of 241536
+=========== INCOMING EVENTS 241536 total, 128501 valid. =============
+send_events_local COMPLETED 39.3547229767 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-04_HarvardX.log ] retrieved 357878 out of 357878
+=========== INCOMING EVENTS 357878 total, 174568 valid. =============
+send_events_local COMPLETED 55.699368 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-05_HarvardX.log ] retrieved 544925 out of 544925
+=========== INCOMING EVENTS 544925 total, 237198 valid. =============
+send_events_local COMPLETED 66.8527379036 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-06_HarvardX.log ] retrieved 279816 out of 279816
+=========== INCOMING EVENTS 279816 total, 122696 valid. =============
+send_events_local COMPLETED 30.56559515 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-07_HarvardX.log ] retrieved 185640 out of 185640
+=========== INCOMING EVENTS 185640 total, 93463 valid. =============
+send_events_local COMPLETED 24.8117589951 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-08_HarvardX.log ] retrieved 188173 out of 188173
+=========== INCOMING EVENTS 188173 total, 94258 valid. =============
+send_events_local COMPLETED 28.0336987972 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-09_HarvardX.log ] retrieved 196471 out of 196471
+=========== INCOMING EVENTS 196471 total, 92597 valid. =============
+send_events_local COMPLETED 29.4308140278 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-10_HarvardX.log ] retrieved 286780 out of 286780
+=========== INCOMING EVENTS 286780 total, 138653 valid. =============
+send_events_local COMPLETED 44.401059866 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-11_HarvardX.log ] retrieved 433624 out of 433624
+=========== INCOMING EVENTS 433624 total, 192248 valid. =============
+send_events_local COMPLETED 63.2491900921 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-12_HarvardX.log ] retrieved 653642 out of 653642
+=========== INCOMING EVENTS 653642 total, 265928 valid. =============
+send_events_local COMPLETED 82.4974179268 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-13_HarvardX.log ] retrieved 354062 out of 354062
+=========== INCOMING EVENTS 354062 total, 157694 valid. =============
+send_events_local COMPLETED 48.3824648857 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-14_HarvardX.log ] retrieved 203185 out of 203185
+=========== INCOMING EVENTS 203185 total, 112529 valid. =============
+send_events_local COMPLETED 33.0006198883 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-15_HarvardX.log ] retrieved 180634 out of 180634
+=========== INCOMING EVENTS 180634 total, 98944 valid. =============
+send_events_local COMPLETED 27.2522199154 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-16_HarvardX.log ] retrieved 180225 out of 180225
+=========== INCOMING EVENTS 180225 total, 91691 valid. =============
+send_events_local COMPLETED 25.9060471058 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-17_HarvardX.log ] retrieved 217044 out of 217044
+=========== INCOMING EVENTS 217044 total, 109811 valid. =============
+send_events_local COMPLETED 31.4533150196 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-18_HarvardX.log ] retrieved 296710 out of 296710
+=========== INCOMING EVENTS 296710 total, 135070 valid. =============
+send_events_local COMPLETED 42.5432109833 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-19_HarvardX.log ] retrieved 456041 out of 456041
+=========== INCOMING EVENTS 456041 total, 188993 valid. =============
+send_events_local COMPLETED 60.7478270531 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-20_HarvardX.log ] retrieved 252862 out of 252862
+=========== INCOMING EVENTS 252862 total, 114651 valid. =============
+send_events_local COMPLETED 29.393789053 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-21_HarvardX.log ] retrieved 206660 out of 206660
+=========== INCOMING EVENTS 206660 total, 110656 valid. =============
+send_events_local COMPLETED 33.1451790333 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-22_HarvardX.log ] retrieved 196817 out of 196817
+=========== INCOMING EVENTS 196817 total, 99302 valid. =============
+send_events_local COMPLETED 30.5545301437 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-23_HarvardX.log ] retrieved 197555 out of 197555
+=========== INCOMING EVENTS 197555 total, 96121 valid. =============
+send_events_local COMPLETED 27.3008460999 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-24_HarvardX.log ] retrieved 252758 out of 252758
+=========== INCOMING EVENTS 252758 total, 126706 valid. =============
+send_events_local COMPLETED 39.2926709652 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-25_HarvardX.log ] retrieved 280599 out of 280599
+=========== INCOMING EVENTS 280599 total, 127878 valid. =============
+send_events_local COMPLETED 39.0743639469 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-26_HarvardX.log ] retrieved 523583 out of 523583
+=========== INCOMING EVENTS 523583 total, 210462 valid. =============
+send_events_local COMPLETED 62.8438458443 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-27_HarvardX.log ] retrieved 312815 out of 312815
+=========== INCOMING EVENTS 312815 total, 135640 valid. =============
+send_events_local COMPLETED 43.0853300095 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-28_HarvardX.log ] retrieved 215326 out of 215326
+=========== INCOMING EVENTS 215326 total, 101846 valid. =============
+send_events_local COMPLETED 32.518791914 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-29_HarvardX.log ] retrieved 204136 out of 204136
+=========== INCOMING EVENTS 204136 total, 90398 valid. =============
+send_events_local COMPLETED 29.2154910564 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-002/2012-11-30_HarvardX.log ] retrieved 101071 out of 101071
+=========== INCOMING EVENTS 101071 total, 44103 valid. =============
+send_events_local COMPLETED 15.1487679482 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-15_HarvardX.log ] retrieved 278826 out of 278826
+=========== INCOMING EVENTS 278826 total, 89683 valid. =============
+send_events_local COMPLETED 31.2085268497 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-16_HarvardX.log ] retrieved 431604 out of 431604
+=========== INCOMING EVENTS 431604 total, 170267 valid. =============
+send_events_local COMPLETED 55.2938380241 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-17_HarvardX.log ] retrieved 308483 out of 308483
+=========== INCOMING EVENTS 308483 total, 130741 valid. =============
+send_events_local COMPLETED 40.0122261047 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-18_HarvardX.log ] retrieved 289319 out of 289319
+=========== INCOMING EVENTS 289319 total, 126192 valid. =============
+send_events_local COMPLETED 36.7572989464 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-19_HarvardX.log ] retrieved 302547 out of 302547
+=========== INCOMING EVENTS 302547 total, 133519 valid. =============
+send_events_local COMPLETED 42.6094679832 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-20_HarvardX.log ] retrieved 351175 out of 351175
+=========== INCOMING EVENTS 351175 total, 159791 valid. =============
+send_events_local COMPLETED 47.4046499729 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-21_HarvardX.log ] retrieved 620217 out of 620217
+=========== INCOMING EVENTS 620217 total, 278700 valid. =============
+send_events_local COMPLETED 79.8097560406 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-22_HarvardX.log ] retrieved 903257 out of 903257
+=========== INCOMING EVENTS 903257 total, 371662 valid. =============
+send_events_local COMPLETED 109.910398006 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-23_HarvardX.log ] retrieved 419009 out of 419009
+=========== INCOMING EVENTS 419009 total, 171880 valid. =============
+send_events_local COMPLETED 51.3724939823 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-24_HarvardX.log ] retrieved 230155 out of 230155
+=========== INCOMING EVENTS 230155 total, 107396 valid. =============
+send_events_local COMPLETED 32.0834000111 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-25_HarvardX.log ] retrieved 250251 out of 250251
+=========== INCOMING EVENTS 250251 total, 133123 valid. =============
+send_events_local COMPLETED 40.66324687 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-26_HarvardX.log ] retrieved 210632 out of 210632
+=========== INCOMING EVENTS 210632 total, 97963 valid. =============
+send_events_local COMPLETED 31.1783030033 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-27_HarvardX.log ] retrieved 249881 out of 249881
+=========== INCOMING EVENTS 249881 total, 120459 valid. =============
+send_events_local COMPLETED 37.8831410408 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-28_HarvardX.log ] retrieved 359883 out of 359883
+=========== INCOMING EVENTS 359883 total, 166555 valid. =============
+send_events_local COMPLETED 49.5920920372 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-29_HarvardX.log ] retrieved 510837 out of 510837
+=========== INCOMING EVENTS 510837 total, 224117 valid. =============
+send_events_local COMPLETED 62.8335969448 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-30_HarvardX.log ] retrieved 279845 out of 279845
+=========== INCOMING EVENTS 279845 total, 132937 valid. =============
+send_events_local COMPLETED 43.0973279476 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-10-31_HarvardX.log ] retrieved 176066 out of 176066
+=========== INCOMING EVENTS 176066 total, 95593 valid. =============
+send_events_local COMPLETED 29.2184109688 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-01_HarvardX.log ] retrieved 189716 out of 189716
+=========== INCOMING EVENTS 189716 total, 104269 valid. =============
+send_events_local COMPLETED 30.6889500618 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-02_HarvardX.log ] retrieved 208936 out of 208936
+=========== INCOMING EVENTS 208936 total, 109893 valid. =============
+send_events_local COMPLETED 30.928426981 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-03_HarvardX.log ] retrieved 222275 out of 222275
+=========== INCOMING EVENTS 222275 total, 116348 valid. =============
+send_events_local COMPLETED 33.050825119 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-04_HarvardX.log ] retrieved 332123 out of 332123
+=========== INCOMING EVENTS 332123 total, 156392 valid. =============
+send_events_local COMPLETED 49.376967907 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-05_HarvardX.log ] retrieved 466326 out of 466326
+=========== INCOMING EVENTS 466326 total, 192176 valid. =============
+send_events_local COMPLETED 57.3033270836 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-06_HarvardX.log ] retrieved 264181 out of 264181
+=========== INCOMING EVENTS 264181 total, 114763 valid. =============
+send_events_local COMPLETED 37.2223448753 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-07_HarvardX.log ] retrieved 166902 out of 166902
+=========== INCOMING EVENTS 166902 total, 81353 valid. =============
+send_events_local COMPLETED 24.6582298279 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-08_HarvardX.log ] retrieved 185763 out of 185763
+=========== INCOMING EVENTS 185763 total, 92224 valid. =============
+send_events_local COMPLETED 26.8364999294 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-09_HarvardX.log ] retrieved 181230 out of 181230
+=========== INCOMING EVENTS 181230 total, 86457 valid. =============
+send_events_local COMPLETED 23.1241979599 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-10_HarvardX.log ] retrieved 38993 out of 38993
+=========== INCOMING EVENTS 38993 total, 19208 valid. =============
+send_events_local COMPLETED 4.0071978569 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-13_HarvardX.log ] retrieved 58245 out of 58245
+=========== INCOMING EVENTS 58245 total, 31174 valid. =============
+send_events_local COMPLETED 6.54935693741 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-14_HarvardX.log ] retrieved 170916 out of 170916
+=========== INCOMING EVENTS 170916 total, 90125 valid. =============
+send_events_local COMPLETED 24.8895530701 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-15_HarvardX.log ] retrieved 166063 out of 166063
+=========== INCOMING EVENTS 166063 total, 89723 valid. =============
+send_events_local COMPLETED 27.8431820869 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-16_HarvardX.log ] retrieved 166081 out of 166081
+=========== INCOMING EVENTS 166081 total, 86736 valid. =============
+send_events_local COMPLETED 25.8658919334 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-17_HarvardX.log ] retrieved 206517 out of 206517
+=========== INCOMING EVENTS 206517 total, 106101 valid. =============
+send_events_local COMPLETED 30.9640419483 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-18_HarvardX.log ] retrieved 269409 out of 269409
+=========== INCOMING EVENTS 269409 total, 121965 valid. =============
+send_events_local COMPLETED 39.8301670551 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-19_HarvardX.log ] retrieved 409645 out of 409645
+=========== INCOMING EVENTS 409645 total, 166383 valid. =============
+send_events_local COMPLETED 51.4199688435 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-20_HarvardX.log ] retrieved 223899 out of 223899
+=========== INCOMING EVENTS 223899 total, 96403 valid. =============
+send_events_local COMPLETED 26.6053040028 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-21_HarvardX.log ] retrieved 192369 out of 192369
+=========== INCOMING EVENTS 192369 total, 101052 valid. =============
+send_events_local COMPLETED 29.3501780033 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-22_HarvardX.log ] retrieved 184304 out of 184304
+=========== INCOMING EVENTS 184304 total, 91217 valid. =============
+send_events_local COMPLETED 24.434538126 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-23_HarvardX.log ] retrieved 179874 out of 179874
+=========== INCOMING EVENTS 179874 total, 86693 valid. =============
+send_events_local COMPLETED 26.2309730053 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-24_HarvardX.log ] retrieved 218777 out of 218777
+=========== INCOMING EVENTS 218777 total, 107202 valid. =============
+send_events_local COMPLETED 28.7654690742 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-25_HarvardX.log ] retrieved 273770 out of 273770
+=========== INCOMING EVENTS 273770 total, 119137 valid. =============
+send_events_local COMPLETED 32.2980279922 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-26_HarvardX.log ] retrieved 492444 out of 492444
+=========== INCOMING EVENTS 492444 total, 199100 valid. =============
+send_events_local COMPLETED 61.4280328751 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-27_HarvardX.log ] retrieved 282158 out of 282158
+=========== INCOMING EVENTS 282158 total, 118811 valid. =============
+send_events_local COMPLETED 40.2029879093 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-28_HarvardX.log ] retrieved 205727 out of 205727
+=========== INCOMING EVENTS 205727 total, 92391 valid. =============
+send_events_local COMPLETED 27.7821080685 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-29_HarvardX.log ] retrieved 184281 out of 184281
+=========== INCOMING EVENTS 184281 total, 80699 valid. =============
+send_events_local COMPLETED 26.8290350437 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-11-30_HarvardX.log ] retrieved 208279 out of 208279
+=========== INCOMING EVENTS 208279 total, 90004 valid. =============
+send_events_local COMPLETED 29.6218080521 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-12-01_HarvardX.log ] retrieved 207795 out of 207795
+=========== INCOMING EVENTS 207795 total, 90694 valid. =============
+send_events_local COMPLETED 28.9670269489 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-12-02_HarvardX.log ] retrieved 324468 out of 324468
+=========== INCOMING EVENTS 324468 total, 119951 valid. =============
+send_events_local COMPLETED 39.6306431293 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-12-03_HarvardX.log ] retrieved 485739 out of 485739
+=========== INCOMING EVENTS 485739 total, 155666 valid. =============
+send_events_local COMPLETED 48.6226949692 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-003/2012-12-04_HarvardX.log ] retrieved 210431 out of 210431
+=========== INCOMING EVENTS 210431 total, 67218 valid. =============
+send_events_local COMPLETED 18.2262639999 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-15_HarvardX.log ] retrieved 296164 out of 296164
+=========== INCOMING EVENTS 296164 total, 103548 valid. =============
+send_events_local COMPLETED 30.897769928 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-16_HarvardX.log ] retrieved 446245 out of 446245
+=========== INCOMING EVENTS 446245 total, 193622 valid. =============
+send_events_local COMPLETED 54.4006500244 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-17_HarvardX.log ] retrieved 328010 out of 328010
+=========== INCOMING EVENTS 328010 total, 147719 valid. =============
+send_events_local COMPLETED 41.2644989491 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-18_HarvardX.log ] retrieved 280772 out of 280772
+=========== INCOMING EVENTS 280772 total, 127017 valid. =============
+send_events_local COMPLETED 38.6560389996 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-19_HarvardX.log ] retrieved 278777 out of 278777
+=========== INCOMING EVENTS 278777 total, 125276 valid. =============
+send_events_local COMPLETED 37.6965680122 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-20_HarvardX.log ] retrieved 358833 out of 358833
+=========== INCOMING EVENTS 358833 total, 166341 valid. =============
+send_events_local COMPLETED 50.317825079 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-21_HarvardX.log ] retrieved 635446 out of 635446
+=========== INCOMING EVENTS 635446 total, 282851 valid. =============
+send_events_local COMPLETED 84.4589130878 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-22_HarvardX.log ] retrieved 890350 out of 890350
+=========== INCOMING EVENTS 890350 total, 369604 valid. =============
+send_events_local COMPLETED 113.756299973 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-23_HarvardX.log ] retrieved 419429 out of 419429
+=========== INCOMING EVENTS 419429 total, 166189 valid. =============
+send_events_local COMPLETED 45.2037298679 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-24_HarvardX.log ] retrieved 234392 out of 234392
+=========== INCOMING EVENTS 234392 total, 109205 valid. =============
+send_events_local COMPLETED 33.5027430058 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-25_HarvardX.log ] retrieved 229977 out of 229977
+=========== INCOMING EVENTS 229977 total, 107561 valid. =============
+send_events_local COMPLETED 31.1729049683 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-26_HarvardX.log ] retrieved 204507 out of 204507
+=========== INCOMING EVENTS 204507 total, 95450 valid. =============
+send_events_local COMPLETED 26.3069319725 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-27_HarvardX.log ] retrieved 243809 out of 243809
+=========== INCOMING EVENTS 243809 total, 112972 valid. =============
+send_events_local COMPLETED 30.9913640022 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-28_HarvardX.log ] retrieved 322787 out of 322787
+=========== INCOMING EVENTS 322787 total, 146923 valid. =============
+send_events_local COMPLETED 39.6226451397 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-29_HarvardX.log ] retrieved 476408 out of 476408
+=========== INCOMING EVENTS 476408 total, 200914 valid. =============
+send_events_local COMPLETED 54.8573889732 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-30_HarvardX.log ] retrieved 256976 out of 256976
+=========== INCOMING EVENTS 256976 total, 122281 valid. =============
+send_events_local COMPLETED 35.8872568607 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-10-31_HarvardX.log ] retrieved 185244 out of 185244
+=========== INCOMING EVENTS 185244 total, 98339 valid. =============
+send_events_local COMPLETED 28.5731840134 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-01_HarvardX.log ] retrieved 182114 out of 182114
+=========== INCOMING EVENTS 182114 total, 97728 valid. =============
+send_events_local COMPLETED 29.2737290859 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-02_HarvardX.log ] retrieved 192102 out of 192102
+=========== INCOMING EVENTS 192102 total, 97806 valid. =============
+send_events_local COMPLETED 30.3206810951 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-03_HarvardX.log ] retrieved 221560 out of 221560
+=========== INCOMING EVENTS 221560 total, 118318 valid. =============
+send_events_local COMPLETED 29.0785570145 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-04_HarvardX.log ] retrieved 302269 out of 302269
+=========== INCOMING EVENTS 302269 total, 143244 valid. =============
+send_events_local COMPLETED 36.2066140175 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-05_HarvardX.log ] retrieved 435756 out of 435756
+=========== INCOMING EVENTS 435756 total, 172926 valid. =============
+send_events_local COMPLETED 53.8774638176 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-06_HarvardX.log ] retrieved 244363 out of 244363
+=========== INCOMING EVENTS 244363 total, 103153 valid. =============
+send_events_local COMPLETED 34.07087183 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-07_HarvardX.log ] retrieved 153235 out of 153235
+=========== INCOMING EVENTS 153235 total, 74127 valid. =============
+send_events_local COMPLETED 22.1050438881 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-08_HarvardX.log ] retrieved 183179 out of 183179
+=========== INCOMING EVENTS 183179 total, 86941 valid. =============
+send_events_local COMPLETED 28.2728638649 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-09_HarvardX.log ] retrieved 161824 out of 161824
+=========== INCOMING EVENTS 161824 total, 73995 valid. =============
+send_events_local COMPLETED 24.233273983 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-10_HarvardX.log ] retrieved 267871 out of 267871
+=========== INCOMING EVENTS 267871 total, 124549 valid. =============
+send_events_local COMPLETED 38.224845171 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-11_HarvardX.log ] retrieved 419763 out of 419763
+=========== INCOMING EVENTS 419763 total, 179347 valid. =============
+send_events_local COMPLETED 54.8346629143 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-12_HarvardX.log ] retrieved 580675 out of 580675
+=========== INCOMING EVENTS 580675 total, 232150 valid. =============
+send_events_local COMPLETED 70.1859929562 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-13_HarvardX.log ] retrieved 317065 out of 317065
+=========== INCOMING EVENTS 317065 total, 140077 valid. =============
+send_events_local COMPLETED 42.524310112 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-14_HarvardX.log ] retrieved 86737 out of 86737
+=========== INCOMING EVENTS 86737 total, 45614 valid. =============
+send_events_local COMPLETED 14.5073518753 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-15_HarvardX.log ] retrieved 162930 out of 162930
+=========== INCOMING EVENTS 162930 total, 88560 valid. =============
+send_events_local COMPLETED 26.7829318047 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-16_HarvardX.log ] retrieved 155369 out of 155369
+=========== INCOMING EVENTS 155369 total, 78007 valid. =============
+send_events_local COMPLETED 24.6454019547 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-17_HarvardX.log ] retrieved 194850 out of 194850
+=========== INCOMING EVENTS 194850 total, 97814 valid. =============
+send_events_local COMPLETED 30.6419970989 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-18_HarvardX.log ] retrieved 273012 out of 273012
+=========== INCOMING EVENTS 273012 total, 123838 valid. =============
+send_events_local COMPLETED 39.4855270386 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-19_HarvardX.log ] retrieved 372973 out of 372973
+=========== INCOMING EVENTS 372973 total, 148545 valid. =============
+send_events_local COMPLETED 40.724722147 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-20_HarvardX.log ] retrieved 214713 out of 214713
+=========== INCOMING EVENTS 214713 total, 93636 valid. =============
+send_events_local COMPLETED 29.2127308846 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-21_HarvardX.log ] retrieved 182032 out of 182032
+=========== INCOMING EVENTS 182032 total, 89426 valid. =============
+send_events_local COMPLETED 28.1846120358 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-22_HarvardX.log ] retrieved 176098 out of 176098
+=========== INCOMING EVENTS 176098 total, 84903 valid. =============
+send_events_local COMPLETED 25.2051029205 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-23_HarvardX.log ] retrieved 192343 out of 192343
+=========== INCOMING EVENTS 192343 total, 95955 valid. =============
+send_events_local COMPLETED 27.4855520725 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-24_HarvardX.log ] retrieved 220657 out of 220657
+=========== INCOMING EVENTS 220657 total, 102934 valid. =============
+send_events_local COMPLETED 31.8807070255 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-25_HarvardX.log ] retrieved 268723 out of 268723
+=========== INCOMING EVENTS 268723 total, 117918 valid. =============
+send_events_local COMPLETED 37.2141270638 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-26_HarvardX.log ] retrieved 446718 out of 446718
+=========== INCOMING EVENTS 446718 total, 178704 valid. =============
+send_events_local COMPLETED 50.2280831337 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-27_HarvardX.log ] retrieved 266794 out of 266794
+=========== INCOMING EVENTS 266794 total, 109817 valid. =============
+send_events_local COMPLETED 34.1546189785 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-28_HarvardX.log ] retrieved 189295 out of 189295
+=========== INCOMING EVENTS 189295 total, 84736 valid. =============
+send_events_local COMPLETED 27.6868300438 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-29_HarvardX.log ] retrieved 186787 out of 186787
+=========== INCOMING EVENTS 186787 total, 83526 valid. =============
+send_events_local COMPLETED 26.9336140156 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-11-30_HarvardX.log ] retrieved 179346 out of 179346
+=========== INCOMING EVENTS 179346 total, 72783 valid. =============
+send_events_local COMPLETED 22.6009469032 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-12-01_HarvardX.log ] retrieved 213588 out of 213588
+=========== INCOMING EVENTS 213588 total, 85182 valid. =============
+send_events_local COMPLETED 28.6511600018 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-12-02_HarvardX.log ] retrieved 309718 out of 309718
+=========== INCOMING EVENTS 309718 total, 110046 valid. =============
+send_events_local COMPLETED 36.6339080334 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-12-03_HarvardX.log ] retrieved 396266 out of 396266
+=========== INCOMING EVENTS 396266 total, 118776 valid. =============
+send_events_local COMPLETED 41.7785599232 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-004/2012-12-04_HarvardX.log ] retrieved 152983 out of 152983
+=========== INCOMING EVENTS 152983 total, 45241 valid. =============
+send_events_local COMPLETED 16.075232029 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-11-29_HarvardX.log ] retrieved 13246 out of 13246
+=========== INCOMING EVENTS 13246 total, 5365 valid. =============
+send_events_local COMPLETED 1.81017112732 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-11-30_HarvardX.log ] retrieved 64555 out of 64555
+=========== INCOMING EVENTS 64555 total, 27834 valid. =============
+send_events_local COMPLETED 8.04298686981 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-01_HarvardX.log ] retrieved 174021 out of 174021
+=========== INCOMING EVENTS 174021 total, 71582 valid. =============
+send_events_local COMPLETED 21.4041941166 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-02_HarvardX.log ] retrieved 264557 out of 264557
+=========== INCOMING EVENTS 264557 total, 100241 valid. =============
+send_events_local COMPLETED 31.5994110107 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-03_HarvardX.log ] retrieved 405199 out of 405199
+=========== INCOMING EVENTS 405199 total, 120721 valid. =============
+send_events_local COMPLETED 40.7656319141 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-04_HarvardX.log ] retrieved 262212 out of 262212
+=========== INCOMING EVENTS 262212 total, 93223 valid. =============
+send_events_local COMPLETED 27.9669978619 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-05_HarvardX.log ] retrieved 146414 out of 146414
+=========== INCOMING EVENTS 146414 total, 65653 valid. =============
+send_events_local COMPLETED 17.9726519585 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-06_HarvardX.log ] retrieved 142790 out of 142790
+=========== INCOMING EVENTS 142790 total, 61469 valid. =============
+send_events_local COMPLETED 19.020430088 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-07_HarvardX.log ] retrieved 126513 out of 126513
+=========== INCOMING EVENTS 126513 total, 51488 valid. =============
+send_events_local COMPLETED 15.3363289833 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-08_HarvardX.log ] retrieved 153551 out of 153551
+=========== INCOMING EVENTS 153551 total, 65615 valid. =============
+send_events_local COMPLETED 16.9491288662 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-09_HarvardX.log ] retrieved 209799 out of 209799
+=========== INCOMING EVENTS 209799 total, 73926 valid. =============
+send_events_local COMPLETED 21.4227728844 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-10_HarvardX.log ] retrieved 327042 out of 327042
+=========== INCOMING EVENTS 327042 total, 99400 valid. =============
+send_events_local COMPLETED 28.0906050205 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-11_HarvardX.log ] retrieved 195533 out of 195533
+=========== INCOMING EVENTS 195533 total, 72953 valid. =============
+send_events_local COMPLETED 23.8885688782 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-12_HarvardX.log ] retrieved 134869 out of 134869
+=========== INCOMING EVENTS 134869 total, 66569 valid. =============
+send_events_local COMPLETED 21.1281609535 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-13_HarvardX.log ] retrieved 135333 out of 135333
+=========== INCOMING EVENTS 135333 total, 61385 valid. =============
+send_events_local COMPLETED 19.8055510521 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-14_HarvardX.log ] retrieved 130580 out of 130580
+=========== INCOMING EVENTS 130580 total, 55787 valid. =============
+send_events_local COMPLETED 18.0384879112 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-15_HarvardX.log ] retrieved 155313 out of 155313
+=========== INCOMING EVENTS 155313 total, 64451 valid. =============
+send_events_local COMPLETED 19.9418289661 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-16_HarvardX.log ] retrieved 194400 out of 194400
+=========== INCOMING EVENTS 194400 total, 73432 valid. =============
+send_events_local COMPLETED 23.1703221798 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-17_HarvardX.log ] retrieved 296130 out of 296130
+=========== INCOMING EVENTS 296130 total, 89761 valid. =============
+send_events_local COMPLETED 31.0977451801 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-18_HarvardX.log ] retrieved 200725 out of 200725
+=========== INCOMING EVENTS 200725 total, 76951 valid. =============
+send_events_local COMPLETED 25.0098237991 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-19_HarvardX.log ] retrieved 107124 out of 107124
+=========== INCOMING EVENTS 107124 total, 45319 valid. =============
+send_events_local COMPLETED 14.743293047 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-20_HarvardX.log ] retrieved 137638 out of 137638
+=========== INCOMING EVENTS 137638 total, 57532 valid. =============
+send_events_local COMPLETED 18.1001567841 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-21_HarvardX.log ] retrieved 133030 out of 133030
+=========== INCOMING EVENTS 133030 total, 50714 valid. =============
+send_events_local COMPLETED 16.0063419342 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-22_HarvardX.log ] retrieved 109470 out of 109470
+=========== INCOMING EVENTS 109470 total, 42588 valid. =============
+send_events_local COMPLETED 13.2739050388 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-23_HarvardX.log ] retrieved 120594 out of 120594
+=========== INCOMING EVENTS 120594 total, 47223 valid. =============
+send_events_local COMPLETED 14.413203001 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-24_HarvardX.log ] retrieved 130562 out of 130562
+=========== INCOMING EVENTS 130562 total, 43142 valid. =============
+send_events_local COMPLETED 15.120445013 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-25_HarvardX.log ] retrieved 87584 out of 87584
+=========== INCOMING EVENTS 87584 total, 29499 valid. =============
+send_events_local COMPLETED 8.08527684212 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-26_HarvardX.log ] retrieved 111724 out of 111724
+=========== INCOMING EVENTS 111724 total, 41171 valid. =============
+send_events_local COMPLETED 12.1796009541 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-27_HarvardX.log ] retrieved 122337 out of 122337
+=========== INCOMING EVENTS 122337 total, 55734 valid. =============
+send_events_local COMPLETED 17.1567969322 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-28_HarvardX.log ] retrieved 122364 out of 122364
+=========== INCOMING EVENTS 122364 total, 52203 valid. =============
+send_events_local COMPLETED 16.3378958702 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-29_HarvardX.log ] retrieved 116074 out of 116074
+=========== INCOMING EVENTS 116074 total, 51077 valid. =============
+send_events_local COMPLETED 17.2520899773 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-30_HarvardX.log ] retrieved 163069 out of 163069
+=========== INCOMING EVENTS 163069 total, 64981 valid. =============
+send_events_local COMPLETED 20.2058181763 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2012-12-31_HarvardX.log ] retrieved 249938 out of 249938
+=========== INCOMING EVENTS 249938 total, 74520 valid. =============
+send_events_local COMPLETED 25.8078439236 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-01_HarvardX.log ] retrieved 134136 out of 134136
+=========== INCOMING EVENTS 134136 total, 46891 valid. =============
+send_events_local COMPLETED 15.1410269737 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-02_HarvardX.log ] retrieved 114443 out of 114443
+=========== INCOMING EVENTS 114443 total, 46789 valid. =============
+send_events_local COMPLETED 13.6985299587 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-03_HarvardX.log ] retrieved 123823 out of 123823
+=========== INCOMING EVENTS 123823 total, 51881 valid. =============
+send_events_local COMPLETED 15.4917259216 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-04_HarvardX.log ] retrieved 123332 out of 123332
+=========== INCOMING EVENTS 123332 total, 49036 valid. =============
+send_events_local COMPLETED 13.6052629948 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-05_HarvardX.log ] retrieved 134349 out of 134349
+=========== INCOMING EVENTS 134349 total, 57724 valid. =============
+send_events_local COMPLETED 16.3996479511 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-06_HarvardX.log ] retrieved 178011 out of 178011
+=========== INCOMING EVENTS 178011 total, 69055 valid. =============
+send_events_local COMPLETED 15.5302791595 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-07_HarvardX.log ] retrieved 297967 out of 297967
+=========== INCOMING EVENTS 297967 total, 98848 valid. =============
+send_events_local COMPLETED 30.0717589855 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-08_HarvardX.log ] retrieved 192950 out of 192950
+=========== INCOMING EVENTS 192950 total, 72844 valid. =============
+send_events_local COMPLETED 21.0781929493 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-09_HarvardX.log ] retrieved 134932 out of 134932
+=========== INCOMING EVENTS 134932 total, 58796 valid. =============
+send_events_local COMPLETED 16.3178429604 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-10_HarvardX.log ] retrieved 160027 out of 160027
+=========== INCOMING EVENTS 160027 total, 59140 valid. =============
+send_events_local COMPLETED 16.9922571182 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-11_HarvardX.log ] retrieved 152065 out of 152065
+=========== INCOMING EVENTS 152065 total, 55871 valid. =============
+send_events_local COMPLETED 17.0868880749 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-12_HarvardX.log ] retrieved 211262 out of 211262
+=========== INCOMING EVENTS 211262 total, 77323 valid. =============
+send_events_local COMPLETED 22.4596290588 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-13_HarvardX.log ] retrieved 205604 out of 205604
+=========== INCOMING EVENTS 205604 total, 71097 valid. =============
+send_events_local COMPLETED 22.0183970928 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-14_HarvardX.log ] retrieved 202252 out of 202252
+=========== INCOMING EVENTS 202252 total, 70378 valid. =============
+send_events_local COMPLETED 19.6607818604 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-15_HarvardX.log ] retrieved 196695 out of 196695
+=========== INCOMING EVENTS 196695 total, 64952 valid. =============
+send_events_local COMPLETED 18.8133838177 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-16_HarvardX.log ] retrieved 165349 out of 165349
+=========== INCOMING EVENTS 165349 total, 54301 valid. =============
+send_events_local COMPLETED 15.7789430618 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-17_HarvardX.log ] retrieved 159147 out of 159147
+=========== INCOMING EVENTS 159147 total, 53290 valid. =============
+send_events_local COMPLETED 15.1356401443 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-18_HarvardX.log ] retrieved 151739 out of 151739
+=========== INCOMING EVENTS 151739 total, 50056 valid. =============
+send_events_local COMPLETED 14.4980499744 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-005/2013-01-19_HarvardX.log ] retrieved 161282 out of 161282
+=========== INCOMING EVENTS 161282 total, 51264 valid. =============
+send_events_local COMPLETED 14.2359919548 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-11-28_HarvardX.log ] retrieved 6 out of 6
+=========== INCOMING EVENTS 6 total, 1 valid. =============
+send_events_local COMPLETED 0.000777006149292 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-11-29_HarvardX.log ] retrieved 12398 out of 12398
+=========== INCOMING EVENTS 12398 total, 5313 valid. =============
+send_events_local COMPLETED 1.40079402924 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-11-30_HarvardX.log ] retrieved 60102 out of 60102
+=========== INCOMING EVENTS 60102 total, 22830 valid. =============
+send_events_local COMPLETED 6.68626999855 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-01_HarvardX.log ] retrieved 145652 out of 145652
+=========== INCOMING EVENTS 145652 total, 57080 valid. =============
+send_events_local COMPLETED 15.8305690289 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-02_HarvardX.log ] retrieved 236891 out of 236891
+=========== INCOMING EVENTS 236891 total, 85997 valid. =============
+send_events_local COMPLETED 24.1758790016 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-03_HarvardX.log ] retrieved 298777 out of 298777
+=========== INCOMING EVENTS 298777 total, 88940 valid. =============
+send_events_local COMPLETED 28.2430410385 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-04_HarvardX.log ] retrieved 189849 out of 189849
+=========== INCOMING EVENTS 189849 total, 64847 valid. =============
+send_events_local COMPLETED 20.978071928 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-05_HarvardX.log ] retrieved 126578 out of 126578
+=========== INCOMING EVENTS 126578 total, 52783 valid. =============
+send_events_local COMPLETED 15.6427199841 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-06_HarvardX.log ] retrieved 137677 out of 137677
+=========== INCOMING EVENTS 137677 total, 60473 valid. =============
+send_events_local COMPLETED 16.8670649529 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-07_HarvardX.log ] retrieved 123698 out of 123698
+=========== INCOMING EVENTS 123698 total, 50011 valid. =============
+send_events_local COMPLETED 14.7397859097 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-08_HarvardX.log ] retrieved 152280 out of 152280
+=========== INCOMING EVENTS 152280 total, 65920 valid. =============
+send_events_local COMPLETED 19.6788291931 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-09_HarvardX.log ] retrieved 181155 out of 181155
+=========== INCOMING EVENTS 181155 total, 62078 valid. =============
+send_events_local COMPLETED 19.3436410427 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-10_HarvardX.log ] retrieved 258281 out of 258281
+=========== INCOMING EVENTS 258281 total, 68912 valid. =============
+send_events_local COMPLETED 24.3108661175 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-11_HarvardX.log ] retrieved 167102 out of 167102
+=========== INCOMING EVENTS 167102 total, 61728 valid. =============
+send_events_local COMPLETED 18.6638381481 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-12_HarvardX.log ] retrieved 122952 out of 122952
+=========== INCOMING EVENTS 122952 total, 59180 valid. =============
+send_events_local COMPLETED 18.2024371624 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-13_HarvardX.log ] retrieved 122908 out of 122908
+=========== INCOMING EVENTS 122908 total, 53278 valid. =============
+send_events_local COMPLETED 16.5328879356 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-14_HarvardX.log ] retrieved 115372 out of 115372
+=========== INCOMING EVENTS 115372 total, 45067 valid. =============
+send_events_local COMPLETED 14.531224966 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-15_HarvardX.log ] retrieved 129141 out of 129141
+=========== INCOMING EVENTS 129141 total, 51721 valid. =============
+send_events_local COMPLETED 16.0884559155 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-16_HarvardX.log ] retrieved 184432 out of 184432
+=========== INCOMING EVENTS 184432 total, 73110 valid. =============
+send_events_local COMPLETED 22.7866461277 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-17_HarvardX.log ] retrieved 271147 out of 271147
+=========== INCOMING EVENTS 271147 total, 84001 valid. =============
+send_events_local COMPLETED 27.0053560734 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-18_HarvardX.log ] retrieved 168188 out of 168188
+=========== INCOMING EVENTS 168188 total, 59641 valid. =============
+send_events_local COMPLETED 15.5603539944 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-19_HarvardX.log ] retrieved 92214 out of 92214
+=========== INCOMING EVENTS 92214 total, 38888 valid. =============
+send_events_local COMPLETED 11.4690859318 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-20_HarvardX.log ] retrieved 95841 out of 95841
+=========== INCOMING EVENTS 95841 total, 33951 valid. =============
+send_events_local COMPLETED 9.8856921196 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-21_HarvardX.log ] retrieved 108553 out of 108553
+=========== INCOMING EVENTS 108553 total, 38309 valid. =============
+send_events_local COMPLETED 10.7944669724 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-22_HarvardX.log ] retrieved 97485 out of 97485
+=========== INCOMING EVENTS 97485 total, 39459 valid. =============
+send_events_local COMPLETED 11.4259181023 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-23_HarvardX.log ] retrieved 124792 out of 124792
+=========== INCOMING EVENTS 124792 total, 60645 valid. =============
+send_events_local COMPLETED 16.121876955 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-24_HarvardX.log ] retrieved 117725 out of 117725
+=========== INCOMING EVENTS 117725 total, 36353 valid. =============
+send_events_local COMPLETED 9.93889904022 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-25_HarvardX.log ] retrieved 85852 out of 85852
+=========== INCOMING EVENTS 85852 total, 30366 valid. =============
+send_events_local COMPLETED 8.79017996788 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-26_HarvardX.log ] retrieved 96989 out of 96989
+=========== INCOMING EVENTS 96989 total, 38289 valid. =============
+send_events_local COMPLETED 10.30686903 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-27_HarvardX.log ] retrieved 119101 out of 119101
+=========== INCOMING EVENTS 119101 total, 50044 valid. =============
+send_events_local COMPLETED 13.0042970181 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-28_HarvardX.log ] retrieved 108708 out of 108708
+=========== INCOMING EVENTS 108708 total, 44251 valid. =============
+send_events_local COMPLETED 11.8069581985 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-29_HarvardX.log ] retrieved 123997 out of 123997
+=========== INCOMING EVENTS 123997 total, 56066 valid. =============
+send_events_local COMPLETED 15.6328928471 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-30_HarvardX.log ] retrieved 156137 out of 156137
+=========== INCOMING EVENTS 156137 total, 65180 valid. =============
+send_events_local COMPLETED 17.1705639362 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2012-12-31_HarvardX.log ] retrieved 210825 out of 210825
+=========== INCOMING EVENTS 210825 total, 63519 valid. =============
+send_events_local COMPLETED 18.6049330235 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-01_HarvardX.log ] retrieved 112897 out of 112897
+=========== INCOMING EVENTS 112897 total, 36983 valid. =============
+send_events_local COMPLETED 9.65077900887 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-02_HarvardX.log ] retrieved 121492 out of 121492
+=========== INCOMING EVENTS 121492 total, 47124 valid. =============
+send_events_local COMPLETED 13.5411219597 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-03_HarvardX.log ] retrieved 114480 out of 114480
+=========== INCOMING EVENTS 114480 total, 45958 valid. =============
+send_events_local COMPLETED 15.7419340611 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-04_HarvardX.log ] retrieved 106663 out of 106663
+=========== INCOMING EVENTS 106663 total, 43293 valid. =============
+send_events_local COMPLETED 13.0784609318 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-05_HarvardX.log ] retrieved 119665 out of 119665
+=========== INCOMING EVENTS 119665 total, 47694 valid. =============
+send_events_local COMPLETED 11.9479219913 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-06_HarvardX.log ] retrieved 175973 out of 175973
+=========== INCOMING EVENTS 175973 total, 63304 valid. =============
+send_events_local COMPLETED 18.8887388706 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-07_HarvardX.log ] retrieved 228901 out of 228901
+=========== INCOMING EVENTS 228901 total, 76343 valid. =============
+send_events_local COMPLETED 22.6098978519 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-08_HarvardX.log ] retrieved 175646 out of 175646
+=========== INCOMING EVENTS 175646 total, 63086 valid. =============
+send_events_local COMPLETED 23.0579619408 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-09_HarvardX.log ] retrieved 111328 out of 111328
+=========== INCOMING EVENTS 111328 total, 45482 valid. =============
+send_events_local COMPLETED 14.5911719799 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-10_HarvardX.log ] retrieved 120129 out of 120129
+=========== INCOMING EVENTS 120129 total, 41836 valid. =============
+send_events_local COMPLETED 13.460392952 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-11_HarvardX.log ] retrieved 125855 out of 125855
+=========== INCOMING EVENTS 125855 total, 42690 valid. =============
+send_events_local COMPLETED 14.814303875 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-12_HarvardX.log ] retrieved 185082 out of 185082
+=========== INCOMING EVENTS 185082 total, 60396 valid. =============
+send_events_local COMPLETED 21.0005340576 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-13_HarvardX.log ] retrieved 189197 out of 189197
+=========== INCOMING EVENTS 189197 total, 63988 valid. =============
+send_events_local COMPLETED 21.393930912 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-14_HarvardX.log ] retrieved 178641 out of 178641
+=========== INCOMING EVENTS 178641 total, 55145 valid. =============
+send_events_local COMPLETED 17.0077490807 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-15_HarvardX.log ] retrieved 172501 out of 172501
+=========== INCOMING EVENTS 172501 total, 54890 valid. =============
+send_events_local COMPLETED 18.7406318188 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-16_HarvardX.log ] retrieved 151213 out of 151213
+=========== INCOMING EVENTS 151213 total, 45706 valid. =============
+send_events_local COMPLETED 13.8368210793 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-17_HarvardX.log ] retrieved 130454 out of 130454
+=========== INCOMING EVENTS 130454 total, 39515 valid. =============
+send_events_local COMPLETED 12.5112140179 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-18_HarvardX.log ] retrieved 134009 out of 134009
+=========== INCOMING EVENTS 134009 total, 40365 valid. =============
+send_events_local COMPLETED 13.2364840508 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-006/2013-01-19_HarvardX.log ] retrieved 151122 out of 151122
+=========== INCOMING EVENTS 151122 total, 47709 valid. =============
+send_events_local COMPLETED 16.1034870148 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-04_HarvardX.log ] retrieved 66414 out of 66414
+=========== INCOMING EVENTS 66414 total, 30882 valid. =============
+send_events_local COMPLETED 7.9932539463 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-05_HarvardX.log ] retrieved 129539 out of 129539
+=========== INCOMING EVENTS 129539 total, 58249 valid. =============
+send_events_local COMPLETED 16.3950810432 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-06_HarvardX.log ] retrieved 131157 out of 131157
+=========== INCOMING EVENTS 131157 total, 58362 valid. =============
+send_events_local COMPLETED 18.8516130447 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-07_HarvardX.log ] retrieved 130079 out of 130079
+=========== INCOMING EVENTS 130079 total, 52744 valid. =============
+send_events_local COMPLETED 17.6341888905 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-08_HarvardX.log ] retrieved 131965 out of 131965
+=========== INCOMING EVENTS 131965 total, 53877 valid. =============
+send_events_local COMPLETED 17.3802847862 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-09_HarvardX.log ] retrieved 190120 out of 190120
+=========== INCOMING EVENTS 190120 total, 66031 valid. =============
+send_events_local COMPLETED 16.7074420452 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-10_HarvardX.log ] retrieved 320645 out of 320645
+=========== INCOMING EVENTS 320645 total, 89587 valid. =============
+send_events_local COMPLETED 23.2432529926 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-11_HarvardX.log ] retrieved 199821 out of 199821
+=========== INCOMING EVENTS 199821 total, 77185 valid. =============
+send_events_local COMPLETED 22.4061570168 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-12_HarvardX.log ] retrieved 180091 out of 180091
+=========== INCOMING EVENTS 180091 total, 79521 valid. =============
+send_events_local COMPLETED 23.8470919132 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-13_HarvardX.log ] retrieved 197033 out of 197033
+=========== INCOMING EVENTS 197033 total, 85461 valid. =============
+send_events_local COMPLETED 27.872038126 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-14_HarvardX.log ] retrieved 153665 out of 153665
+=========== INCOMING EVENTS 153665 total, 62728 valid. =============
+send_events_local COMPLETED 19.716725111 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-15_HarvardX.log ] retrieved 132069 out of 132069
+=========== INCOMING EVENTS 132069 total, 58438 valid. =============
+send_events_local COMPLETED 17.1080191135 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-16_HarvardX.log ] retrieved 190295 out of 190295
+=========== INCOMING EVENTS 190295 total, 75875 valid. =============
+send_events_local COMPLETED 22.9438838959 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-17_HarvardX.log ] retrieved 295743 out of 295743
+=========== INCOMING EVENTS 295743 total, 95843 valid. =============
+send_events_local COMPLETED 30.8633229733 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-18_HarvardX.log ] retrieved 189577 out of 189577
+=========== INCOMING EVENTS 189577 total, 67831 valid. =============
+send_events_local COMPLETED 20.9875230789 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-19_HarvardX.log ] retrieved 108944 out of 108944
+=========== INCOMING EVENTS 108944 total, 45936 valid. =============
+send_events_local COMPLETED 13.6451730728 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-20_HarvardX.log ] retrieved 130453 out of 130453
+=========== INCOMING EVENTS 130453 total, 52664 valid. =============
+send_events_local COMPLETED 15.7264361382 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-21_HarvardX.log ] retrieved 121663 out of 121663
+=========== INCOMING EVENTS 121663 total, 45366 valid. =============
+send_events_local COMPLETED 14.4503178596 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-22_HarvardX.log ] retrieved 115072 out of 115072
+=========== INCOMING EVENTS 115072 total, 45043 valid. =============
+send_events_local COMPLETED 14.2969830036 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-23_HarvardX.log ] retrieved 122033 out of 122033
+=========== INCOMING EVENTS 122033 total, 54229 valid. =============
+send_events_local COMPLETED 16.9940419197 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-24_HarvardX.log ] retrieved 137097 out of 137097
+=========== INCOMING EVENTS 137097 total, 49015 valid. =============
+send_events_local COMPLETED 14.4006311893 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-25_HarvardX.log ] retrieved 83883 out of 83883
+=========== INCOMING EVENTS 83883 total, 28218 valid. =============
+send_events_local COMPLETED 9.80888700485 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-26_HarvardX.log ] retrieved 110507 out of 110507
+=========== INCOMING EVENTS 110507 total, 43917 valid. =============
+send_events_local COMPLETED 12.9264321327 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-27_HarvardX.log ] retrieved 121624 out of 121624
+=========== INCOMING EVENTS 121624 total, 51572 valid. =============
+send_events_local COMPLETED 14.3032529354 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-28_HarvardX.log ] retrieved 119549 out of 119549
+=========== INCOMING EVENTS 119549 total, 49776 valid. =============
+send_events_local COMPLETED 15.2809970379 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-29_HarvardX.log ] retrieved 110110 out of 110110
+=========== INCOMING EVENTS 110110 total, 46342 valid. =============
+send_events_local COMPLETED 13.6617398262 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-30_HarvardX.log ] retrieved 144338 out of 144338
+=========== INCOMING EVENTS 144338 total, 56562 valid. =============
+send_events_local COMPLETED 17.1193959713 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2012-12-31_HarvardX.log ] retrieved 237048 out of 237048
+=========== INCOMING EVENTS 237048 total, 76371 valid. =============
+send_events_local COMPLETED 24.2749681473 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-01_HarvardX.log ] retrieved 122485 out of 122485
+=========== INCOMING EVENTS 122485 total, 42943 valid. =============
+send_events_local COMPLETED 13.3041419983 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-02_HarvardX.log ] retrieved 108879 out of 108879
+=========== INCOMING EVENTS 108879 total, 43775 valid. =============
+send_events_local COMPLETED 15.2049908638 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-03_HarvardX.log ] retrieved 128469 out of 128469
+=========== INCOMING EVENTS 128469 total, 55880 valid. =============
+send_events_local COMPLETED 17.7320291996 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-04_HarvardX.log ] retrieved 126145 out of 126145
+=========== INCOMING EVENTS 126145 total, 49994 valid. =============
+send_events_local COMPLETED 14.1582520008 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-05_HarvardX.log ] retrieved 137719 out of 137719
+=========== INCOMING EVENTS 137719 total, 56182 valid. =============
+send_events_local COMPLETED 14.649241209 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-06_HarvardX.log ] retrieved 165910 out of 165910
+=========== INCOMING EVENTS 165910 total, 61888 valid. =============
+send_events_local COMPLETED 15.9954099655 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-07_HarvardX.log ] retrieved 262131 out of 262131
+=========== INCOMING EVENTS 262131 total, 88574 valid. =============
+send_events_local COMPLETED 26.1549668312 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-08_HarvardX.log ] retrieved 190405 out of 190405
+=========== INCOMING EVENTS 190405 total, 71293 valid. =============
+send_events_local COMPLETED 24.1289191246 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-09_HarvardX.log ] retrieved 123771 out of 123771
+=========== INCOMING EVENTS 123771 total, 53727 valid. =============
+send_events_local COMPLETED 16.4036121368 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-10_HarvardX.log ] retrieved 144399 out of 144399
+=========== INCOMING EVENTS 144399 total, 54922 valid. =============
+send_events_local COMPLETED 16.8637089729 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-11_HarvardX.log ] retrieved 147398 out of 147398
+=========== INCOMING EVENTS 147398 total, 53804 valid. =============
+send_events_local COMPLETED 18.9535429478 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-12_HarvardX.log ] retrieved 191745 out of 191745
+=========== INCOMING EVENTS 191745 total, 69079 valid. =============
+send_events_local COMPLETED 23.4885900021 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-13_HarvardX.log ] retrieved 189921 out of 189921
+=========== INCOMING EVENTS 189921 total, 70012 valid. =============
+send_events_local COMPLETED 22.0138640404 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-14_HarvardX.log ] retrieved 226150 out of 226150
+=========== INCOMING EVENTS 226150 total, 77018 valid. =============
+send_events_local COMPLETED 23.7207560539 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-15_HarvardX.log ] retrieved 182679 out of 182679
+=========== INCOMING EVENTS 182679 total, 60174 valid. =============
+send_events_local COMPLETED 18.9120001793 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-16_HarvardX.log ] retrieved 157972 out of 157972
+=========== INCOMING EVENTS 157972 total, 52807 valid. =============
+send_events_local COMPLETED 16.9975459576 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-17_HarvardX.log ] retrieved 152979 out of 152979
+=========== INCOMING EVENTS 152979 total, 50340 valid. =============
+send_events_local COMPLETED 16.5845890045 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-18_HarvardX.log ] retrieved 139741 out of 139741
+=========== INCOMING EVENTS 139741 total, 44920 valid. =============
+send_events_local COMPLETED 13.3814179897 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-007/2013-01-19_HarvardX.log ] retrieved 153725 out of 153725
+=========== INCOMING EVENTS 153725 total, 48000 valid. =============
+send_events_local COMPLETED 14.2854559422 seconds
+(edx-platform)juhokim@edx-robot-1:~/edx-vagrant/edxanalytics/src/edxanalytics/edxmodules/video_analytics$ python send_event.py -dir /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008 ]
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-04_HarvardX.log ] retrieved 56140 out of 56140
+=========== INCOMING EVENTS 56140 total, 22810 valid. =============
+send_events_local COMPLETED 7.62182784081 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-05_HarvardX.log ] retrieved 108268 out of 108268
+=========== INCOMING EVENTS 108268 total, 47089 valid. =============
+send_events_local COMPLETED 15.1285791397 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-06_HarvardX.log ] retrieved 115027 out of 115027
+=========== INCOMING EVENTS 115027 total, 48206 valid. =============
+send_events_local COMPLETED 14.4122540951 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-07_HarvardX.log ] retrieved 106412 out of 106412
+=========== INCOMING EVENTS 106412 total, 41085 valid. =============
+send_events_local COMPLETED 13.7318210602 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-08_HarvardX.log ] retrieved 124314 out of 124314
+=========== INCOMING EVENTS 124314 total, 50144 valid. =============
+send_events_local COMPLETED 15.0735118389 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-09_HarvardX.log ] retrieved 183619 out of 183619
+=========== INCOMING EVENTS 183619 total, 66335 valid. =============
+send_events_local COMPLETED 21.1570608616 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-10_HarvardX.log ] retrieved 236113 out of 236113
+=========== INCOMING EVENTS 236113 total, 62138 valid. =============
+send_events_local COMPLETED 20.8147480488 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-11_HarvardX.log ] retrieved 142538 out of 142538
+=========== INCOMING EVENTS 142538 total, 48402 valid. =============
+send_events_local COMPLETED 15.517084837 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-14_HarvardX.log ] retrieved 16845 out of 16845
+=========== INCOMING EVENTS 16845 total, 7137 valid. =============
+send_events_local COMPLETED 2.22789907455 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-15_HarvardX.log ] retrieved 111849 out of 111849
+=========== INCOMING EVENTS 111849 total, 43164 valid. =============
+send_events_local COMPLETED 13.4923710823 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-16_HarvardX.log ] retrieved 162199 out of 162199
+=========== INCOMING EVENTS 162199 total, 57813 valid. =============
+send_events_local COMPLETED 17.9005930424 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-17_HarvardX.log ] retrieved 247720 out of 247720
+=========== INCOMING EVENTS 247720 total, 75383 valid. =============
+send_events_local COMPLETED 25.089195013 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-18_HarvardX.log ] retrieved 141023 out of 141023
+=========== INCOMING EVENTS 141023 total, 49835 valid. =============
+send_events_local COMPLETED 17.6509990692 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-19_HarvardX.log ] retrieved 82076 out of 82076
+=========== INCOMING EVENTS 82076 total, 34613 valid. =============
+send_events_local COMPLETED 11.2035219669 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-20_HarvardX.log ] retrieved 95895 out of 95895
+=========== INCOMING EVENTS 95895 total, 35563 valid. =============
+send_events_local COMPLETED 11.2909209728 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-21_HarvardX.log ] retrieved 100102 out of 100102
+=========== INCOMING EVENTS 100102 total, 33606 valid. =============
+send_events_local COMPLETED 9.72006893158 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-22_HarvardX.log ] retrieved 87386 out of 87386
+=========== INCOMING EVENTS 87386 total, 30675 valid. =============
+send_events_local COMPLETED 10.4309670925 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-23_HarvardX.log ] retrieved 101464 out of 101464
+=========== INCOMING EVENTS 101464 total, 39064 valid. =============
+send_events_local COMPLETED 11.6833658218 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-24_HarvardX.log ] retrieved 116971 out of 116971
+=========== INCOMING EVENTS 116971 total, 39123 valid. =============
+send_events_local COMPLETED 13.6781859398 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-25_HarvardX.log ] retrieved 79463 out of 79463
+=========== INCOMING EVENTS 79463 total, 27157 valid. =============
+send_events_local COMPLETED 9.53906202316 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-26_HarvardX.log ] retrieved 85851 out of 85851
+=========== INCOMING EVENTS 85851 total, 30485 valid. =============
+send_events_local COMPLETED 9.70237612724 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-27_HarvardX.log ] retrieved 107684 out of 107684
+=========== INCOMING EVENTS 107684 total, 45652 valid. =============
+send_events_local COMPLETED 14.4145739079 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-28_HarvardX.log ] retrieved 100043 out of 100043
+=========== INCOMING EVENTS 100043 total, 41606 valid. =============
+send_events_local COMPLETED 12.3988089561 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-29_HarvardX.log ] retrieved 107042 out of 107042
+=========== INCOMING EVENTS 107042 total, 42608 valid. =============
+send_events_local COMPLETED 12.3160440922 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-30_HarvardX.log ] retrieved 151691 out of 151691
+=========== INCOMING EVENTS 151691 total, 59115 valid. =============
+send_events_local COMPLETED 18.763559103 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2012-12-31_HarvardX.log ] retrieved 218045 out of 218045
+=========== INCOMING EVENTS 218045 total, 65792 valid. =============
+send_events_local COMPLETED 21.1226069927 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-01_HarvardX.log ] retrieved 101218 out of 101218
+=========== INCOMING EVENTS 101218 total, 31668 valid. =============
+send_events_local COMPLETED 11.0986540318 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-02_HarvardX.log ] retrieved 91072 out of 91072
+=========== INCOMING EVENTS 91072 total, 35068 valid. =============
+send_events_local COMPLETED 10.7210199833 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-03_HarvardX.log ] retrieved 102049 out of 102049
+=========== INCOMING EVENTS 102049 total, 39848 valid. =============
+send_events_local COMPLETED 13.0604999065 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-04_HarvardX.log ] retrieved 107597 out of 107597
+=========== INCOMING EVENTS 107597 total, 43318 valid. =============
+send_events_local COMPLETED 13.4605238438 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-05_HarvardX.log ] retrieved 129118 out of 129118
+=========== INCOMING EVENTS 129118 total, 48337 valid. =============
+send_events_local COMPLETED 14.4124400616 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-06_HarvardX.log ] retrieved 150233 out of 150233
+=========== INCOMING EVENTS 150233 total, 54825 valid. =============
+send_events_local COMPLETED 16.3571360111 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-07_HarvardX.log ] retrieved 236821 out of 236821
+=========== INCOMING EVENTS 236821 total, 78456 valid. =============
+send_events_local COMPLETED 19.3245370388 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-08_HarvardX.log ] retrieved 165715 out of 165715
+=========== INCOMING EVENTS 165715 total, 59088 valid. =============
+send_events_local COMPLETED 16.7995800972 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-09_HarvardX.log ] retrieved 104610 out of 104610
+=========== INCOMING EVENTS 104610 total, 43005 valid. =============
+send_events_local COMPLETED 13.5422620773 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-10_HarvardX.log ] retrieved 115145 out of 115145
+=========== INCOMING EVENTS 115145 total, 42149 valid. =============
+send_events_local COMPLETED 13.3676879406 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-11_HarvardX.log ] retrieved 127198 out of 127198
+=========== INCOMING EVENTS 127198 total, 44755 valid. =============
+send_events_local COMPLETED 16.1860630512 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-12_HarvardX.log ] retrieved 169446 out of 169446
+=========== INCOMING EVENTS 169446 total, 58178 valid. =============
+send_events_local COMPLETED 15.8398458958 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-13_HarvardX.log ] retrieved 175255 out of 175255
+=========== INCOMING EVENTS 175255 total, 56302 valid. =============
+send_events_local COMPLETED 20.0863161087 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-14_HarvardX.log ] retrieved 175264 out of 175264
+=========== INCOMING EVENTS 175264 total, 56823 valid. =============
+send_events_local COMPLETED 20.1075320244 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-15_HarvardX.log ] retrieved 164802 out of 164802
+=========== INCOMING EVENTS 164802 total, 50713 valid. =============
+send_events_local COMPLETED 18.1192779541 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-16_HarvardX.log ] retrieved 143061 out of 143061
+=========== INCOMING EVENTS 143061 total, 46102 valid. =============
+send_events_local COMPLETED 16.5834779739 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-17_HarvardX.log ] retrieved 122091 out of 122091
+=========== INCOMING EVENTS 122091 total, 36351 valid. =============
+send_events_local COMPLETED 13.9533030987 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-18_HarvardX.log ] retrieved 117599 out of 117599
+=========== INCOMING EVENTS 117599 total, 33824 valid. =============
+send_events_local COMPLETED 10.8716351986 seconds
+[ /media/19166df3-c2d6-4657-9573-6ddda7dba742/tracking-log/processed/HarvardX/prod-edx-008/2013-01-19_HarvardX.log ] retrieved 124738 out of 124738
+=========== INCOMING EVENTS 124738 total, 35749 valid. =============
+send_events_local COMPLETED 13.355284214 seconds
+
