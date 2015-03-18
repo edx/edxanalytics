@@ -1,6 +1,19 @@
 edxanalytics
 ============
 
+***Warning***: This repository contains an early prototype of the edX analytics
+infrastructure. edX won't be conitnuing the developing of this source code, but interested parties are free to fork and modify.
+
+The code base for the current version of the
+[Insights](http://edx-insights.readthedocs.org/en/latest/) product can
+be found in the following repositories:
+
+* https://github.com/edx/edx-analytics-dashboard
+* https://github.com/edx/edx-analytics-data-api
+* https://github.com/edx/edx-analytics-pipeline
+
+---
+
 Before looking at this repo, look over and read [the README for
 edinsights](https://github.com/edx/ed-insights#readme). Come back here
 when you're done. 
