@@ -1,5 +1,9 @@
-edxanalytics
-============
+[ARCHIVED] edxanalytics
+=======================
+
+This repository has been archived and is no longer supported—use it at your own risk.
+This repository may depend on out-of-date libraries with security issues, and security
+updates will not be provided. Pull requests against this repository will also not be merged.
 
 ***Warning***: This repository contains an early prototype of the edX analytics
 infrastructure. edX won't be conitnuing the developing of this source code, but interested parties are free to fork and modify.
